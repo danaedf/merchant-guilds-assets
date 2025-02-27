@@ -1,0 +1,18 @@
+{
+    "ghall": "公会大厅",
+    "tavern": "酒馆",
+    "work": "工人营房",
+    "craft": "工匠之环",
+    "stock": "仓库",
+    "shop": "商店",
+    "hhall": "英雄大厅",
+    "gate": "世界之门",
+    "ghall_short": "行会",
+    "tavern_short": "酒馆",
+    "work_short": "工人",
+    "craft_short": "工匠坊",
+    "stock_short": "仓库",
+    "shop_short": "商店",
+    "hhall_short": "英雄",
+    "gate_short": "世界"
+}

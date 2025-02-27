@@ -1,0 +1,18 @@
+{
+    "ghall": "Sala Cechowa",
+    "tavern": "Karczma",
+    "work": "Baraki Robotnicze",
+    "craft": "Krąg Rzemieślniczy",
+    "stock": "Magazyn",
+    "shop": "Sklep",
+    "hhall": "Hala Bohaterów",
+    "gate": "Światowa Brama",
+    "ghall_short": "Gildia",
+    "tavern_short": "Karczma",
+    "work_short": "Robotnicy",
+    "craft_short": "Rzemieślnicy",
+    "stock_short": "Magazyn",
+    "shop_short": "Sklep",
+    "hhall_short": "Bohaterowie",
+    "gate_short": "Świat"
+}

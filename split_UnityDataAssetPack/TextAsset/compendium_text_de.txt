@@ -1,0 +1,478 @@
+{
+    "compendiumHeaders": {
+        "Stats": {
+            "name": "Statistiken",
+            "desc": ""
+        },
+        "DOT Damage": {
+            "name": "Schaden durch Zeit",
+            "desc": ""
+        },
+        "Other Icons": {
+            "name": "Andere Symbole",
+            "desc": ""
+        },
+        "Keywords": {
+            "name": "Schlüsselwörter",
+            "desc": ""
+        }
+    },
+    "buildings": {
+        "Customer Frequency": {
+            "name": "Kundenfrequenz",
+            "desc": "Kunden betreten den Laden nur, wenn Sie im Gebäude sind. Sobald ein Kunde eintritt, wird er umherwandern und schließlich zur Kasse gehen. Dies geschieht, unabhängig davon, ob Sie noch im Gebäude sind oder nicht.\n\nWenn Sie den Laden nach längerer Abwesenheit betreten, kann es vorkommen, dass viele Kunden gleichzeitig eintreten möchten.\n\nWenn Sie einen Kunden zu lange in der Schlange warten lassen, kann es sein, dass er frühzeitig geht, ohne etwas zu kaufen. Wenn ein Kunde geht, ohne dass Sie es ihm gesagt haben, wird er die Funktion „Später zurückkommen“ nutzen, wenn verfügbar, andernfalls wird es als normale Ablehnung betrachtet."
+        },
+        "Haggling": {
+            "name": "Feilschen",
+            "desc": "Beim Verkauf an einen Kunden kannst du mit ihm über den Preis verhandeln. Die Wahrscheinlichkeit, dass ein Kunde den Artikel zu deinem Verhandlungspreis kauft, hängt davon ab, wie viel du verlangst, von deiner Beziehung zum Kunden und davon, wie sehr der Kunde den Artikel mag.\n\nEin Artikel unter dem Durchschnittspreis zu verkaufen, kann deine Beziehung zum Kunden verbessern. Andererseits kann der Verkauf zu einem überdurchschnittlichen Preis deiner Beziehung zum Kunden schaden."
+        },
+        "Customer Item Valuation": {
+            "name": "Kundenartikelbewertung",
+            "desc": "Kunden bewerten Gegenstände basierend auf ihren Eigenschaften und dem aktuellen Marktwert! Stelle sicher, dass du ihnen etwas verkaufst, wofür sie einen überdurchschnittlichen Preis zahlen."
+        },
+        "Customer Relationship": {
+            "name": "Kundenbeziehung",
+            "desc": "Wenn du Waren an einen Kunden verkaufst, kann sich deine Beziehung zu ihm verändern. Diese Beziehung wird durch ihre Herzen dargestellt.\n\nDu kannst Herzen mit einem Kunden gewinnen oder verlieren, abhängig von dem Geschäft, das du ihm machst, und wie sehr ihm der Artikel gefällt.\n\nJe mehr Herzen du mit einem Kunden hast, desto wahrscheinlicher ist es, dass er die von dir angebotenen Geschäfte akzeptiert, also pflege gute Beziehungen!"
+        },
+        "Customer Level": {
+            "name": "Kundenstufe",
+            "desc": "Wenn du Gegenstände an einen Kunden verkaufst, sammelt er Erfahrung! Wenn ein Kunde ein Level aufsteigt, schaltest du verschiedene Feilschmöglichkeiten mit ihm frei."
+        },
+        "Customer Traits": {
+            "name": "Kundeneigenschaften",
+            "desc": "Kunden können auch Eigenschaften haben, die beeinflussen, wie sehr sie einen Artikel mögen, wie viel sie für einen Artikel bezahlen und ob sie bereit sind, den Artikel überhaupt zu kaufen.\n\nAchte darauf, die Eigenschaften zu berücksichtigen, wenn du entscheidest, was du einem Kunden verkaufen möchtest!"
+        },
+        "Customer Energy": {
+            "name": "Kundenenergie",
+            "desc": "Jeder Kunde hat seine eigenen Energiepunkte und kann den Laden nur betreten, wenn er mindestens 1 Energie zur Verfügung hat. Wenn ein Kunde einen Kauf tätigt oder an der Kasse abgelehnt wird, verbraucht er einen Energiepunkt. Wenn jedoch die Funktion „Später zurückkommen“ verwendet wird, verlassen die Kunden den Laden, ohne Energie zu verbrauchen, und kehren nach einiger Zeit zurück.\n\nKunden laden Energie auf, unabhängig davon, ob du spielst oder nicht, und jeder Kunde hat eine andere Aufladerate sowie maximale Energie, die er speichern kann.\n\nJeder Kunde hat außerdem eine andere Abkühlzeit, wann er nach dem Betreten des Ladens wieder eintreten kann, die nicht mit der Energie zusammenhängt."
+        },
+        "Customer Come Back Later": {
+            "name": "Kunde kommt später wieder",
+            "desc": "Anstatt den Verkauf eines Kunden abzulehnen, wirst du manchmal die Möglichkeit haben, ihn zu bitten, Später Wiederzukommen. Dies wird keine Energie verbrauchen, und der Kunde wird nach einer gewissen Zeit wieder in den Laden kommen.\n\nNachdem ein Kunde einmal gebeten wurde, Später Wiederzukommen, wird diese Option erst wieder verfügbar sein, wenn an den Kunden verkauft oder wie normal abgelehnt wird."
+        },
+        "Market Fluctuation": {
+            "name": "Marktschwankung",
+            "desc": "Alle Artikelwerte werden basierend auf ihrem aktuellen Marktwert schwanken. Der Markt wird häufig aktualisiert, sodass etwas, das zuvor zu einem sehr hohen Preis verkauft wurde, jetzt für viel weniger verkauft werden kann.\n\nBeim Betrachten des Marktes gilt: Je grüner der Wert eines Gegenstands ist, desto höher liegt er über dem Standardpreis des Gegenstands.\n\nJe roter der Wert eines Gegenstands ist, desto niedriger liegt er unter dem Standardpreis des Gegenstands.\n\nBeachten Sie, dass Sie den Marktpreis nur von Gegenständen einsehen können, die Sie entdeckt haben.\n\nMarktpreise sind für alle Spieler gleich, also informieren Sie Ihre Freunde, wenn ein Artikel gefragt ist!"
+        },
+        "Bargain Bin": {
+            "name": "Ramschecke",
+            "desc": "Das Schnäppchen-Sortiment ist ein Ort, um alle Gegenstände zu verkaufen, denen du keinen bestimmten Platz zuweisen möchtest. Gegenstände, die hier platziert werden, werden automatisch im Laufe der Zeit verkauft, woraufhin Gold zur Abholung bereitsteht.\n\nDer einzige Nachteil ist, dass alle hier platzierten Gegenstände mit einem 25%igen Abschlag auf den aktuellen Marktpreis verkauft werden... Was für ein Schnäppchen!"
+        },
+        "Shop Table": {
+            "name": "Ladentisch",
+            "desc": "Ladentische sind der Standardweg, um Gegenstände zu verkaufen. Nur Ausrüstung kann auf einem Ladentisch platziert werden und wird zum Marktpreis zum Zeitpunkt der Listung verkauft."
+        },
+        "Glass Case": {
+            "name": "Glasvitrine",
+            "desc": "Glasvitrine ist eine besondere Art von Verkaufsplatz. Nur Ausrüstungsgegenstände können in eine Glasvitrine gelegt werden und werden mit einem Aufschlag von 50% basierend auf ihrem aktuellen Marktpreis zum Zeitpunkt der Listung verkauft.\n\nNur Gegenstände der Seltenheit Selten oder höher können hierin platziert werden. Kunden finden, dass die hier platzierten Gegenstände schicker sind als die auf einem normalen Tisch."
+        },
+        "Bulk Bin": {
+            "name": "Großbehälter",
+            "desc": "Massenbox ist eine besondere Art von Verkaufsplatz. Nur Materialien können in einer Massenbox platziert werden.\n\nMaterialien, die hier verkauft werden, müssen in Stapeln bestimmter Größen verkauft werden, abhängig von der Seltenheit des Gegenstands. Stapelgrößen sind 40 für gewöhnlich, 20 für ungewöhnlich, 10 für selten, 5 für episch, 2 für legendär und 1 für mythisch.\n\nMaterialien, die in eine Massenbox gelegt werden, verkaufen sich zum aktuellen Marktpreis zum Zeitpunkt der Listung. Kunden lieben es zu denken, dass sie mehr für ihr Geld bekommen, auch wenn das technisch gesehen nicht der Fall ist."
+        },
+        "Banquet Table": {
+            "name": "Festtafel",
+            "desc": "Festtisch ist ein besonderer Typ von Verkaufsplatz. Nur Verbrauchsgegenstände können auf einem Festtisch platziert werden. Verbrauchsgegenstände, die hier verkauft werden, müssen in Stapeln von 4 verkauft werden.\n\nVerbrauchsgegenstände, die auf einem Festtisch verkauft werden, werden zum aktuellen Marktpreis zum Zeitpunkt der Auflistung verkauft. Kunden lieben es zu glauben, dass sie mehr für ihr Geld bekommen, obwohl dies technisch gesehen nicht der Fall ist."
+        },
+        "Capacity": {
+            "name": "Kapazität",
+            "desc": "Kapazität ist die Gesamtanzahl an Inventarplätzen, die du hast. Jeder Material- oder Verbrauchsgegenstands-Stapel benötigt 1 Kapazität, unabhängig von der Stapelgröße. Jedes Ausrüstungsstück benötigt ebenfalls 1 Kapazität, stapelt sich jedoch nicht. Duplikate der gleichen Ausrüstung verwenden jeweils 1 Kapazität.\n\nWenn du die maximale Kapazität erreicht hast, werden neue Ausrüstungen oder neue Materialien/Verbrauchsgegenstände, die noch keinen Stapel haben, stattdessen für eine gewisse Zeit in die Sammlungskiste gelegt.\n\nDer gleiche Kapazitätswert wird zwischen Ausrüstung, Verbrauchsgegenständen und Materialien geteilt."
+        },
+        "Stack Size": {
+            "name": "Stapelgröße",
+            "desc": "Alle Materialien und Verbrauchsgüter haben eine maximale Stapelgröße, die durch die auf dem Bildschirm oben angezeigte Lagerstapelgröße angezeigt wird.\n\nWenn Sie die maximale Stapelgröße für einen Artikel im Lager erreichen, werden alle weiteren gesammelten Exemplare dieses Artikels stattdessen für einen bestimmten Zeitraum in der Sammlungsbox abgelegt."
+        },
+        "Collection Box": {
+            "name": "Sammelbox",
+            "desc": "Wenn gesammelte Gegenstände aus irgendeinem Grund nicht ins Lager gestellt werden können, werden sie stattdessen in die Sammlungskiste gelegt. Dies wird durch das Symbol oben rechts auf einem Gegenstandssymbol beim Sammeln angezeigt: Eine Tasche bedeutet, dass es ins Lager geschickt wurde, und eine Truhe bedeutet, dass es in Ihre Sammlungskiste geschickt wurde.\n\nWenn Sie Platz in Ihrem Lager schaffen können, können Sie Gegenstände aus der Sammlungskiste ins Lager verschieben, um sie sicher aufzubewahren. Sie können einzelne Gegenstände auswählen, um sie von Ihrer Sammlungskiste ins Lager zu verschieben, und Sie müssen nicht alle nehmen.\n\nSie können auch wählen, Gegenstände von der Sammlungskiste für den Marktpreis zum Zeitpunkt der Auflistung in das Schnäppchenfach des Ladens zu schicken, einschließlich des Schnäppchenfach-Abschlags.\n\nEin Gegenstand mit einem grünen Zahlenfeld in der oberen linken Ecke zeigt an, dass er mehrere Stapel hat, die zu unterschiedlichen Zeiten ablaufen, und die angezeigte Zeit zeigt den Stapel, der am frühesten abläuft. Die angezeigte Menge des Gegenstands ist die kombinierte Gesamtanzahl aller Stapel des Gegenstands.\n\nWenn ein Gegenstand aus der Sammlungskiste abläuft, wird er automatisch für den niedrigstmöglichen Preis einschließlich des Schnäppchenfach-Abschlags, nicht dem aktuellen Marktwert, ins Schnäppchenfach geschickt, daher ist es am besten, die Gegenstände selbst zu verwalten!"
+        },
+        "Locations": {
+            "name": "Standorte",
+            "desc": "Das Level deines Stadttors bestimmt, wie viele Orte deinen Helden zum Questen zur Verfügung stehen und an denen Arbeiter arbeiten können. Ein Held muss dennoch die Level-Anforderung erfüllen, um an einem Ort zu questen, auch wenn dieser freigeschaltet ist.\n\nGelegentlich werden an Quest-Orten die Feinde knapp, und du musst eine Zeit lang warten, bis die Feinde zurückkehren."
+        },
+        "Travel Time": {
+            "name": "Reisezeit",
+            "desc": "Dein Stadttor kann die Zeit beeinflussen, die deine Helden benötigen, um zu einem Ort hin und zurück zu reisen. Dies hat keinen Einfluss auf die Kampfzeit, verringert jedoch die Gesamtquestzeit. Der aktuelle Modifikator wird durch das Gebäudelevel bestimmt."
+        },
+        "Crafters": {
+            "name": "Handwerker",
+            "desc": "Alle freigeschalteten Handwerker bleiben im Gebäude des Handwerkskreises. Du kannst mehr Handwerker freischalten, indem du das Gebäude verbesserst!"
+        },
+        "Crafter Recipes": {
+            "name": "Handwerksrezepte",
+            "desc": "Ihr Handwerker lernt mehr Rezepte, wenn er ein höheres Level erreicht! Allerdings kann das Level Ihres Handwerkers durch das aktuelle Level Ihres Gebäudes „Kreis der Handwerker“ eingeschränkt werden."
+        },
+        "Crafter Queues": {
+            "name": "Handwerker Warteschlangen",
+            "desc": "Mit Handwerker-Warteschlangen kannst du mehrere Gegenstände gleichzeitig zur Herstellung anstellen, wobei sie dennoch nur nacheinander hergestellt werden.\n\nDu schaltest mehr Warteschlangen-Plätze frei, indem du das Gebäude des Handwerkerkreises auflevelst."
+        },
+        "Crafter Choose Amount": {
+            "name": "Handwerker Wähle Menge",
+            "desc": "Bei Verbrauchsmaterialien und Materialien kannst du die Stapelgröße ändern, die du auf einmal herstellst!\n\nDu kannst die maximale Stapelgröße, die du auf einmal herstellst, erhöhen, indem du das Gebäude des Handwerkerkreises aufrüstest."
+        },
+        "Crafter Mana": {
+            "name": "Handwerkermana",
+            "desc": "Handwerkermana wird verwendet, um deine hergestellten Gegenstände zu verbessern.\n\nFür Materialien und Verbrauchsgüter kannst du Mana verwenden, um eine größere Menge des Gegenstands herzustellen. Für Ausrüstungen kannst du es verwenden, um die Chance auf eine höhere Gegenstandsklasse zu verbessern.\n\nHandwerkermana wird für den Handwerker bei einem Handwerker-Stufenaufstieg aufgefrischt. Du hast auch die Chance, nach jedem Handwerk mehr Handwerkermana zu erhalten."
+        },
+        "Infusion Buffs": {
+            "name": "Infusionsverstärkungen",
+            "desc": "Ein einzelnes Material kann auf Ausrüstung angewendet werden, um einen zusätzlichen Bonus auf einen einzelnen Wert für die Kosten von einem Mana, zusätzlichem Gold und zusätzlicher Zeit zu gewähren.\n\nDieser Bonus kann unterschiedlich sein, je nachdem, ob das Material auf eine Waffe, Rüstung oder ein Schmuckstück angewendet wird.\n\nEs besteht die Chance, dass diese Infusion fehlschlagen kann. Je höher dein Handwerkerlevel, desto besser stehen deine Erfolgschancen. Je größer der Unterschied zwischen dem Ausrüstungslevel und dem Materiallevel, desto größer ist die Chance auf einen Fehlschlag."
+        },
+        "Infusion Synergies": {
+            "name": "Infusionssynergien",
+            "desc": "Zwei Materialien können auf Ausrüstung angewendet werden, um eine Vielzahl einzigartiger Boni zu gewähren, zum Preis von zwei Mana, zusätzlichem Gold und zusätzlicher Zeit.\n\nWenn die beiden Materialien miteinander synergetisch wirken, besteht keine Wahrscheinlichkeit für ein Scheitern. Wenn sie es nicht tun, wird es fehlschlagen, und eines der Materialien wird zufällig ausgewählt, um der Ausrüstung einen Buff zu verleihen. Dieser Buff wird nicht fehlschlagen."
+        },
+        "Infusion Synergies+": {
+            "name": "Infusionsynergien+",
+            "desc": "Drei Materialien können auf Ausrüstung angewendet werden, um eine Vielzahl einzigartiger Boni für die Kosten von drei Mana, zusätzlichem Gold und zusätzlicher Zeit bereitzustellen.\n\nDies funktioniert genauso wie normale Synergien, außer dass du jetzt einen Edelstein als drittes Material hinzufügen kannst. Dieses dritte Material hat keinen Einfluss darauf, ob die ersten beiden Materialien synergieren oder nicht.\n\nDieser Edelstein wird einen Gradbonus für die Ausrüstung bereitstellen. Dieser Gradbonus wird unabhängig davon angewendet, ob die Synergie gelingt oder nicht."
+        },
+        "Heroes": {
+            "name": "Helden",
+            "desc": "Alle Helden, die Sie derzeit unter Vertrag haben, bleiben in der Heldenhalle. Sie können hier mehr Helden unterbringen, während Sie das Gebäude aufrüsten."
+        },
+        "Hero Traits": {
+            "name": "Heldenmerkmale",
+            "desc": "Heldeneigenschaften können je nach Ausrüstung deines Helden eine positive, negative oder gemischte Wirkung auf deinen Helden haben."
+        },
+        "Hero Equipment": {
+            "name": "Heldenausrüstung",
+            "desc": "Über die Heldenwerte kannst du auf die Ausrüstung eines Helden zugreifen.\n\nDu kannst die Ausrüstung eines Helden nur bearbeiten, wenn er momentan verpflichtet, am Leben und nicht auf einer Quest ist. Etwas, das zu bedenken ist, bevor du einen Helden entlässt, ist, all seine Ausrüstung zu entfernen, falls du sie später benötigst."
+        },
+        "Hero Dismiss": {
+            "name": "Held Entlassen",
+            "desc": "Wenn ein Held alle Quests aus seinem Vertrag genutzt hat, hast du die Möglichkeit, seinen Vertrag für eine neue Anzahl von Quests deiner Wahl zu erneuern oder ihn zu entlassen.\n\nWenn du sie entlässt, kehren sie in die Taverne zurück und behalten alle Ausrüstungen, die du ihnen gegeben hast. Das nächste Mal, wenn du sie anheuerst, werden sie noch dieselbe Ausrüstung haben wie bei ihrer Entlassung."
+        },
+        "Hero Revive": {
+            "name": "Helden-Wiederbelebung",
+            "desc": "Ein Held kann ohnmächtig werden, wenn er eine Schlacht verliert. Falls dies geschieht, kannst du Gold bezahlen, um ihn sofort wiederzubeleben, oder du wartest, bis der Held automatisch nach einer Wartezeit wiederbelebt wird.\n\nDie Menge an Gold, die benötigt wird, um sofort wiederzubeleben, wird sinken, wenn der Wiederbelebungstimer abnimmt."
+        },
+        "Hero Consumables": {
+            "name": "Heldenkonsumgüter",
+            "desc": "Das Antippen der Tortenschaltfläche im Helden-Statistik-Menü führt dich zum Helden-Verbrauchsgüter-Menü. Alle hier gezeigten Verbrauchsgüter stellen bei Verwendung die Gesundheit deines Helden wieder her."
+        },
+        "Hero Boosts": {
+            "name": "Heldenverstärkungen",
+            "desc": "Im Menü der Heldenverbrauchsmaterialien kannst du auch Helden-Boosts anwenden.\n\nEin Held kann immer nur 1 Boost gleichzeitig aktiv haben, aber du kannst mehrere des gleichen Boosts verwenden, um dessen Dauer zu verlängern. Die Effekte des Boosts werden jedoch nicht gestapelt. Der Boost-Effekt wird unabhängig von der Anzahl der Anwendungen nur einmal angewendet."
+        },
+        "Party Battles": {
+            "name": "Gruppenkämpfe",
+            "desc": "Gelegentlich wirst du auf starke Feinde treffen, die mehrere Helden erfordern, um besiegt zu werden. Um an dem Kampf teilzunehmen, muss ein Held zuerst die Stufenanforderung des Ortes erfüllen.\n\nDie Zugreihenfolge wird durch die Zahl angezeigt, die unter dem Level jedes Helden angezeigt wird, wenn er in das Partylayout eingefügt wird.\n\nEin harter Feind kann deine Gruppe zunächst besiegen, aber der Feind bleibt geschwächt, wenn es dir gelingt, genug Schaden zuzufügen, um eine Kerbe auf seiner HP-Leiste zu durchbrechen, damit der nächste Kampf leichter wird. Sei jedoch schnell, denn der Feind wird sich mit der Zeit langsam heilen!"
+        },
+        "Guild Quick Join": {
+            "name": "Gilde Schnellbeitreten",
+            "desc": "Die Verwendung dieser Funktion wird dich in eine Gemeinschaftsgilde versetzen.\n\nGemeinschaftsgilden haben keinen Anführer und können nicht an Gildenligen teilnehmen. Sie wird neuen Spielern empfohlen."
+        },
+        "Guild Chat": {
+            "name": "Gildenchat",
+            "desc": "Das Gildenchats ist ein Ort, an dem du und deine Gildenmitglieder kommunizieren und ein Protokoll über verschiedene Ereignisse innerhalb der Gilde einsehen können.\n\nFühle dich frei zu chatten, aber sei freundlich, sonst könnten sie dich hinauswerfen!\n\nDu kannst auch Anfragen an deine Gildenmitglieder stellen und zu den Anfragen deiner Gildenmitglieder beitragen."
+        },
+        "Guild Requests": {
+            "name": "Gildenanfragen",
+            "desc": "Im Gildenanfragen-Menü können Gildenmitglieder Gegenstände voneinander anfordern und empfangen. Dies ist nur auf Materialien beschränkt, die du entdeckt hast.\n\nDie Menge der Materialien, die du anfordern kannst, hängt von der Seltenheit des Materials ab, das du möchtest.\n\nWenn du eine Anfrage stellst, musst du warten, bis entweder die volle Anfragemenge erfüllt ist oder der Anforderungs-Timer abläuft, bevor du verfügbare Gegenstände einsammeln kannst.\n\nSobald die Anfrage abgeschlossen ist, hast du eine festgelegte Zeit, um die Gegenstände einzusammeln, andernfalls werden sie automatisch verworfen."
+        },
+        "Building Experience": {
+            "name": "Bauerfahrung",
+            "desc": "Indem du auf den Hammer-Button auf dem Stadtbildschirm tippst, kannst du das Menü für Gebäude-Upgrades aufrufen. Hier kannst du Gold oder Materialien beitragen, um Gebäude aufzuwerten und Upgrades freizuschalten, die in deiner gesamten Gilde geteilt werden.\n\nSobald du zu einem Gebäude beiträgst, kannst du das Gold nicht mehr zurückholen.\n\nWenn du deine Gilde verlässt, nimmst du all deine Gebäudeerfahrung mit dir, aber sie wird automatisch auf den Gesamtbeitrag der Gebäude der nächsten Gilde angewendet, der du beitrittst.\n\nUm Levelvorteile von einem Gebäude zu erhalten, gibt es einen Mindestbetrag, den du pro Level spenden musst. Zum Beispiel kann deine Gilde Laden Level 3 haben, aber da du nicht viel zum Laden beigetragen hast, erhältst du möglicherweise nur Level 1 Vorteile.\n\nAndererseits behältst du die maximalen Vorteile, die du jemals erhalten hast, auch wenn die Gilde Investoren verliert oder du die Gilde wechselst.\n\nZum Beispiel, sagen wir, du bist in einer 2-Personen-Gilde. Das andere Mitglied hat viel Erfahrung für das Stadttor gesammelt, sodass Yarsol freigeschaltet ist. Du hast möglicherweise nur den Mindestbetrag beigetragen, damit du in Yarsol Quests absolvieren kannst, aber sie haben den Rest gemacht. Wenn die andere Person die Gilde verlässt, kannst du weiterhin in Yarsol Quests absolvieren, jedoch wirst du keine neuen Orte freischalten, bis du das Gebäude wieder auf dein Vorteilniveau aufgewertet hast."
+        },
+        "Building Top Investor": {
+            "name": "Hauptinvestor für Gebäude",
+            "desc": "Der Spieler mit dem meisten Einsatz in einem Gebäude wird auf dem Gebäude-Aufrüstungsbildschirm angezeigt. Nur als freundschaftlicher Wettbewerb!\n\nDu kannst sehen, wie du und deine anderen Gildenkameraden im Vergleich dastehen, indem du zur \"Investorenansicht\" auf dem Gebäude-Aufrüstungsbildschirm wechselst."
+        },
+        "Building Material Investment": {
+            "name": "Baumaterial-Investition",
+            "desc": "Du und deine Gildenmitglieder können einmal pro Tag einen materiellen Beitrag zu jedem Gebäude in der Stadt leisten. Der Wert der Materialien wird zur Gesamtgoldinvestition des Gebäudes hinzugefügt, mit einem zusätzlichen Multiplikator basierend auf der Gesamtzahl der Gildenmitglieder, die beigetragen haben. Je mehr, desto besser!\n\nIm Gegensatz zu Goldinvestitionen bleiben Materialspenden jedoch bei der Gilde, selbst nachdem du sie verlassen hast."
+        },
+        "Guild Leagues": {
+            "name": "Gildemeisterschaften",
+            "desc": "Jede Woche treten Gilden in einem Turnier gegen andere Gilden derselben Liga an.\n\nGildenmitglieder müssen zusammenarbeiten, um eine Reihe von zunehmend schwierigeren Missionen zu erfüllen. Wenn eure Gilde eine Stufe der Mission abschließt, erhaltet ihr einen großen Punktebonus. Dieser Bonus wird mit jeder Stufe größer.\n\nJe nachdem, wie gut eure Gilde abschneidet, könnt ihr befördert, herabgestuft oder ohne Liga-Bewegung sein. Die Bewegung eurer Gilde wird am Ende des Ligakriegs bestimmt.\n\nAm Ende des Ligakriegs gibt es eine kurze Abkühlzeit, bevor der nächste beginnt.\n\nWährend eure Gilde durch die Ligen aufsteigt, erhält die Gilde mächtige Boni. Diese Boni stehen allen Mitgliedern zur Verfügung.\n\nWenn ein Spieler einer Gilde mitten im Krieg beitritt, kann er nicht an den Missionen teilnehmen, bis der nächste Ligakrieg beginnt.\n\nWenn eine Gilde mitten im Krieg erstellt wird, kann sie bis zur nächsten Woche nicht an Ligakriegen teilnehmen."
+        },
+        "Hirable Heroes": {
+            "name": "Einstellbare Helden",
+            "desc": "In der Taverne findest du alle arbeitslosen Helden, die derzeit zur Anstellung verfügbar sind. Zu Beginn sind möglicherweise nur wenige verfügbar, aber wenn du deine Taverne aufrüstest, werden schließlich mehr Helden zur Anstellung freigeschaltet.\n\nJeder beschäftigte Held, den du entlassen hast, wird hierher zurückkehren, damit du ihn in Zukunft erneut anheuern kannst."
+        },
+        "Hero Contracts": {
+            "name": "Heldenverträge",
+            "desc": "Wenn du möchtest, dass ein Held für dich arbeitet, musst du ihn zuerst mit einem Vertrag anstellen. Du hast die Möglichkeit, einen Helden für eine festgelegte Anzahl von Quest-Aufladungen anzuheuern, die durch das Blitzsymbol angezeigt werden, im Austausch für eine festgelegte Menge Gold.\n\nBeim Questen wird eine Aufladung unabhängig davon verwendet, ob der Held gewinnt oder verliert. Sobald ihr Vertrag abgeschlossen ist, kannst du wählen, ob du ihn erneuern oder entlassen möchtest.\n\nDu kannst die Anzahl der Optionen pro Zeitrahmen erhöhen, indem du den Helden im Laden auflevelst. Achte darauf, eine gute Beziehung zu den lokalen Talenten zu pflegen, da dies ihre Preise und mehr beeinflussen kann!"
+        },
+        "Tavern Gold": {
+            "name": "Taverne Gold",
+            "desc": "Deine Taverne wird im Laufe der Zeit langsam Gold ansammeln, das durch einen Knopf über der Taverne auf dem Stadtbildschirm eingesammelt werden kann.\n\nTavernen-Upgrades schalten manchmal eine schnellere Goldproduktion frei, also investiere unbedingt in dieses lokale Etablissement!"
+        },
+        "Workers": {
+            "name": "Arbeiter",
+            "desc": "Alle freigeschalteten Arbeiter werden in der Arbeiterkaserne gehalten.\n\nDas Aufrüsten dieses Gebäudes wird neue Einsatzorte für Ihre Arbeiter freischalten. Sie können auch zusätzliche Vertragsarten erhalten, wenn Sie die Arbeiterkaserne aufrüsten."
+        },
+        "Hiring Workers": {
+            "name": "Anheuern von Arbeitern",
+            "desc": "Wenn du einen Arbeiter zum Arbeiten schickst, kannst du wählen, wie lange er arbeiten soll. Achte darauf, einen geeigneten Zeitrahmen zu wählen, da du ihn nicht früher zurückrufen kannst. Du kannst die Anzahl der Optionen pro Zeitrahmen erhöhen, indem du den Arbeiter im Laden auflevelst. Sie werden erst zurückkehren, wenn sie fertig sind. Achte darauf, eine gute Beziehung zu den örtlichen Talenten zu pflegen, da dies ihre Preise und mehr beeinflussen kann!"
+        }
+    },
+    "combat": {
+        "max_hp": {
+            "name": "Maximale HP",
+            "desc": "Maximale Gesundheits­punkte. Steigern sich bei Levelaufstieg oder mit bestimmter Ausrüstung und Verstärkungen"
+        },
+        "atk": {
+            "name": "Atk",
+            "desc": "Physischer Schadenausführungstyp. Wirkt gegen def"
+        },
+        "matk": {
+            "name": "Zauberfähigkeit",
+            "desc": "Magischer Schadensart. Wirksam gegen mdef"
+        },
+        "acc": {
+            "name": "Axt",
+            "desc": "Genauigkeit. Wirkt gegen Ausweichmanöver"
+        },
+        "crit": {
+            "name": "Kritz",
+            "desc": "Kritischer Schlag. Wert ist die Chance auf kritischen Treffer, maximaler Wert ist 100"
+        },
+        "crit_mod": {
+            "name": "Krit Mod",
+            "desc": "Kritischer Schlagmodifikator. Ein Multiplikator für den Schaden, den du verursachst, wenn ein kritischer Treffer landet"
+        },
+        "def": {
+            "name": "Verteidigung",
+            "desc": "Physische Verteidigung. Wirkt gegen Atk"
+        },
+        "mdef": {
+            "name": "Mdef",
+            "desc": "Magische Verteidigung. Wirkt gegen matk"
+        },
+        "eva": {
+            "name": "Eva",
+            "desc": "Ausweichen. Wirkt gegen Angriff"
+        },
+        "str": {
+            "name": "Stärke",
+            "desc": "Stärke. Erhöht atk und def"
+        },
+        "int": {
+            "name": "Int",
+            "desc": "Intelligenz. Erhöht matk und mdef"
+        },
+        "agi": {
+            "name": "Agi",
+            "desc": "Beweglichkeit. Erhöht Präz und Ausw"
+        },
+        "incHeal": {
+            "name": "Eingehende Heilung",
+            "desc": "Erhöht die erhaltene Heilung während des Kampfes"
+        },
+        "outHeal": {
+            "name": "Ausgehende Heilung",
+            "desc": "Erhöht die Heilung während des Kampfes"
+        },
+        "luck": {
+            "name": "Glück",
+            "desc": "Erhöht die Belohnungen von Quests"
+        },
+        "exp": {
+            "name": "Erfahrung",
+            "desc": "Erfahrung. Erhöht die erhaltene Erfahrung für Helden"
+        },
+        "speed": {
+            "name": "Geschwindigkeit",
+            "desc": "Geschwindigkeit. Lass Helden schneller questen."
+        },
+        "fire": {
+            "name": "Feuer",
+            "desc": "Skaliert mit matk, reduziert durch mdef"
+        },
+        "poison": {
+            "name": "Gift",
+            "desc": "Wird durch Angriffswert skaliert, durch Verteidigungswert reduziert"
+        },
+        "bleed": {
+            "name": "Bluten",
+            "desc": "Skaliert mit Angriff, wahrer Schaden"
+        },
+        "soul_fire": {
+            "name": "Seelenfeuer",
+            "desc": "Skaliert mit Magieangriff, echter Schaden"
+        },
+        "heal": {
+            "name": "Heilung",
+            "desc": "Heilung für LP"
+        },
+        "ap": {
+            "name": "Aktionspunkte (AP)",
+            "desc": "Aktionspunkt. Fähigkeiten verwenden eine festgelegte Anzahl von Aktionspunkten"
+        },
+        "buff": {
+            "name": "Stärkung",
+            "desc": "Erhöhe einen Wert"
+        },
+        "debuff": {
+            "name": "Schwächung",
+            "desc": "Verringere einen Wert"
+        },
+        "estimate": {
+            "name": "Schätzung",
+            "desc": "Könnte höher oder niedriger als der Wert sein"
+        },
+        "turns": {
+            "name": "Züge",
+            "desc": "Wenn jemand eine Fähigkeit wirkt, die eine Wirkung für 1 Runde hat, hält diese Wirkung an, bis es wieder die Runde des Zaubernden ist."
+        },
+        "self": {
+            "name": "Selbst",
+            "desc": "Der Zauberanwender einer Fähigkeit"
+        },
+        "ally": {
+            "name": "Verbündeter",
+            "desc": "Ein bestimmter Held in der Gruppe, nicht der Zauberer der Fähigkeit"
+        },
+        "party": {
+            "name": "Gruppe",
+            "desc": "Gilt für alle Helden in einer Gruppe"
+        },
+        "target": {
+            "name": "Ziel",
+            "desc": "Empfänger einer gewirkten Fertigkeit"
+        },
+        "shield": {
+            "name": "Schild",
+            "desc": "Ein Überschild mit einer festgelegten Gesundheit und Menge an Schutzmaßnahmen"
+        },
+        "taunt": {
+            "name": "Verspotten",
+            "desc": "Der nächste Einzelzielangriff wird stattdessen diesen Helden angreifen"
+        },
+        "silence": {
+            "name": "Stille",
+            "desc": "Entfernt alle Verstärkungen, Spott, Schilde vom Empfänger"
+        },
+        "leech": {
+            "name": "Blutegel",
+            "desc": "Ein Teil des zugefügten Schadens heilt den Zaubernden"
+        },
+        "true_damage": {
+            "name": "Wahrer Schaden",
+            "desc": "Schaden, der Verteidigungen ignoriert"
+        },
+        "cleanse": {
+            "name": "Reinigen",
+            "desc": "Entfernt alle Debuffs, Stille, Betäubungen, Tick-Schaden"
+        },
+        "reflect": {
+            "name": "Reflektieren",
+            "desc": "Ein Teil des Schadens, der zugefügt worden wäre, wird an den Angreifer zurückgegeben."
+        },
+        "stun": {
+            "name": "Betäuben",
+            "desc": "Lässt den Empfänger seinen nächsten Zug überspringen"
+        },
+        "pent": {
+            "name": "Pent",
+            "desc": "Durchdringung. Ignoriert eine Menge an Schutz"
+        },
+        "chance": {
+            "name": "Chance",
+            "desc": "Nicht garantiert, steigt mit Glück"
+        },
+        "block": {
+            "name": "Block",
+            "desc": "Reduziere den eingehenden Schaden"
+        },
+        "steal": {
+            "name": "Stehlen",
+            "desc": "Entnehme eine Menge von etwas vom Ziel und gib sie dir selbst. Wenn für begrenzte Dauer, wird nach Ablauf der Dauer die gestohlene Menge vom ursprünglichen Zaubernden entfernt und an das ursprüngliche Ziel zurückgegeben."
+        },
+        "dodge": {
+            "name": "Ausweichen",
+            "desc": "Schaden völlig vermeiden"
+        },
+        "rotation": {
+            "name": "Rotation",
+            "desc": "Bewegt die Gruppe 1 Slot im Uhrzeigersinn"
+        },
+        "swap": {
+            "name": "Tausch",
+            "desc": "2 Gruppenmitglieder tauschen die Positionen"
+        }
+    },
+    "inGameTips": {
+        "1": {
+            "name": "Die Helden in der Stadt sind deine Freunde, gib ihnen einen Spitznamen!",
+            "desc": ""
+        },
+        "2": {
+            "name": "Du kannst die Fertigkeitsausrüstungen deines Helden umbenennen!",
+            "desc": ""
+        },
+        "3": {
+            "name": "Wenn Sie eine Menge auswählen, tippen Sie auf die Zahl, um eine benutzerdefinierte Zahl einzugeben",
+            "desc": ""
+        },
+        "4": {
+            "name": "Einige Kunden kommen seltener in den Laden als andere",
+            "desc": ""
+        },
+        "5": {
+            "name": "Einige Feinde haben gefährliche Fähigkeiten! Überprüfe das Kompendium für bekannte Angriffe",
+            "desc": ""
+        },
+        "6": {
+            "name": "Ein Retora-Mitarbeiter wird Sie niemals nach Ihrem Passwort fragen!",
+            "desc": ""
+        },
+        "7": {
+            "name": "Du kannst mehr Heldenvertragsoptionen freischalten, indem du diesem Helden in deinem Laden verkaufst.",
+            "desc": ""
+        },
+        "8": {
+            "name": "Gib deinen Arbeitern ein Angebot, das ihnen gefällt! Sie könnten härter arbeiten und dir mehr Materialien bringen!",
+            "desc": ""
+        },
+        "9": {
+            "name": "Wenn du einen Helden entlässt, kehrt er in die Taverne zurück und steht jederzeit erneut zur Anwerbung bereit",
+            "desc": ""
+        },
+        "10": {
+            "name": "Es gibt eine Chance, dass ein Handwerker nach dem Herstellen eines Gegenstands einen Manapunkt erhält.",
+            "desc": ""
+        },
+        "11": {
+            "name": "Dein Fortschritt ist nicht an deine Gilde gebunden. Wenn du dich entscheidest zu wechseln, behältst du deinen Fortschritt.",
+            "desc": "Joe"
+        },
+        "12": {
+            "name": "Kunden ziehen einige Artikel anderen vor und sind bereit, dafür erheblich höhere Preise zu zahlen.",
+            "desc": "Edna"
+        },
+        "13": {
+            "name": "Helden sollten nicht immer in der Mitte stehen",
+            "desc": "The Banana"
+        },
+        "14": {
+            "name": "Die vordere Reihe in Gruppenkämpfen wird tendenziell mehr angegriffen. Rüstung und Gesundheit sind wichtig!",
+            "desc": "The Cleric"
+        },
+        "15": {
+            "name": "Schau auf dem Discord vorbei für Gilden, Tipps, Promo-Codes, oder wenn du irgendwelche Fragen hast!",
+            "desc": "Dorce"
+        },
+        "16": {
+            "name": "Liga-Scharmützel beginnen jeden Montag. Stelle sicher, dass du beiträgst, um mehr Belohnungen zu erhalten!",
+            "desc": ""
+        },
+        "17": {
+            "name": "Patreon-Unterstützer erhalten Zugang zu exklusiven Einblicken, speziellen Inhalten und mehr!",
+            "desc": ""
+        },
+        "18": {
+            "name": "Unterstützt uns auf Patreon, um über neue Inhalte abzustimmen und Namen für neue Inhalte auszuwählen!",
+            "desc": ""
+        },
+        "19": {
+            "name": "Wusstest du, dass die Patreon-Unterstützer Inhalte sehen können, bevor sie herauskommen?",
+            "desc": ""
+        },
+        "20": {
+            "name": "Du kannst auf die meisten Gegenstände tippen und halten, um mehr Informationen zu erhalten!",
+            "desc": ""
+        }
+    }
+}

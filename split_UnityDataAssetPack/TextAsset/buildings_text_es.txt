@@ -1,0 +1,18 @@
+{
+    "ghall": "Sala del Gremio",
+    "tavern": "Taberna",
+    "work": "Cuarteles de Trabajadores",
+    "craft": "Círculo de Artesanos",
+    "stock": "Almacén",
+    "shop": "Tienda",
+    "hhall": "Salón de los Héroes",
+    "gate": "Puerta del Mundo",
+    "ghall_short": "Gremio",
+    "tavern_short": "Taberna",
+    "work_short": "Trabajadores",
+    "craft_short": "Artesanos",
+    "stock_short": "Almacén",
+    "shop_short": "Tienda",
+    "hhall_short": "Héroes",
+    "gate_short": "Mundo"
+}

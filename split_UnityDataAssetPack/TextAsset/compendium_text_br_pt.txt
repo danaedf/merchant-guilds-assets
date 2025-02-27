@@ -1,0 +1,478 @@
+{
+    "compendiumHeaders": {
+        "Stats": {
+            "name": "Estatísticas",
+            "desc": ""
+        },
+        "DOT Damage": {
+            "name": "Dano por Tempo",
+            "desc": ""
+        },
+        "Other Icons": {
+            "name": "Outros Ícones",
+            "desc": ""
+        },
+        "Keywords": {
+            "name": "Palavras-chave",
+            "desc": ""
+        }
+    },
+    "buildings": {
+        "Customer Frequency": {
+            "name": "Frequência do Cliente",
+            "desc": "Os clientes só entrarão na Loja enquanto você estiver dentro do prédio. Uma vez que um cliente entra, ele irá vagar e eventualmente entrar na fila do caixa. Isso ocorre independentemente de você ainda estar ou não dentro do prédio.\n\nQuando você entra na Loja pela primeira vez após não verificá-la por um tempo, pode haver muitos clientes enfileirados prontos para entrar de uma vez.\n\nSe você fizer um cliente esperar na fila por muito tempo, ele pode sair cedo sem comprar nada. Se um cliente sair sem que você peça, ele usará o recurso “Volte Mais Tarde” se disponível, caso contrário, isso será tratado como uma recusa normal."
+        },
+        "Haggling": {
+            "name": "Barganha",
+            "desc": "Ao vender para um cliente, você pode negociar o preço com ele. A probabilidade de um cliente comprar o item pelo preço negociado depende de quanto você está cobrando, seu relacionamento com o cliente e o quanto o cliente gosta do item.\n\nVender um item por um preço abaixo da média pode melhorar seu relacionamento com o cliente. Por outro lado, vender por um preço acima da média pode prejudicar seu relacionamento com o cliente."
+        },
+        "Customer Item Valuation": {
+            "name": "Avaliação de Itens do Cliente",
+            "desc": "Os clientes valorizam itens com base em suas características e valor de mercado atual! Certifique-se de vender algo pelo qual eles pagarão um preço acima da média."
+        },
+        "Customer Relationship": {
+            "name": "Relação com o Cliente",
+            "desc": "À medida que você vende itens para um cliente, seu relacionamento com ele pode mudar. Esse relacionamento é representado por corações.\n\nVocê pode ganhar e perder corações com um cliente dependendo do acordo que fizer com eles e de quanto eles gostam do item.\n\nQuanto mais corações você tiver com um cliente, mais provável será que ele aceite os negócios que você oferece, então certifique-se de manter bons relacionamentos!"
+        },
+        "Customer Level": {
+            "name": "Nível do Cliente",
+            "desc": "À medida que você vende itens para um cliente, ele ganha experiência! Quando um cliente sobe de nível, você desbloqueará diferentes oportunidades de barganha com ele."
+        },
+        "Customer Traits": {
+            "name": "Características do Cliente",
+            "desc": "Os clientes também podem ter características que afetarão o quanto eles gostam de um item, quanto estão dispostos a pagar por um item e se estão dispostos a comprar o item.\n\nCertifique-se de prestar atenção às características ao decidir o que vender a um cliente!"
+        },
+        "Customer Energy": {
+            "name": "Energia do Cliente",
+            "desc": "Cada cliente tem seus próprios pontos de energia e só pode entrar na Loja se tiver pelo menos 1 ponto de energia disponível. Quando um cliente faz uma compra ou é recusado no caixa, ele gastará um ponto de energia. No entanto, se o recurso \"Volte Mais Tarde\" for usado, os clientes sairão da loja sem gastar energia e voltarão após algum tempo.\n\nOs clientes recarregam energia independentemente de você estar jogando ou não, e cada cliente tem uma taxa de recarga diferente, bem como a energia máxima que podem armazenar.\n\nCada cliente também tem um tempo de espera diferente para quando podem reentrar após saírem da loja, o que não está relacionado à energia."
+        },
+        "Customer Come Back Later": {
+            "name": "Cliente Volte Mais Tarde",
+            "desc": "Em vez de recusar a venda de um cliente, você às vezes terá a opção de pedir a ele para Voltar Mais Tarde. Fazer isso não consumirá energia, e o cliente retornará à Loja após um período de tempo.\n\nDepois de pedir que ele Volte Mais Tarde uma vez, a opção não estará disponível novamente até que o cliente compre algo ou seja recusado como de costume."
+        },
+        "Market Fluctuation": {
+            "name": "Flutuação de Mercado",
+            "desc": "Todos os valores dos itens irão flutuar com base no seu valor atual de mercado. O mercado é atualizado frequentemente, então algo que foi vendido por um preço muito alto anteriormente pode ser vendido por muito menos agora.\n\nAo visualizar o mercado, quanto mais verde for o valor do item, mais ele está acima do preço padrão do item.\n\nQuanto mais vermelho for o valor do item, mais ele está abaixo do preço padrão do item.\n\nNote que você só pode ver o preço de mercado de itens que você descobriu.\n\nOs preços de mercado são os mesmos para todos os jogadores, então não deixe de avisar seus amigos quando um item estiver em alta!"
+        },
+        "Bargain Bin": {
+            "name": "Caixa de Pechinchas",
+            "desc": "A Caixa de Pechinchas é um lugar para vender qualquer e todos os itens que você não deseja atribuir a um slot designado. Os itens colocados aqui serão automaticamente vendidos ao longo do tempo, momento em que o ouro estará disponível para coleta.\n\nA única desvantagem é que todos os itens colocados aqui serão vendidos com um desconto de 25% com base no preço de mercado atual... Que pechincha!"
+        },
+        "Shop Table": {
+            "name": "Mesa de Loja",
+            "desc": "As Mesas de Loja são a forma padrão de vender itens. Apenas equipamentos podem ser colocados em uma mesa de loja, e serão vendidos pelo preço de mercado no momento da listagem."
+        },
+        "Glass Case": {
+            "name": "Caixa de Vidro",
+            "desc": "Vitrine de Vidro é um tipo especial de slot de venda. Apenas equipamentos podem ser colocados em uma Vitrine de Vidro e serão vendidos com um acréscimo de 50% com base no preço de mercado atual no momento da listagem.\n\nSomente itens de raridade Raro ou superior podem ser colocados dentro. Os clientes acham que os itens colocados aqui são mais elegantes do que aqueles em uma mesa comum."
+        },
+        "Bulk Bin": {
+            "name": "Caixa a Granel",
+            "desc": "Caixa de Carga é um tipo especial de slot de venda. Apenas materiais podem ser colocados em uma Caixa de Carga.\n\nOs materiais vendidos aqui devem ser vendidos em pilhas de tamanhos específicos, dependendo da raridade do item. Os tamanhos das pilhas são 40 para comum, 20 para incomum, 10 para raro, 5 para épico, 2 para lendário e 1 para mítico.\n\nMateriais colocados em uma Caixa de Carga serão vendidos pelo preço de mercado atual no momento do anúncio. Os clientes adoram pensar que estão obtendo mais pelo seu dinheiro, mesmo que tecnicamente não estejam."
+        },
+        "Banquet Table": {
+            "name": "Mesa de Banquete",
+            "desc": "Mesa de Banquete é um tipo especial de espaço de venda. Apenas consumíveis podem ser colocados em uma Mesa de Banquete. Consumíveis vendidos aqui devem ser vendidos em pilhas de 4.\n\nConsumíveis colocados em uma Mesa de Banquete serão vendidos pelo preço de mercado atual no momento do anúncio. Os clientes adoram pensar que estão recebendo mais pelo seu dinheiro, mesmo que tecnicamente não estejam."
+        },
+        "Capacity": {
+            "name": "Capacidade",
+            "desc": "Capacidade é a quantidade total de slots de inventário que você possui. Cada pilha de material ou consumível usará 1 de capacidade, independentemente do tamanho da pilha. Cada equipamento também usará 1 de capacidade, mas não será empilhado. Duplicatas do mesmo equipamento usarão 1 de capacidade cada.\n\nSe você alcançou a capacidade máxima, qualquer novo equipamento ou novos materiais/consumíveis que ainda não tenham uma pilha serão colocados na Caixa de Coleção por um período de tempo.\n\nO mesmo valor de capacidade é compartilhado entre equipamentos, consumíveis e materiais."
+        },
+        "Stack Size": {
+            "name": "Tamanho da Pilha",
+            "desc": "Todos os materiais e consumíveis possuem um tamanho máximo de pilha, que é indicado pelo Tamanho da Pilha de Estoque mostrado no topo da tela.\n\nSe você atingir o tamanho máximo de pilha para um item no Estoque, qualquer quantidade adicional desse item que você coletar será colocada na Caixa de Coleção por um período de tempo."
+        },
+        "Collection Box": {
+            "name": "Caixa de Coleção",
+            "desc": "Quando qualquer item coletado não puder ser colocado no Estoque por qualquer motivo, será colocado na Caixa de Coleção. Isso é indicado pelo ícone no canto superior direito do ícone do item ao coletar: uma bolsa significa que foi enviado para o Estoque, e um baú significa que foi enviado para sua Caixa de Coleção.\n\nSe você conseguir liberar espaço no seu Estoque, poderá mover itens da Caixa de Coleção para o Estoque para mantê-los seguros. Você pode escolher itens individuais para mover para o seu Estoque a partir da sua Caixa de Coleção, e não precisa pegar todos.\n\nVocê também pode optar por enviar itens da Caixa de Coleção para o Cesto de Ofertas da Loja pelo preço de mercado no momento do anúncio, incluindo o desconto do Cesto de Ofertas.\n\nUm item com um painel de número verde no canto superior esquerdo indica que ele tem múltiplas pilhas que expirarão em momentos diferentes, e o tempo exibido mostra a pilha que expirará mais cedo. A quantidade do item exibida é o total combinado de todas as pilhas do item.\n\nSe um item expirar da Caixa de Coleção, ele será automaticamente enviado para o Cesto de Ofertas pelo preço mais baixo possível, incluindo o desconto do Cesto de Ofertas, não o valor de mercado atual, então é melhor lidar com os itens você mesmo!"
+        },
+        "Locations": {
+            "name": "Localizações",
+            "desc": "O nível de construção do Portão da Cidade determina quantos locais você tem disponíveis para seus heróis realizarem missões e para os trabalhadores trabalharem. Um herói ainda deve cumprir o requisito de nível para fazer uma missão em um local, mesmo que ele esteja desbloqueado.\n\nOcasionalmente, os locais de missão ficarão sem inimigos para lutar, e você terá que esperar um tempo para que os inimigos retornem."
+        },
+        "Travel Time": {
+            "name": "Tempo de Viagem",
+            "desc": "O Portão da Sua Cidade pode afetar o tempo que seus heróis levam para viajar de e para um local. Isso não afeta o tempo de combate, mas reduzirá o tempo total da missão. O modificador atual é determinado pelo nível do edifício."
+        },
+        "Crafters": {
+            "name": "Artesãos",
+            "desc": "Todos os Artesãos que você desbloqueou permanecerão no prédio do Círculo dos Artesãos. Você pode desbloquear mais artesãos melhorando o prédio!"
+        },
+        "Crafter Recipes": {
+            "name": "Receitas de Artesão",
+            "desc": "Seu artesão aprende mais receitas à medida que sobe de nível! No entanto, o nível do seu artesão pode ser restrito com base no nível atual do seu edifício Círculo dos Artesãos."
+        },
+        "Crafter Queues": {
+            "name": "Filas de Artesãos",
+            "desc": "As filas de artesão permitem que você coloque vários itens na fila para serem fabricados de uma vez, embora ainda sejam fabricados um de cada vez.\n\nVocê desbloqueia mais slots de fila ao subir de nível no prédio do Círculo dos Artesãos."
+        },
+        "Crafter Choose Amount": {
+            "name": "Selecionar Quantidade do Artesão",
+            "desc": "Para consumíveis e materiais, você pode alterar a quantidade do tamanho do lote que você cria de uma vez!\n\nVocê pode aumentar o tamanho máximo do lote para criar de uma vez atualizando o prédio do Círculo dos Artesãos."
+        },
+        "Crafter Mana": {
+            "name": "Mana Artesão",
+            "desc": "Mana do Artesão é usada para melhorar os itens que você criou.\n\nPara materiais e consumíveis, você pode usar mana para criar uma quantidade maior do item. Para equipamentos, você pode usá-la para melhorar suas chances de obter um item de qualidade superior.\n\nA Mana do Artesão é renovada para o artesão a cada subida de nível do artesão. Você também tem a chance de ganhar mais mana do artesão após cada criação."
+        },
+        "Infusion Buffs": {
+            "name": "Aprimoramentos de Infusão",
+            "desc": "Um único material pode ser aplicado a um equipamento para fornecer um bônus extra a um único atributo por um custo de uma mana, ouro extra e tempo extra.\n\nEste bônus pode ser diferente dependendo se o material está sendo aplicado a uma arma, armadura ou amuleto.\n\nHá uma chance dessa infusão falhar. Quanto maior o seu nível de artesão, maior a chance de sucesso. Quanto maior a diferença entre o nível do equipamento e o nível do material, maior a chance de falha."
+        },
+        "Infusion Synergies": {
+            "name": "Sinergias de Infusão",
+            "desc": "Dois materiais podem ser aplicados ao equipamento para fornecer uma variedade de bônus únicos pelo custo de dois de mana, ouro extra e tempo extra.\n\nSe os dois materiais sinergizarem juntos, não haverá chance de falha. Se não sinergizarem, falhará, e um dos materiais será escolhido aleatoriamente para fornecer um Buff ao equipamento. Este Buff não falhará."
+        },
+        "Infusion Synergies+": {
+            "name": "Sinergias de Infusão+",
+            "desc": "Três materiais podem ser aplicados ao equipamento para fornecer uma variedade de bônus únicos pelo custo de três manas, ouro extra e tempo extra.\n\nIsso funciona exatamente da mesma forma que as Sinergias regulares, exceto que agora você pode adicionar uma gema como um terceiro material. Este terceiro material não afeta se os dois primeiros materiais irão ou não se sinergizar.\n\nEsta gema fornecerá um bônus de nível para o equipamento. Este bônus de nível será aplicado independentemente de a Sinergia funcionar ou não."
+        },
+        "Heroes": {
+            "name": "Heróis",
+            "desc": "Quaisquer heróis que você tenha contratado atualmente permanecerão no Salão dos Heróis. Você poderá abrigar mais heróis aqui à medida que melhorar o edifício."
+        },
+        "Hero Traits": {
+            "name": "Traços de Herói",
+            "desc": "Os traços do herói podem ter um efeito positivo, negativo ou misto no seu herói, dependendo de como você equipa seu herói."
+        },
+        "Hero Equipment": {
+            "name": "Equipamento de Herói",
+            "desc": "A partir das Estatísticas do Herói, você pode acessar o equipamento de um herói.\n\nVocê só pode editar o equipamento de um herói se ele estiver atualmente contratado, vivo e não em uma missão. Algo a considerar antes de dispensar um herói é remover todo o seu equipamento caso você precise dele mais tarde."
+        },
+        "Hero Dismiss": {
+            "name": "Dispensar Herói",
+            "desc": "Quando um herói usa todas as missões do seu contrato, você terá a opção de renovar o contrato para um novo número de missões à sua escolha ou dispensá-los.\n\nSe você dispensá-los, eles voltarão para a Taverna e manterão todo o equipamento que você lhes deu. Na próxima vez que você os contratar, eles ainda terão o mesmo equipamento de quando foram dispensados."
+        },
+        "Hero Revive": {
+            "name": "Reviver Herói",
+            "desc": "Um herói pode desmaiar ao perder uma batalha. Se isso acontecer, você pode pagar ouro para revivê-lo instantaneamente ou esperar que o herói revive automaticamente após um tempo de espera.\n\nA quantidade de ouro necessária para reviver instantaneamente diminuirá à medida que o tempo de espera de revivificação diminuir."
+        },
+        "Hero Consumables": {
+            "name": "Consumíveis de Herói",
+            "desc": "Tocar no botão de torta no menu de Estatísticas do Herói o levará ao menu de Consumíveis do Herói. Quaisquer consumíveis exibidos aqui restaurarão a saúde do seu herói quando consumidos."
+        },
+        "Hero Boosts": {
+            "name": "Impulsos de Herói",
+            "desc": "No menu de Consumíveis do Herói, você também pode aplicar Impulsos do Herói.\n\nUm herói pode ter apenas 1 impulso ativo por vez, mas você pode usar vários do mesmo impulso para estender sua duração. Os efeitos do impulso não se empilham, no entanto. O efeito do impulso será aplicado apenas uma vez, não importa quantas vezes seja usado."
+        },
+        "Party Battles": {
+            "name": "Batalhas de Grupo",
+            "desc": "Ocasionalmente, você encontrará inimigos fortes que exigem múltiplos heróis para derrotar. Para entrar na luta, um herói deve primeiro atender ao requisito de nível da localização.\n\nA ordem de turno é indicada pelo número exibido abaixo do nível de cada herói quando colocado na disposição do grupo.\n\nUm inimigo difícil pode derrotar seu grupo a princípio, mas o inimigo permanecerá enfraquecido se você conseguir causar dano suficiente para ultrapassar uma marca em sua barra de HP para uma luta mais fácil na próxima vez. Seja rápido, porém, pois o inimigo se curará lentamente ao longo do tempo!"
+        },
+        "Guild Quick Join": {
+            "name": "Entrada Rápida da Guilda",
+            "desc": "Usar este recurso o colocará em uma guilda comunitária.\n\nGuildas comunitárias não têm líder e não podem participar das Ligas de Guilda. É recomendado para novos jogadores."
+        },
+        "Guild Chat": {
+            "name": "Bate-papo da Guilda",
+            "desc": "O Chat da Guilda é um lugar para você e seus companheiros de guilda se comunicarem e visualizarem um registro de várias atividades dentro da guilda.\n\nSinta-se à vontade para conversar, mas certifique-se de ser amigável ou eles podem te expulsar!\n\nVocê também pode fazer solicitações aos seus companheiros de guilda e contribuir com as solicitações dos seus companheiros de guilda."
+        },
+        "Guild Requests": {
+            "name": "Pedidos da Guilda",
+            "desc": "No Menu de Pedido da Guilda, colegas de guilda podem solicitar e receber itens uns dos outros. Isso é limitado apenas a materiais que você já descobriu.\n\nA quantidade de materiais que você pode solicitar depende da raridade do material desejado.\n\nAo fazer um pedido, você deve esperar até que a quantidade completa de solicitação seja atendida ou até que o temporizador do pedido expire antes de coletar quaisquer itens disponíveis.\n\nUma vez que o pedido esteja completo, você terá um período determinado para coletar os itens ou então eles serão automaticamente descartados."
+        },
+        "Building Experience": {
+            "name": "Experiência de Construção",
+            "desc": "Ao tocar no botão de martelo na tela da Cidade, você pode acessar o menu de upgrade de edifícios. Aqui você pode contribuir com ouro ou materiais para aumentar o nível dos edifícios e desbloquear upgrades, que são compartilhados por toda a sua Guilda.\n\nUma vez que você contribui para um edifício, você não pode recuperar o ouro.\n\nSe você sair da sua Guilda, levará toda a sua experiência de construção consigo, mas ela será aplicada automaticamente à contribuição total dos edifícios da próxima Guilda que você se juntar.\n\nPara receber os benefícios de nível de um edifício, há um valor mínimo que você deve doar por nível. Por exemplo, sua guilda pode ter uma Loja no nível 3, mas como você não contribuiu muito para a Loja, pode estar recebendo apenas os benefícios do nível 1.\n\nPor outro lado, você mantém os benefícios máximos que já recebeu, mesmo quando a guilda perde investidores ou você muda de guilda.\n\nPor exemplo, digamos que você esteja em uma guilda de 2 pessoas. O outro membro ganhou muita experiência com o Portão da Cidade para que Yarsol fosse desbloqueado. Você pode ter contribuído apenas o valor mínimo para que possa fazer missões em Yarsol, mas eles fizeram o resto. Se a outra pessoa deixar a guilda, você ainda poderá fazer missões em Yarsol, no entanto, não desbloqueará novos locais até que você atualize o edifício de volta ao seu nível de benefício."
+        },
+        "Building Top Investor": {
+            "name": "Investidor de Destaque em Construções",
+            "desc": "O jogador com mais investimento em um edifício será exibido na tela de atualização do edifício. Apenas como uma competição amistosa!\n\nVocê pode ver como você e seus outros companheiros de guilda se comparam ao alternar para a \"visão do investidor\" na tela de atualização do edifício."
+        },
+        "Building Material Investment": {
+            "name": "Investimento em Materiais de Construção",
+            "desc": "Você e seus companheiros de guilda podem contribuir com materiais para cada edifício da cidade uma vez por dia. O valor dos materiais será adicionado ao total do investimento em ouro do edifício, com um multiplicador adicional baseado no número total de membros da guilda que contribuíram. Quanto mais, melhor!\n\nAo contrário dos investimentos em ouro, no entanto, as doações de materiais permanecerão com a guilda mesmo após a sua saída."
+        },
+        "Guild Leagues": {
+            "name": "Ligas da Guilda",
+            "desc": "Cada semana, as guildas competirão em um torneio contra outras guildas da mesma liga.\n\nOs membros da guilda devem trabalhar juntos para completar um conjunto de missões cada vez mais difíceis. Quando sua guilda completa uma etapa da missão, você recebe um grande bônus de pontos. Este bônus aumenta a cada etapa.\n\nDependendo do desempenho da sua guilda, você pode ser promovido, rebaixado ou não ter movimento de liga. O movimento da sua guilda é determinado no final da guerra da liga.\n\nNo final da guerra da liga, há um curto tempo de espera antes que a próxima comece.\n\nÀ medida que sua guilda sobe pelas ligas, a guilda ganha poderosos bônus. Esses bônus estão disponíveis para todos os membros.\n\nSe um jogador entrar em uma guilda no meio da guerra, ele não poderá participar das missões até a próxima guerra da liga.\n\nSe uma guilda for criada no meio da guerra, ela não poderá participar das guerras da liga até a próxima semana."
+        },
+        "Hirable Heroes": {
+            "name": "Heróis para Contratação",
+            "desc": "Na Taberna, você encontrará quaisquer heróis desempregados atualmente disponíveis para serem contratados. Podem haver poucos disponíveis no início, mas ao melhorar sua Taberna, mais heróis serão desbloqueados para contratação.\n\nQualquer herói empregado que você dispensar retornará aqui para que você possa contratá-lo novamente no futuro também."
+        },
+        "Hero Contracts": {
+            "name": "Contratos de Herói",
+            "desc": "Se você quer que um herói trabalhe para você, primeiro deve contratá-lo com um contrato. Você tem a opção de contratar um herói por um número definido de cargas de missões indicado pelo ícone de raio, em troca de uma quantidade definida de ouro.\n\nAo realizar missões, uma carga será usada independentemente de o herói vencer ou perder. Uma vez que o contrato é completo, você pode escolher renovar ou dispensar.\n\nVocê pode aumentar o número de opções por período de tempo ao melhorar o nível do herói na loja. Certifique-se de manter um relacionamento saudável com o talento local, pois isso pode afetar seus preços e mais!"
+        },
+        "Tavern Gold": {
+            "name": "Ouro da Taverna",
+            "desc": "Sua Taverna acumulará ouro lentamente ao longo do tempo, que pode ser coletado a partir de um botão localizado acima da Taverna na tela da cidade.\n\nMelhorias na Taverna às vezes desbloqueiam geração de ouro mais rápida, então certifique-se de investir neste estabelecimento local!"
+        },
+        "Workers": {
+            "name": "Trabalhadores",
+            "desc": "Todos os trabalhadores que você desbloqueou serão mantidos no Quartel dos Trabalhadores.\n\nAtualizar este edifício irá desbloquear novos locais para seus trabalhadores trabalharem. Você também pode receber tipos adicionais de contratos à medida que atualiza o Quartel dos Trabalhadores."
+        },
+        "Hiring Workers": {
+            "name": "Contratação de Trabalhadores",
+            "desc": "Quando você está enviando um trabalhador para trabalhar, pode escolher por quanto tempo ele trabalhará. Certifique-se de escolher um período de tempo apropriado, pois não será possível chamá-los de volta mais cedo. Você pode aumentar o número de opções por período de tempo ao subir de nível o trabalhador na loja. Eles só retornarão quando terminarem. Certifique-se de manter um bom relacionamento com o talento local, pois isso pode afetar seus preços e mais!"
+        }
+    },
+    "combat": {
+        "max_hp": {
+            "name": "Vida Máxima",
+            "desc": "Pontos máximos de vida. Aumentarão ao subir de nível ou com certos equipamentos e impulsos"
+        },
+        "atk": {
+            "name": "Ataque",
+            "desc": "Tipo de dano físico. Funciona contra def"
+        },
+        "matk": {
+            "name": "Machado",
+            "desc": "Tipo de dano mágico. Funciona contra a defm"
+        },
+        "acc": {
+            "name": "Ace",
+            "desc": "Precisão. Funciona contra evasão"
+        },
+        "crit": {
+            "name": "Gritar",
+            "desc": "Golpe Crítico. Valor é chance de crit., valor máximo é 100"
+        },
+        "crit_mod": {
+            "name": "Mod Crít",
+            "desc": "Modificador de Ataque Crítico. Um multiplicador para o dano que você causará se acertar um crítico"
+        },
+        "def": {
+            "name": "Def",
+            "desc": "Defesa Física. Funciona contra ataques"
+        },
+        "mdef": {
+            "name": "DefM",
+            "desc": "Defesa Mágica. Funciona contra atk mágj"
+        },
+        "eva": {
+            "name": "Eva",
+            "desc": "Evasão. Funciona contra precisão"
+        },
+        "str": {
+            "name": "Força",
+            "desc": "Força. Aumenta o atk e def"
+        },
+        "int": {
+            "name": "Intelijência",
+            "desc": "Inteligência. Aumenta atk mágico e def mágica"
+        },
+        "agi": {
+            "name": "Esquilos",
+            "desc": "Agilidade. Aumenta acc e eva"
+        },
+        "incHeal": {
+            "name": "Cura Imediata",
+            "desc": "Aumenta a cura recebida durante o combate"
+        },
+        "outHeal": {
+            "name": "Cura Emitida",
+            "desc": "Aumenta a cura realizada durante o combate"
+        },
+        "luck": {
+            "name": "Sorte",
+            "desc": "Aumenta as recompensas das missões"
+        },
+        "exp": {
+            "name": "Experiência",
+            "desc": "Experiência. Aumenta a experiência obtida para heróis"
+        },
+        "speed": {
+            "name": "Velocidade",
+            "desc": "Velocidade. Faça os heróis completarem missões mais rapido"
+        },
+        "fire": {
+            "name": "Fogo",
+            "desc": "Escalas com matk, reduzido por mdef"
+        },
+        "poison": {
+            "name": "Veneno",
+            "desc": "Escala com base no atk, reduzido pela def"
+        },
+        "bleed": {
+            "name": "Sangrar",
+            "desc": "Escalas com base no atk, dano verdadeiro"
+        },
+        "soul_fire": {
+            "name": "Fogo das Almas",
+            "desc": "Escalas com mágika, dano verdadeiro"
+        },
+        "heal": {
+            "name": "Cura",
+            "desc": "Curar hp"
+        },
+        "ap": {
+            "name": "AP: maxilar de jabberwock, veneno de basilisco, seta encantada, pergaminho de cura, poção de invisibilidade.",
+            "desc": "Ponto de ação. Habilidades usam uma quantidade específica de pontos de ação"
+        },
+        "buff": {
+            "name": "Benefício",
+            "desc": "Aumentar um atributo"
+        },
+        "debuff": {
+            "name": "Penalidade",
+            "desc": "Diminuir um atributo"
+        },
+        "estimate": {
+            "name": "Estimativa",
+            "desc": "Pode ser maior ou menor que o valor"
+        },
+        "turns": {
+            "name": "Turnos",
+            "desc": "Se alguém lançar uma habilidade que tenha um efeito por 1 turno, esse efeito durará até que seja o turno do lançador novamente"
+        },
+        "self": {
+            "name": "Auto",
+            "desc": "O lançador de uma habilidade"
+        },
+        "ally": {
+            "name": "Aliado",
+            "desc": "Um herói específico no grupo, não o lançador da habilidade"
+        },
+        "party": {
+            "name": "Grupo",
+            "desc": "Aplicável a todos os heróis em um grupo"
+        },
+        "target": {
+            "name": "Alvo",
+            "desc": "Receptor de uma habilidade lançada"
+        },
+        "shield": {
+            "name": "Escudo",
+            "desc": "Um escudo extra com uma quantidade especificada de saúde e proteção"
+        },
+        "taunt": {
+            "name": "Provocação",
+            "desc": "O próximo ataque de alvo único atacará este herói em vez disso"
+        },
+        "silence": {
+            "name": "Silêncio",
+            "desc": "Remove todos os buffs, provocações e escudos do destinatário"
+        },
+        "leech": {
+            "name": "Sanguessuga",
+            "desc": "Uma porção do dano causado cura o lançador"
+        },
+        "true_damage": {
+            "name": "Dano Verdadeiro",
+            "desc": "Dano que ignora defesas"
+        },
+        "cleanse": {
+            "name": "Purificação",
+            "desc": "Remove todos os debuffs, silêncio, atordoamentos, dano contínuo"
+        },
+        "reflect": {
+            "name": "Refletir",
+            "desc": "Parte do dano que teria sido causado é devolvido ao atacante"
+        },
+        "stun": {
+            "name": "Atordoar",
+            "desc": "Faz o destinatário pular sua próxima vez"
+        },
+        "pent": {
+            "name": "Pentáculo",
+            "desc": "Penetração. Ignorar uma quantidade de proteções"
+        },
+        "chance": {
+            "name": "Chance",
+            "desc": "Não garantido, aumenta com sorte"
+        },
+        "block": {
+            "name": "Bloco",
+            "desc": "Reduzir a quantidade de dano recebido"
+        },
+        "steal": {
+            "name": "Roubar",
+            "desc": "Pegue uma quantidade de algo do alvo e dê para si mesmo. Se for por duração limitada, ao final da duração a quantidade roubada é removida do lançador original e retornada ao alvo original"
+        },
+        "dodge": {
+            "name": "Esquiva",
+            "desc": "Evite totalmente receber dano"
+        },
+        "rotation": {
+            "name": "Rotação",
+            "desc": "Move o grupo 1 posição no sentido horário"
+        },
+        "swap": {
+            "name": "Troca",
+            "desc": "2 membros do grupo trocam de posição"
+        }
+    },
+    "inGameTips": {
+        "1": {
+            "name": "Os heróis na cidade são seus amigos, dê a eles um apelido!",
+            "desc": ""
+        },
+        "2": {
+            "name": "Você pode renomear as habilidades do seu herói!",
+            "desc": ""
+        },
+        "3": {
+            "name": "Ao escolher uma quantidade de algo, toque no número para inserir um número personalizado",
+            "desc": ""
+        },
+        "4": {
+            "name": "Alguns clientes vêm à loja com menos frequência do que outros",
+            "desc": ""
+        },
+        "5": {
+            "name": "Alguns inimigos possuem habilidades perigosas! Verifique o Compêndio para ataques conhecidos",
+            "desc": ""
+        },
+        "6": {
+            "name": "Um funcionário da Retora nunca pedirá sua senha!",
+            "desc": ""
+        },
+        "7": {
+            "name": "Você pode desbloquear mais opções de contrato de herói vendendo para esse herói em sua loja",
+            "desc": ""
+        },
+        "8": {
+            "name": "Dê aos seus trabalhadores um acordo que eles gostem! Eles podem trabalhar mais e trazer mais materiais para você!",
+            "desc": ""
+        },
+        "9": {
+            "name": "Se você dispensar um herói, ele retornará à Taverna, disponível para ser contratado novamente a qualquer momento",
+            "desc": ""
+        },
+        "10": {
+            "name": "Há uma chance de um artesão ganhar um ponto de mana após criar um item",
+            "desc": ""
+        },
+        "11": {
+            "name": "Seu progresso não está vinculado à sua Guilda. Se você decidir trocar, manterá seu progresso.",
+            "desc": "Joe"
+        },
+        "12": {
+            "name": "Os clientes preferem alguns itens mais do que outros e estão dispostos a pagar preços consideravelmente mais altos por eles",
+            "desc": "Edna"
+        },
+        "13": {
+            "name": "Heróis não devem ficar sempre no meio",
+            "desc": "The Banana"
+        },
+        "14": {
+            "name": "A primeira fileira nas batalhas de grupo tende a ser mais atacada. Armadura e saúde são importantes!",
+            "desc": "The Cleric"
+        },
+        "15": {
+            "name": "Confira o Discord para guildas, dicas, códigos promocionais ou se você tiver alguma dúvida!",
+            "desc": "Dorce"
+        },
+        "16": {
+            "name": "Os Combates da Liga começam todas as segundas-feiras. Contribua para ganhar mais recompensas!",
+            "desc": ""
+        },
+        "17": {
+            "name": "Apoiadores do Patreon têm acesso aos bastidores, conteúdo especial e mais!",
+            "desc": ""
+        },
+        "18": {
+            "name": "Apoie-nos no Patreon para votar em novo conteúdo e escolher nomes para novos conteúdos!",
+            "desc": ""
+        },
+        "19": {
+            "name": "Você sabia que os apoiadores do Patreon veem conteúdo antes de ser lançado?",
+            "desc": ""
+        },
+        "20": {
+            "name": "Você pode tocar e segurar a maioria dos itens para obter mais informações!",
+            "desc": ""
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "9": "La leyenda dice que vaga por el Bosque del Escarabajo",
+    "22": "La leyenda dice que merodea por la Fosa de las Serpientes",
+    "27": "La leyenda dice que deambula por el Santuario de las Arañas",
+    "32": "La leyenda dice que deambula por el Lago de Hogger",
+    "37": "La leyenda dice que merodea por la Cueva del Corte Cross.",
+    "42": "Segundo al mando en el Fuerte Goblin",
+    "47": "Comandante del Fuerte Goblin",
+    "48": "La leyenda dice que deambula por la Guarida de Ursa",
+    "53": "La leyenda dice que deambula por la Grieta Confinada.",
+    "58": "La leyenda dice que deambula por la Isla Tortuga"
+}

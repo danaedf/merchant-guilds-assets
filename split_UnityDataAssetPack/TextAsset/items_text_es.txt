@@ -1,0 +1,2288 @@
+{
+    "materials": {
+        "1": {
+            "name": "Tronco de roble",
+            "desc": "Madera utilizada para hacer tablones de roble"
+        },
+        "2": {
+            "name": "Mineral de hierro",
+            "desc": "Mineral usado para hacer lingotes de hierro"
+        },
+        "3": {
+            "name": "Madera de roble",
+            "desc": "Madera refinada utilizada para fabricar armas"
+        },
+        "4": {
+            "name": "Lingote de hierro",
+            "desc": "Metal fiable usado para fabricar armas"
+        },
+        "5": {
+            "name": "Tela de cáñamo",
+            "desc": "Tela tejida usada para hacer armaduras"
+        },
+        "6": {
+            "name": "Placa de hierro",
+            "desc": "Placa reforzada utilizada para hacer armaduras"
+        },
+        "7": {
+            "name": "Fibra de cáñamo",
+            "desc": "Fibra utilizada para hacer tela de cáñamo"
+        },
+        "8": {
+            "name": "Trozo de Hierro",
+            "desc": "Trozo usado para hacer Placas de Hierro"
+        },
+        "9": {
+            "name": "Raíces de Tuvale",
+            "desc": "Raíces usadas en alimentos, aún saben a tierra"
+        },
+        "10": {
+            "name": "Musgo de Tuvale",
+            "desc": "Musgo usado en comida, todavía sabe a rocas"
+        },
+        "11": {
+            "name": "Corteza de Tuvale",
+            "desc": "Corteza de Tuvale, versátil para armas y armaduras"
+        },
+        "12": {
+            "name": "Minerales de Tuvale",
+            "desc": "Minerales de Tuvale, versátiles para armas y armaduras"
+        },
+        "13": {
+            "name": "Quitina de Escarabajo",
+            "desc": "Quitina de escarabajo endurecida utilizada para hacer armaduras"
+        },
+        "14": {
+            "name": "Mandíbula de escarabajo",
+            "desc": "Mandíbula endurecida de escarabajo usada para armas"
+        },
+        "15": {
+            "name": "Caparazón de Escarabajo Gigante",
+            "desc": "Caparazón gigante de un escarabajo utilizado para hacer armaduras"
+        },
+        "16": {
+            "name": "Corazón de Escarabajo",
+            "desc": "El corazón aún palpitante de un escarabajo usado en alimentos"
+        },
+        "17": {
+            "name": "Pata de Araña",
+            "desc": "Pierna de arañas utilizada para hacer armas"
+        },
+        "18": {
+            "name": "Seda de araña",
+            "desc": "Seda de arañas utilizada para fabricar armaduras"
+        },
+        "19": {
+            "name": "Ojo de Araña",
+            "desc": "Ojo de arañas usado para hacer amuletos"
+        },
+        "20": {
+            "name": "Escama de Serpiente",
+            "desc": "Escama de serpientes utilizada para fabricar armas"
+        },
+        "21": {
+            "name": "Veneno de Serpiente",
+            "desc": "Veneno de serpientes utilizado para hacer armas"
+        },
+        "22": {
+            "name": "Colmillo de serpiente",
+            "desc": "Colmillo de serpientes usado para fabricar armas"
+        },
+        "23": {
+            "name": "Piel de Jabalí",
+            "desc": "Piel de jabalí utilizada para hacer armaduras"
+        },
+        "24": {
+            "name": "Colmillo de Jabalí",
+            "desc": "Colmillo de jabalíes usado para hacer armas"
+        },
+        "25": {
+            "name": "Colmillo de Jabalí Encantado",
+            "desc": "Colmillo mágico de jabalíes utilizado para fabricar armas"
+        },
+        "26": {
+            "name": "Piel de Lobo",
+            "desc": "Piel de lobo utilizada para hacer armadura"
+        },
+        "27": {
+            "name": "Pata de lobo",
+            "desc": "Garra de lobo usada para hacer armadura"
+        },
+        "28": {
+            "name": "Cráneo de lobo",
+            "desc": "Cabeza de lobo usada para fabricar armadura"
+        },
+        "29": {
+            "name": "Corazón de Lobo Alfa",
+            "desc": "Corazón aún palpitante de un lobo alfa usado para hacer armaduras y alimentos robustos"
+        },
+        "30": {
+            "name": "Tela de goblin",
+            "desc": "Un trozo de tela caído de un Goblin abatido usado para fabricar armaduras"
+        },
+        "31": {
+            "name": "Empuñadura de Goblin",
+            "desc": "Empuñadura de un arma goblin utilizada para fabricar armas"
+        },
+        "32": {
+            "name": "Espada de Goblin",
+            "desc": "Hoja forjada por hábiles goblins, utilizada para fabricar armas"
+        },
+        "33": {
+            "name": "Armadura de Duende",
+            "desc": "Placa forjada por habilidosos goblins, utilizada para hacer armaduras"
+        },
+        "34": {
+            "name": "Vara de duende",
+            "desc": "Vara de goblin utilizada para fabricar armas"
+        },
+        "35": {
+            "name": "Espada Maldita de Duende",
+            "desc": "Hoja maldita por la muerte vengativa de un Goblin, usada para fabricar armas"
+        },
+        "36": {
+            "name": "Hoja de Duende Oculta",
+            "desc": "Hoja de duende capaz de ser ocultada, utilizada para fabricar armas"
+        },
+        "37": {
+            "name": "Piedra de Concentración Goblin",
+            "desc": "Piedra mágica poseída por Goblins de mente superior, usada para hacer baratijas"
+        },
+        "38": {
+            "name": "Libro de Goblin",
+            "desc": "Tomo de secretos goblin, versátil para armas y armaduras"
+        },
+        "39": {
+            "name": "Sello de Goblin",
+            "desc": "Sello de goblins renombrados, usado en reliquias"
+        },
+        "40": {
+            "name": "Emblema del Señor de la Guerra Goblin",
+            "desc": "Emblema de los guerreros goblin más temibles, los Señores de la Guerra Goblin"
+        },
+        "41": {
+            "name": "Piel de Oso",
+            "desc": "Piel de osos usada en armaduras"
+        },
+        "42": {
+            "name": "Garras de Oso",
+            "desc": "Garra de osos versátil para armas y armaduras"
+        },
+        "43": {
+            "name": "Tocado de Ursain",
+            "desc": "Ornamento para la cabeza del gran oso, versátil para armas y armaduras"
+        },
+        "44": {
+            "name": "Coraza Ursina",
+            "desc": "Coraza del gran oso, usada para hacer armaduras"
+        },
+        "45": {
+            "name": "Madera Antigua de Tuvale",
+            "desc": "Madera de roble antiguo de Tuvale, versátil para armas y armaduras"
+        },
+        "46": {
+            "name": "Piedra Arcana",
+            "desc": "Piedra extraña que emite magia fuerte, utilizada para hacer amuletos"
+        },
+        "47": {
+            "name": "Amuleto del Bosque",
+            "desc": "Amuleto del Bosque Tuvale, versátil para baratijas y armaduras"
+        },
+        "48": {
+            "name": "Esencia de Vida del Bosque",
+            "desc": "Esencia de los grandes Gólems de Tuvale, versátil para baratijas y armaduras"
+        },
+        "49": {
+            "name": "Cristal del Bosque",
+            "desc": "Cristal fosilizado del Bosque Tuvale, utilizado para hacer Esmeraldas"
+        },
+        "50": {
+            "name": "Esmeralda",
+            "desc": "Cristales de Bosque Refinados utilizados para hacer Runas Verdes"
+        },
+        "51": {
+            "name": "Runa Verde",
+            "desc": "Magia más estable del Bosque Tuvale"
+        },
+        "52": {
+            "name": "Ojo de Maexna",
+            "desc": "Ojo de Maexna usado para hacer armas"
+        },
+        "53": {
+            "name": "Mineral de cobalto",
+            "desc": "Mineral usado para hacer Lingotes de Cobalto"
+        },
+        "54": {
+            "name": "Lingote de cobalto",
+            "desc": "Metal especulativo utilizado para fabricar armas"
+        },
+        "55": {
+            "name": "Tronco de tejo",
+            "desc": "Madera utilizada para fabricar Maderas de Tejo"
+        },
+        "56": {
+            "name": "Madera de tejo",
+            "desc": "Madera tratada utilizada para fabricar armas"
+        },
+        "57": {
+            "name": "Raíces de ciprés",
+            "desc": "Raíces usadas en la comida, tiene un aroma a moho"
+        },
+        "58": {
+            "name": "Fibra de Junco",
+            "desc": "Fibra utilizada para hacer tela de junco"
+        },
+        "59": {
+            "name": "Tela de junco",
+            "desc": "Tela entrelazada utilizada para hacer armaduras"
+        },
+        "60": {
+            "name": "Trozo de Cobalto",
+            "desc": "Trozo utilizado para hacer Placas de Cobalto"
+        },
+        "61": {
+            "name": "Armadura de Cobalto",
+            "desc": "Placa mejorada usada para hacer armaduras"
+        },
+        "62": {
+            "name": "Coral",
+            "desc": "Coral de Gólems de Yarsol, utilizado para hacer armaduras"
+        },
+        "63": {
+            "name": "Escama de Lagarto",
+            "desc": "Escama de lagartos usada para fabricar armaduras"
+        },
+        "64": {
+            "name": "Tentáculo de medusa",
+            "desc": "Tentáculo de medusa utilizado para hacer armadura"
+        },
+        "65": {
+            "name": "Sargazo",
+            "desc": "Bilis de tortugas, versátil para armas y armaduras"
+        },
+        "66": {
+            "name": "Mandíbula de Asaltarena",
+            "desc": "Cabeza de un atacante de arena usada para fabricar armaduras"
+        },
+        "67": {
+            "name": "Pata de Rana Gigante",
+            "desc": "Pierna de una rana gigante usada para hacer armaduras"
+        },
+        "68": {
+            "name": "Pluma de Albatros",
+            "desc": "Pluma de albatros utilizada para hacer armaduras"
+        },
+        "69": {
+            "name": "Tela de kobold",
+            "desc": "Un retazo de tela soltado por un Kobold abatido, utilizado para hacer armaduras"
+        },
+        "70": {
+            "name": "Lanza de Kobold",
+            "desc": "Palo roto de un arma de Kobold muerto usado para fabricar armas"
+        },
+        "71": {
+            "name": "Empuñadura de Kobold",
+            "desc": "Empuñadura de un arma Kobold utilizada para hacer armas"
+        },
+        "72": {
+            "name": "Pergamino de Agua",
+            "desc": "Pergamino de secretos Kobold, versátil para armas y armaduras"
+        },
+        "73": {
+            "name": "Ceniza Acuática",
+            "desc": "Ceniza mística soltada por un kobold divino, versátil para todo el equipo"
+        },
+        "74": {
+            "name": "Reliquia de Kobold",
+            "desc": "Reliquia de máxima importancia para el Kobold utilizada para hacer armaduras"
+        },
+        "75": {
+            "name": "Garra de Albatros",
+            "desc": "Garra de albatros utilizada para hacer armaduras"
+        },
+        "76": {
+            "name": "Pinza de Cangrejo",
+            "desc": "Garra de cangrejo utilizada para hacer armas"
+        },
+        "77": {
+            "name": "Toxina de medusa",
+            "desc": "Toxina de medusa utilizada para fabricar armas"
+        },
+        "78": {
+            "name": "Caparazón de Tortuga",
+            "desc": "Caparazón de tortugas utilizado para hacer armaduras"
+        },
+        "79": {
+            "name": "Restos Devorados",
+            "desc": "Montón mutilado de cadáveres de héroes del pasado, utilizado para hacer armaduras."
+        },
+        "80": {
+            "name": "Caparazón de cangrejo",
+            "desc": "Caparazón de cangrejo usado para hacer armadura"
+        },
+        "81": {
+            "name": "Saco Parotídeo",
+            "desc": "Glándula de rana usada para hacer armas"
+        },
+        "82": {
+            "name": "Madera a la deriva",
+            "desc": "Madera inquietante utilizada para fabricar armas"
+        },
+        "83": {
+            "name": "Piedra Fluorescente",
+            "desc": "Piedra radiante utilizada para fabricar armas"
+        },
+        "84": {
+            "name": "Garra de lagarto",
+            "desc": "Garra de lagarto usada para fabricar armas"
+        },
+        "85": {
+            "name": "Escama de kobold",
+            "desc": "Desprendimiento de Kobold, versátil para armas y armaduras"
+        },
+        "86": {
+            "name": "Cobalto Imbuido",
+            "desc": "Cobalto refinado forjado por hábiles Kobolds, usado para fabricar armas"
+        },
+        "87": {
+            "name": "Hoja Agitada",
+            "desc": "Hoja del kobold enfurecido, utilizada para fabricar armas"
+        },
+        "88": {
+            "name": "Sedimento Arcano",
+            "desc": "Sedimento mágico, versátil para armas y armaduras"
+        },
+        "89": {
+            "name": "Crux Alcalina",
+            "desc": "Esencia divina de un Kobold, versátil para armas y armaduras"
+        },
+        "90": {
+            "name": "Médula Antigua",
+            "desc": "Huesos de un Kobold renombrado, versátiles para armas y armaduras"
+        },
+        "91": {
+            "name": "Nebulosa Gigante",
+            "desc": "Pico de gran Albatros utilizado para fabricar armas"
+        },
+        "92": {
+            "name": "Esfera de Hidro",
+            "desc": "Fuerza vital de un gran Lagarto de Arena, versátil para todo tipo de equipamiento"
+        },
+        "93": {
+            "name": "Membrana Carnosa",
+            "desc": "Membrana de una gran medusa utilizada para hacer armaduras"
+        },
+        "94": {
+            "name": "Minerales del Arrecife",
+            "desc": "Material de percebes de una gran tortuga, versátil para baratijas y armaduras"
+        },
+        "95": {
+            "name": "Exoesqueleto del Golpeador de Arena",
+            "desc": "Exoesqueleto de Gigante Golpeador de Arena, usado para fabricar armaduras"
+        },
+        "96": {
+            "name": "Pata de Marináchnido",
+            "desc": "Pata de cangrejo similar a una araña utilizada para fabricar armas"
+        },
+        "97": {
+            "name": "Piel Verrugosa",
+            "desc": "Piel rugosa de rana, versátil para armas y armaduras"
+        },
+        "98": {
+            "name": "Amuleto Costero",
+            "desc": "Encantamiento de la Costa de Yarsol, versátil para baratijas y armaduras"
+        },
+        "99": {
+            "name": "Esencia Costera de Agua",
+            "desc": "Esencia de los grandes Gólems Yarsol, versátil para amuletos y armaduras"
+        },
+        "100": {
+            "name": "Cristal de arenisca",
+            "desc": "Cristal fosilizado de la Costa de Yarsol, versátil para Aguamarina y armas"
+        },
+        "101": {
+            "name": "Aguamarina",
+            "desc": "Cristales de Piedra Arenisca Refinada usados para hacer Runas de Lazulita"
+        },
+        "102": {
+            "name": "Runa de Lazulita",
+            "desc": "La magia más estable de la Costa de Yarsol, versátil para baratijas y armaduras"
+        },
+        "150": {
+            "name": "Mena de titanio",
+            "desc": "Mineral utilizado para hacer Lingotes de Titanio"
+        },
+        "151": {
+            "name": "Lingote de titanio",
+            "desc": "Metal robusto usado para hacer armas"
+        },
+        "152": {
+            "name": "Trozo de Titanio",
+            "desc": "Trozo utilizado para fabricar Placas de Titanio"
+        },
+        "153": {
+            "name": "Placa de titanio",
+            "desc": "Placa robusta utilizada para hacer armaduras"
+        },
+        "154": {
+            "name": "Tronco de Aullespino",
+            "desc": "Madera utilizada para hacer Maderas de Acerorojo"
+        },
+        "155": {
+            "name": "Madera de Aullespino",
+            "desc": "Madera mejorada utilizada para fabricar armas"
+        },
+        "156": {
+            "name": "Centeno de las Tierras Altas",
+            "desc": "Fibra utilizada para hacer Tela de las Tierras Altas"
+        },
+        "157": {
+            "name": "Tela de las Tierras Altas",
+            "desc": "Tela poderosa utilizada para fabricar armaduras"
+        },
+        "158": {
+            "name": "Avena",
+            "desc": "Va perfecto en una avena"
+        },
+        "159": {
+            "name": "Rebozuelo",
+            "desc": "Aromas de las tierras altas"
+        },
+        "160": {
+            "name": "Piel de Aldurnian",
+            "desc": "Piel de animales encontrados en las tierras altas"
+        },
+        "161": {
+            "name": "Cuerno Alpino",
+            "desc": "Astas endurecidas de animales encontrados en las tierras altas"
+        },
+        "162": {
+            "name": "Pezuña Desgastada de Piedra",
+            "desc": "Pezuña usada para escalar montañas"
+        },
+        "163": {
+            "name": "Cuerno de Carnero",
+            "desc": "Gran cuerno de un gran carnero"
+        },
+        "164": {
+            "name": "Pluma de Roc",
+            "desc": "Pluma de un Roc"
+        },
+        "165": {
+            "name": "Ala esquelética de Roc",
+            "desc": "Esqueleto anormalmente grande de un Roc"
+        },
+        "166": {
+            "name": "Tela Fantasmal",
+            "desc": "Un trozo de tela de otro mundo"
+        },
+        "167": {
+            "name": "Llama Descarriada",
+            "desc": "Usado para atraer a las almas perdidas"
+        },
+        "168": {
+            "name": "Espino aullador petrificado",
+            "desc": "Espino endurecido utilizado para fabricar armas"
+        },
+        "169": {
+            "name": "Hoja de Guadaña Espiritual",
+            "desc": "Cristales de las Tierras Altas Refinados, usados para hacer Runas de Crimsonita"
+        },
+        "170": {
+            "name": "Pelos de Yak",
+            "desc": "Formaciones rocosas en la espalda de un Yak"
+        },
+        "171": {
+            "name": "Chusco de Yak",
+            "desc": "Trozo de un Yak"
+        },
+        "172": {
+            "name": "Cabeza del Cambiapieles",
+            "desc": "Emite un aullido bajo"
+        },
+        "173": {
+            "name": "Pluma de Roc Dorado",
+            "desc": "De alguna manera permite volar a pesar de ser tan pesado como una roca"
+        },
+        "174": {
+            "name": "Púa de Cola de Dragón",
+            "desc": "Púa de cola de un draco"
+        },
+        "175": {
+            "name": "Costillas de draco",
+            "desc": "Costillas de un dragón"
+        },
+        "176": {
+            "name": "Saco de Ácido",
+            "desc": "Saco ubicado en la boca de algunos Dragones que permite escupir"
+        },
+        "177": {
+            "name": "Vaudnita",
+            "desc": "Cuando se combina con Lingotes de Titanio puede crear una nueva aleación"
+        },
+        "178": {
+            "name": "Cadena de Huesos de Ogro",
+            "desc": "Huesos surtidos convertidos en cadena por Ogros"
+        },
+        "179": {
+            "name": "Gorp de Ogro",
+            "desc": "Comida extraña de ogro"
+        },
+        "180": {
+            "name": "Clavícula Doble Fusionada",
+            "desc": "Hueso de cuello de ogro anormal"
+        },
+        "181": {
+            "name": "Musgo del Lago Luciente",
+            "desc": "Musgo encontrado en el vientre de los lagos"
+        },
+        "182": {
+            "name": "Quitina de Cuello de Loch",
+            "desc": "Alga solidificada fusionada con secreción del cuello de Loch"
+        },
+        "183": {
+            "name": "Placa Craneal de Loch",
+            "desc": "Placa ósea de cabeza de Loch curtida en batalla"
+        },
+        "184": {
+            "name": "Corazón de Monte-Espalda",
+            "desc": "Se dice que proporciona a su portador profecías divinas"
+        },
+        "185": {
+            "name": "Pluma de Arpía",
+            "desc": "Pluma de Arpías"
+        },
+        "186": {
+            "name": "Chatarra de Chatarrero",
+            "desc": "Chatarra de metal de arpía"
+        },
+        "187": {
+            "name": "Garra del Chatarrero",
+            "desc": "Garra de batalla hecha por arpía"
+        },
+        "188": {
+            "name": "Cabeza de Hacha de Arpía",
+            "desc": "Cabeza de hacha hecha por arpía"
+        },
+        "189": {
+            "name": "Sombrero de Harpía",
+            "desc": "Tocado de una guerrera arpía de élite"
+        },
+        "190": {
+            "name": "Vara de arpía",
+            "desc": "Varita hecha por arpía"
+        },
+        "191": {
+            "name": "Compendio de la Arpía",
+            "desc": "Pequeña fuente de magia aldurniana"
+        },
+        "192": {
+            "name": "Artefacto Imbuido Solar",
+            "desc": "Runa utilizada por los Magos Harpías para armas mágicas"
+        },
+        "193": {
+            "name": "Delicia de Roc",
+            "desc": "Utilizado por las Arpías para entrenar y comandar a los Rocs"
+        },
+        "194": {
+            "name": "Placa de Vautanio",
+            "desc": "Aleación hecha de Placas de Titanio y Vaudnita"
+        },
+        "195": {
+            "name": "Cortavientos Aéreo",
+            "desc": "Cuchillas unidas a las alas de un Roca por un Domador de Rocas Harpía"
+        },
+        "196": {
+            "name": "Polvo de Bruja a la Luz de la Luna",
+            "desc": "Polvo creado por una Bruja Harpia fusionado con magia lunar"
+        },
+        "197": {
+            "name": "Artefacto Lunar",
+            "desc": "Baba mágica que explota al impacto"
+        },
+        "198": {
+            "name": "Cristal de las Tierras Altas",
+            "desc": "Cristal encontrado en el corazón de las montañas, un rubí menor"
+        },
+        "199": {
+            "name": "Rubí",
+            "desc": "Cristales Refinados de las Tierras Altas, utilizados para hacer Runas de Crimsonita"
+        },
+        "200": {
+            "name": "Runa de Crimsonita",
+            "desc": "Magia más estable de las Alturas de Aldur"
+        },
+        "201": {
+            "name": "Amuleto de la Luna de la Bruja Haga",
+            "desc": "Se dice que proviene de la luna misma. Utilizado por la Bruja Arpía"
+        },
+        "202": {
+            "name": "Concocción de Bruja",
+            "desc": "Concocción secreta de la bruja arpía"
+        },
+        "203": {
+            "name": "Lingote de Vautanium",
+            "desc": "Aleación hecha de lingotes de titanio y vaudnita"
+        },
+        "204": {
+            "name": "Amuleto de las tierras altas",
+            "desc": "Encanto de las Tierras Altas de Aldur, versátil para abalorios y armaduras"
+        },
+        "205": {
+            "name": "Esencia de Tierra de las Tierras Altas",
+            "desc": "Esencia de los grandes Gólems de Aldur, versátil para abalorios y armaduras"
+        },
+        "206": {
+            "name": "Hoja de Hueso de Ogro",
+            "desc": "Hoja de hueso tallada a mano forjada por asaltantes ogros"
+        },
+        "207": {
+            "name": "Coágulo de Sangre Maldita",
+            "desc": "Formaciones de sangre maldita de un ogro muy vil"
+        },
+        "801": {
+            "name": "Cebada",
+            "desc": "Grano común de Tuvale"
+        },
+        "802": {
+            "name": "Manzana",
+            "desc": "Fruta común de Tuvale"
+        },
+        "803": {
+            "name": "Bolsa de Especias de Goblin",
+            "desc": "Especia poco común de Tuvale"
+        },
+        "804": {
+            "name": "Seta Tuvale",
+            "desc": "Seta común de Tuvale"
+        },
+        "805": {
+            "name": "Jengibre",
+            "desc": "Especia común de Tuvale"
+        },
+        "806": {
+            "name": "Patata",
+            "desc": "Hortaliza común de Tuvale"
+        },
+        "807": {
+            "name": "Carne de oso",
+            "desc": "Carne rara de Tuvale"
+        },
+        "808": {
+            "name": "Miel",
+            "desc": "Edulcorante raro de Tuvale"
+        },
+        "809": {
+            "name": "Harina",
+            "desc": "Común elaborado en Tuvale"
+        },
+        "810": {
+            "name": "Arroz",
+            "desc": "Grano común de Yarsol"
+        },
+        "811": {
+            "name": "Coco",
+            "desc": "Una fruta de Yarsol"
+        },
+        "812": {
+            "name": "Piña",
+            "desc": "Las esponjas utilizan esto comúnmente como casa"
+        },
+        "813": {
+            "name": "Liquen",
+            "desc": "Hongo común en Yarsol"
+        },
+        "814": {
+            "name": "Almeja",
+            "desc": "Un molusco de Yarsol"
+        },
+        "815": {
+            "name": "Polvo de cacao",
+            "desc": "Semilla utilizada para cultivar árboles en Yarsol"
+        },
+        "816": {
+            "name": "Repollo",
+            "desc": "Verdura común de Aldur"
+        },
+        "817": {
+            "name": "Ajo",
+            "desc": "Hortaliza común de Aldur"
+        },
+        "818": {
+            "name": "Alazán",
+            "desc": "Verdura poco común de Aldur"
+        },
+        "819": {
+            "name": "Leche de cabra",
+            "desc": "Leche de animales similares a cabras"
+        },
+        "820": {
+            "name": "Suero de leche",
+            "desc": "Líquido cremoso de leche de cabra"
+        },
+        "821": {
+            "name": "Baya de Aullespino",
+            "desc": "Baya común de Aldur"
+        },
+        "822": {
+            "name": "Zanahoria",
+            "desc": "Verdura poco común de Aldur"
+        },
+        "823": {
+            "name": "Ciruela damascena",
+            "desc": "Fruta rara de Aldur"
+        },
+        "824": {
+            "name": "Costillas de draco cortadas",
+            "desc": "Costillas de dragón cocidas lentamente a la perfección"
+        },
+        "825": {
+            "name": "Pecho de Yak",
+            "desc": "Trozo de Yak Procesado"
+        },
+        "826": {
+            "name": "Puré de Gorp",
+            "desc": "Una receta encontrada en los arañazos de una pared de cueva"
+        }
+    },
+    "equipment": {
+        "1": {
+            "name": "Daga de Hierro",
+            "desc": ""
+        },
+        "2": {
+            "name": "Espada de Hierro",
+            "desc": ""
+        },
+        "3": {
+            "name": "Varita de Roble",
+            "desc": ""
+        },
+        "4": {
+            "name": "Garrote de roble",
+            "desc": ""
+        },
+        "5": {
+            "name": "Cuchillo de hierro",
+            "desc": ""
+        },
+        "6": {
+            "name": "Hacha de hierro",
+            "desc": ""
+        },
+        "7": {
+            "name": "Palo de Roble",
+            "desc": ""
+        },
+        "8": {
+            "name": "Hacha de Hierro",
+            "desc": ""
+        },
+        "9": {
+            "name": "Hacha de Escarabajo",
+            "desc": ""
+        },
+        "10": {
+            "name": "Espada larga de hierro",
+            "desc": ""
+        },
+        "11": {
+            "name": "Garrote de Jabalí",
+            "desc": ""
+        },
+        "12": {
+            "name": "Varita de Escarabajo",
+            "desc": ""
+        },
+        "13": {
+            "name": "Bastón de Serpiente",
+            "desc": ""
+        },
+        "14": {
+            "name": "Varita de Maexna",
+            "desc": ""
+        },
+        "15": {
+            "name": "Espada de Goblin",
+            "desc": ""
+        },
+        "16": {
+            "name": "Espada Larga de Goblin",
+            "desc": ""
+        },
+        "17": {
+            "name": "Bastón Místico de Roble",
+            "desc": ""
+        },
+        "18": {
+            "name": "Varita de duende",
+            "desc": ""
+        },
+        "19": {
+            "name": "Bastón Místico de Oso",
+            "desc": ""
+        },
+        "20": {
+            "name": "Espada Maldita",
+            "desc": ""
+        },
+        "21": {
+            "name": "Garrote de oso",
+            "desc": ""
+        },
+        "22": {
+            "name": "Veneno de oso",
+            "desc": ""
+        },
+        "23": {
+            "name": "Capucha de Cáñamo",
+            "desc": ""
+        },
+        "24": {
+            "name": "Guantes de cáñamo",
+            "desc": ""
+        },
+        "25": {
+            "name": "Camisa de cáñamo",
+            "desc": ""
+        },
+        "26": {
+            "name": "Zapatos de cáñamo",
+            "desc": ""
+        },
+        "27": {
+            "name": "Yelmo de Hierro",
+            "desc": ""
+        },
+        "28": {
+            "name": "Brazales de Hierro",
+            "desc": ""
+        },
+        "29": {
+            "name": "Peto de Hierro",
+            "desc": ""
+        },
+        "30": {
+            "name": "Grebas de Hierro",
+            "desc": ""
+        },
+        "31": {
+            "name": "Capucha de cáñamo",
+            "desc": ""
+        },
+        "32": {
+            "name": "Manoplas de cáñamo",
+            "desc": ""
+        },
+        "33": {
+            "name": "Brazales de Insecto",
+            "desc": ""
+        },
+        "34": {
+            "name": "Túnica de Cáñamo",
+            "desc": ""
+        },
+        "35": {
+            "name": "Grebas Bovinas",
+            "desc": ""
+        },
+        "36": {
+            "name": "Túnica Bovina",
+            "desc": ""
+        },
+        "37": {
+            "name": "Sandalias de Serpiente",
+            "desc": ""
+        },
+        "38": {
+            "name": "Túnica de Serpiente",
+            "desc": ""
+        },
+        "39": {
+            "name": "Guantes de Serpiente",
+            "desc": ""
+        },
+        "40": {
+            "name": "Botas de Serpiente",
+            "desc": ""
+        },
+        "41": {
+            "name": "Eslabones de Seda",
+            "desc": ""
+        },
+        "42": {
+            "name": "Guantes de Seda",
+            "desc": ""
+        },
+        "43": {
+            "name": "Casco de Insecto",
+            "desc": ""
+        },
+        "44": {
+            "name": "Toga de Seda de Araña",
+            "desc": ""
+        },
+        "45": {
+            "name": "Sombrero de Seda de Araña",
+            "desc": ""
+        },
+        "46": {
+            "name": "Botas de Lobo",
+            "desc": ""
+        },
+        "47": {
+            "name": "Capucha de Lobo",
+            "desc": ""
+        },
+        "48": {
+            "name": "Guantes de Lobo",
+            "desc": ""
+        },
+        "49": {
+            "name": "Pies de Lobo",
+            "desc": ""
+        },
+        "50": {
+            "name": "Yelmo de Lobo",
+            "desc": ""
+        },
+        "51": {
+            "name": "Coraza de Quitina",
+            "desc": ""
+        },
+        "52": {
+            "name": "Guantes de Recolector",
+            "desc": ""
+        },
+        "53": {
+            "name": "Brazales de Duende",
+            "desc": ""
+        },
+        "54": {
+            "name": "Coraza de duende",
+            "desc": ""
+        },
+        "55": {
+            "name": "Guanteletes de oso",
+            "desc": ""
+        },
+        "56": {
+            "name": "Escarpes de Oso",
+            "desc": ""
+        },
+        "57": {
+            "name": "Yelmo del Bosque",
+            "desc": ""
+        },
+        "58": {
+            "name": "Casco de Oso",
+            "desc": ""
+        },
+        "59": {
+            "name": "Túnica de Tuvale",
+            "desc": ""
+        },
+        "60": {
+            "name": "Escarpes de Tuvale",
+            "desc": ""
+        },
+        "61": {
+            "name": "Capucha de Tuvale",
+            "desc": ""
+        },
+        "62": {
+            "name": "Brazales de Tuvale",
+            "desc": ""
+        },
+        "63": {
+            "name": "Garrote de Roble",
+            "desc": ""
+        },
+        "64": {
+            "name": "Coraza de Kunnigas",
+            "desc": ""
+        },
+        "65": {
+            "name": "Colmillo de Víbora",
+            "desc": ""
+        },
+        "66": {
+            "name": "Cortador bovino",
+            "desc": ""
+        },
+        "67": {
+            "name": "Medallón del Señor de la Guerra",
+            "desc": ""
+        },
+        "68": {
+            "name": "Hoja Oculta",
+            "desc": ""
+        },
+        "69": {
+            "name": "Estrella del Bosque",
+            "desc": ""
+        },
+        "70": {
+            "name": "Amuleto de la Suerte de Grok",
+            "desc": ""
+        },
+        "71": {
+            "name": "Anillo de Magi",
+            "desc": ""
+        },
+        "72": {
+            "name": "Daga de cobalto",
+            "desc": ""
+        },
+        "73": {
+            "name": "Hacha de Cobalto",
+            "desc": ""
+        },
+        "74": {
+            "name": "Espada de cobalto",
+            "desc": ""
+        },
+        "75": {
+            "name": "Pica de Cobalto",
+            "desc": ""
+        },
+        "76": {
+            "name": "Báculo Místico de Tejo",
+            "desc": ""
+        },
+        "77": {
+            "name": "Varita Mística de Tejo",
+            "desc": ""
+        },
+        "78": {
+            "name": "Garrote de tejo",
+            "desc": ""
+        },
+        "79": {
+            "name": "Varita de tejo",
+            "desc": ""
+        },
+        "80": {
+            "name": "Garrote de tejo",
+            "desc": ""
+        },
+        "81": {
+            "name": "Varilla de tejo",
+            "desc": ""
+        },
+        "82": {
+            "name": "Cuchillo de cobalto",
+            "desc": ""
+        },
+        "83": {
+            "name": "Látigo de Cadena de Cobalto",
+            "desc": ""
+        },
+        "84": {
+            "name": "Espada Larga de Cobalto",
+            "desc": ""
+        },
+        "86": {
+            "name": "Bastón de Agua Ceniza",
+            "desc": ""
+        },
+        "87": {
+            "name": "Varita de Agua",
+            "desc": ""
+        },
+        "88": {
+            "name": "Pica luminosa",
+            "desc": ""
+        },
+        "89": {
+            "name": "Pica Afligida",
+            "desc": ""
+        },
+        "90": {
+            "name": "Hacha de la Agonía",
+            "desc": ""
+        },
+        "91": {
+            "name": "Daga Arenosa",
+            "desc": ""
+        },
+        "92": {
+            "name": "Hacha de Concha",
+            "desc": ""
+        },
+        "93": {
+            "name": "Cuchillo Ensangrentado",
+            "desc": ""
+        },
+        "94": {
+            "name": "Espada escamada",
+            "desc": ""
+        },
+        "95": {
+            "name": "El Borde del Agua",
+            "desc": ""
+        },
+        "96": {
+            "name": "El Lamento de las Corrientes",
+            "desc": ""
+        },
+        "97": {
+            "name": "Plaga de Cnidocitos",
+            "desc": ""
+        },
+        "98": {
+            "name": "Varita de Verrugas",
+            "desc": ""
+        },
+        "99": {
+            "name": "La Perdición de Marinachnid",
+            "desc": ""
+        },
+        "100": {
+            "name": "Espada Larga de Garra",
+            "desc": ""
+        },
+        "101": {
+            "name": "Cris Parotídeo",
+            "desc": ""
+        },
+        "102": {
+            "name": "Cuchillo de marinero",
+            "desc": ""
+        },
+        "103": {
+            "name": "Varita de Sargazo",
+            "desc": ""
+        },
+        "104": {
+            "name": "Hidrobáculo",
+            "desc": ""
+        },
+        "105": {
+            "name": "Garrote con Médula",
+            "desc": ""
+        },
+        "106": {
+            "name": "Garrote Alcalino",
+            "desc": ""
+        },
+        "107": {
+            "name": "Caperuza de junco",
+            "desc": ""
+        },
+        "108": {
+            "name": "Túnica de Junco",
+            "desc": ""
+        },
+        "109": {
+            "name": "Envolturas de junco",
+            "desc": ""
+        },
+        "110": {
+            "name": "Zuecos de Caña",
+            "desc": ""
+        },
+        "111": {
+            "name": "Yelmo de Cobalto",
+            "desc": ""
+        },
+        "112": {
+            "name": "Coraza de cobalto",
+            "desc": ""
+        },
+        "113": {
+            "name": "Grebas de Cobalto",
+            "desc": ""
+        },
+        "114": {
+            "name": "Brazales de Cobalto",
+            "desc": ""
+        },
+        "115": {
+            "name": "Sombrero de Tres Puntas",
+            "desc": ""
+        },
+        "116": {
+            "name": "Garfio de Cobalto",
+            "desc": ""
+        },
+        "117": {
+            "name": "Pierna de Palo de Tejo",
+            "desc": ""
+        },
+        "118": {
+            "name": "Toga de Espuma de Mar",
+            "desc": ""
+        },
+        "119": {
+            "name": "Capucha fluida",
+            "desc": ""
+        },
+        "120": {
+            "name": "Sandalias Acuáticas",
+            "desc": ""
+        },
+        "121": {
+            "name": "Envolturas Hidro.",
+            "desc": ""
+        },
+        "122": {
+            "name": "Botas Anfibias",
+            "desc": ""
+        },
+        "123": {
+            "name": "Pecho Escamoso",
+            "desc": ""
+        },
+        "124": {
+            "name": "Brazales escamosos",
+            "desc": ""
+        },
+        "125": {
+            "name": "Grebas Escamosas",
+            "desc": ""
+        },
+        "126": {
+            "name": "Yelmo Escamoso",
+            "desc": ""
+        },
+        "127": {
+            "name": "Toga del Monarca",
+            "desc": ""
+        },
+        "128": {
+            "name": "Coraza de Huesomarino",
+            "desc": ""
+        },
+        "129": {
+            "name": "Yelmo de Marfil de Mar",
+            "desc": ""
+        },
+        "130": {
+            "name": "Grebas de Médula Marina",
+            "desc": ""
+        },
+        "131": {
+            "name": "Guantes de Médula Marina",
+            "desc": ""
+        },
+        "132": {
+            "name": "Coraza Carroñera",
+            "desc": ""
+        },
+        "133": {
+            "name": "Yelmo Carroñero",
+            "desc": ""
+        },
+        "134": {
+            "name": "Botas Carroñeras",
+            "desc": ""
+        },
+        "135": {
+            "name": "Guanteletes Carroñados",
+            "desc": ""
+        },
+        "136": {
+            "name": "Banda de Rompeolas",
+            "desc": ""
+        },
+        "137": {
+            "name": "Colgante de espuma marina",
+            "desc": ""
+        },
+        "138": {
+            "name": "Anillo Litoral",
+            "desc": ""
+        },
+        "139": {
+            "name": "Calamidad Costera",
+            "desc": ""
+        },
+        "140": {
+            "name": "Amuleto de Lazulita",
+            "desc": ""
+        },
+        "141": {
+            "name": "Peto de Cangrejo",
+            "desc": ""
+        },
+        "142": {
+            "name": "Yelmo del Terror",
+            "desc": ""
+        },
+        "143": {
+            "name": "Cofre del Terror",
+            "desc": ""
+        },
+        "144": {
+            "name": "Amuleto De Sabiduría",
+            "desc": ""
+        },
+        "145": {
+            "name": "Casco de Yarsol",
+            "desc": ""
+        },
+        "146": {
+            "name": "Coraza de Yarsol",
+            "desc": ""
+        },
+        "147": {
+            "name": "Grebas de Yarsol",
+            "desc": ""
+        },
+        "148": {
+            "name": "Guantes de Yarsol",
+            "desc": ""
+        },
+        "149": {
+            "name": "Escarpiñes Resbaladizos",
+            "desc": ""
+        },
+        "150": {
+            "name": "Zapatos Picudos Ligeros",
+            "desc": ""
+        },
+        "151": {
+            "name": "Coraza Escamosa de Kobold",
+            "desc": ""
+        },
+        "152": {
+            "name": "Brazales Afilados",
+            "desc": ""
+        },
+        "153": {
+            "name": "Botas de Caballero",
+            "desc": ""
+        },
+        "154": {
+            "name": "Túnica de Marinero",
+            "desc": ""
+        },
+        "155": {
+            "name": "Gorro del Bucanero",
+            "desc": ""
+        },
+        "156": {
+            "name": "Guantes del Corsario",
+            "desc": ""
+        },
+        "157": {
+            "name": "El tríptico del almirante",
+            "desc": ""
+        },
+        "158": {
+            "name": "Chaqueta del Almirante",
+            "desc": ""
+        },
+        "159": {
+            "name": "Botas del Almirante",
+            "desc": ""
+        },
+        "160": {
+            "name": "Guantes del Almirante",
+            "desc": ""
+        },
+        "161": {
+            "name": "Coraza de Tortuga",
+            "desc": ""
+        },
+        "162": {
+            "name": "Botas de Tortuga",
+            "desc": ""
+        },
+        "163": {
+            "name": "Brazaletes de Tortuga",
+            "desc": ""
+        },
+        "164": {
+            "name": "Yelmo de Tortuga",
+            "desc": ""
+        },
+        "165": {
+            "name": "Cuchillo de titanio",
+            "desc": ""
+        },
+        "166": {
+            "name": "Hacha de Titanio",
+            "desc": ""
+        },
+        "167": {
+            "name": "Espada de Titanio",
+            "desc": ""
+        },
+        "168": {
+            "name": "Varita de Espinallama",
+            "desc": ""
+        },
+        "169": {
+            "name": "Bastón de Aullazor",
+            "desc": ""
+        },
+        "170": {
+            "name": "Garrote de Howlthorn",
+            "desc": ""
+        },
+        "171": {
+            "name": "Toga de Centeno Alto",
+            "desc": ""
+        },
+        "172": {
+            "name": "Capucha de Centeno Alto",
+            "desc": ""
+        },
+        "173": {
+            "name": "Zapatos de Centeno Alto",
+            "desc": ""
+        },
+        "174": {
+            "name": "Mitones de Altocenteno",
+            "desc": ""
+        },
+        "175": {
+            "name": "Yelmo de titanio",
+            "desc": ""
+        },
+        "176": {
+            "name": "Coraza de Titanio",
+            "desc": ""
+        },
+        "177": {
+            "name": "Grebas de Titanio",
+            "desc": ""
+        },
+        "178": {
+            "name": "Brazales de Titanio",
+            "desc": ""
+        },
+        "179": {
+            "name": "Zuecos Aldurnianos",
+            "desc": ""
+        },
+        "180": {
+            "name": "Chaqueta Aldurniana",
+            "desc": ""
+        },
+        "181": {
+            "name": "Capucha Aldurniana",
+            "desc": ""
+        },
+        "182": {
+            "name": "Guantes Aldurnianos",
+            "desc": ""
+        },
+        "183": {
+            "name": "Yelmo de Cornamenta",
+            "desc": ""
+        },
+        "184": {
+            "name": "Coraza de Astas",
+            "desc": ""
+        },
+        "185": {
+            "name": "Grebas de Cornamenta",
+            "desc": ""
+        },
+        "186": {
+            "name": "Brazaletes de Astas",
+            "desc": ""
+        },
+        "187": {
+            "name": "Botas de Pezuña de Piedra",
+            "desc": ""
+        },
+        "188": {
+            "name": "Coraza Alada de Roc",
+            "desc": ""
+        },
+        "189": {
+            "name": "Capucha de Plumas de Roca",
+            "desc": ""
+        },
+        "190": {
+            "name": "Gran yelmo de las Tierras Altas",
+            "desc": ""
+        },
+        "191": {
+            "name": "Espada de Rocariel",
+            "desc": ""
+        },
+        "192": {
+            "name": "Vara Mística de Espina de Aullido",
+            "desc": ""
+        },
+        "193": {
+            "name": "Báculo Místico de Howlthorn",
+            "desc": ""
+        },
+        "194": {
+            "name": "Garrote de Aullaspina",
+            "desc": ""
+        },
+        "195": {
+            "name": "Garrote de Astas",
+            "desc": ""
+        },
+        "196": {
+            "name": "Báculo Místico de Asta",
+            "desc": ""
+        },
+        "197": {
+            "name": "Hacha de Titanio",
+            "desc": ""
+        },
+        "198": {
+            "name": "Daga de titanio",
+            "desc": ""
+        },
+        "199": {
+            "name": "Martillo de Carnero",
+            "desc": ""
+        },
+        "200": {
+            "name": "Martillo de Titanio",
+            "desc": ""
+        },
+        "201": {
+            "name": "Chaqueta Rocariel",
+            "desc": ""
+        },
+        "202": {
+            "name": "Mitones etéreos",
+            "desc": ""
+        },
+        "203": {
+            "name": "Varita Espiritual",
+            "desc": ""
+        },
+        "204": {
+            "name": "Hoja Segadora",
+            "desc": ""
+        },
+        "205": {
+            "name": "Guanteletes de Yak",
+            "desc": ""
+        },
+        "206": {
+            "name": "Gran Yelmo del Cambiapieles",
+            "desc": ""
+        },
+        "207": {
+            "name": "Coraza de Plumas Doradas",
+            "desc": ""
+        },
+        "208": {
+            "name": "Pica Cola de Dragón",
+            "desc": ""
+        },
+        "209": {
+            "name": "Cota de Malla de Costillas de Dragón",
+            "desc": ""
+        },
+        "210": {
+            "name": "Varita de Aceite de Ceniza",
+            "desc": ""
+        },
+        "211": {
+            "name": "Látigo de Hueso de Ogro",
+            "desc": ""
+        },
+        "212": {
+            "name": "Maza de Guerra de Cabeza de Ogro",
+            "desc": ""
+        },
+        "213": {
+            "name": "Brazales de Loch",
+            "desc": ""
+        },
+        "214": {
+            "name": "Coraza de Loch",
+            "desc": ""
+        },
+        "215": {
+            "name": "Capucha Desgastada por Ácido",
+            "desc": ""
+        },
+        "216": {
+            "name": "Túnica Desgastada por el Ácido",
+            "desc": ""
+        },
+        "217": {
+            "name": "Guantes Desgastados por Ácido",
+            "desc": ""
+        },
+        "218": {
+            "name": "Sandalias Corroídas por Ácido",
+            "desc": ""
+        },
+        "219": {
+            "name": "Látigo Solar",
+            "desc": ""
+        },
+        "220": {
+            "name": "Azote de Ogro",
+            "desc": ""
+        },
+        "221": {
+            "name": "Hacha Sombra Lunar",
+            "desc": ""
+        },
+        "222": {
+            "name": "Lanza de Tierra de las Alturas",
+            "desc": ""
+        },
+        "223": {
+            "name": "Martillo de guerra de las Tierras Altas",
+            "desc": ""
+        },
+        "224": {
+            "name": "Espada de Hueso de Ogro",
+            "desc": ""
+        },
+        "225": {
+            "name": "Martillo de Lochhead",
+            "desc": ""
+        },
+        "226": {
+            "name": "Cuchillo Cortaviento",
+            "desc": ""
+        },
+        "227": {
+            "name": "Hacha de Arpía",
+            "desc": ""
+        },
+        "228": {
+            "name": "Desdicha Subterránea",
+            "desc": ""
+        },
+        "229": {
+            "name": "Hacha de Hardrake",
+            "desc": ""
+        },
+        "230": {
+            "name": "Guadaña de Hacken",
+            "desc": ""
+        },
+        "231": {
+            "name": "Beso del cielo",
+            "desc": ""
+        },
+        "232": {
+            "name": "Peto de Hueso de Ogro",
+            "desc": ""
+        },
+        "233": {
+            "name": "Gran Yelmo del Legado de Harpía",
+            "desc": ""
+        },
+        "234": {
+            "name": "Casco de Loch",
+            "desc": ""
+        },
+        "235": {
+            "name": "Grebas de Loch",
+            "desc": ""
+        },
+        "236": {
+            "name": "Coraza de Liche Maldito",
+            "desc": ""
+        },
+        "237": {
+            "name": "Guanteletes de Chatarrero",
+            "desc": ""
+        },
+        "238": {
+            "name": "Coraza de Chatarrero",
+            "desc": ""
+        },
+        "239": {
+            "name": "Yelmo de Chatarrero",
+            "desc": ""
+        },
+        "240": {
+            "name": "Grebas de Chatarrero",
+            "desc": ""
+        },
+        "241": {
+            "name": "Yelmo del Legionario Harpía",
+            "desc": ""
+        },
+        "243": {
+            "name": "Corazón de las Montañas",
+            "desc": ""
+        },
+        "244": {
+            "name": "Escarpez de Yak",
+            "desc": ""
+        },
+        "245": {
+            "name": "Varita de Harpía Mística",
+            "desc": ""
+        },
+        "246": {
+            "name": "Varita Lunar",
+            "desc": ""
+        },
+        "247": {
+            "name": "Bastón Solar de Arpía",
+            "desc": ""
+        },
+        "248": {
+            "name": "Maza Lunar",
+            "desc": ""
+        },
+        "249": {
+            "name": "Afluente Maldito",
+            "desc": ""
+        },
+        "250": {
+            "name": "Rebanadora de Arpía",
+            "desc": ""
+        },
+        "251": {
+            "name": "Báculo Astral de las Tierras Altas",
+            "desc": ""
+        },
+        "252": {
+            "name": "Varita de Harpía",
+            "desc": ""
+        },
+        "253": {
+            "name": "Bastón de Arpía",
+            "desc": ""
+        },
+        "254": {
+            "name": "Porra de Cambiapieles",
+            "desc": ""
+        },
+        "255": {
+            "name": "Varita Mística de Ácido",
+            "desc": ""
+        },
+        "256": {
+            "name": "Garrote de carnero",
+            "desc": ""
+        },
+        "257": {
+            "name": "Doblador de Sangre de Ogro",
+            "desc": ""
+        },
+        "258": {
+            "name": "Báculo de Draco",
+            "desc": ""
+        },
+        "259": {
+            "name": "Varita de Loch",
+            "desc": ""
+        },
+        "260": {
+            "name": "Capucha de las Tierras Altas",
+            "desc": ""
+        },
+        "261": {
+            "name": "Toga de Beleño",
+            "desc": ""
+        },
+        "262": {
+            "name": "Guantes Malditos",
+            "desc": ""
+        },
+        "263": {
+            "name": "Sandalias Ritualísticas",
+            "desc": ""
+        },
+        "264": {
+            "name": "Capa de Bruja del Pantano",
+            "desc": ""
+        },
+        "265": {
+            "name": "Picos de arpía",
+            "desc": ""
+        },
+        "266": {
+            "name": "Luchadores Roc",
+            "desc": ""
+        },
+        "267": {
+            "name": "Zapatos de Plumas de Roca",
+            "desc": ""
+        },
+        "268": {
+            "name": "Sombrero de bruja",
+            "desc": ""
+        },
+        "269": {
+            "name": "Capas de Plumas de Roc",
+            "desc": ""
+        },
+        "270": {
+            "name": "Túnica de Harpía",
+            "desc": ""
+        },
+        "271": {
+            "name": "Chaqueta de Cazador de Arpías",
+            "desc": ""
+        },
+        "272": {
+            "name": "Guantes de las Tierras Altas",
+            "desc": ""
+        },
+        "273": {
+            "name": "Martillo de Ácido",
+            "desc": ""
+        },
+        "274": {
+            "name": "Guantes de Harpia",
+            "desc": ""
+        },
+        "275": {
+            "name": "Guanteletes de Fuego de Alma",
+            "desc": ""
+        },
+        "276": {
+            "name": "Grebas de Fuego del Alma",
+            "desc": ""
+        },
+        "277": {
+            "name": "Yelmo de Fuego del Alma",
+            "desc": ""
+        },
+        "278": {
+            "name": "Coraza de Fuego de Alma",
+            "desc": ""
+        }
+    },
+    "consumables": {
+        "1": {
+            "name": "Atole de Bosque",
+            "desc": "Lo mínimo indispensable para subsistir"
+        },
+        "2": {
+            "name": "Sopa Sustanciosa de Tuvale",
+            "desc": "Una comida abundante para un día frío"
+        },
+        "3": {
+            "name": "Ginger ale",
+            "desc": "Añade un poco de especia"
+        },
+        "4": {
+            "name": "Pastel de Manzana",
+            "desc": "Irá genial con una golosina helada..."
+        },
+        "5": {
+            "name": "Hidromiel de Grok",
+            "desc": "Esto es geniaaaaal"
+        },
+        "6": {
+            "name": "Brocheta de setas",
+            "desc": "Me encanta hacer barbacoa"
+        },
+        "7": {
+            "name": "Cena de filete de oso",
+            "desc": "Una comida equilibrada"
+        },
+        "8": {
+            "name": "Sopa Costera",
+            "desc": "Huele a pescado"
+        },
+        "9": {
+            "name": "Brownie con Sal Marina",
+            "desc": "Ideal cuando se calienta sobre una hoguera"
+        },
+        "10": {
+            "name": "Onigiri de cangrejo",
+            "desc": "El alimento básico de Yarsol"
+        },
+        "11": {
+            "name": "Colada de Coco y Manzana",
+            "desc": "Puede contener trozos de esponja"
+        },
+        "12": {
+            "name": "Arroz frito",
+            "desc": "Muy picante"
+        },
+        "13": {
+            "name": "Sopa de almejas",
+            "desc": "Iría genial con un poco de gazpacho o kimchi"
+        },
+        "14": {
+            "name": "Salteado de Rana",
+            "desc": "¡Te hace sentir fuerte!"
+        },
+        "15": {
+            "name": "Gachas de Meseta",
+            "desc": "Calienta el alma"
+        },
+        "16": {
+            "name": "Costillas de la Sierra del Valle",
+            "desc": "Para aquellos que desean aumentar su musculatura!"
+        },
+        "17": {
+            "name": "Tarta de las Tierras Altas",
+            "desc": "Un producto básico de los campos"
+        },
+        "18": {
+            "name": "Libación Subterránea",
+            "desc": "Un favorito de los ogros"
+        },
+        "19": {
+            "name": "Marlotini de Ciruela Damascena",
+            "desc": "¿Quién fue el valiente que lo intentó primero?"
+        },
+        "20": {
+            "name": "Pastel de Pastor",
+            "desc": "El favorito de Dunderbaad"
+        },
+        "21": {
+            "name": "Sopa de repollo",
+            "desc": "Era la comida preferida de las tropas de Bunderwold"
+        }
+    },
+    "lootbags": {
+        "1": {
+            "name": "Bolsa de Tuvale",
+            "desc": "Una bolsa común de Tuvale"
+        },
+        "2": {
+            "name": "Bolsa Rara de Tuvale",
+            "desc": "Una rara bolsa Tuvale"
+        },
+        "3": {
+            "name": "Bolsa Épica de Tuvale",
+            "desc": "Una bolsa épica de Tuvale"
+        },
+        "4": {
+            "name": "Bolso de Yarsol",
+            "desc": "Una bolsa común de Yarsol"
+        },
+        "5": {
+            "name": "Bolsa de Yarsol Rara",
+            "desc": "Una rara bolsa de Yarsol"
+        },
+        "6": {
+            "name": "Bolsa Épica de Yarsol",
+            "desc": "Una bolsa épica de Yarsol"
+        },
+        "7": {
+            "name": "Bolsa de Aldur",
+            "desc": "Una bolsa común de Aldur"
+        },
+        "8": {
+            "name": "Bolsa Rara de Aldur",
+            "desc": "Una bolsa rara de Aldur."
+        },
+        "9": {
+            "name": "Bolsa Épica de Aldur",
+            "desc": "Una bolsa épica de Aldur"
+        },
+        "10": {
+            "name": "Bolsa de Región 4",
+            "desc": "espacio reservado"
+        },
+        "11": {
+            "name": "Bolsa de Región Rara 4",
+            "desc": 0
+        },
+        "12": {
+            "name": "Bolsa de la Región Legendaria 4",
+            "desc": 0
+        },
+        "13": {
+            "name": "Bolsa de la Región 5",
+            "desc": 0
+        },
+        "14": {
+            "name": "Bolsa Rara de Región 5",
+            "desc": 0
+        },
+        "15": {
+            "name": "Bolsa de Región 5 Legendaria",
+            "desc": 0
+        },
+        "16": {
+            "name": "Bolsa de la Región 6",
+            "desc": 0
+        },
+        "17": {
+            "name": "Bolsa rara de la región 6",
+            "desc": 0
+        },
+        "18": {
+            "name": "Bolsa de la Región Legendaria 6",
+            "desc": 0
+        },
+        "19": {
+            "name": "Bolsa de la Región 7",
+            "desc": 0
+        },
+        "20": {
+            "name": "Bolsa de Región 7 Rara",
+            "desc": 0
+        },
+        "21": {
+            "name": "Bolsa de la Región 7 Legendaria",
+            "desc": 0
+        },
+        "22": {
+            "name": "Bolsa de la Región 8",
+            "desc": 0
+        },
+        "23": {
+            "name": "Bolsa de la Región 8 Rara",
+            "desc": 0
+        },
+        "24": {
+            "name": "Bolsa de Región Legendaria 8",
+            "desc": 0
+        },
+        "25": {
+            "name": "Bolsa de la Región 9",
+            "desc": 0
+        },
+        "26": {
+            "name": "Bolsa rara de la Región 9",
+            "desc": 0
+        },
+        "27": {
+            "name": "Bolsa de Región Legendaria 9",
+            "desc": 0
+        },
+        "28": {
+            "name": 0,
+            "desc": 0
+        },
+        "29": {
+            "name": 0,
+            "desc": 0
+        },
+        "30": {
+            "name": "Bolsa de regalo",
+            "desc": "Regalo del Mercader"
+        },
+        "31": {
+            "name": 0,
+            "desc": 0
+        },
+        "32": {
+            "name": 0,
+            "desc": 0
+        },
+        "33": {
+            "name": 0,
+            "desc": 0
+        },
+        "34": {
+            "name": 0,
+            "desc": 0
+        },
+        "35": {
+            "name": 0,
+            "desc": 0
+        },
+        "36": {
+            "name": 0,
+            "desc": 0
+        },
+        "37": {
+            "name": "Bolsa de maná del artesano",
+            "desc": "Una bolsa de fichas de maná de artesano"
+        },
+        "38": {
+            "name": 0,
+            "desc": 0
+        },
+        "39": {
+            "name": 0,
+            "desc": 0
+        },
+        "40": {
+            "name": "Bolsa de Monedas Raras",
+            "desc": "Una bolsa rara de fichas"
+        }
+    },
+    "loot": {
+        "0": {
+            "name": "Omitir anuncio",
+            "desc": "Usado para saltar anuncios"
+        },
+        "1": {
+            "name": "Revivir",
+            "desc": "Reanima a un héroe"
+        },
+        "2": {
+            "name": "Ficha de Contrato de Héroe",
+            "desc": "Contrata un héroe gratis"
+        },
+        "10": {
+            "name": "Donar Común",
+            "desc": "Cumple la solicitud de artículos comunes del gremio"
+        },
+        "11": {
+            "name": "Donar Poco común",
+            "desc": "Cumple con la solicitud de objetos raros del gremio"
+        },
+        "12": {
+            "name": "Donar Raro",
+            "desc": "Cumple con la solicitud de objetos raros del gremio"
+        },
+        "13": {
+            "name": "Donar Épico",
+            "desc": "Completa la solicitud de objetos épicos del gremio"
+        },
+        "14": {
+            "name": "Donar Legendario",
+            "desc": "Cumple solicitud de gremio de objeto legendario"
+        },
+        "20": {
+            "name": "Artesanía Común 10 min",
+            "desc": "Reduce el tiempo de fabricación de un artículo común en 10 minutos"
+        },
+        "21": {
+            "name": "Elaboración poco común 10 min",
+            "desc": "Reduce el tiempo de elaboración de un objeto poco común en 10 minutos"
+        },
+        "22": {
+            "name": "Rara Artesanía 10 min",
+            "desc": "Reduce el tiempo de elaboración de un objeto raro en 10 minutos"
+        },
+        "23": {
+            "name": "Artesanía Épica 10 min",
+            "desc": "Reduce el tiempo de fabricación de un objeto épico en 10 minutos"
+        },
+        "24": {
+            "name": "Artesanía Legendaria 10 min",
+            "desc": "Reduce el tiempo de creación de un objeto legendario en 10 minutos"
+        },
+        "25": {
+            "name": "Artesanía Mítica 10 min",
+            "desc": "Reduce el tiempo de elaboración de un objeto mítico en 10 minutos"
+        },
+        "30": {
+            "name": "Maná del Herrero",
+            "desc": "Puede ser usado como un maná normal al elaborar una receta de Herrero"
+        },
+        "31": {
+            "name": "Maná del armero",
+            "desc": "Puede ser usado como maná regular al crear una receta de Herrero de armaduras"
+        },
+        "32": {
+            "name": "Maná del Carpintero",
+            "desc": "Se puede usar como mana regular al fabricar una receta de Carpintero."
+        },
+        "33": {
+            "name": "Sastre de Maná",
+            "desc": "Se puede usar como maná regular al crear una receta de Sastre"
+        },
+        "35": {
+            "name": "Cocinero de Maná",
+            "desc": "Puede usarse como mana normal al fabricar una receta de Cocina"
+        },
+        "45": {
+            "name": "Todos los Artesanos +1 Maná",
+            "desc": "Da +1 maná a todos los artesanos. Si el artesano está al máximo de maná, no les dará nada."
+        },
+        "46": {
+            "name": "Cualquier Artesano +1 Mana",
+            "desc": 0
+        },
+        "100": {
+            "name": "Actualizar POI Tuvale",
+            "desc": "Refresca una ubicación de Tuvale con enemigos cuando está vacía"
+        },
+        "101": {
+            "name": "Refrescamiento de PDI Yarsol",
+            "desc": "Refresca una ubicación de Yarsol con enemigos cuando está vacía"
+        },
+        "102": {
+            "name": "POI Refrescar Aldur",
+            "desc": "Recarga una ubicación de Aldur con enemigos cuando está vacía"
+        },
+        "103": {
+            "name": "Actualización de PDI R4",
+            "desc": 0
+        },
+        "120": {
+            "name": "Saltar Enemigo Tuvale",
+            "desc": "Saltarse un enemigo en una ubicación de Tuvale"
+        },
+        "121": {
+            "name": "Omitir enemigo Yarsol",
+            "desc": "Saltar un enemigo en una ubicación de Yarsol"
+        },
+        "122": {
+            "name": "Saltar Enemigo Aldur",
+            "desc": "Saltar un enemigo en una ubicación de Aldur"
+        },
+        "123": {
+            "name": "Saltar enemigo R4",
+            "desc": 0
+        },
+        "140": {
+            "name": "Saltar a Tuvale Raro",
+            "desc": "Salta a un enemigo raro en una ubicación de Tuvale si hay alguno disponible"
+        },
+        "141": {
+            "name": "Saltar a Yarsol Raro",
+            "desc": "Salta a un enemigo raro en una ubicación de Yarsol si hay disponible"
+        },
+        "142": {
+            "name": "Saltar A Aldur Raro",
+            "desc": "Salta a un enemigo raro en una ubicación de Aldur si está disponible"
+        },
+        "143": {
+            "name": "Pasar a raro R4",
+            "desc": 0
+        },
+        "300": {
+            "name": "Velocidad de fabricación 5 min",
+            "desc": "Aumenta la velocidad de elaboración por 2x durante 5 minutos. Solo se aplica a las elaboraciones iniciadas después de activar el impulso"
+        },
+        "301": {
+            "name": "Velocidad de elaboración 20 min",
+            "desc": "Aumenta la velocidad de fabricación x2 durante 20 minutos. Solo se aplica a las fabricaciones iniciadas después de que el impulso esté activo"
+        },
+        "302": {
+            "name": "Velocidad de Artesanía 1 Hora",
+            "desc": "Aumenta la velocidad de elaboración en 2x durante 1 hora. Solo se aplica a las elaboraciones iniciadas después de que el impulso esté activo"
+        },
+        "303": {
+            "name": "Velocidad de Misión 10 Min",
+            "desc": "Incrementa la velocidad de las misiones al doble durante 10 minutos. Solo aplica a misiones que empiecen después de que el impulso esté activo"
+        },
+        "304": {
+            "name": "Velocidad de misión 30 min",
+            "desc": "Duplica la velocidad de las misiones durante 30 minutos. Solo se aplica a las misiones que comiencen después de activar el impulso"
+        },
+        "305": {
+            "name": "Velocidad de misión 2 horas",
+            "desc": "Aumenta la velocidad de búsqueda en 2x durante 2 horas. Solo se aplica a las búsquedas iniciadas después de que la mejora esté activa"
+        },
+        "306": {
+            "name": "Velocidad de Trabajador 5 Min",
+            "desc": "Aumenta la experiencia ganada en misiones por 2x durante 10 minutos. Solo se aplica a misiones iniciadas después de que el impulso esté activo"
+        },
+        "307": {
+            "name": "Velocidad de Trabajador 30 Minutos",
+            "desc": "Aumenta la experiencia de misión ganada en 2x durante 30 minutos. Solo se aplica a misiones comenzadas después de que el impulso esté activo"
+        },
+        "308": {
+            "name": "Velocidad de Trabajador 2 Horas",
+            "desc": "Aumenta la experiencia de misión obtenida en 2x durante 2 horas. Solo se aplica a misiones comenzadas después de que el impulso esté activo"
+        },
+        "309": {
+            "name": "Experiencia de misión 5 min",
+            "desc": "Aumenta la experiencia ganada en misiones por 2x durante 10 minutos. Solo se aplica a misiones comenzadas después de que el impulso esté activo"
+        },
+        "310": {
+            "name": "Experiencia de misiones 30 min",
+            "desc": "Aumenta la experiencia ganada en las misiones en un 2x durante 30 minutos. Solo se aplica a las misiones que comiencen después de que el impulso esté activo"
+        },
+        "311": {
+            "name": "Misiones Exp 2 Horas",
+            "desc": "Aumenta la experiencia obtenida en misiones en un 2x durante 2 horas. Solo se aplica a misiones iniciadas después de que el aumento esté activo"
+        },
+        "999": {
+            "name": "Impulso Inicial",
+            "desc": "Aumenta la velocidad de las misiones, la artesanía y el trabajo en 2x durante 1 hora. Solo se aplica a trabajos iniciados después de que el aumento esté activo"
+        }
+    }
+}

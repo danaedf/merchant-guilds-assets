@@ -1,0 +1,515 @@
+{
+    "Basic": {
+        "n": "Básico",
+        "t": "",
+        "ft": "Deal 1x{atk} & 1x{matk} {target}",
+        "fbt": ""
+    },
+    "Slash": {
+        "n": "Golpe",
+        "t": 1,
+        "ft": "Faça !NB!HL{0:f1}x{1} {target}",
+        "fbt": "Causar 1.5x{atk} {target}"
+    },
+    "StabnShield": {
+        "n": "Stab 'n Shield",
+        "t": 3,
+        "ft": "Trate !NB!HL{0:f1}x{1} {target} & !NB{2}!HL{3}%{4} {self} !NB!HL{5}{turn}",
+        "fbt": "Cause 1.5x{atk} {target} & {buff}40%{def} {self} 2{turn}"
+    },
+    "BewBlow": {
+        "n": "Golpe Perplexo",
+        "t": 4,
+        "ft": "Negocie !NB!HL{0:f1}x{1} & !NB!HL{2}% {chance} {3} {target} !NB!HL{4}{turn}",
+        "fbt": "Cause 1.4x{atk} & 20% {chance} {stun} {target} 1{turn}"
+    },
+    "Slam": {
+        "n": "Esmagar",
+        "t": 5,
+        "ft": "Acordo !NB!HL{0:f1}x{1} {target}. !NB{2}!HL{3}% se {target} tiver {4}",
+        "fbt": "Cause 1,5x{atk} {target}. +40% se {target} tem {stun}"
+    },
+    "BlindKick": {
+        "n": "Pontapé Surpresa",
+        "t": 7,
+        "ft": "Negócio !NB!HL{0:f1}x{1} {target} com !NB{2}!HL{3}%{4} {self}",
+        "fbt": "Cause 2x{atk} {target} com {debuff}40%{acc} {self}"
+    },
+    "CheapShot": {
+        "n": "Golpe Baixo",
+        "t": 10,
+        "ft": "Negócio !NB!HL{0:f1}x({1}+{2}) {target}",
+        "fbt": "Cause 1.2x({atk}+{acc}) {target}"
+    },
+    "Sunder": {
+        "n": "Estilhaçar",
+        "t": 11,
+        "ft": "Negocie !NB!HL{0:f1}x({1}+{2}) com !NB!HL{3}%{4} {pent} {target}",
+        "fbt": "Cause 1.5x({atk}+{acc}) com 40%{def} {pent} {target}"
+    },
+    "PoisonTrap": {
+        "n": "Armadilha Venenosa",
+        "t": 12,
+        "ft": "Na próxima vez que {self} atacar, infligirá !NB!HL{0:f1}x{1} & aplicará {2} a {target} !NB!HL{3}{turn}. !CL{2} o dano será !NB!HL{4:f1}x{5}",
+        "fbt": "Na próxima vez que {self} atacar, causa 2x{atk} e aplica {poison} a {target} por 2{turn}. O dano de {Poison} é 1.2x{atk}"
+    },
+    "__PoisonTrapTriggerAction": {
+        "n": "__PoisonTrapTriggerAction",
+        "t": "",
+        "ft": "Especial",
+        "fbt": ""
+    },
+    "MindBlast": {
+        "n": "Explosão Mental",
+        "t": 1,
+        "ft": "Negócio !NB!HL{0:f1}x{1} {target}",
+        "fbt": "Causa 1.5x{matk} {target}"
+    },
+    "MagicMissile": {
+        "n": "Míssil Mágico",
+        "t": 8,
+        "ft": "Acordo !NB!HL{0:f1}x{1} {target} com !NB!HL{2}%{3} {pent} {target}",
+        "fbt": "Causa 2x{matk} com 30%{mdef} {pent}"
+    },
+    "Cleave": {
+        "n": "Cortar",
+        "t": 2,
+        "ft": "Negócio !NB!HL{0:f1}x{1} & !NB{2}!HL{3}%{4} {target} resto do {turn}",
+        "fbt": "Causa 2x{atk} & {debuff}40%{def} {target} resto de {turn}"
+    },
+    "FlurryStrikes": {
+        "n": "Golpes Rápidos",
+        "t": 9,
+        "ft": "Negócio !NB!HL{0:f1}x{1} & !NB!HL{2}% {chance} aplicar {3} {target} !NB!HL{4}{turn}. !CL{3} o dano é !NB!HL{5:f1}x{6}",
+        "fbt": "Negocie 1,6x{atk} & 40%{chance} de aplicar {bleed} {target} durante 2{turn}. O dano de {Bleed} é 0,5x{atk}"
+    },
+    "LesserHeal": {
+        "n": "Cura Menor",
+        "t": 15,
+        "ft": "{Heal} !NB!HL{0}%{self}{1} {ally} diretamente à frente de {self}. Se não houver, aplique a {self}",
+        "fbt": "{Heal} 20%{self}{mdef} ao {ally} diretamente à frente de {self}. Se não houver nenhum, {heal} {self}"
+    },
+    "LesserCleanse": {
+        "n": "Purificação Menor",
+        "t": "",
+        "ft": "{Cleanse} {ally} diretamente à frente de {self}. Se não houver, aplique a {self}",
+        "fbt": ""
+    },
+    "HolyCleanse": {
+        "n": "Purificação Sagrada",
+        "t": "",
+        "ft": "{Cleanse} {party}",
+        "fbt": ""
+    },
+    "GreaterHeal": {
+        "n": "Cura Maior",
+        "t": "",
+        "ft": "{Heal} 50%{maxHP}{self} ao {ally} diretamente à frente de {self}. Se não houver {heal} {self} por 50%{maxHP}{self}",
+        "fbt": ""
+    },
+    "HealingCleanse": {
+        "n": "Cura Purificadora",
+        "t": 16,
+        "ft": "{Heal} !NB!HL{0}%{self}{1} & {cleanse} {ally} diretamente à frente de {self}. Se não houver, aplique a {self}",
+        "fbt": "{Heal} 10%{mdef}{self} & {cleanse} {ally} diretamente à frente de {self}. Se não se aplicar a {self}"
+    },
+    "DodrBlessing": {
+        "n": "Bênção de Dodr",
+        "t": 17,
+        "ft": "!NB{0}!HL{1}%{2}{ally} o {ally} diretamente à frente de {self} !NB!HL{3}{turn}",
+        "fbt": "{buff}50%{def}{ally} o {ally} diretamente à frente de {self} 2{turn}"
+    },
+    "MercBlessing": {
+        "n": "Bênção da Merci",
+        "t": 17,
+        "ft": "!NB{0}!HL{1}%{2}{ally} o {ally} diretamente à frente de {self} !NB!HL{3}{turn}",
+        "fbt": "{buff}50%{mdef}{ally} o {ally} diretamente à frente de {self} 2{turn}"
+    },
+    "SanBlessing": {
+        "n": "Bênção de Sanir",
+        "t": 18,
+        "ft": "!NB{0}!HL{1}%{2}&{3}{ally} o {ally} diretamente à frente de {self} !NB!HL{4}{turn}",
+        "fbt": "{buff}50%{def}&{mdef}{ally} o {ally} diretamente à frente de {self} 2{turn}"
+    },
+    "LightShield": {
+        "n": "Escudo Leve",
+        "t": "",
+        "ft": "Dê a {ally} diretamente à esquerda de {self} 50% de {hp} {shield}",
+        "fbt": ""
+    },
+    "BluntBlow": {
+        "n": "Golpe Contundente",
+        "t": 20,
+        "ft": "Acerta !NB!HL{0:f1}x({1}+{2}) {target} com !NB!HL{3}{4} {self}",
+        "fbt": "Cause 1.4x({atk}+{acc}) de dano a {target} com {debuff}100{crit} a {self}"
+    },
+    "PrecariousPierce": {
+        "n": "Golpe Precário",
+        "t": 20,
+        "ft": "Infligir !NB!HL{0:f1}x({1}+{2}) {target} com !NB!HL{3}{4} {self}",
+        "fbt": "Deal 1.1x({atk}+{acc}) {target} com {buff}25{crit} {self}"
+    },
+    "SmokeBomb": {
+        "n": "Bomba de Fumo",
+        "t": 3,
+        "ft": "Negocie !NB!HL{0:f1}x{1} & !NB{2}!HL{3}%{4} {target} !NB!HL{5}{turn}",
+        "fbt": "Cause 1,7x{atk} & {debuff} 30% {acc} {target} 1{turn}"
+    },
+    "Backstab": {
+        "n": "Apunhalar pelas Costas",
+        "t": 7,
+        "ft": "Negócio !NB!HL{0:f1}x{1} {target} com !NB{2}!HL{3}%{4} {self}",
+        "fbt": "Cause 2x{atk} {target} com {buff}150%{critMod} {self}"
+    },
+    "ShieldRiposte": {
+        "n": "Contra-Ataque de Escudo",
+        "t": 3,
+        "ft": "Negocie !NB!HL{0:f1}x{1} {target} & !NB{2}!HL{3}%{4} {self} !NB!HL{5}{turn}",
+        "fbt": "Causa 1.4x{def} {target} e {buff}40%{def} {self} 2{turn}"
+    },
+    "ShieldSlam": {
+        "n": "Escudo Esmagador",
+        "t": 10,
+        "ft": "Negociar !NB!HL{0:f1}x({1}+{2}) {target}",
+        "fbt": "Causa 1.2x({def}+{mdef}) {target}"
+    },
+    "VulnerableDrive": {
+        "n": "Condução Vulnerável",
+        "t": 22,
+        "ft": "Faça !NB!HL{0:f1}x({1}+{2}) {target} & !NB{3}!HL{4}%{5} {self} !NB!HL{6}{turn}",
+        "fbt": "Cause 2x({atk}+{def}) {target} & {debuff}40%{def} {self} 1{turn}"
+    },
+    "ShieldUp": {
+        "n": "Levantar Escudo",
+        "t": 21,
+        "ft": "{Block} !NB!HL{0}% dano recebido !NB!HL{1}{turn}",
+        "fbt": "{Block} 50% dos danos recebidos por 2{turn}"
+    },
+    "UnholySlash": {
+        "n": "Golpe Profano",
+        "t": 23,
+        "ft": "Cause !NB!HL{0:f1}x{1} {target} com !HL{2}% {leech}",
+        "fbt": "Causa 1.5x{atk} a {target} com 6% {leech}"
+    },
+    "UnholyUppercut": {
+        "n": "Golpe Ascendente Profano",
+        "t": 24,
+        "ft": "Faça !NB!HL{0:f1}x{1} & !NB!HL{2}% {chance} {silence} {target}",
+        "fbt": "Cause 2x{atk} & 40% {chance} {silence} {target}"
+    },
+    "WarCry": {
+        "n": "Grito de Guerra",
+        "t": 6,
+        "ft": "!NB{buff}!HL{0}%{1} {self} & !NB{debuff}!HL{2}%{3} {target} !NB!HL{4}{turn}",
+        "fbt": "{buff}40%{atk} {self} e {debuff}30%{atk} {target} 2{turn}"
+    },
+    "Gouge": {
+        "n": "Escarvar",
+        "t": 5,
+        "ft": "Negócio !NB!HL{0:f1}x{1} {target}. !NB{2}!HL{3}% se {target} tem {4}",
+        "fbt": "Causa 1.2x{atk} {target}. +50% se {target} tiver {bleed}"
+    },
+    "OiledStrike": {
+        "n": "Golpe Oleado",
+        "t": 5,
+        "ft": "Inflige !NB!HL{0:f1}x{1} {target}. !NB{2}!HL{3}% se {target} tem {4}",
+        "fbt": "Causa 1.2x{atk} {target}. +50% se {target} tem {fire}"
+    },
+    "FireTwister": {
+        "n": "Tornado de Fogo",
+        "t": 9,
+        "ft": "Negocie !NB!HL{0:f1}x{1} & !NB!HL{2}% {chance} de aplicar {3} {target} !NB!HL{4}{turn}. O dano de !CL{3} é !NB!HL{5:f1}x{6}",
+        "fbt": "Causa 1.5x{matk} & 40% {chance} de aplicar {fire} ao {target} por 2{turn}. O dano de {Fire} é 0.6x{matk}"
+    },
+    "Blizzard": {
+        "n": "Nevasca",
+        "t": 3,
+        "ft": "Negocie !NB!HL{0:f1}x{1} & !NB{2}!HL{3}%{4} {target} !NB!HL{5}{turn}",
+        "fbt": "Cause 1.6x{matk} e redução de 30%{mdef} a {target} durante 2{turn}"
+    },
+    "LightningBolt": {
+        "n": "Raio Luminoso",
+        "t": 4,
+        "ft": "Negocie !NB!HL{0:f1}x{1} & !NB!HL{2}% {chance} {3} {target} !NB!HL{4}{turn}",
+        "fbt": "Causa 1.8x{matk} & 10% {chance} de {stun} {target} durante 1{turn}"
+    },
+    "SwiftStrike": {
+        "n": "Ataque Rápido",
+        "t": 3,
+        "ft": "Negocie !NB!HL{0:f1}x{1} {target} & !NB{2}!HL{3}%{4} {self} !NB!HL{5}{turn}",
+        "fbt": "Causar 1.4x{atk} {target} & {buff}30%{eva} {self} 2{turn}"
+    },
+    "SharpenBlades": {
+        "n": "Afiar Lâminas",
+        "t": "",
+        "ft": "{buff}100{crit} & {buff}100%{atk} {self} para o próximo ataque",
+        "fbt": ""
+    },
+    "AchillesSlice": {
+        "n": "Fatia de Aquiles",
+        "t": 2,
+        "ft": "Negócio !NB!HL{0:f1}x{1} & !NB{2}!HL{3}%{4} {target} resto do {turn}",
+        "fbt": "Inflige 3x{atk} & {debuff}80%{eva} ao {target} pelo resto do {turn}"
+    },
+    "Skewer": {
+        "n": "Espetar",
+        "t": 13,
+        "ft": "Cause !NB!HL{0:f1}x{1} & aplique {2} {target} !NB!HL{3}{turn}. !CL{2} o dano é !NB!HL{4:f1}x{5}",
+        "fbt": "Cause 1.2x{atk} & aplique {bleed} {target} 2{turn}. O dano de {Bleed} é 0.2x{atk}"
+    },
+    "BerserkCharge": {
+        "n": "Carga Berserk",
+        "t": 14,
+        "ft": "Negocie !NB!HL{0:f1}x{1} & !NB{2}!HL{3}%{4}&{5} {target} restante do {turn}",
+        "fbt": "Infligir 2x{atk} & {debuff}40%{def}&{mdef} ao {target} resto do {turn}"
+    },
+    "NatureFury": {
+        "n": "Fúria da Natureza",
+        "t": "",
+        "ft": "{buff}300%{atk} no próximo ataque",
+        "fbt": ""
+    },
+    "Silence": {
+        "n": "Silêncio",
+        "t": "",
+        "ft": "{Silence} {target}",
+        "fbt": ""
+    },
+    "HiddenBlade": {
+        "n": "Lâmina Oculta",
+        "t": 19,
+        "ft": "Na próxima vez que {self} atacar, cause !NB!HL{0:f1}x{1} & !NB!HL{2}% {chance} de aplicar {3} a {target} durante !NB!HL{4}{turn}. !CL{3} o dano é !NB!HL{5:f1}x{6}",
+        "fbt": "Na próxima vez que {self} atacar, causa 2x{atk} & 40% {chance} de aplicar {bleed} em {target} durante 2{turn}. O dano de {Bleed} é 0.5xatk."
+    },
+    "__HiddenBladeTriggerAction": {
+        "n": "__HiddenBladeTriggerAction",
+        "t": "",
+        "ft": "Especial",
+        "fbt": ""
+    },
+    "PreciseStrike": {
+        "n": "Golpe Preciso",
+        "t": 7,
+        "ft": "Acerte !NB!HL{0:f1}x{1} {target} com !NB{2}!HL{3}%{4} {self}",
+        "fbt": "Cause 1,5x{atk} {target} com {buff}25%{acc} {self}"
+    },
+    "ArteryJab": {
+        "n": "Golpe na Artéria",
+        "t": 13,
+        "ft": "Negocie !NB!HL{0:f1}x{1} & aplique {2} {target} !NB!HL{3}{turn}. !CL{2} o dano é !NB!HL{4:f1}x{5}",
+        "fbt": "Cause 2x{atk} e aplique {bleed} a {target} por 2{turn}. O dano de {Bleed} é 0.3x{atk}"
+    },
+    "Eviscerate": {
+        "n": "Eviscerar",
+        "t": "",
+        "ft": "Cause 3x{atk} {target} com {buff}300%{critMod} {self} & {debuff}100%{eva} {target}",
+        "fbt": ""
+    },
+    "TemplarInvocation": {
+        "n": "Invocação Templária",
+        "t": "",
+        "ft": "{buff}50%({def}&{mdef}) {party} 3{turn}",
+        "fbt": ""
+    },
+    "SlashBash": {
+        "n": "Slash 'n Bash",
+        "t": 10,
+        "ft": "Negocie !NB!HL{0:f1}x({1}+{2}) {target}",
+        "fbt": "Cause 1.8x({atk}+{def}) {target}"
+    },
+    "Lacerate": {
+        "n": "Lacerar",
+        "t": 13,
+        "ft": "Realize !NB!HL{0:f1}x{1} & aplique {2} {target} !NB!HL{3}{turn}. !CL{2} o dano é !NB!HL{4:f1}x{5}",
+        "fbt": "Cause 1.8x{atk} e aplique {bleed} em {target} por 2{turn}. {Bleed} é 0.2x{atk}"
+    },
+    "UnholyFlail": {
+        "n": "Maça Profana",
+        "t": 5,
+        "ft": "Fazer !NB!HL{0:f1}x{1} {target}. !NB{2}!HL{3}% se {target} tiver {4}",
+        "fbt": "Lide 1.4x{atk} {target}. +44% se {target} tem {poison}"
+    },
+    "CleansingIncantation": {
+        "n": "Encantamento de Limpeza",
+        "t": "",
+        "ft": "{Cleanse} {self}",
+        "fbt": ""
+    },
+    "BeastBellow": {
+        "n": "Rugido da Besta",
+        "t": 25,
+        "ft": "!NB{debuff}!HL{0}%({1}&{2}) {party} !NB!HL{3}{turn} & !NB{buff}!HL{4}%{5} {self} !NB!HL{6}{turn}",
+        "fbt": "{debuff}40%({atk}&{matk}) {party} 1{turn} & {buff}60%{atk} {self} 2{turn}"
+    },
+    "BestialCharge": {
+        "n": "Investida Bestial",
+        "t": 1,
+        "ft": "Acordo !NB!HL{0:f1}x{1} linha central",
+        "fbt": "Faça 3x{atk} na linha central"
+    },
+    "Stampede": {
+        "n": "Estampida",
+        "t": 3,
+        "ft": "Faça !NB!HL{0:f1}x{1} & !NB{2}!HL{3}%{4} {party} !NB!HL{5}{turn}",
+        "fbt": "Causar 2x{atk} & {debuff}30%{eva} ao {party} durante 1{turn}"
+    },
+    "SanirGreatCurse": {
+        "n": "Maldição Maior de Sanir",
+        "t": 18,
+        "ft": "!NB{0}!HL{1}%{2}&{3} {party} !NB!HL{4}{turn}",
+        "fbt": "{debuff}50%{def}&{mdef} {party} 2{turn}"
+    },
+    "SteamGeysers": {
+        "n": "Fumarolas de Vapor",
+        "t": 3,
+        "ft": "Negocia !NB!HL{0:f1}x{1} & !NB{2}!HL{3}%{4} na linha da frente !NB!HL{5}{turn}",
+        "fbt": "Causar 2x{matk} & {debuff}50%{acc} na primeira fila durante 2{turn}"
+    },
+    "Flood": {
+        "n": "Inundação",
+        "t": "",
+        "ft": "Causa 2x{matk} {party}. Remove {fire} de todos os combatentes",
+        "fbt": ""
+    },
+    "ColossalChomp": {
+        "n": "Mordida Colossal",
+        "t": 1,
+        "ft": "Danificar !NB!HL{0:f1}x{1} o maior {maxHP} {target}",
+        "fbt": "Deal 3x{atk} maior {maxHP} {target}"
+    },
+    "TunnelRush": {
+        "n": "Corrida do Túnel",
+        "t": 3,
+        "ft": "Cause !NB!HL{0:f1}x{1} & !NB{2}!HL{3}%{4} na linha de trás !NB!HL{5}{turn}",
+        "fbt": "Acorda 2x{atk} & {debuff}30%{eva} segunda fila 2{turn}"
+    },
+    "Sandstorm": {
+        "n": "Tempestade de Areia",
+        "t": 3,
+        "ft": "Lida !NB!HL{0:f1}x{1} & !NB{2}!HL{3}%{4} {party} !NB!HL{5}{turn}",
+        "fbt": "Causa 1.5x{atk} & {debuff}50%{acc} ao {party} por 3{turn}"
+    },
+    "LeapQuake": {
+        "n": "Salto Sísmico",
+        "t": 3,
+        "ft": "Negócio !NB!HL{0:f1}x{1} & !NB{2}!HL{3}%{4} {party} !NB!HL{5}{turn}",
+        "fbt": "Causa 2x{atk} & {debuff}40%{acc} {party} 1{turn}"
+    },
+    "CelestialBeam": {
+        "n": "Feixe Celestial",
+        "t": "",
+        "ft": "Neste {turn} carrega o feixe. No próximo {turn} liberta o feixe causando 3x({matk}+{acc}) & {debuff}60%{mdef} {target} 3{turn}",
+        "fbt": ""
+    },
+    "Vitality": {
+        "n": "Vitalidade",
+        "t": "",
+        "ft": "{buff}25%{maxHP}",
+        "fbt": ""
+    },
+    "Might": {
+        "n": "Poderio",
+        "t": "",
+        "ft": "{buff}15%{atk}",
+        "fbt": ""
+    },
+    "Mystic": {
+        "n": "Místico",
+        "t": "",
+        "ft": "{buff}15%{matk}",
+        "fbt": ""
+    },
+    "Tough": {
+        "n": "Resistente",
+        "t": "",
+        "ft": "{buff}15%{def}",
+        "fbt": ""
+    },
+    "Arcane": {
+        "n": "Arcano",
+        "t": "",
+        "ft": "{buff}15%{mdef}",
+        "fbt": ""
+    },
+    "Perceptive": {
+        "n": "Perspicaz",
+        "t": "",
+        "ft": "{buff}15%{acc}",
+        "fbt": ""
+    },
+    "Swift": {
+        "n": "Rápido",
+        "t": "",
+        "ft": "{buff}15%{eva}",
+        "fbt": ""
+    },
+    "Juggernaut": {
+        "n": "Juggernaut",
+        "t": "",
+        "ft": "{buff}10%{def}&{mdef}",
+        "fbt": ""
+    },
+    "Strong": {
+        "n": "Forte",
+        "t": "",
+        "ft": "{buff}10%{atk}&{def}",
+        "fbt": ""
+    },
+    "Enigmatic": {
+        "n": "Enigmático",
+        "t": "",
+        "ft": "{buff}10%{matk}&{mdef}",
+        "fbt": ""
+    },
+    "Covert": {
+        "n": "Convertido",
+        "t": "",
+        "ft": "{buff}10%{acc}&{eva}",
+        "fbt": ""
+    },
+    "Deadly": {
+        "n": "Mortal",
+        "t": "",
+        "ft": "{buff}10%{crit} & 35%{critMod}",
+        "fbt": ""
+    },
+    "Adroit": {
+        "n": "Hábil",
+        "t": "",
+        "ft": "{buff}10%{acc}&{crit}",
+        "fbt": ""
+    },
+    "Nimble": {
+        "n": "Ágil",
+        "t": "",
+        "ft": "{buff}10%{atk}&{eva}",
+        "fbt": ""
+    },
+    "Whimsical": {
+        "n": "Caprichoso",
+        "t": "",
+        "ft": "{buff}10%{matk}&{eva}",
+        "fbt": ""
+    },
+    "Radiant": {
+        "n": "Radiante",
+        "t": "",
+        "ft": "{buff}40%{incHeal}",
+        "fbt": ""
+    },
+    "Generous": {
+        "n": "Generoso",
+        "t": "",
+        "ft": "{buff}40%{outHeal}",
+        "fbt": ""
+    },
+    "Whirlpool": {
+        "n": "Redemoinho",
+        "t": 3,
+        "ft": "Deal !NB!HL{0:f1}x{1} & !NB{2}!HL{3}%{4} {party} !NB!HL{5}{turn} & 1 {rotation}",
+        "fbt": "Deal 1.5x{matk} & {debuff}40%{eva} 2 {turn} {party} & 1 {rotation}"
+    },
+    "": {
+        "": ""
+    }
+}

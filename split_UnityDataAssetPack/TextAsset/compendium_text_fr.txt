@@ -1,0 +1,478 @@
+{
+    "compendiumHeaders": {
+        "Stats": {
+            "name": "Statistiques",
+            "desc": ""
+        },
+        "DOT Damage": {
+            "name": "Dégâts sur la durée",
+            "desc": ""
+        },
+        "Other Icons": {
+            "name": "Autres icônes",
+            "desc": ""
+        },
+        "Keywords": {
+            "name": "Mots-clés",
+            "desc": ""
+        }
+    },
+    "buildings": {
+        "Customer Frequency": {
+            "name": "Fréquence des Clients",
+            "desc": "Les clients n'entreront dans la Boutique que lorsque vous êtes à l'intérieur du bâtiment. Une fois qu'un client entre, il se promène et finit par entrer dans la file d'attente de la caisse. Cela se produit que vous soyez encore à l'intérieur du bâtiment ou non.\n\nLorsque vous entrez pour la première fois dans la Boutique après ne pas l'avoir vérifiée pendant un certain temps, il peut y avoir de nombreux clients alignés, prêts à entrer en même temps.\n\nSi vous faites attendre un client trop longtemps dans la file, il peut partir plus tôt sans rien acheter. Si un client part sans que vous lui ayez dit de le faire, il utilisera la fonction « Revenir Plus Tard » si elle est disponible, sinon cela sera considéré comme un refus normal."
+        },
+        "Haggling": {
+            "name": "Marchandage",
+            "desc": "Lors de la vente à un client, vous pouvez négocier avec lui sur le prix. La probabilité qu'un client achète l'article pour votre prix négocié dépend de combien vous facturez, de votre relation avec le client, et de combien le client aime l'article.\n\nVendre un article en dessous du prix moyen peut améliorer votre relation avec le client. Inversement, vendre au-dessus du prix moyen peut nuire à votre relation avec le client."
+        },
+        "Customer Item Valuation": {
+            "name": "Évaluation des Articles du Client",
+            "desc": "Les clients évaluent les articles en fonction de leurs caractéristiques et de leur valeur marchande actuelle ! Assurez-vous de leur vendre quelque chose pour lequel ils paieront un prix supérieur à la moyenne."
+        },
+        "Customer Relationship": {
+            "name": "Relation client",
+            "desc": "Lorsque vous vendez des objets à un client, votre relation avec lui peut changer. Cette relation est représentée par ses cœurs.\n\nVous pouvez gagner et perdre des cœurs avec un client en fonction de l'affaire que vous lui proposez et de l'attrait qu'il a pour l'objet.\n\nPlus vous avez de cœurs avec un client, plus il est probable qu'il accepte les propositions que vous lui faites, alors assurez-vous de maintenir de bonnes relations !"
+        },
+        "Customer Level": {
+            "name": "Niveau de Clientèle",
+            "desc": "Au fur et à mesure que vous vendez des objets à un client, il gagne de l'expérience ! À mesure qu'un client monte de niveau, vous débloquerez différentes opportunités de négociations avec lui."
+        },
+        "Customer Traits": {
+            "name": "Traits du Client",
+            "desc": "Les clients peuvent également avoir des traits qui affecteront à quel point ils aiment un article, combien ils paieront pour un article, et s'ils sont prêts à acheter l'article du tout.\n\nAssurez-vous de prêter attention aux traits lorsque vous décidez de ce qu'il faut vendre à un client !"
+        },
+        "Customer Energy": {
+            "name": "Énergie du client",
+            "desc": "Chaque client a ses propres points d'énergie et ne peut entrer dans la Boutique que s'il a au moins 1 point d'énergie disponible. Lorsqu'un client effectue un achat ou est refusé à la caisse, il dépensera un point d'énergie. Cependant, si la fonctionnalité « Revenir plus tard » est utilisée, les clients quitteront le magasin sans utiliser d'énergie et reviendront après un certain temps.\n\nLes clients rechargent leur énergie que vous jouiez ou non, et chaque client a un taux de recharge différent ainsi qu'une quantité maximale d'énergie qu'ils peuvent stocker.\n\nChaque client a également un temps de recharge différent pour pouvoir entrer à nouveau après être venu dans le magasin, ce qui n'est pas lié à l'énergie."
+        },
+        "Customer Come Back Later": {
+            "name": "Client, revenez plus tard",
+            "desc": "Au lieu de refuser la vente à un client, vous aurez parfois l'option de lui demander de Revenir Plus Tard. Ceci ne consommera pas d'énergie, et le client reviendra alors dans la Boutique après un certain temps.\n\nAprès avoir été invité à Revenir Plus Tard une fois, cette option ne sera plus disponible jusqu'à ce que le client ait acheté quelque chose ou ait été décliné comme d'habitude."
+        },
+        "Market Fluctuation": {
+            "name": "Fluctuation du marché",
+            "desc": "Toutes les valeurs des objets fluctueront en fonction de leur valeur actuelle sur le marché. Le marché se met à jour fréquemment, donc quelque chose qui s'est vendu à un prix très élevé précédemment peut se vendre beaucoup moins cher maintenant.\n\nLors de la consultation du marché, plus la valeur d'un objet est verte, plus elle est au-dessus du prix par défaut de l'objet.\n\nPlus la valeur d'un objet est rouge, plus elle est en dessous du prix par défaut de l'objet.\n\nNotez que vous ne pouvez voir le prix du marché que des objets que vous avez découverts.\n\nLes prix du marché sont les mêmes pour tous les joueurs, donc assurez-vous de prévenir vos amis lorsqu'un objet est en vogue !"
+        },
+        "Bargain Bin": {
+            "name": "Bac à bonnes affaires",
+            "desc": "Le Collecteur de Bons Plans est un endroit où vendre tous les objets que vous ne souhaitez pas attribuer à un emplacement désigné. Les objets placés ici seront automatiquement vendus au fil du temps, moment à partir duquel l'or sera disponible pour être collecté.\n\nLe seul inconvénient est que tous les objets placés ici seront vendus avec une réduction de 25% par rapport au prix du marché actuel… Quelle bonne affaire !"
+        },
+        "Shop Table": {
+            "name": "Table de magasin",
+            "desc": "Les tables de boutique sont le moyen standard de vendre des articles. Seul l'équipement peut être placé sur une table de boutique, et sera vendu à son prix du marché au moment de l'inscription."
+        },
+        "Glass Case": {
+            "name": "Vitrine en verre",
+            "desc": "La Vitrine en Verre est un type spécial d'emplacement de vente. Seuls les équipements peuvent être placés dans une Vitrine en Verre et se vendront avec une majoration de 50% par rapport à leur prix du marché actuel au moment de l'inscription.\n\nSeuls les articles d'une rareté Rare ou supérieure peuvent être placés à l'intérieur. Les clients trouvent que les articles placés ici sont plus chics que ceux sur une table ordinaire."
+        },
+        "Bulk Bin": {
+            "name": "Coffre en vrac",
+            "desc": "La Caisse en Gros est un type spécial d'emplacement de vente. Seuls les matériaux peuvent être placés dans une Caisse en Gros.\n\nLes matériaux vendus ici doivent être vendus en piles de tailles spécifiques, dépendant de la rareté de l'objet. Les tailles des piles sont 40 pour le commun, 20 pour l'uncommun, 10 pour le rare, 5 pour l'épique, 2 pour le légendaire, et 1 pour le mythique.\n\nLes matériaux mis dans une Caisse en Gros seront vendus à leur prix actuel du marché au moment de l'inscription. Les clients adorent penser qu'ils en reçoivent plus pour leur argent, même s'ils n'en reçoivent pas techniquement."
+        },
+        "Banquet Table": {
+            "name": "Table de Banquet",
+            "desc": "La Table de Banquet est un type spécial d'emplacement de vente. Seuls les consommables peuvent être placés sur une Table de Banquet. Les consommables vendus ici doivent être vendus par lots de 4.\n\nLes consommables placés sur une Table de Banquet se vendront à leur prix de marché actuel au moment de la mise en vente. Les clients adorent penser qu'ils en ont plus pour leur argent, même si techniquement ce n'est pas le cas."
+        },
+        "Capacity": {
+            "name": "Capacité",
+            "desc": "La capacité est le nombre total de slots d'inventaire que vous avez. Chaque pile de matériaux ou de consommables utilisera 1 capacité, quel que soit la taille de la pile. Chaque équipement utilisera également 1 capacité, mais ne se regroupera pas. Les doublons du même équipement utiliseront chacun 1 capacité.\n\nSi vous avez atteint la capacité maximale, tout nouvel équipement ou nouveaux matériaux/consommables qui n'ont pas déjà une pile seront placés dans la Boîte de Collection à la place pendant un certain temps.\n\nLa même valeur de capacité est partagée entre équipements, consommables et matériaux."
+        },
+        "Stack Size": {
+            "name": "Taille de la pile",
+            "desc": "Tous les matériaux et consommables ont une taille de pile maximale, qui est indiquée par la Taille de Pile de Stock affichée en haut de l'écran.\n\nSi vous atteignez la taille maximale de pile pour un article en Stock, tout autre article de ce type que vous collectez sera placé dans la Boîte de Collection à la place pour une période de temps."
+        },
+        "Collection Box": {
+            "name": "Boîte de Collection",
+            "desc": "Lorsque des objets collectés ne peuvent pas être placés en Stock pour quelque raison que ce soit, ils seront placés dans la Boîte de Collection à la place. Cela est indiqué par l'icône en haut à droite de l'icône d'un objet lors de la collecte : un sac signifie qu'il a été envoyé au Stock, et un coffre signifie qu'il a été envoyé à votre Boîte de Collection.\n\nSi vous parvenez à libérer de l'espace dans votre Stock, vous pourrez déplacer les objets de la Boîte de Collection vers le Stock pour les sécuriser. Vous pouvez choisir des objets individuels à déplacer vers votre Stock depuis votre Boîte de Collection, et vous n'avez pas besoin de les prendre tous.\n\nVous pouvez également choisir d'envoyer des objets de la Boîte de Collection au Bac à Soldes de la Boutique pour le prix du marché au moment de l'inscription, y compris la remise du Bac à Soldes.\n\nUn objet avec un panneau de numéro vert dans son coin supérieur gauche indique qu'il a plusieurs piles qui expireront à des moments différents, et le temps affiché montre la pile qui expirera le plus tôt. La quantité d'objets affichée est le total combiné de toutes les piles de l'objet.\n\nSi un objet expire de la Boîte de Collection, il sera automatiquement envoyé au Bac à Soldes pour le prix le plus bas possible incluant la remise du Bac à Soldes, et non la valeur marchande actuelle, il est donc préférable de gérer les objets vous-même !"
+        },
+        "Locations": {
+            "name": "Emplacements",
+            "desc": "Le niveau de votre bâtiment Porte de la Ville détermine combien de lieux vous avez disponibles pour que vos héros s'y aventurent et vos ouvriers y travaillent. Un héros doit toujours répondre à l'exigence de niveau pour s'aventurer dans un lieu, même s'il est déverrouillé.\n\nParfois, les lieux de quête manqueront d'ennemis à combattre, et vous devrez attendre un certain temps pour que les ennemis reviennent."
+        },
+        "Travel Time": {
+            "name": "Temps de voyage",
+            "desc": "Votre Porte de Ville peut affecter le temps qu'il faut à vos héros pour voyager vers et depuis un lieu. Cela n'affecte pas le temps de combat, mais réduira le temps total de quête. Le modificateur actuel est déterminé par le niveau du bâtiment."
+        },
+        "Crafters": {
+            "name": "Artisans",
+            "desc": "Tous les Artisans que vous avez débloqués resteront dans le bâtiment du Cercle des Artisans. Le niveau maximum des Artisans est déterminé par le niveau du bâtiment du Cercle des Artisans."
+        },
+        "Crafter Recipes": {
+            "name": "Recettes d'artisan",
+            "desc": "Votre artisan apprend plus de recettes à mesure qu'il monte de niveau ! Cependant, le niveau de votre artisan peut être limité en fonction du niveau actuel de votre bâtiment du Cercle des Artisans."
+        },
+        "Crafter Queues": {
+            "name": "Files d'artisan",
+            "desc": "Les files d'attente d'artisan vous permettent de mettre en file d'attente plusieurs objets à fabriquer en même temps, bien qu'ils ne seront encore fabriqués qu'un à la fois.\n\nVous débloquez plus de créneaux de file d'attente en améliorant le bâtiment du Cercle des Artisans."
+        },
+        "Crafter Choose Amount": {
+            "name": "Artisan Choisissez Quantité",
+            "desc": "Pour les consommables et les matériaux, vous pouvez changer la taille de la pile que vous fabriquez en une seule fois !\n\nVous pouvez augmenter la taille maximale de la pile à fabriquer en une seule fois en améliorant le bâtiment du Cercle des Artisans."
+        },
+        "Crafter Mana": {
+            "name": "Fabricant de mana",
+            "desc": "La Mana d'Artisan est utilisée pour améliorer vos objets fabriqués.\n\nPour les matériaux et consommables, vous pouvez utiliser la mana pour fabriquer une plus grande quantité de l'objet. Pour l'équipement, vous pouvez l'utiliser pour augmenter vos chances d'obtenir un grade d'objet supérieur.\n\nLa Mana d'Artisan est régénérée pour l'artisan lors de la montée de niveau de l'artisan. Vous avez également une chance de gagner plus de mana d'artisan après chaque fabrication."
+        },
+        "Infusion Buffs": {
+            "name": "Améliorations d'infusion",
+            "desc": "Un seul matériau peut être appliqué à l'équipement pour fournir un bonus supplémentaire à une seule statistique pour le coût d'un mana, d'or supplémentaire et de temps supplémentaire.\n\nCe bonus peut être différent selon que le matériau est appliqué à une arme, une armure ou un bijou.\n\nIl y a une chance que cette infusion échoue. Plus votre niveau d'artisan est élevé, plus vous avez de chances de réussir. Plus la différence entre le niveau de l'équipement et le niveau du matériau est grande, plus vous avez de chances d'échouer."
+        },
+        "Infusion Synergies": {
+            "name": "Synergies d'Infusion",
+            "desc": "Deux matériaux peuvent être appliqués à l'équipement pour fournir une variété de bonus uniques contre le coût de deux mana, d'or supplémentaire et de temps supplémentaire.\n\nSi les deux matériaux synergisent ensemble, il n'y a aucune chance d'échec. S'ils ne le font pas, cela échouera et un des matériaux sera choisi au hasard pour fournir un bonus à l'équipement. Ce bonus ne sera pas un échec."
+        },
+        "Infusion Synergies+": {
+            "name": "Synergies d'Infusion+",
+            "desc": "Trois matériaux peuvent être appliqués à l'équipement pour offrir une variété de bonus uniques pour le coût de trois mana, d'or supplémentaire et de temps supplémentaire.\n\nCela fonctionne exactement de la même manière que les Synergies régulières, sauf que maintenant vous pouvez ajouter une gemme comme troisième matériau. Ce troisième matériau n'a aucun effet sur la synergie ou non des deux premiers matériaux.\n\nCette gemme fournira un bonus de grade à l'équipement. Ce bonus de grade sera appliqué que la Synergie réussisse ou non."
+        },
+        "Heroes": {
+            "name": "Héros",
+            "desc": "Tous les héros que vous avez actuellement sous contrat resteront dans la Salle des Héros. Vous pourrez héberger plus de héros ici au fur et à mesure que vous améliorerez le bâtiment."
+        },
+        "Hero Traits": {
+            "name": "Traits de Héros",
+            "desc": "Les traits de héros peuvent avoir un effet positif, négatif ou mixte sur votre héros en fonction de la façon dont vous équipez votre héros."
+        },
+        "Hero Equipment": {
+            "name": "Équipement de héros",
+            "desc": "Depuis les Statistiques du Héros, vous pouvez accéder à l'équipement d'un héros.\n\nVous ne pouvez modifier l'équipement d'un héros que s'il est actuellement sous contrat, vivant et non en quête. Avant de renvoyer un héros, il est prudent de retirer tout son équipement au cas où vous en auriez besoin plus tard."
+        },
+        "Hero Dismiss": {
+            "name": "Congédier Héros",
+            "desc": "Lorsque un héros utilise toutes les quêtes de son contrat, vous aurez la possibilité de renouveler son contrat pour un nouveau nombre de quêtes de votre choix, ou de les congédier.\n\nSi vous les congédiez, ils retourneront à la Taverne et conserveront tout l'équipement que vous leur avez donné. La prochaine fois que vous les engagerez, ils auront toujours le même équipement que lorsqu'ils ont été congédiés."
+        },
+        "Hero Revive": {
+            "name": "Ranimation du Héros",
+            "desc": "Un héros peut s'évanouir après avoir perdu une bataille. Si cela se produit, vous pouvez payer de l'or pour le ressusciter instantanément, ou attendre que le héros se ressuscite automatiquement après un temps d'attente.\n\nLa quantité d'or nécessaire pour ressusciter instantanément diminuera à mesure que le chronomètre de résurrection diminue."
+        },
+        "Hero Consumables": {
+            "name": "Consommables pour Héros",
+            "desc": "Appuyer sur le bouton de tarte dans le menu des statistiques du héros vous mènera au menu des consommables du héros. Tous les consommables affichés ici restaureront la santé de votre héros lorsqu'ils seront consommés."
+        },
+        "Hero Boosts": {
+            "name": "Améliorations de Héros",
+            "desc": "Dans le menu Consommables du Héros, vous pouvez également appliquer des Boosts de Héros.\n\nUn héros ne peut avoir qu'un seul boost actif à la fois, mais vous pouvez utiliser plusieurs fois le même boost pour prolonger sa durée. Cependant, les effets du boost ne seront pas cumulatifs. L'effet du boost ne s'appliquera qu'une seule fois, peu importe le nombre de fois où il est utilisé."
+        },
+        "Party Battles": {
+            "name": "Batailles de Groupe",
+            "desc": "Parfois, vous rencontrerez des ennemis puissants qui nécessitent plusieurs héros pour être vaincus. Pour rejoindre le combat, un héros doit d'abord satisfaire l'exigence de niveau de l'emplacement.\n\nL'ordre de jeu est indiqué par le chiffre affiché sous le niveau de chaque héros lorsqu'il est placé dans la disposition du groupe.\n\nUn ennemi coriace peut d'abord vaincre votre groupe, mais il restera affaibli si vous parvenez à infliger suffisamment de dégâts pour franchir un cran sur sa barre de PV pour un combat plus facile la prochaine fois. Soyez rapide cependant, car l'ennemi se régénérera lentement avec le temps !"
+        },
+        "Guild Quick Join": {
+            "name": "Rejoindre Rapidement une Guilde",
+            "desc": "Utiliser cette fonctionnalité vous placera dans une guilde communautaire.\n\nLes guildes communautaires n'ont pas de chef et ne peuvent pas participer aux ligues de guildes. Il est recommandé pour les nouveaux joueurs."
+        },
+        "Guild Chat": {
+            "name": "Chat de Guilde",
+            "desc": "Le Chat de Guilde est un endroit où vous et vos compagnons de guilde pouvez communiquer et consulter un journal des diverses activités au sein de la guilde.\n\nN'hésitez pas à discuter, mais assurez-vous d'être amical, sinon ils pourraient vous expulser !\n\nVous pouvez également faire des demandes à vos compagnons de guilde et contribuer aux demandes de vos compagnons de guilde."
+        },
+        "Guild Requests": {
+            "name": "Demandes de la Guilde",
+            "desc": "Dans le menu des demandes de guilde, les membres de la guilde peuvent demander et recevoir des objets les uns des autres. Cela est limité uniquement aux matériaux que vous avez découverts.\n\nLa quantité de matériaux que vous pouvez demander dépend de la rareté du matériau que vous souhaitez.\n\nAprès avoir fait une demande, vous devez attendre que soit la totalité de la demande soit remplie, soit que le chronomètre de la demande expire avant de récupérer les objets disponibles.\n\nUne fois la demande terminée, vous aurez un temps imparti pour collecter les objets, sinon ils seront automatiquement rejetés."
+        },
+        "Building Experience": {
+            "name": "Expérience de construction",
+            "desc": "En appuyant sur le bouton de marteau sur l'écran de la Ville, vous pouvez accéder au menu de mise à niveau des bâtiments. Ici, vous pouvez contribuer en or ou en matériaux pour améliorer les bâtiments et débloquer des améliorations, qui sont partagées avec l'ensemble de votre Guilde.\n\nUne fois que vous avez contribué à un bâtiment, vous ne pouvez pas récupérer l'or.\n\nSi vous quittez votre Guilde, vous emporterez toute votre expérience de construction avec vous, mais elle sera automatiquement appliquée à la contribution totale des bâtiments de la prochaine Guilde que vous rejoignez.\n\nPour recevoir les avantages de niveau d'un bâtiment, il y a un montant minimum que vous devez donner par niveau. Par exemple, votre guilde peut avoir le niveau 3 pour la Boutique mais comme vous n'avez pas beaucoup contribué, vous ne recevez peut-être seulement les avantages de niveau 1.\n\nD'un autre côté, vous conservez les avantages maximums que vous avez jamais reçus même si la guilde perd des investisseurs ou si vous changez de guilde.\n\nPar exemple, disons que vous êtes dans une guilde de 2 personnes. L'autre membre a gagné beaucoup d'expérience pour la Porte de la Ville de sorte que Yarsol est débloqué. Vous avez peut-être seulement contribué le minimum pour pouvoir faire des quêtes à Yarsol, mais ils ont fait le reste. Si l'autre personne quitte la guilde, vous pourrez toujours faire des quêtes à Yarsol, cependant, vous ne débloquerez pas de nouveaux emplacements tant que vous n'aurez pas remis à niveau le bâtiment à votre niveau d'avantage."
+        },
+        "Building Top Investor": {
+            "name": "Investisseur Principal en Bâtiment",
+            "desc": "Le joueur ayant le plus investi dans un bâtiment sera affiché sur l'écran d'amélioration du bâtiment. Juste pour une compétition amicale !\n\nVous pouvez voir comment vous et les autres membres de votre guilde vous comparez en passant à \"vue investisseur\" sur l'écran d'amélioration du bâtiment."
+        },
+        "Building Material Investment": {
+            "name": "Investissement en matériaux de construction",
+            "desc": "Vous et vos coéquipiers de guilde pouvez faire une contribution matérielle à chaque bâtiment de la ville une fois par jour. La valeur des matériaux sera ajoutée au total de l'investissement en or du bâtiment, avec un multiplicateur supplémentaire basé sur le nombre total de membres de la guilde ayant contribué. Plus on est de fous, plus on rit !\n\nContrairement aux investissements en or, cependant, les dons de matériaux resteront avec la guilde même après votre départ."
+        },
+        "Guild Leagues": {
+            "name": "Ligues de Guilde",
+            "desc": "Chaque semaine, les guildes s'affrontent dans un tournoi contre d'autres guildes de la même ligue.\n\nLes membres de la guilde doivent collaborer pour accomplir une série de missions de plus en plus difficiles. Lorsque votre guilde termine une étape de la mission, vous obtenez un important bonus de points. Ce bonus augmente à chaque étape.\n\nSelon les performances de votre guilde, vous pouvez être promu, rétrogradé ou ne pas avoir de mouvement de ligue. Le mouvement de votre guilde est déterminé à la fin de la guerre de ligue.\n\nÀ la fin de la guerre de ligue, il y a un court temps de rechargement avant que la suivante ne commence.\n\nAu fur et à mesure que votre guilde progresse à travers les ligues, elle gagne de puissants bonus. Ces bonus sont disponibles pour tous les membres.\n\nSi un joueur rejoint une guilde en cours de guerre, il ne peut pas participer aux missions jusqu'à la prochaine guerre de ligue.\n\nSi une guilde est créée en cours de guerre, elle ne pourra pas participer aux guerres de ligue avant la semaine suivante."
+        },
+        "Hirable Heroes": {
+            "name": "Héros Employables",
+            "desc": "Dans la Taverne, vous trouverez tous les héros sans emploi actuellement disponibles pour être engagés. Il peut n'y en avoir que quelques-uns au départ, mais améliorer votre Taverne débloquera finalement plus de héros à embaucher.\n\nTous les héros employés que vous avez licenciés reviendront ici pour que vous puissiez les réembaucher à l'avenir également."
+        },
+        "Hero Contracts": {
+            "name": "Contrats de Héros",
+            "desc": "Si vous voulez qu'un héros travaille pour vous, vous devez d'abord l'embaucher avec un contrat. Vous avez la possibilité de recruter un héros pour un nombre défini de charges de quête indiqué par l'icône d'éclair, en échange d'une somme d'or définie.\n\nLors des quêtes, une charge sera utilisée que le héros gagne ou perde. Une fois leur contrat terminé, vous pouvez choisir de le renouveler ou de le renvoyer.\n\nVous pouvez augmenter le nombre d'options par période de temps en faisant monter de niveau le héros dans la boutique. Assurez-vous de maintenir une bonne relation avec le talent local car cela peut influencer leurs prix et bien plus encore !"
+        },
+        "Tavern Gold": {
+            "name": "Or de taverne",
+            "desc": "Votre taverne accumulera lentement de l'or au fil du temps, qui peut être collecté grâce à un bouton au-dessus de la taverne sur l'écran de la ville.\n\nLes améliorations de la taverne débloqueront parfois une génération d'or plus rapide, alors assurez-vous d'investir dans cet établissement local !"
+        },
+        "Workers": {
+            "name": "Travailleurs",
+            "desc": "Tous les travailleurs que vous avez débloqués seront hébergés dans les Baraquements des Travailleurs.\n\nAméliorer ce bâtiment débloquera de nouveaux emplacements pour que vos travailleurs puissent y travailler. Vous pouvez également recevoir des types de contrats supplémentaires en améliorant les Baraquements des Travailleurs."
+        },
+        "Hiring Workers": {
+            "name": "Embaucher des travailleurs",
+            "desc": "Lorsque vous envoyez un travailleur au travail, vous pouvez choisir la durée de son travail. Assurez-vous de choisir un délai approprié car vous ne pourrez pas les rappeler plus tôt. Vous pouvez augmenter le nombre d'options par délai en améliorant le niveau du travailleur dans la boutique. Ils ne reviendront que lorsqu'ils auront terminé. Assurez-vous de maintenir une bonne relation avec le talent local car cela peut affecter leurs prix et plus encore !"
+        }
+    },
+    "combat": {
+        "max_hp": {
+            "name": "Maximum health points. Will increase on level up or with certain equipment and boosts",
+            "desc": "Points de Vie Max"
+        },
+        "atk": {
+            "name": "Physical damage type. Works against def",
+            "desc": "Attaque"
+        },
+        "matk": {
+            "name": "Magical damage type. Works against mdef",
+            "desc": "Magie"
+        },
+        "acc": {
+            "name": "Accuracy. Works against eva",
+            "desc": "Pomme"
+        },
+        "crit": {
+            "name": "Critical Strike. Value is chance to crit, maximum value is 100",
+            "desc": "Critique"
+        },
+        "crit_mod": {
+            "name": "Critical Strike Modifier. A multiplier for the damage you will deal if a crit is landed",
+            "desc": "Mod Crit"
+        },
+        "def": {
+            "name": "Physical Defense. Works against atk",
+            "desc": "Bouclier"
+        },
+        "mdef": {
+            "name": "Magic Defense. Works against matk",
+            "desc": "DefM"
+        },
+        "eva": {
+            "name": "Evasion. Works against acc",
+            "desc": "Être"
+        },
+        "str": {
+            "name": "Strength. Increases atk and def",
+            "desc": "Force"
+        },
+        "int": {
+            "name": "Intelligence. Increases matk and mdef",
+            "desc": "Intelligence"
+        },
+        "agi": {
+            "name": "Agility. Increases acc and eva",
+            "desc": "Agilité"
+        },
+        "incHeal": {
+            "name": "Increases healing received during combat",
+            "desc": "Soin Imminent"
+        },
+        "outHeal": {
+            "name": "Increases healing dealt during combat",
+            "desc": "Soins Sortants"
+        },
+        "luck": {
+            "name": "Increases rewards from quests",
+            "desc": "Chance"
+        },
+        "exp": {
+            "name": "Experience. Increases experience gained for heroes",
+            "desc": "Expérience"
+        },
+        "speed": {
+            "name": "Speed. Make heroes quest faster",
+            "desc": "Vitesse"
+        },
+        "fire": {
+            "name": "Scales off of matk, reduced by mdef",
+            "desc": "Feu"
+        },
+        "poison": {
+            "name": "Scales off of atk, reduced by def",
+            "desc": "Poison"
+        },
+        "bleed": {
+            "name": "Scales off of atk, true damage",
+            "desc": "Saignée"
+        },
+        "soul_fire": {
+            "name": "Scales off of matk, true damage",
+            "desc": "Feu d'Âme"
+        },
+        "heal": {
+            "name": "Heal for hp",
+            "desc": "Guérison"
+        },
+        "ap": {
+            "name": "Action point. Skills use a specified amount of action points",
+            "desc": "AP"
+        },
+        "buff": {
+            "name": "Increase a stat",
+            "desc": "Amélioration"
+        },
+        "debuff": {
+            "name": "Decrease a stat",
+            "desc": "Affaiblissement"
+        },
+        "estimate": {
+            "name": "Could be higher or lower than the value",
+            "desc": "Estimation"
+        },
+        "turns": {
+            "name": "If someone casts a skill that has an effect for 1 turn, this effect will last until it is the caster's turn again",
+            "desc": "Tours"
+        },
+        "self": {
+            "name": "The caster of a skill",
+            "desc": "Soi-même"
+        },
+        "ally": {
+            "name": "A specific hero in the party, not the caster of the skill",
+            "desc": "Allié"
+        },
+        "party": {
+            "name": "Applies to all heroes in a party",
+            "desc": "Fête"
+        },
+        "target": {
+            "name": "Receipient of a casted skill",
+            "desc": "Cible"
+        },
+        "shield": {
+            "name": "An overshield with a specified health and amount of protections",
+            "desc": "Bouclier"
+        },
+        "taunt": {
+            "name": "Next single target attack will attack this hero instead",
+            "desc": "Provocation"
+        },
+        "silence": {
+            "name": "Removes all buffs, taunts, shields on the receipient",
+            "desc": "Silence"
+        },
+        "leech": {
+            "name": "A portion of damage dealt heals the caster",
+            "desc": "Sangsue"
+        },
+        "true_damage": {
+            "name": "Damage that ignores defenses",
+            "desc": "Dégâts Réels"
+        },
+        "cleanse": {
+            "name": "Removes all debuffs, silence, stuns, tick damage",
+            "desc": "Purifier"
+        },
+        "reflect": {
+            "name": "Some of damage that would have been dealt is returned to the attacker",
+            "desc": "Réfléchir"
+        },
+        "stun": {
+            "name": "Makes recepient skip their next turn",
+            "desc": "Étourdir"
+        },
+        "pent": {
+            "name": "Penetration. Ignore an amount of protections",
+            "desc": "Pentium"
+        },
+        "chance": {
+            "name": "Not guaranteed, increases with luck",
+            "desc": "Hasard"
+        },
+        "block": {
+            "name": "Reduce amount of incoming damage",
+            "desc": "Bloc"
+        },
+        "steal": {
+            "name": "Take an amount of something from target and give to self. If for limited duration, at the end of the duration the amount stolen is removed from original caster and returned to original target",
+            "desc": "Voler"
+        },
+        "dodge": {
+            "name": "Completely avoid taking damage",
+            "desc": "Esquive"
+        },
+        "rotation": {
+            "name": "Moves the party 1 slot clockwise",
+            "desc": "Rotation"
+        },
+        "swap": {
+            "name": "2 party members trade positions",
+            "desc": "Échanger"
+        }
+    },
+    "inGameTips": {
+        "1": {
+            "name": "Les héros de la ville sont vos amis, donnez-leur un surnom !",
+            "desc": ""
+        },
+        "2": {
+            "name": "Vous pouvez renommer les équipements de compétence de votre héros !",
+            "desc": ""
+        },
+        "3": {
+            "name": "Lorsque vous choisissez une quantité de quelque chose, appuyez sur le nombre pour entrer un nombre personnalisé",
+            "desc": ""
+        },
+        "4": {
+            "name": "Certains clients viennent dans la boutique moins fréquemment que d'autres.",
+            "desc": ""
+        },
+        "5": {
+            "name": "Certains ennemis ont des compétences dangereuses ! Consultez le Compendium pour connaître les attaques connues",
+            "desc": ""
+        },
+        "6": {
+            "name": "Un employé de Retora ne vous demandera jamais votre mot de passe!",
+            "desc": ""
+        },
+        "7": {
+            "name": "Vous pouvez débloquer plus d'options de contrat de héros en vendant à ce héros dans votre boutique",
+            "desc": ""
+        },
+        "8": {
+            "name": "Offrez à vos ouvriers un accord qui leur plaît ! Ils pourraient travailler plus dur et vous rapporter plus de matériaux !",
+            "desc": ""
+        },
+        "9": {
+            "name": "Si vous renvoyez un héros, il retournera à la Taverne, disponible pour être embauché à tout moment",
+            "desc": ""
+        },
+        "10": {
+            "name": "Il y a une chance pour un artisan de gagner un point de mana après avoir fabriqué un objet",
+            "desc": ""
+        },
+        "11": {
+            "name": "Vos progrès ne sont pas limités à votre Guilde. Si vous décidez de changer, vous conserverez vos progrès.",
+            "desc": "Joe"
+        },
+        "12": {
+            "name": "Les clients préfèrent certains articles par rapport à d'autres et paieront des prix considérablement plus élevés pour eux.",
+            "desc": "Edna"
+        },
+        "13": {
+            "name": "Les héros ne devraient pas toujours se tenir au centre",
+            "desc": "The Banana"
+        },
+        "14": {
+            "name": "La première ligne lors des batailles de groupe a tendance à être plus attaquée. L'armure et la santé sont importantes !",
+            "desc": "The Cleric"
+        },
+        "15": {
+            "name": "Consultez le Discord pour les guildes, astuces, codes promo, ou si vous avez des questions !",
+            "desc": "Dorce"
+        },
+        "16": {
+            "name": "Les escarmouches de la ligue commencent chaque lundi. Assurez-vous de contribuer pour obtenir plus de récompenses !",
+            "desc": ""
+        },
+        "17": {
+            "name": "Les contributeurs sur Patreon bénéficient d'un accès aux coulisses, de contenu spécial, et plus encore !",
+            "desc": ""
+        },
+        "18": {
+            "name": "Soutenez-nous sur Patreon pour voter sur le nouveau contenu et choisir les noms pour le nouveau contenu !",
+            "desc": ""
+        },
+        "19": {
+            "name": "Saviez-vous que les soutiens sur Patreon peuvent voir le contenu avant sa sortie ?",
+            "desc": ""
+        },
+        "20": {
+            "name": "Vous pouvez appuyer et maintenir la plupart des objets pour obtenir plus d'infos!",
+            "desc": ""
+        }
+    }
+}

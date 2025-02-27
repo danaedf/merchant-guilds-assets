@@ -1,0 +1,12 @@
+{
+    "9": "A lenda diz que ele vagueia pela Floresta do Escaravelho",
+    "22": "A lenda diz que ele vagueia pela Cova das Cobras",
+    "27": "Diz a lenda que ele vagueia pelo Santuário das Aranhas",
+    "32": "Diz a lenda que vagueia pelo Lago de Hogger",
+    "37": "A lenda diz que vagueia pela Gruta da Serra",
+    "42": "Segundo em comando no Forte Goblin",
+    "47": "Comandante do Forte Goblin",
+    "48": "A lenda diz que vaga pela Toca da Ursa",
+    "53": "A lenda diz que ele percorre a Fenda Confinada",
+    "58": "A lenda diz que perambula pelo Turtle Cay."
+}

@@ -1,0 +1,12 @@
+{
+    "9": "La leggenda dice che si aggira per i Boschi dello Scarabeo",
+    "22": "La leggenda dice che vaga nella Fossa del Serpente",
+    "27": "La leggenda dice che vaga nel Santuario del Ragno.",
+    "32": "La leggenda dice che vaga per il Lago di Hogger",
+    "37": "La leggenda dice che si aggira nella Grotta del Taglio Trasversale",
+    "42": "Secondo in comando al Forte dei Goblin",
+    "47": "Comandante del Forte dei Goblin",
+    "48": "La leggenda dice che si aggira nella Tana dell'Orsa",
+    "53": "La leggenda dice che vaghi per la Fenditura Confinata",
+    "58": "La leggenda dice che vaga per la Baia della Tartaruga."
+}

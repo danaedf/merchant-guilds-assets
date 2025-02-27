@@ -1,0 +1,1297 @@
+{
+  "Avatars": {
+    "Avatars-BetaSpecials-1": {
+      "Name": "Avatars-BetaSpecials-1",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "alpha"
+    },
+    "Avatars-BetaSpecials-10": {
+      "Name": "Avatars-BetaSpecials-10",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-11": {
+      "Name": "Avatars-BetaSpecials-11",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-12": {
+      "Name": "Avatars-BetaSpecials-12",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-13": {
+      "Name": "Avatars-BetaSpecials-13",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "alpha"
+    },
+    "Avatars-BetaSpecials-14": {
+      "Name": "Avatars-BetaSpecials-14",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-15": {
+      "Name": "Avatars-BetaSpecials-15",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-16": {
+      "Name": "Avatars-BetaSpecials-16",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-17": {
+      "Name": "Avatars-BetaSpecials-17",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-18": {
+      "Name": "Avatars-BetaSpecials-18",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-19": {
+      "Name": "Avatars-BetaSpecials-19",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-2": {
+      "Name": "Avatars-BetaSpecials-2",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-20": {
+      "Name": "Avatars-BetaSpecials-20",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-21": {
+      "Name": "Avatars-BetaSpecials-21",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "alpha"
+    },
+    "Avatars-BetaSpecials-22": {
+      "Name": "Avatars-BetaSpecials-22",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-23": {
+      "Name": "Avatars-BetaSpecials-23",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-24": {
+      "Name": "Avatars-BetaSpecials-24",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "alpha"
+    },
+    "Avatars-BetaSpecials-25": {
+      "Name": "Avatars-BetaSpecials-25",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-26": {
+      "Name": "Avatars-BetaSpecials-26",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-27": {
+      "Name": "Avatars-BetaSpecials-27",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-28": {
+      "Name": "Avatars-BetaSpecials-28",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-29": {
+      "Name": "Avatars-BetaSpecials-29",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-3": {
+      "Name": "Avatars-BetaSpecials-3",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-30": {
+      "Name": "Avatars-BetaSpecials-30",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "alpha"
+    },
+    "Avatars-BetaSpecials-31": {
+      "Name": "Avatars-BetaSpecials-31",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-32": {
+      "Name": "Avatars-BetaSpecials-32",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-4": {
+      "Name": "Avatars-BetaSpecials-4",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-5": {
+      "Name": "Avatars-BetaSpecials-5",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "alpha"
+    },
+    "Avatars-BetaSpecials-6": {
+      "Name": "Avatars-BetaSpecials-6",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-7": {
+      "Name": "Avatars-BetaSpecials-7",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-8": {
+      "Name": "Avatars-BetaSpecials-8",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-9": {
+      "Name": "Avatars-BetaSpecials-9",
+      "Hidden": true,
+      "Benefit": "unlock_all",
+      "Segment": "beta"
+    },
+    "Avatars-BetaSpecials-C14": {
+      "Name": "Avatars-BetaSpecials-C14",
+      "Hidden": true
+    },
+    "Avatars-BetaSpecials-C15": {
+      "Name": "Avatars-BetaSpecials-C15",
+      "Hidden": true
+    },
+    "Avatars-BetaSpecials-C19": {
+      "Name": "Avatars-BetaSpecials-C19",
+      "Hidden": true
+    },
+    "Avatars-Customers-10": {
+      "Name": "Avatars-Customers-10",
+      "Hidden": false,
+      "AchievementStageId": "1773"
+    },
+    "Avatars-Customers-11": {
+      "Name": "Avatars-Customers-11",
+      "Hidden": false,
+      "AchievementStageId": "1778"
+    },
+    "Avatars-Customers-12": {
+      "Name": "Avatars-Customers-12",
+      "Hidden": false,
+      "AchievementStageId": "2169"
+    },
+    "Avatars-Customers-13": {
+      "Name": "Avatars-Customers-13",
+      "Hidden": false,
+      "AchievementStageId": "2157"
+    },
+    "Avatars-Customers-14": {
+      "Name": "Avatars-Customers-14",
+      "Hidden": false,
+      "AchievementStageId": "1871"
+    },
+    "Avatars-Customers-15": {
+      "Name": "Avatars-Customers-15",
+      "Hidden": false,
+      "AchievementStageId": "1874"
+    },
+    "Avatars-Customers-16": {
+      "Name": "Avatars-Customers-16",
+      "Hidden": false,
+      "AchievementStageId": "1877"
+    },
+    "Avatars-Customers-17": {
+      "Name": "Avatars-Customers-17",
+      "Hidden": false,
+      "AchievementStageId": "1880"
+    },
+    "Avatars-Customers-18": {
+      "Name": "Avatars-Customers-18",
+      "Hidden": false,
+      "AchievementStageId": "1868"
+    },
+    "Avatars-Customers-7": {
+      "Name": "Avatars-Customers-7",
+      "Hidden": false,
+      "AchievementStageId": "1758"
+    },
+    "Avatars-Customers-8": {
+      "Name": "Avatars-Customers-8",
+      "Hidden": false,
+      "AchievementStageId": "1763"
+    },
+    "Avatars-Customers-9": {
+      "Name": "Avatars-Customers-9",
+      "Hidden": false,
+      "AchievementStageId": "1768"
+    },
+    "Avatars-Customers-Mayor": {
+      "Name": "Avatars-Customers-Mayor",
+      "Hidden": false
+    },
+    "Avatars-Customers-Stock": {
+      "Name": "Avatars-Customers-Stock",
+      "Hidden": false
+    },
+    "Avatars-Enemies-Region1-1": {
+      "Name": "Avatars-Enemies-Region1-1",
+      "Hidden": false,
+      "AchievementStageId": "388"
+    },
+    "Avatars-Enemies-Region1-10": {
+      "Name": "Avatars-Enemies-Region1-10",
+      "Hidden": false,
+      "AchievementStageId": "403"
+    },
+    "Avatars-Enemies-Region1-11": {
+      "Name": "Avatars-Enemies-Region1-11",
+      "Hidden": false,
+      "AchievementStageId": "405"
+    },
+    "Avatars-Enemies-Region1-12": {
+      "Name": "Avatars-Enemies-Region1-12",
+      "Hidden": false,
+      "AchievementStageId": "407"
+    },
+    "Avatars-Enemies-Region1-13": {
+      "Name": "Avatars-Enemies-Region1-13",
+      "Hidden": false,
+      "AchievementStageId": "408"
+    },
+    "Avatars-Enemies-Region1-14": {
+      "Name": "Avatars-Enemies-Region1-14",
+      "Hidden": false,
+      "AchievementStageId": "410"
+    },
+    "Avatars-Enemies-Region1-15": {
+      "Name": "Avatars-Enemies-Region1-15",
+      "Hidden": false,
+      "AchievementStageId": "412"
+    },
+    "Avatars-Enemies-Region1-16": {
+      "Name": "Avatars-Enemies-Region1-16",
+      "Hidden": false,
+      "AchievementStageId": "413"
+    },
+    "Avatars-Enemies-Region1-17": {
+      "Name": "Avatars-Enemies-Region1-17",
+      "Hidden": false,
+      "AchievementStageId": "414"
+    },
+    "Avatars-Enemies-Region1-18": {
+      "Name": "Avatars-Enemies-Region1-18",
+      "Hidden": false,
+      "AchievementStageId": "415"
+    },
+    "Avatars-Enemies-Region1-19": {
+      "Name": "Avatars-Enemies-Region1-19",
+      "Hidden": false,
+      "AchievementStageId": "417"
+    },
+    "Avatars-Enemies-Region1-2": {
+      "Name": "Avatars-Enemies-Region1-2",
+      "Hidden": false,
+      "AchievementStageId": "390"
+    },
+    "Avatars-Enemies-Region1-20": {
+      "Name": "Avatars-Enemies-Region1-20",
+      "Hidden": false,
+      "AchievementStageId": "418"
+    },
+    "Avatars-Enemies-Region1-21": {
+      "Name": "Avatars-Enemies-Region1-21",
+      "Hidden": false,
+      "AchievementStageId": "420"
+    },
+    "Avatars-Enemies-Region1-22": {
+      "Name": "Avatars-Enemies-Region1-22",
+      "Hidden": false,
+      "AchievementStageId": "421"
+    },
+    "Avatars-Enemies-Region1-23": {
+      "Name": "Avatars-Enemies-Region1-23",
+      "Hidden": false,
+      "AchievementStageId": "423"
+    },
+    "Avatars-Enemies-Region1-24": {
+      "Name": "Avatars-Enemies-Region1-24",
+      "Hidden": false,
+      "AchievementStageId": "424"
+    },
+    "Avatars-Enemies-Region1-25": {
+      "Name": "Avatars-Enemies-Region1-25",
+      "Hidden": false,
+      "AchievementStageId": "426"
+    },
+    "Avatars-Enemies-Region1-26": {
+      "Name": "Avatars-Enemies-Region1-26",
+      "Hidden": false,
+      "AchievementStageId": "428"
+    },
+    "Avatars-Enemies-Region1-27": {
+      "Name": "Avatars-Enemies-Region1-27",
+      "Hidden": false,
+      "AchievementStageId": "429"
+    },
+    "Avatars-Enemies-Region1-28": {
+      "Name": "Avatars-Enemies-Region1-28",
+      "Hidden": false,
+      "AchievementStageId": "431"
+    },
+    "Avatars-Enemies-Region1-29": {
+      "Name": "Avatars-Enemies-Region1-29",
+      "Hidden": false,
+      "AchievementStageId": "433"
+    },
+    "Avatars-Enemies-Region1-3": {
+      "Name": "Avatars-Enemies-Region1-3",
+      "Hidden": false,
+      "AchievementStageId": "392"
+    },
+    "Avatars-Enemies-Region1-30": {
+      "Name": "Avatars-Enemies-Region1-30",
+      "Hidden": false,
+      "AchievementStageId": "1088"
+    },
+    "Avatars-Enemies-Region1-31": {
+      "Name": "Avatars-Enemies-Region1-31",
+      "Hidden": false,
+      "AchievementStageId": "1089"
+    },
+    "Avatars-Enemies-Region1-32": {
+      "Name": "Avatars-Enemies-Region1-32",
+      "Hidden": false,
+      "AchievementStageId": "897"
+    },
+    "Avatars-Enemies-Region1-33": {
+      "Name": "Avatars-Enemies-Region1-33",
+      "Hidden": false,
+      "AchievementStageId": "898"
+    },
+    "Avatars-Enemies-Region1-4": {
+      "Name": "Avatars-Enemies-Region1-4",
+      "Hidden": false,
+      "AchievementStageId": "393"
+    },
+    "Avatars-Enemies-Region1-5": {
+      "Name": "Avatars-Enemies-Region1-5",
+      "Hidden": false,
+      "AchievementStageId": "395"
+    },
+    "Avatars-Enemies-Region1-6": {
+      "Name": "Avatars-Enemies-Region1-6",
+      "Hidden": false,
+      "AchievementStageId": "397"
+    },
+    "Avatars-Enemies-Region1-7": {
+      "Name": "Avatars-Enemies-Region1-7",
+      "Hidden": false,
+      "AchievementStageId": "398"
+    },
+    "Avatars-Enemies-Region1-8": {
+      "Name": "Avatars-Enemies-Region1-8",
+      "Hidden": false,
+      "AchievementStageId": "400"
+    },
+    "Avatars-Enemies-Region1-9": {
+      "Name": "Avatars-Enemies-Region1-9",
+      "Hidden": false,
+      "AchievementStageId": "402"
+    },
+    "Avatars-Enemies-Region2-34": {
+      "Name": "Avatars-Enemies-Region2-34",
+      "Hidden": false,
+      "AchievementStageId": "516"
+    },
+    "Avatars-Enemies-Region2-35": {
+      "Name": "Avatars-Enemies-Region2-35",
+      "Hidden": false,
+      "AchievementStageId": "518"
+    },
+    "Avatars-Enemies-Region2-36": {
+      "Name": "Avatars-Enemies-Region2-36",
+      "Hidden": false,
+      "AchievementStageId": "520"
+    },
+    "Avatars-Enemies-Region2-37": {
+      "Name": "Avatars-Enemies-Region2-37",
+      "Hidden": false,
+      "AchievementStageId": "521"
+    },
+    "Avatars-Enemies-Region2-38": {
+      "Name": "Avatars-Enemies-Region2-38",
+      "Hidden": false,
+      "AchievementStageId": "523"
+    },
+    "Avatars-Enemies-Region2-39": {
+      "Name": "Avatars-Enemies-Region2-39",
+      "Hidden": false,
+      "AchievementStageId": "525"
+    },
+    "Avatars-Enemies-Region2-40": {
+      "Name": "Avatars-Enemies-Region2-40",
+      "Hidden": false,
+      "AchievementStageId": "526"
+    },
+    "Avatars-Enemies-Region2-41": {
+      "Name": "Avatars-Enemies-Region2-41",
+      "Hidden": false,
+      "AchievementStageId": "528"
+    },
+    "Avatars-Enemies-Region2-42": {
+      "Name": "Avatars-Enemies-Region2-42",
+      "Hidden": false,
+      "AchievementStageId": "530"
+    },
+    "Avatars-Enemies-Region2-43": {
+      "Name": "Avatars-Enemies-Region2-43",
+      "Hidden": false,
+      "AchievementStageId": "531"
+    },
+    "Avatars-Enemies-Region2-44": {
+      "Name": "Avatars-Enemies-Region2-44",
+      "Hidden": false,
+      "AchievementStageId": "533"
+    },
+    "Avatars-Enemies-Region2-45": {
+      "Name": "Avatars-Enemies-Region2-45",
+      "Hidden": false,
+      "AchievementStageId": "535"
+    },
+    "Avatars-Enemies-Region2-46": {
+      "Name": "Avatars-Enemies-Region2-46",
+      "Hidden": false,
+      "AchievementStageId": "536"
+    },
+    "Avatars-Enemies-Region2-47": {
+      "Name": "Avatars-Enemies-Region2-47",
+      "Hidden": false,
+      "AchievementStageId": "538"
+    },
+    "Avatars-Enemies-Region2-48": {
+      "Name": "Avatars-Enemies-Region2-48",
+      "Hidden": false,
+      "AchievementStageId": "540"
+    },
+    "Avatars-Enemies-Region2-49": {
+      "Name": "Avatars-Enemies-Region2-49",
+      "Hidden": false,
+      "AchievementStageId": "541"
+    },
+    "Avatars-Enemies-Region2-50": {
+      "Name": "Avatars-Enemies-Region2-50",
+      "Hidden": false,
+      "AchievementStageId": "542"
+    },
+    "Avatars-Enemies-Region2-51": {
+      "Name": "Avatars-Enemies-Region2-51",
+      "Hidden": false,
+      "AchievementStageId": "544"
+    },
+    "Avatars-Enemies-Region2-52": {
+      "Name": "Avatars-Enemies-Region2-52",
+      "Hidden": false,
+      "AchievementStageId": "545"
+    },
+    "Avatars-Enemies-Region2-53": {
+      "Name": "Avatars-Enemies-Region2-53",
+      "Hidden": false,
+      "AchievementStageId": "547"
+    },
+    "Avatars-Enemies-Region2-54": {
+      "Name": "Avatars-Enemies-Region2-54",
+      "Hidden": false,
+      "AchievementStageId": "548"
+    },
+    "Avatars-Enemies-Region2-55": {
+      "Name": "Avatars-Enemies-Region2-55",
+      "Hidden": false,
+      "AchievementStageId": "550"
+    },
+    "Avatars-Enemies-Region2-56": {
+      "Name": "Avatars-Enemies-Region2-56",
+      "Hidden": false,
+      "AchievementStageId": "552"
+    },
+    "Avatars-Enemies-Region2-57": {
+      "Name": "Avatars-Enemies-Region2-57",
+      "Hidden": false,
+      "AchievementStageId": "553"
+    },
+    "Avatars-Enemies-Region2-58": {
+      "Name": "Avatars-Enemies-Region2-58",
+      "Hidden": false,
+      "AchievementStageId": "555"
+    },
+    "Avatars-Enemies-Region2-59": {
+      "Name": "Avatars-Enemies-Region2-59",
+      "Hidden": false,
+      "AchievementStageId": "557"
+    },
+    "Avatars-Enemies-Region2-60": {
+      "Name": "Avatars-Enemies-Region2-60",
+      "Hidden": false,
+      "AchievementStageId": "558"
+    },
+    "Avatars-Enemies-Region2-61": {
+      "Name": "Avatars-Enemies-Region2-61",
+      "Hidden": false,
+      "AchievementStageId": "560"
+    },
+    "Avatars-Enemies-Region2-62": {
+      "Name": "Avatars-Enemies-Region2-62",
+      "Hidden": false,
+      "AchievementStageId": "1091"
+    },
+    "Avatars-Enemies-Region2-63": {
+      "Name": "Avatars-Enemies-Region2-63",
+      "Hidden": false,
+      "AchievementStageId": "1092"
+    },
+    "Avatars-Enemies-Region2-64": {
+      "Name": "Avatars-Enemies-Region2-64",
+      "Hidden": false,
+      "AchievementStageId": "900"
+    },
+    "Avatars-Enemies-Region2-65": {
+      "Name": "Avatars-Enemies-Region2-65",
+      "Hidden": false,
+      "AchievementStageId": "901"
+    },
+    "Avatars-Enemies-Region3-66": {
+      "Name": "Avatars-Enemies-Region3-66",
+      "Hidden": false,
+      "AchievementStageId": "664"
+    },
+    "Avatars-Enemies-Region3-67": {
+      "Name": "Avatars-Enemies-Region3-67",
+      "Hidden": false,
+      "AchievementStageId": "666"
+    },
+    "Avatars-Enemies-Region3-68": {
+      "Name": "Avatars-Enemies-Region3-68",
+      "Hidden": false,
+      "AchievementStageId": "668"
+    },
+    "Avatars-Enemies-Region3-69": {
+      "Name": "Avatars-Enemies-Region3-69",
+      "Hidden": false,
+      "AchievementStageId": "669"
+    },
+    "Avatars-Enemies-Region3-70": {
+      "Name": "Avatars-Enemies-Region3-70",
+      "Hidden": false,
+      "AchievementStageId": "671"
+    },
+    "Avatars-Enemies-Region3-71": {
+      "Name": "Avatars-Enemies-Region3-71",
+      "Hidden": false,
+      "AchievementStageId": "673"
+    },
+    "Avatars-Enemies-Region3-72": {
+      "Name": "Avatars-Enemies-Region3-72",
+      "Hidden": false,
+      "AchievementStageId": "674"
+    },
+    "Avatars-Enemies-Region3-73": {
+      "Name": "Avatars-Enemies-Region3-73",
+      "Hidden": false,
+      "AchievementStageId": "676"
+    },
+    "Avatars-Enemies-Region3-74": {
+      "Name": "Avatars-Enemies-Region3-74",
+      "Hidden": false,
+      "AchievementStageId": "678"
+    },
+    "Avatars-Enemies-Region3-75": {
+      "Name": "Avatars-Enemies-Region3-75",
+      "Hidden": false,
+      "AchievementStageId": "679"
+    },
+    "Avatars-Enemies-Region3-76": {
+      "Name": "Avatars-Enemies-Region3-76",
+      "Hidden": false,
+      "AchievementStageId": "681"
+    },
+    "Avatars-Enemies-Region3-77": {
+      "Name": "Avatars-Enemies-Region3-77",
+      "Hidden": false,
+      "AchievementStageId": "683"
+    },
+    "Avatars-Enemies-Region3-78": {
+      "Name": "Avatars-Enemies-Region3-78",
+      "Hidden": false,
+      "AchievementStageId": "684"
+    },
+    "Avatars-Enemies-Region3-79": {
+      "Name": "Avatars-Enemies-Region3-79",
+      "Hidden": false,
+      "AchievementStageId": "686"
+    },
+    "Avatars-Enemies-Region3-80": {
+      "Name": "Avatars-Enemies-Region3-80",
+      "Hidden": false,
+      "AchievementStageId": "688"
+    },
+    "Avatars-Enemies-Region3-81": {
+      "Name": "Avatars-Enemies-Region3-81",
+      "Hidden": false,
+      "AchievementStageId": "689"
+    },
+    "Avatars-Enemies-Region3-82": {
+      "Name": "Avatars-Enemies-Region3-82",
+      "Hidden": false,
+      "AchievementStageId": "691"
+    },
+    "Avatars-Enemies-Region3-83": {
+      "Name": "Avatars-Enemies-Region3-83",
+      "Hidden": false,
+      "AchievementStageId": "693"
+    },
+    "Avatars-Enemies-Region3-84": {
+      "Name": "Avatars-Enemies-Region3-84",
+      "Hidden": false,
+      "AchievementStageId": "694"
+    },
+    "Avatars-Enemies-Region3-85": {
+      "Name": "Avatars-Enemies-Region3-85",
+      "Hidden": false,
+      "AchievementStageId": "696"
+    },
+    "Avatars-Enemies-Region3-86": {
+      "Name": "Avatars-Enemies-Region3-86",
+      "Hidden": false,
+      "AchievementStageId": "697"
+    },
+    "Avatars-Enemies-Region3-87": {
+      "Name": "Avatars-Enemies-Region3-87",
+      "Hidden": false,
+      "AchievementStageId": "698"
+    },
+    "Avatars-Enemies-Region3-88": {
+      "Name": "Avatars-Enemies-Region3-88",
+      "Hidden": false,
+      "AchievementStageId": "700"
+    },
+    "Avatars-Enemies-Region3-89": {
+      "Name": "Avatars-Enemies-Region3-89",
+      "Hidden": false,
+      "AchievementStageId": "701"
+    },
+    "Avatars-Enemies-Region3-90": {
+      "Name": "Avatars-Enemies-Region3-90",
+      "Hidden": false,
+      "AchievementStageId": "703"
+    },
+    "Avatars-Enemies-Region3-91": {
+      "Name": "Avatars-Enemies-Region3-91",
+      "Hidden": false,
+      "AchievementStageId": "704"
+    },
+    "Avatars-Enemies-Region3-92": {
+      "Name": "Avatars-Enemies-Region3-92",
+      "Hidden": false,
+      "AchievementStageId": "706"
+    },
+    "Avatars-Enemies-Region3-93": {
+      "Name": "Avatars-Enemies-Region3-93",
+      "Hidden": false,
+      "AchievementStageId": "708"
+    },
+    "Avatars-Enemies-Region3-95": {
+      "Name": "Avatars-Enemies-Region3-95",
+      "Hidden": false,
+      "AchievementStageId": "1094"
+    },
+    "Avatars-Enemies-Region3-96": {
+      "Name": "Avatars-Enemies-Region3-96",
+      "Hidden": false,
+      "AchievementStageId": "1095"
+    },
+    "Avatars-Enemies-Region3-97": {
+      "Name": "Avatars-Enemies-Region3-97",
+      "Hidden": false,
+      "AchievementStageId": "903"
+    },
+    "Avatars-Enemies-Region3-98": {
+      "Name": "Avatars-Enemies-Region3-98",
+      "Hidden": false,
+      "AchievementStageId": "904"
+    },
+    "Avatars-Heroes-Assassin": {
+      "Name": "Avatars-Heroes-Assassin",
+      "Hidden": false,
+      "AchievementStageId": "1589"
+    },
+    "Avatars-Heroes-Assassin_2": {
+      "Name": "Avatars-Heroes-Assassin_2",
+      "Hidden": true
+    },
+    "Avatars-Heroes-Berserker": {
+      "Name": "Avatars-Heroes-Berserker",
+      "Hidden": false,
+      "AchievementStageId": "1583"
+    },
+    "Avatars-Heroes-Berserker_2": {
+      "Name": "Avatars-Heroes-Berserker_2",
+      "Hidden": true
+    },
+    "Avatars-Heroes-Beserker": {
+      "Name": "Avatars-Heroes-Beserker",
+      "Hidden": true
+    },
+    "Avatars-Heroes-Cleric": {
+      "Name": "Avatars-Heroes-Cleric",
+      "Hidden": false,
+      "AchievementStageId": "1586"
+    },
+    "Avatars-Heroes-Cleric_2": {
+      "Name": "Avatars-Heroes-Cleric_2",
+      "Hidden": true
+    },
+    "Avatars-Heroes-Dwarf_Warrior": {
+      "Name": "Avatars-Heroes-Dwarf_Warrior",
+      "Hidden": false,
+      "AchievementStageId": "1592"
+    },
+    "Avatars-Heroes-Mage": {
+      "Name": "Avatars-Heroes-Mage",
+      "Hidden": false,
+      "AchievementStageId": "1580"
+    },
+    "Avatars-Heroes-Earth_Mage": {
+      "Name": "Avatars-Heroes-Earth_Mage",
+      "Hidden": false,
+      "AchievementStageId": "1598"
+    },
+    "Avatars-Heroes-Paladin": {
+      "Name": "Avatars-Heroes-Paladin",
+      "Hidden": false,
+      "AchievementStageId": "1601"
+    },
+    "Avatars-Heroes-Rogue": {
+      "Name": "Avatars-Heroes-Rogue",
+      "Hidden": false,
+      "AchievementStageId": "1577"
+    },
+    "Avatars-Heroes-Skull_Rogue": {
+      "Name": "Avatars-Heroes-Skull_Rogue",
+      "Hidden": false,
+      "AchievementStageId": "1595"
+    },
+    "Avatars-Heroes-Warrior": {
+      "Name": "Avatars-Heroes-Warrior",
+      "Hidden": false,
+      "AchievementStageId": "1574"
+    },
+    "Avatars-Misc-generic_female": {
+      "Name": "Avatars-Misc-generic_female",
+      "Hidden": true
+    },
+    "Avatars-Misc-generic_male": {
+      "Name": "Avatars-Misc-generic_male",
+      "Hidden": true
+    },
+    "Avatars-Misc-merchant_guy_revamp": {
+      "Name": "Avatars-Misc-merchant_guy_revamp",
+      "Hidden": false
+    },
+    "Avatars-Misc-rainbow": {
+      "Name": "Avatars-Misc-rainbow",
+      "Hidden": false
+    },
+    "Avatars-Misc-Tylers_Cat": {
+      "Name": "Avatars-Misc-Tylers_Cat",
+      "Hidden": true
+    },
+    "Avatars-OGMerchant-Cat": {
+      "Name": "Avatars-OGMerchant-Cat",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Avatars-OGMerchant-enemy_1": {
+      "Name": "Avatars-OGMerchant-enemy_1",
+      "Hidden": true,
+      "Segment": "alpha"
+    },
+    "Avatars-OGMerchant-enemy_10": {
+      "Name": "Avatars-OGMerchant-enemy_10",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Avatars-OGMerchant-enemy_11": {
+      "Name": "Avatars-OGMerchant-enemy_11",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Avatars-OGMerchant-enemy_12": {
+      "Name": "Avatars-OGMerchant-enemy_12",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Avatars-OGMerchant-enemy_13": {
+      "Name": "Avatars-OGMerchant-enemy_13",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Avatars-OGMerchant-enemy_14": {
+      "Name": "Avatars-OGMerchant-enemy_14",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Avatars-OGMerchant-enemy_15": {
+      "Name": "Avatars-OGMerchant-enemy_15",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Avatars-OGMerchant-enemy_16": {
+      "Name": "Avatars-OGMerchant-enemy_16",
+      "Hidden": true,
+      "Segment": "alpha"
+    },
+    "Avatars-OGMerchant-enemy_2": {
+      "Name": "Avatars-OGMerchant-enemy_2",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Avatars-OGMerchant-enemy_3": {
+      "Name": "Avatars-OGMerchant-enemy_3",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Avatars-OGMerchant-enemy_4": {
+      "Name": "Avatars-OGMerchant-enemy_4",
+      "Hidden": true,
+      "Segment": "alpha"
+    },
+    "Avatars-OGMerchant-enemy_5": {
+      "Name": "Avatars-OGMerchant-enemy_5",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Avatars-OGMerchant-enemy_6": {
+      "Name": "Avatars-OGMerchant-enemy_6",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Avatars-OGMerchant-enemy_7": {
+      "Name": "Avatars-OGMerchant-enemy_7",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Avatars-OGMerchant-enemy_8": {
+      "Name": "Avatars-OGMerchant-enemy_8",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Avatars-OGMerchant-enemy_9": {
+      "Name": "Avatars-OGMerchant-enemy_9",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Avatars-OGMerchant-Mage": {
+      "Name": "Avatars-OGMerchant-Mage",
+      "Hidden": false
+    },
+    "Avatars-OGMerchant-Merchant_Girl": {
+      "Name": "Avatars-OGMerchant-Merchant_Girl",
+      "Hidden": false
+    },
+    "Avatars-OGMerchant-Merchant_Guy": {
+      "Name": "Avatars-OGMerchant-Merchant_Guy",
+      "Hidden": false
+    },
+    "Avatars-OGMerchant-Rogue": {
+      "Name": "Avatars-OGMerchant-Rogue",
+      "Hidden": false
+    },
+    "Avatars-OGMerchant-Warrior": {
+      "Name": "Avatars-OGMerchant-Warrior",
+      "Hidden": false
+    },
+    "Avatars-Misc-Garret_Cat_Bandana": {
+      "Name": "Avatars-Misc-Garret_Cat_Bandana",
+      "Hidden": false
+    }
+  },
+  "Frames": {
+    "Frames-10": {
+      "Name": "Frames-10",
+      "Hidden": true
+    },
+    "Frames-11": {
+      "Name": "Frames-11",
+      "Hidden": true
+    },
+    "Frames-12": {
+      "Name": "Frames-12",
+      "Hidden": false
+    },
+    "Frames-13": {
+      "Name": "Frames-13",
+      "Hidden": false
+    },
+    "Frames-14": {
+      "Name": "Frames-14",
+      "Hidden": false
+    },
+    "Frames-4": {
+      "Name": "Frames-4",
+      "Hidden": false
+    },
+    "Frames-5": {
+      "Name": "Frames-5",
+      "Hidden": false
+    },
+    "Frames-6": {
+      "Name": "Frames-6",
+      "Hidden": true
+    },
+    "Frames-7": {
+      "Name": "Frames-7",
+      "Hidden": true
+    },
+    "Frames-8": {
+      "Name": "Frames-8",
+      "Hidden": true
+    },
+    "Frames-9": {
+      "Name": "Frames-9",
+      "Hidden": true
+    },
+    "Frames-BetaSpecials-15": {
+      "Name": "Frames-BetaSpecials-15",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Frames-BetaSpecials-16": {
+      "Name": "Frames-BetaSpecials-16",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Frames-BetaSpecials-17": {
+      "Name": "Frames-BetaSpecials-17",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Frames-BetaSpecials-18": {
+      "Name": "Frames-BetaSpecials-18",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Frames-BetaSpecials-19": {
+      "Name": "Frames-BetaSpecials-19",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Frames-BetaSpecials-20": {
+      "Name": "Frames-BetaSpecials-20",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Frames-BetaSpecials-21": {
+      "Name": "Frames-BetaSpecials-21",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Frames-BetaSpecials-22": {
+      "Name": "Frames-BetaSpecials-22",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Frames-BetaSpecials-23": {
+      "Name": "Frames-BetaSpecials-23",
+      "Hidden": true,
+      "Segment": "beta"
+    },
+    "Frames-Common": {
+      "Name": "Frames-Common",
+      "Hidden": false
+    },
+    "Frames-Elite": {
+      "Name": "Frames-Elite",
+      "Hidden": true
+    },
+    "Frames-Legendary": {
+      "Name": "Frames-Legendary",
+      "Hidden": true
+    },
+    "Frames-Mythic": {
+      "Name": "Frames-Mythic",
+      "Hidden": true
+    },
+    "Frames-rainbow": {
+      "Name": "Frames-rainbow",
+      "Hidden": false
+    },
+    "Frames-Rare": {
+      "Name": "Frames-Rare",
+      "Hidden": true
+    },
+    "Frames-Uncommon": {
+      "Name": "Frames-Uncommon",
+      "Hidden": false
+    }
+  },
+  "Titles": {
+    "5": {
+      "AchievementId": "5",
+      "AchievementStageId": "53"
+    },
+    "6": {
+      "AchievementId": "6",
+      "AchievementStageId": "64"
+    },
+    "7": {
+      "AchievementId": "7",
+      "AchievementStageId": "73"
+    },
+    "8": {
+      "AchievementId": "8",
+      "AchievementStageId": "81"
+    },
+    "9": {
+      "AchievementId": "9",
+      "AchievementStageId": "88"
+    },
+    "10": {
+      "AchievementId": "10",
+      "AchievementStageId": "101"
+    },
+    "11": {
+      "AchievementId": "11",
+      "AchievementStageId": "329"
+    },
+    "12": {
+      "AchievementId": "12",
+      "AchievementStageId": "353"
+    },
+    "13": {
+      "AchievementId": "13",
+      "AchievementStageId": "380"
+    },
+    "108": {
+      "AchievementId": "108",
+      "AchievementStageId": "392"
+    },
+    "109": {
+      "AchievementId": "109",
+      "AchievementStageId": "397"
+    },
+    "110": {
+      "AchievementId": "110",
+      "AchievementStageId": "402"
+    },
+    "111": {
+      "AchievementId": "111",
+      "AchievementStageId": "407"
+    },
+    "112": {
+      "AchievementId": "112",
+      "AchievementStageId": "412"
+    },
+    "113": {
+      "AchievementId": "113",
+      "AchievementStageId": "428"
+    },
+    "114": {
+      "AchievementId": "114",
+      "AchievementStageId": "433"
+    },
+    "117": {
+      "AchievementId": "117",
+      "AchievementStageId": "520"
+    },
+    "118": {
+      "AchievementId": "118",
+      "AchievementStageId": "525"
+    },
+    "119": {
+      "AchievementId": "119",
+      "AchievementStageId": "530"
+    },
+    "120": {
+      "AchievementId": "120",
+      "AchievementStageId": "535"
+    },
+    "121": {
+      "AchievementId": "121",
+      "AchievementStageId": "540"
+    },
+    "122": {
+      "AchievementId": "122",
+      "AchievementStageId": "552"
+    },
+    "123": {
+      "AchievementId": "123",
+      "AchievementStageId": "557"
+    },
+    "124": {
+      "AchievementId": "124",
+      "AchievementStageId": "560"
+    },
+    "125": {
+      "AchievementId": "125",
+      "AchievementStageId": "668"
+    },
+    "126": {
+      "AchievementId": "126",
+      "AchievementStageId": "673"
+    },
+    "128": {
+      "AchievementId": "128",
+      "AchievementStageId": "678"
+    },
+    "127": {
+      "AchievementId": "127",
+      "AchievementStageId": "683"
+    },
+    "129": {
+      "AchievementId": "129",
+      "AchievementStageId": "688"
+    },
+    "130": {
+      "AchievementId": "130",
+      "AchievementStageId": "693"
+    },
+    "131": {
+      "AchievementId": "131",
+      "AchievementStageId": "696"
+    },
+    "132": {
+      "AchievementId": "132",
+      "AchievementStageId": "707"
+    },
+    "345": {
+      "AchievementId": "345",
+      "AchievementStageId": "1574"
+    },
+    "346": {
+      "AchievementId": "346",
+      "AchievementStageId": "1577"
+    },
+    "347": {
+      "AchievementId": "347",
+      "AchievementStageId": "1580"
+    },
+    "348": {
+      "AchievementId": "348",
+      "AchievementStageId": "1583"
+    },
+    "349": {
+      "AchievementId": "349",
+      "AchievementStageId": "1586"
+    },
+    "350": {
+      "AchievementId": "350",
+      "AchievementStageId": "1589"
+    },
+    "351": {
+      "AchievementId": "351",
+      "AchievementStageId": "1592"
+    },
+    "352": {
+      "AchievementId": "352",
+      "AchievementStageId": "1595"
+    },
+    "353": {
+      "AchievementId": "353",
+      "AchievementStageId": "1598"
+    },
+    "354": {
+      "AchievementId": "354",
+      "AchievementStageId": "1601"
+    },
+    "387": {
+      "AchievementId": "387",
+      "AchievementStageId": "1758"
+    },
+    "388": {
+      "AchievementId": "388",
+      "AchievementStageId": "1763"
+    },
+    "389": {
+      "AchievementId": "389",
+      "AchievementStageId": "1768"
+    },
+    "390": {
+      "AchievementId": "390",
+      "AchievementStageId": "1773"
+    },
+    "391": {
+      "AchievementId": "391",
+      "AchievementStageId": "1778"
+    },
+    "417": {
+      "AchievementId": "417",
+      "AchievementStageId": "1868"
+    },
+    "418": {
+      "AchievementId": "418",
+      "AchievementStageId": "1871"
+    },
+    "419": {
+      "AchievementId": "419",
+      "AchievementStageId": "1874"
+    },
+    "420": {
+      "AchievementId": "420",
+      "AchievementStageId": "1877"
+    },
+    "421": {
+      "AchievementId": "421",
+      "AchievementStageId": "1880"
+    },
+    "469": {
+      "AchievementId": "469",
+      "AchievementStageId": "2157"
+    },
+    "470": {
+      "AchievementId": "470",
+      "AchievementStageId": "2169"
+    },
+    "471": {
+      "AchievementId": "471",
+      "AchievementStageId": "2181"
+    }
+  }
+}

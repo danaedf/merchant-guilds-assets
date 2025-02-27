@@ -1,0 +1,2288 @@
+{
+    "materials": {
+        "1": {
+            "name": "Eichenholzstamm",
+            "desc": "Holz verwendet zur Herstellung von Eichenholz"
+        },
+        "2": {
+            "name": "Eisenerz",
+            "desc": "Erz zur Herstellung von Eisenbarren"
+        },
+        "3": {
+            "name": "Eichenholz",
+            "desc": "Veredeltes Holz zur Waffenherstellung"
+        },
+        "4": {
+            "name": "Eisenbarren",
+            "desc": "Zuverlässiges Metall zur Waffenherstellung"
+        },
+        "5": {
+            "name": "Hanfstoff",
+            "desc": "Gewebter Stoff zur Herstellung von Rüstungen"
+        },
+        "6": {
+            "name": "Eisenplatte",
+            "desc": "Verstärkte Platte zur Herstellung von Rüstungen"
+        },
+        "7": {
+            "name": "Hanfaser",
+            "desc": "Faser zur Herstellung von Hanfleinen"
+        },
+        "8": {
+            "name": "Eisenklumpen",
+            "desc": "Brocken zur Herstellung von Eisenplatten"
+        },
+        "9": {
+            "name": "Tuvale-Wurzeln",
+            "desc": "Wurzeln, die in Lebensmitteln verwendet werden, schmecken immer noch nach Erde"
+        },
+        "10": {
+            "name": "Tuvale Moos",
+            "desc": "Moos, das in Lebensmitteln verwendet wird, schmeckt immer noch wie Steine."
+        },
+        "11": {
+            "name": "Tuvalebaumrinde",
+            "desc": "Rinde aus Tuvale, vielseitig für Waffen und Rüstungen"
+        },
+        "12": {
+            "name": "Tuvale-Mineralien",
+            "desc": "Mineralien aus Tuvale, vielseitig einsetzbar für Waffen und Rüstungen"
+        },
+        "13": {
+            "name": "Käferchitin",
+            "desc": "Gehärtetes Käferchitin zur Herstellung von Rüstungen"
+        },
+        "14": {
+            "name": "Käfermandibel",
+            "desc": "Gehärteter Käferkiefer für Waffen verwendet"
+        },
+        "15": {
+            "name": "Riesenkäferschild",
+            "desc": "Riesige Schale eines Skarabäus, die zur Herstellung von Rüstung verwendet wird"
+        },
+        "16": {
+            "name": "Käferherz",
+            "desc": "Das noch schlagende Herz eines Käfers, das in der Nahrung verwendet wird."
+        },
+        "17": {
+            "name": "Spinnenbein",
+            "desc": "Bein von Spinnen zur Waffenherstellung verwendet"
+        },
+        "18": {
+            "name": "Spinnenseide",
+            "desc": "Spinnenseide zur Herstellung von Rüstungen"
+        },
+        "19": {
+            "name": "Spinnenauge",
+            "desc": "Spinnenaugen zur Herstellung von Amuletten"
+        },
+        "20": {
+            "name": "Schlangenschuppe",
+            "desc": "Schlangenschuppen zur Waffenherstellung verwendet"
+        },
+        "21": {
+            "name": "Schlangengift",
+            "desc": "Schlangengift zur Herstellung von Waffen"
+        },
+        "22": {
+            "name": "Schlangenfang",
+            "desc": "Schlangenzahn zur Waffenherstellung"
+        },
+        "23": {
+            "name": "Wildschweinfell",
+            "desc": "Wildschweinfell zur Herstellung von Rüstung"
+        },
+        "24": {
+            "name": "Wildschweinzahn",
+            "desc": "Hauer von Wildschweinen zur Herstellung von Waffen"
+        },
+        "25": {
+            "name": "Verzauberter Eberzahn",
+            "desc": "Magischer Eberzahn zur Waffenherstellung"
+        },
+        "26": {
+            "name": "Wolfsfell",
+            "desc": "Wolfspelz zur Herstellung von Rüstung"
+        },
+        "27": {
+            "name": "Wolfstatze",
+            "desc": "Wolfspfote zur Herstellung von Rüstung"
+        },
+        "28": {
+            "name": "Wolfsschädel",
+            "desc": "Wolfskopf zur Herstellung von Rüstung verwendet"
+        },
+        "29": {
+            "name": "Wolfsalpha-Herz",
+            "desc": "Noch schlagendes Herz eines Alpha-Wolfs, verwendet zur Herstellung von Rüstungen und herzhaften Speisen"
+        },
+        "30": {
+            "name": "Goblinstoff",
+            "desc": "Ein Stofffetzen, fallen gelassen von einem erschlagenen Goblin, zur Herstellung von Rüstung verwendet."
+        },
+        "31": {
+            "name": "Goblin-Heft",
+            "desc": "Heft einer Goblinwaffe zur Herstellung von Waffen"
+        },
+        "32": {
+            "name": "Goblin-Klinge",
+            "desc": "Klinge geschmiedet von geschickten Goblins, verwendet zur Herstellung von Waffen"
+        },
+        "33": {
+            "name": "Goblinplatte",
+            "desc": "Platte aus der Schmiede geschickter Goblins, verwendet zur Herstellung von Rüstungen"
+        },
+        "34": {
+            "name": "Koboldstab",
+            "desc": "Stab der Goblinwaffe, verwendet zur Herstellung von Waffen"
+        },
+        "35": {
+            "name": "Verfluchte Goblinklinge",
+            "desc": "Klinge, verflucht durch einen rachsüchtigen Goblintod, verwendet zur Waffenherstellung"
+        },
+        "36": {
+            "name": "Verborgene Goblinklinge",
+            "desc": "Klinge des Goblins, fähig, verdeckt zu werden, verwendet zur Waffenherstellung"
+        },
+        "37": {
+            "name": "Goblin-Fokusstein",
+            "desc": "Magischer Stein gehalten von Goblins mit höherem Verstand, benutzt zur Herstellung von Schmuckstücken"
+        },
+        "38": {
+            "name": "Koboldbuch",
+            "desc": "Foliant der Goblin-Geheimnisse, vielseitig für Waffen und Rüstungen"
+        },
+        "39": {
+            "name": "Goblin-Siegel",
+            "desc": "Siegel der berühmten Goblins, verwendet in Schmuckstücken"
+        },
+        "40": {
+            "name": "Goblin Kriegsherr Abzeichen",
+            "desc": "Emblem der furchterregendsten Goblinkämpfer, der Goblin-Kriegsherren"
+        },
+        "41": {
+            "name": "Bärenfell",
+            "desc": "Bärenfell, das in Rüstung verwendet wird"
+        },
+        "42": {
+            "name": "Bärenkrallen",
+            "desc": "Bärenkralle vielseitig für Waffen und Rüstungen"
+        },
+        "43": {
+            "name": "Ursain-Kopfbedeckung",
+            "desc": "Kopfschmuck des großen Bären, vielseitig für Waffen und Rüstungen"
+        },
+        "44": {
+            "name": "Ursain-Brustplatte",
+            "desc": "Brustplatte des großen Bären, zur Herstellung von Rüstungen verwendet"
+        },
+        "45": {
+            "name": "Antikes Tuvale-Holz",
+            "desc": "Alte Eiche von Tuvale, vielseitig für Waffen und Rüstungen"
+        },
+        "46": {
+            "name": "Arkans Stein",
+            "desc": "Seltsamer Stein, der starke Magie ausstrahlt, wird zur Herstellung von Schmuckstücken verwendet."
+        },
+        "47": {
+            "name": "Waldzauber",
+            "desc": "Amulett des Tuvale-Waldes, vielseitig für Schmuck und Rüstung"
+        },
+        "48": {
+            "name": "Waldessenz des Lebens",
+            "desc": "Essenz der großen Tuvale-Golems, vielseitig für Schmuckstücke und Rüstungen"
+        },
+        "49": {
+            "name": "Waldkristall",
+            "desc": "Versteinerter Kristall des Tuvale-Waldes, verwendet zur Herstellung von Smaragden"
+        },
+        "50": {
+            "name": "Smaragd",
+            "desc": "Veredelte Waldkristalle zur Herstellung von Grünen Runen"
+        },
+        "51": {
+            "name": "Grüne Rune",
+            "desc": "Stabilste Magie des Tuvale-Waldes"
+        },
+        "52": {
+            "name": "Maexnas Auge",
+            "desc": "Auge von Maexna zur Herstellung von Waffen"
+        },
+        "53": {
+            "name": "Kobalterz",
+            "desc": "Erz zur Herstellung von Kobaltbarren"
+        },
+        "54": {
+            "name": "Kobaltbarren",
+            "desc": "Spekulatives Metall zur Waffenherstellung"
+        },
+        "55": {
+            "name": "Eibenstamm",
+            "desc": "Holz verwendet zur Herstellung von Eibenholz"
+        },
+        "56": {
+            "name": "Eibenholz",
+            "desc": "Behandeltes Holz zur Herstellung von Waffen"
+        },
+        "57": {
+            "name": "Zypressenwurzeln",
+            "desc": "Wurzeln in der Nahrung verwendet, hat ein Aroma von Schimmel."
+        },
+        "58": {
+            "name": "Schilffaser",
+            "desc": "Faser zur Herstellung von Schilftuch"
+        },
+        "59": {
+            "name": "Schilfstoff",
+            "desc": "Verflochtener Stoff zur Herstellung von Rüstung"
+        },
+        "60": {
+            "name": "Kobaltblock",
+            "desc": "Brocken zur Herstellung von Kobaltplatten"
+        },
+        "61": {
+            "name": "Kobaltplatte",
+            "desc": "Verstärktes Platte zur Herstellung von Rüstungen"
+        },
+        "62": {
+            "name": "Koralle",
+            "desc": "Koralle der Yarsol-Golems, verwendet zur Herstellung von Rüstungen"
+        },
+        "63": {
+            "name": "Echsenhaut",
+            "desc": "Schuppen von Eidechsen zur Herstellung von Rüstung"
+        },
+        "64": {
+            "name": "Quallen-Tentakel",
+            "desc": "Tentakel der Qualle zur Herstellung von Rüstung verwendet"
+        },
+        "65": {
+            "name": "Sargassum",
+            "desc": "Gallensäfte von Schildkröten, vielseitig für Waffen und Rüstungen"
+        },
+        "66": {
+            "name": "Sandstreicher-Maul",
+            "desc": "Kopf eines Sandstürmers zur Herstellung von Rüstung"
+        },
+        "67": {
+            "name": "Riesenfroschschenkel",
+            "desc": "Bein eines Riesentrogs zur Herstellung von Rüstung verwendet"
+        },
+        "68": {
+            "name": "Albatrosfeder",
+            "desc": "Albatrosfeder zur Herstellung von Rüstungen"
+        },
+        "69": {
+            "name": "Koboldstoff",
+            "desc": "Ein Stofffetzen, der von einem getöteten Kobold fallen gelassen wurde, zur Herstellung von Rüstungen verwendet."
+        },
+        "70": {
+            "name": "Koboldstange",
+            "desc": "Zerbrochener Pfahl einer getöteten Koboldwaffe zur Herstellung von Waffen verwendet"
+        },
+        "71": {
+            "name": "Kobold-Heft",
+            "desc": "Griff eines Koboldwaffen, der zur Herstellung von Waffen verwendet wird"
+        },
+        "72": {
+            "name": "Wasserrolle",
+            "desc": "Schriftrolle der Koboldgeheimnisse, vielseitig für Waffen und Rüstung"
+        },
+        "73": {
+            "name": "Wasserasche",
+            "desc": "Mystische Asche fallen gelassen von einem göttlichen Kobold, vielseitig für alle Ausrüstungen."
+        },
+        "74": {
+            "name": "Koboldrelikt",
+            "desc": "Relikt von höchster Bedeutung für die Kobolde, das zur Herstellung von Rüstungen verwendet wird."
+        },
+        "75": {
+            "name": "Albatrosskralle",
+            "desc": "Albatrosfänge verwendet zur Herstellung von Rüstungen"
+        },
+        "76": {
+            "name": "Krabbenschere",
+            "desc": "Krebsschere zur Waffenherstellung"
+        },
+        "77": {
+            "name": "Quallengift",
+            "desc": "Gift der Qualle für die Waffenherstellung"
+        },
+        "78": {
+            "name": "Schildkrötenpanzer",
+            "desc": "Schildkrötenpanzer zur Herstellung von Rüstungen"
+        },
+        "79": {
+            "name": "Verschlungene Überreste",
+            "desc": "Verstümmelter Haufen von Leichen vergangener Helden, verwendet zur Herstellung von Rüstungen"
+        },
+        "80": {
+            "name": "Krabbenpanzer",
+            "desc": "Krabbenschale zur Herstellung von Rüstung"
+        },
+        "81": {
+            "name": "Parotissack",
+            "desc": "Froschdrüse zur Waffenherstellung verwendet"
+        },
+        "82": {
+            "name": "Treibholz",
+            "desc": "Unheimliches Holz zur Waffenherstellung"
+        },
+        "83": {
+            "name": "Fluoreszierender Stein",
+            "desc": "Strahlender Stein zur Herstellung von Waffen"
+        },
+        "84": {
+            "name": "Echsenklaue",
+            "desc": "Klauen von Echsen zur Waffenherstellung."
+        },
+        "85": {
+            "name": "Koboldschuppe",
+            "desc": "Koboldhaut, vielseitig für Waffen und Rüstungen"
+        },
+        "86": {
+            "name": "Durchdrungenes Kobalt",
+            "desc": "Raffiniertes Kobalt, geschmiedet von erfahrenen Kobolden, verwendet zur Herstellung von Waffen"
+        },
+        "87": {
+            "name": "Erregte Klinge",
+            "desc": "Klinge des wütenden Kobolds, verwendet zur Waffenherstellung"
+        },
+        "88": {
+            "name": "Sedimentarcana",
+            "desc": "Magischer Sediment, vielseitig für Waffen und Rüstungen"
+        },
+        "89": {
+            "name": "Alkalinischer Crux",
+            "desc": "Essenz eines göttlichen Kobolds, vielseitig für Waffen und Rüstungen"
+        },
+        "90": {
+            "name": "Uraltes Mark",
+            "desc": "Knochen eines renommierten Kobolds, vielseitig für Waffen und Rüstungen"
+        },
+        "91": {
+            "name": "Riesenneb",
+            "desc": "Schnabel eines großen Albatrosses zur Herstellung von Waffen verwendet."
+        },
+        "92": {
+            "name": "Hydrosphäre",
+            "desc": "Lebenskraft eines großen Sandlizards, vielseitig für alle Ausrüstungen"
+        },
+        "93": {
+            "name": "Fleischige Membran",
+            "desc": "Membran einer großen Qualle, verwendet zur Herstellung von Rüstungen"
+        },
+        "94": {
+            "name": "Riffminerale",
+            "desc": "Seepockenartiges Material einer großen Schildkröte, vielseitig für Schmuck und Rüstungen"
+        },
+        "95": {
+            "name": "Sandschreiter-Exoskelett",
+            "desc": "Exoskelett des riesigen Sandstrikers, verwendet zur Herstellung von Rüstungen"
+        },
+        "96": {
+            "name": "Marinachnidbein",
+            "desc": "Spinnenähnliches Krabbenbein zur Waffenherstellung"
+        },
+        "97": {
+            "name": "Warzige Haut",
+            "desc": "Raues Froschfell, vielseitig für Waffen und Rüstungen"
+        },
+        "98": {
+            "name": "Küstenzauber",
+            "desc": "Amulett der Yarsol-Küste, vielseitig für Schmuck und Rüstung"
+        },
+        "99": {
+            "name": "Küstenessenz des Wassers",
+            "desc": "Essenz der großen Yarsol-Golems, vielseitig einsetzbar für Schmuckstücke und Rüstungen"
+        },
+        "100": {
+            "name": "Sandstein Kristall",
+            "desc": "Fossilisierter Kristall der Yarsol-Küste, vielseitig für Aquamarin und Waffen"
+        },
+        "101": {
+            "name": "Aquamarin",
+            "desc": "Veredelte Sandsteinkristalle zur Herstellung von Lazulitrunen"
+        },
+        "102": {
+            "name": "Lazulitrune",
+            "desc": "Die stabilste Magie der Yarsol-Küste, vielseitig einsetzbar für Schmuckstücke und Rüstungen"
+        },
+        "150": {
+            "name": "Titanerz",
+            "desc": "Erz zur Herstellung von Titanium-Barren"
+        },
+        "151": {
+            "name": "Titaniumbarren",
+            "desc": "Robustes Metall zur Herstellung von Waffen"
+        },
+        "152": {
+            "name": "Titanbrocken",
+            "desc": "Brocken zur Herstellung von Titanplatten"
+        },
+        "153": {
+            "name": "Titanplatte",
+            "desc": "Robuste Platte zur Herstellung von Rüstung"
+        },
+        "154": {
+            "name": "Heulhornholz",
+            "desc": "Holz zur Herstellung von Heuldorndielen"
+        },
+        "155": {
+            "name": "Heuldornholz",
+            "desc": "Verbessertes Holz zur Waffenherstellung"
+        },
+        "156": {
+            "name": "Hochlandroggen",
+            "desc": "Faser zur Herstellung von Hochlandstoff"
+        },
+        "157": {
+            "name": "Hochlandstoff",
+            "desc": "Mächtiges Tuch zur Herstellung von Rüstungen"
+        },
+        "158": {
+            "name": "Hafer",
+            "desc": "Eignet sich hervorragend für einen Brei"
+        },
+        "159": {
+            "name": "Pfifferling",
+            "desc": "Düfte der Highlands"
+        },
+        "160": {
+            "name": "Aldurnisches Fell",
+            "desc": "Fell von Tieren, die in den Hochländern gefunden wurden."
+        },
+        "161": {
+            "name": "Alpines Geweih",
+            "desc": "Gehärtete Geweihe von Tieren aus den Hochländern"
+        },
+        "162": {
+            "name": "Abgenutzter Steinhuf",
+            "desc": "Huf zum Klettern von Bergen verwendet"
+        },
+        "163": {
+            "name": "Widderhorn",
+            "desc": "Großes Horn eines großen Widders"
+        },
+        "164": {
+            "name": "Roc-Feder",
+            "desc": "Feder eines Rocs"
+        },
+        "165": {
+            "name": "Rokk-Skelettflügel",
+            "desc": "Abnorm groß Skelett eines Roc"
+        },
+        "166": {
+            "name": "Geisterstoff",
+            "desc": "Ein Fetzen außerweltlichen Stoffes"
+        },
+        "167": {
+            "name": "Irrlichtflamme",
+            "desc": "Wird verwendet, um verlorene Seelen anzulocken"
+        },
+        "168": {
+            "name": "Versteinerter Heulendorn",
+            "desc": "Gehärteter Heulendorn zur Waffenherstellung"
+        },
+        "169": {
+            "name": "Geister-Sensenblatt",
+            "desc": "Seeleninfundierte Klinge des Todes"
+        },
+        "170": {
+            "name": "Yak-Mähnenhaare",
+            "desc": "Felsenartige Formationen auf dem Rücken eines Yaks"
+        },
+        "171": {
+            "name": "Yakbutter",
+            "desc": "Yakstück"
+        },
+        "172": {
+            "name": "Kopf des Hautwandlers",
+            "desc": "Gibt ein leises Heulen von sich"
+        },
+        "173": {
+            "name": "Goldene Roc-Feder",
+            "desc": "Irgendwie ermöglicht es das Fliegen, obwohl es so schwer wie ein Fels ist."
+        },
+        "174": {
+            "name": "Drachenschwanzstachel",
+            "desc": "Schwanzstachel eines Drachen"
+        },
+        "175": {
+            "name": "Drachenrippen",
+            "desc": "Rippen eines Drachen"
+        },
+        "176": {
+            "name": "Säurebeutel",
+            "desc": "Sack im Mund einiger Drachen, der das Spucken ermöglicht"
+        },
+        "177": {
+            "name": "Vaudnit",
+            "desc": "Beim Kombinieren mit Titanbarren kann eine neue Legierung geschaffen werden."
+        },
+        "178": {
+            "name": "Ogerknochenkette",
+            "desc": "Verschiedene Knochen zu einer Kette von Ogern gemacht"
+        },
+        "179": {
+            "name": "Oger Gorp",
+            "desc": "Seltsame Oger-Nahrung"
+        },
+        "180": {
+            "name": "Verschmolzenes Doppelschlüsselbein",
+            "desc": "Abnormaler Oger-Nackenwirbelknochen"
+        },
+        "181": {
+            "name": "Leuchtender Seemoos aus dem Loch",
+            "desc": "Moos, das an den Unterseiten von Lochs gefunden wird"
+        },
+        "182": {
+            "name": "Loch-Hals-Chitin",
+            "desc": "Verfestigte Algen, verschmolzen mit Loch-Hals-Sekret"
+        },
+        "183": {
+            "name": "Loch-Schädelplatte",
+            "desc": "Kampferprobte Loch-Schädelknochenplatte"
+        },
+        "184": {
+            "name": "Bergesherz",
+            "desc": "Soll dem Inhaber göttliche Prophezeiungen verleihen"
+        },
+        "185": {
+            "name": "Harpyienfeder",
+            "desc": "Feder der Harpyien"
+        },
+        "186": {
+            "name": "Schrotthändler Schrott",
+            "desc": "Harpyien-Metallschrott"
+        },
+        "187": {
+            "name": "Schrottkrall",
+            "desc": "Von Harpyien gefertigte Kampfkralle"
+        },
+        "188": {
+            "name": "Harpyenkopfaxtkopf",
+            "desc": "Harpyengefertigter Axtkopf"
+        },
+        "189": {
+            "name": "Harpyen-Kopfschmuck",
+            "desc": "Kopfschmuck einer Elite-Harpyienkriegerin"
+        },
+        "190": {
+            "name": "Harpyienstab",
+            "desc": "Von Harpyien gefertigter Waffenstab"
+        },
+        "191": {
+            "name": "Harpyien-Foliant",
+            "desc": "Kleine Quelle aldurnischer Magie"
+        },
+        "192": {
+            "name": "Sonnenverzaubertes Artefakt",
+            "desc": "Rune, die von Harpyienmagiern für magische Waffen verwendet wird"
+        },
+        "193": {
+            "name": "Roc-Leckerbissen",
+            "desc": "Von Harpyen verwendet, um Rocs auszubilden und zu befehligen."
+        },
+        "194": {
+            "name": "Vautaniumplatte",
+            "desc": "Legierung aus Titanplatten und Vaudnit"
+        },
+        "195": {
+            "name": "Himmelsbändiger Aeroklinge",
+            "desc": "Klingen, die an den Flügeln eines Rokk von einem Harpyien-Rokk-Bändiger angebracht sind"
+        },
+        "196": {
+            "name": "Mondschein-Hexenstaub",
+            "desc": "Staub, erschaffen von einer Harpyen-Hexenhexe, verschmolzen mit lunarer Magie"
+        },
+        "197": {
+            "name": "Mondartefakt",
+            "desc": "Magischer Schleim, der beim Aufprall explodiert"
+        },
+        "198": {
+            "name": "Hochland-Kristall",
+            "desc": "Kristall im Herzen der Berge gefunden, ein kleinerer Rubin"
+        },
+        "199": {
+            "name": "Rubin",
+            "desc": "Veredelte Hochlandkristalle, verwendet zur Herstellung von Purpurit-Runen"
+        },
+        "200": {
+            "name": "Karmesinrune",
+            "desc": "Die stabilste Aldur-Hochland-Magie"
+        },
+        "201": {
+            "name": "Hagwitch-Mondanhänger",
+            "desc": "Angeblich vom Mond selbst gekommen. Von Harpy Hagwitch genutzt"
+        },
+        "202": {
+            "name": "Hexengebräu",
+            "desc": "Geheimes Gebräu der Harpyien-Hexenmeisterin"
+        },
+        "203": {
+            "name": "Vautanium-Barren",
+            "desc": "Legierung aus Titanguss und Vaudnit"
+        },
+        "204": {
+            "name": "Hochland-Talisman",
+            "desc": "Zauber des Aldur-Hochlands, vielseitig für Schmuckstücke und Rüstungen"
+        },
+        "205": {
+            "name": "Hochland-Essenz der Erde",
+            "desc": "Essenz der großen Aldur-Golems, vielseitig für Schmuckstücke und Rüstungen"
+        },
+        "206": {
+            "name": "Ogerknochenklinge",
+            "desc": "Handgeschnitzte Knochenklinge geschmiedet von Oger-Plünderern"
+        },
+        "207": {
+            "name": "Verfluchtes Blutgerinnsel",
+            "desc": "Verfluchte Blutformationen eines abscheulichen Ogers"
+        },
+        "801": {
+            "name": "Gerste",
+            "desc": "Gemeines Getreide aus Tuvale"
+        },
+        "802": {
+            "name": "Apfel",
+            "desc": "Gewöhnliche Frucht aus Tuvale"
+        },
+        "803": {
+            "name": "Koboldgewürzbeutel",
+            "desc": "Ungewöhnliches Gewürz aus Tuvale"
+        },
+        "804": {
+            "name": "Tuvale-Pilz",
+            "desc": "Gewöhnlicher Pilz aus Tuvale"
+        },
+        "805": {
+            "name": "Ingwer",
+            "desc": "Gewürz aus Tuvale"
+        },
+        "806": {
+            "name": "Kartoffel",
+            "desc": "Gewöhnliches Gemüse aus Tuvale"
+        },
+        "807": {
+            "name": "Bärenfleisch",
+            "desc": "Seltenes Fleisch aus Tuvale"
+        },
+        "808": {
+            "name": "Honig",
+            "desc": "Seltener Süßstoff aus Tuvale"
+        },
+        "809": {
+            "name": "Mehl",
+            "desc": "Gewöhnlich aus Tuvale hergestellt"
+        },
+        "810": {
+            "name": "Reis",
+            "desc": "Gemeines Getreide aus Yarsol"
+        },
+        "811": {
+            "name": "Kokosnuss",
+            "desc": "Eine Frucht aus Yarsol"
+        },
+        "812": {
+            "name": "Ananas",
+            "desc": "Schwämme benutzen dies häufig als Haus"
+        },
+        "813": {
+            "name": "Flechte",
+            "desc": "Häufiger Pilz in Yarsol"
+        },
+        "814": {
+            "name": "Muschel",
+            "desc": "Ein Mollusk aus Yarsol"
+        },
+        "815": {
+            "name": "Kakaopulver",
+            "desc": "Samen zur Baumzucht in Yarsol"
+        },
+        "816": {
+            "name": "Kohl",
+            "desc": "Gewöhnliches Gemüse aus Aldur"
+        },
+        "817": {
+            "name": "Knoblauch",
+            "desc": "Häufiges Gemüse aus Aldur"
+        },
+        "818": {
+            "name": "Ampfer",
+            "desc": "Seltenes Gemüse aus Aldur"
+        },
+        "819": {
+            "name": "Ziegenmilch",
+            "desc": "Milch von ziegenähnlichen Tieren"
+        },
+        "820": {
+            "name": "Buttermilch",
+            "desc": "Cremige Flüssigkeit aus Ziegenmilch"
+        },
+        "821": {
+            "name": "Heulwacholderbeere",
+            "desc": "Häufige Beere aus Aldur"
+        },
+        "822": {
+            "name": "Karotte",
+            "desc": "Ungewöhnliches Gemüse aus Aldur"
+        },
+        "823": {
+            "name": "Zwetschge",
+            "desc": "Seltene Frucht aus Aldur"
+        },
+        "824": {
+            "name": "Gehackte Drachenrippen",
+            "desc": "Langsam zur Perfektion gekochte Drachenrippen"
+        },
+        "825": {
+            "name": "Yak-Bruststück",
+            "desc": "Verarbeitetes Yakfleisch"
+        },
+        "826": {
+            "name": "Gorp-Schlamm",
+            "desc": "Ein Rezept gefunden auf Felsenritzungen in Höhlen"
+        }
+    },
+    "equipment": {
+        "1": {
+            "name": "Eisendolch",
+            "desc": ""
+        },
+        "2": {
+            "name": "Eisenschwert",
+            "desc": ""
+        },
+        "3": {
+            "name": "Eichenstab",
+            "desc": ""
+        },
+        "4": {
+            "name": "Eichenkeule",
+            "desc": ""
+        },
+        "5": {
+            "name": "Eisenmesser",
+            "desc": ""
+        },
+        "6": {
+            "name": "Eisenaxt",
+            "desc": ""
+        },
+        "7": {
+            "name": "Eichenstab",
+            "desc": ""
+        },
+        "8": {
+            "name": "Eisenaxt",
+            "desc": ""
+        },
+        "9": {
+            "name": "Käferaxt",
+            "desc": ""
+        },
+        "10": {
+            "name": "Eisernes Langschwert",
+            "desc": ""
+        },
+        "11": {
+            "name": "Wildschwein-Keule",
+            "desc": ""
+        },
+        "12": {
+            "name": "Käferzauberstab",
+            "desc": ""
+        },
+        "13": {
+            "name": "Schlangenstab",
+            "desc": ""
+        },
+        "14": {
+            "name": "Maexna-Stab",
+            "desc": ""
+        },
+        "15": {
+            "name": "Goblin-Schwert",
+            "desc": ""
+        },
+        "16": {
+            "name": "Goblinlangaxt",
+            "desc": ""
+        },
+        "17": {
+            "name": "Eichenmystikstab",
+            "desc": ""
+        },
+        "18": {
+            "name": "Koboldstab",
+            "desc": ""
+        },
+        "19": {
+            "name": "Bärenmystikerstab",
+            "desc": ""
+        },
+        "20": {
+            "name": "Verfluchte Klinge",
+            "desc": ""
+        },
+        "21": {
+            "name": "Bärenkeule",
+            "desc": ""
+        },
+        "22": {
+            "name": "Bärenfluch",
+            "desc": ""
+        },
+        "23": {
+            "name": "Hanfene Kapuze",
+            "desc": ""
+        },
+        "24": {
+            "name": "Hanfhandschuhe",
+            "desc": ""
+        },
+        "25": {
+            "name": "Hanfhemd",
+            "desc": ""
+        },
+        "26": {
+            "name": "Hanfene Schuhe",
+            "desc": ""
+        },
+        "27": {
+            "name": "Eisenhelm",
+            "desc": ""
+        },
+        "28": {
+            "name": "Eiserne Armschienen",
+            "desc": ""
+        },
+        "29": {
+            "name": "Eiserne Brustplatte",
+            "desc": ""
+        },
+        "30": {
+            "name": "Eiserne Beinschienen",
+            "desc": ""
+        },
+        "31": {
+            "name": "Hanfene Kapuze",
+            "desc": ""
+        },
+        "32": {
+            "name": "Hanfhandschuhe",
+            "desc": ""
+        },
+        "33": {
+            "name": "Käferarmschienen",
+            "desc": ""
+        },
+        "34": {
+            "name": "Hanfrobe",
+            "desc": ""
+        },
+        "35": {
+            "name": "Rinderbeinschienen",
+            "desc": ""
+        },
+        "36": {
+            "name": "Rindertunika",
+            "desc": ""
+        },
+        "37": {
+            "name": "Schlangensandalen",
+            "desc": ""
+        },
+        "38": {
+            "name": "Schlangentunika",
+            "desc": ""
+        },
+        "39": {
+            "name": "Schlangenhandschuhe",
+            "desc": ""
+        },
+        "40": {
+            "name": "Schlangenstiefel",
+            "desc": ""
+        },
+        "41": {
+            "name": "Seidene Kettenglieder",
+            "desc": ""
+        },
+        "42": {
+            "name": "Seidenhandschuhe",
+            "desc": ""
+        },
+        "43": {
+            "name": "Käferhelm",
+            "desc": ""
+        },
+        "44": {
+            "name": "Spinnenseidenrobe",
+            "desc": ""
+        },
+        "45": {
+            "name": "Spinnenseidenhut",
+            "desc": ""
+        },
+        "46": {
+            "name": "Wolfsstiefel",
+            "desc": ""
+        },
+        "47": {
+            "name": "Wolfskapuze",
+            "desc": ""
+        },
+        "48": {
+            "name": "Wolfs-Handschuhe",
+            "desc": ""
+        },
+        "49": {
+            "name": "Wolfsfüße",
+            "desc": ""
+        },
+        "50": {
+            "name": "Wolfhelm",
+            "desc": ""
+        },
+        "51": {
+            "name": "Khitin-Brustplatte",
+            "desc": ""
+        },
+        "52": {
+            "name": "Sammlerhandschuhe",
+            "desc": ""
+        },
+        "53": {
+            "name": "Goblin-Armschienen",
+            "desc": ""
+        },
+        "54": {
+            "name": "Goblin-Brustharnisch",
+            "desc": ""
+        },
+        "55": {
+            "name": "Bärenhandschuhe",
+            "desc": ""
+        },
+        "56": {
+            "name": "Bärensabatons",
+            "desc": ""
+        },
+        "57": {
+            "name": "Waldhelm",
+            "desc": ""
+        },
+        "58": {
+            "name": "Bärenhelm",
+            "desc": ""
+        },
+        "59": {
+            "name": "Tuvale Robe",
+            "desc": ""
+        },
+        "60": {
+            "name": "Tuvale Schienbeinschützer",
+            "desc": ""
+        },
+        "61": {
+            "name": "Tuvale-Kapuze",
+            "desc": ""
+        },
+        "62": {
+            "name": "Tuvale-Armschienen",
+            "desc": ""
+        },
+        "63": {
+            "name": "Eichenschlägel",
+            "desc": ""
+        },
+        "64": {
+            "name": "Kunnigas-Brustplatte",
+            "desc": ""
+        },
+        "65": {
+            "name": "Vipernzahn",
+            "desc": ""
+        },
+        "66": {
+            "name": "Rinderschneider",
+            "desc": ""
+        },
+        "67": {
+            "name": "Kriegsfürst-Medaillon",
+            "desc": ""
+        },
+        "68": {
+            "name": "Verborgene Klinge",
+            "desc": ""
+        },
+        "69": {
+            "name": "Stern des Waldes",
+            "desc": ""
+        },
+        "70": {
+            "name": "Groks Glücksbringer",
+            "desc": ""
+        },
+        "71": {
+            "name": "Magier-Ring",
+            "desc": ""
+        },
+        "72": {
+            "name": "Kobalt-Dolch",
+            "desc": ""
+        },
+        "73": {
+            "name": "Kobaltaxt",
+            "desc": ""
+        },
+        "74": {
+            "name": "Kobaltschwert",
+            "desc": ""
+        },
+        "75": {
+            "name": "Kobalthecht",
+            "desc": ""
+        },
+        "76": {
+            "name": "Eibenmystischer Stab",
+            "desc": ""
+        },
+        "77": {
+            "name": "Mysticker Eibenstab",
+            "desc": ""
+        },
+        "78": {
+            "name": "Eibenkeule",
+            "desc": ""
+        },
+        "79": {
+            "name": "Eibenstab",
+            "desc": ""
+        },
+        "80": {
+            "name": "Eibenknüppel",
+            "desc": ""
+        },
+        "81": {
+            "name": "Eibenstab",
+            "desc": ""
+        },
+        "82": {
+            "name": "Kobaltmesser",
+            "desc": ""
+        },
+        "83": {
+            "name": "Kobaltkettenpeitsche",
+            "desc": ""
+        },
+        "84": {
+            "name": "Kobalt Langschwert",
+            "desc": ""
+        },
+        "86": {
+            "name": "Aschengrauer Wasserstab",
+            "desc": ""
+        },
+        "87": {
+            "name": "Wasserstab",
+            "desc": ""
+        },
+        "88": {
+            "name": "Leuchtende Pike",
+            "desc": ""
+        },
+        "89": {
+            "name": "Gequälte Pike",
+            "desc": ""
+        },
+        "90": {
+            "name": "Axt des Schmerzes",
+            "desc": ""
+        },
+        "91": {
+            "name": "Sandiger Dolch",
+            "desc": ""
+        },
+        "92": {
+            "name": "Muschelaxt",
+            "desc": ""
+        },
+        "93": {
+            "name": "Gefiederter Dolch",
+            "desc": ""
+        },
+        "94": {
+            "name": "Schuppenklinge",
+            "desc": ""
+        },
+        "95": {
+            "name": "Wasserkante",
+            "desc": ""
+        },
+        "96": {
+            "name": "Die Trauer der Brandung",
+            "desc": ""
+        },
+        "97": {
+            "name": "Cnidozyten Pest",
+            "desc": ""
+        },
+        "98": {
+            "name": "Zauberstab der Warzen",
+            "desc": ""
+        },
+        "99": {
+            "name": "Marinachnids Fluch",
+            "desc": ""
+        },
+        "100": {
+            "name": "Klauenlangschwert",
+            "desc": ""
+        },
+        "101": {
+            "name": "Parotiden-Kris",
+            "desc": ""
+        },
+        "102": {
+            "name": "Matrosenmesser",
+            "desc": ""
+        },
+        "103": {
+            "name": "Sargassum-Zauberstab",
+            "desc": ""
+        },
+        "104": {
+            "name": "Hydrostab",
+            "desc": ""
+        },
+        "105": {
+            "name": "Markknochenkeule",
+            "desc": ""
+        },
+        "106": {
+            "name": "Alkalische Keule",
+            "desc": ""
+        },
+        "107": {
+            "name": "Schilfrohrkapuze",
+            "desc": ""
+        },
+        "108": {
+            "name": "Schilftunika",
+            "desc": ""
+        },
+        "109": {
+            "name": "Schilfumwickelungen",
+            "desc": ""
+        },
+        "110": {
+            "name": "Rohr-Crakows",
+            "desc": ""
+        },
+        "111": {
+            "name": "Kobalthelm",
+            "desc": ""
+        },
+        "112": {
+            "name": "Kobaltplattenpanzer",
+            "desc": ""
+        },
+        "113": {
+            "name": "Kobalt-Schienbeinschützer",
+            "desc": ""
+        },
+        "114": {
+            "name": "Kobalt-Armschienen",
+            "desc": ""
+        },
+        "115": {
+            "name": "Dreifach-Hut",
+            "desc": ""
+        },
+        "116": {
+            "name": "Kobalthaken",
+            "desc": ""
+        },
+        "117": {
+            "name": "Eibenholzprothese",
+            "desc": ""
+        },
+        "118": {
+            "name": "Seeformsrobe",
+            "desc": ""
+        },
+        "119": {
+            "name": "Fließende Kapuze",
+            "desc": ""
+        },
+        "120": {
+            "name": "Aquatische Sandalen",
+            "desc": ""
+        },
+        "121": {
+            "name": "Hydrowickel",
+            "desc": ""
+        },
+        "122": {
+            "name": "Amphibienstiefel",
+            "desc": ""
+        },
+        "123": {
+            "name": "Schuppige Truhe",
+            "desc": ""
+        },
+        "124": {
+            "name": "Schuppige Armschienen",
+            "desc": ""
+        },
+        "125": {
+            "name": "Schuppige Beinschienen",
+            "desc": ""
+        },
+        "126": {
+            "name": "Schuppiger Helm",
+            "desc": ""
+        },
+        "127": {
+            "name": "Königsrobe",
+            "desc": ""
+        },
+        "128": {
+            "name": "Meeresmark Harnisch",
+            "desc": ""
+        },
+        "129": {
+            "name": "Seeknochen-Helm",
+            "desc": ""
+        },
+        "130": {
+            "name": "Seemarkschenkelstücke",
+            "desc": ""
+        },
+        "131": {
+            "name": "Seemorchel-Handschuhe",
+            "desc": ""
+        },
+        "132": {
+            "name": "Aasgeweihter Brustpanzer",
+            "desc": ""
+        },
+        "133": {
+            "name": "Aashelm",
+            "desc": ""
+        },
+        "134": {
+            "name": "Aasstiefel",
+            "desc": ""
+        },
+        "135": {
+            "name": "Verwesungspanzerhandschuhe",
+            "desc": ""
+        },
+        "136": {
+            "name": "Wellenbrecher-Bande",
+            "desc": ""
+        },
+        "137": {
+            "name": "Schaumkronenanhänger",
+            "desc": ""
+        },
+        "138": {
+            "name": "Küstennähe-Ring",
+            "desc": ""
+        },
+        "139": {
+            "name": "Küstenkalamität",
+            "desc": ""
+        },
+        "140": {
+            "name": "Lazulit-Amulett",
+            "desc": ""
+        },
+        "141": {
+            "name": "Krabbenbrustplatte",
+            "desc": ""
+        },
+        "142": {
+            "name": "Schreckenhelm",
+            "desc": ""
+        },
+        "143": {
+            "name": "Schreckenskiste",
+            "desc": ""
+        },
+        "144": {
+            "name": "Amulett der Weisheit",
+            "desc": ""
+        },
+        "145": {
+            "name": "Yarsol-Helm",
+            "desc": ""
+        },
+        "146": {
+            "name": "Yarsol-Brustpanzer",
+            "desc": ""
+        },
+        "147": {
+            "name": "Yarsol-Beinschienen",
+            "desc": ""
+        },
+        "148": {
+            "name": "Yarsol-Handschuhe",
+            "desc": ""
+        },
+        "149": {
+            "name": "Klebrige Sabatons",
+            "desc": ""
+        },
+        "150": {
+            "name": "Leichte Krakauer",
+            "desc": ""
+        },
+        "151": {
+            "name": "Kobold-Schuppenbrustplatte",
+            "desc": ""
+        },
+        "152": {
+            "name": "Geschärfte Armschienen",
+            "desc": ""
+        },
+        "153": {
+            "name": "Kavallierstiefel",
+            "desc": ""
+        },
+        "154": {
+            "name": "Seemannstunika",
+            "desc": ""
+        },
+        "155": {
+            "name": "Freibeuterkappe",
+            "desc": ""
+        },
+        "156": {
+            "name": "Freibeuterhandschuhe",
+            "desc": ""
+        },
+        "157": {
+            "name": "Admirals Dreifachmappe",
+            "desc": ""
+        },
+        "158": {
+            "name": "Admiralsjacke",
+            "desc": ""
+        },
+        "159": {
+            "name": "Admiralsstiefel",
+            "desc": ""
+        },
+        "160": {
+            "name": "Admiralshandschuhe",
+            "desc": ""
+        },
+        "161": {
+            "name": "Schildkrötenbrustplatte",
+            "desc": ""
+        },
+        "162": {
+            "name": "Schildkrötenstiefel",
+            "desc": ""
+        },
+        "163": {
+            "name": "Schildkrötenarmschienen",
+            "desc": ""
+        },
+        "164": {
+            "name": "Schildkrötenhelm",
+            "desc": ""
+        },
+        "165": {
+            "name": "Titanmesser",
+            "desc": ""
+        },
+        "166": {
+            "name": "Titan-Hatchet",
+            "desc": ""
+        },
+        "167": {
+            "name": "Titaniumschwert",
+            "desc": ""
+        },
+        "168": {
+            "name": "Heuldorndzauberstab",
+            "desc": ""
+        },
+        "169": {
+            "name": "Heulendornstab",
+            "desc": ""
+        },
+        "170": {
+            "name": "Heulendorn-Keule",
+            "desc": ""
+        },
+        "171": {
+            "name": "Highrye-Robe",
+            "desc": ""
+        },
+        "172": {
+            "name": "Hochroggen-Kapuze",
+            "desc": ""
+        },
+        "173": {
+            "name": "Hochroggen Schuhe",
+            "desc": ""
+        },
+        "174": {
+            "name": "Highrye-Handschuhe",
+            "desc": ""
+        },
+        "175": {
+            "name": "Titanhelm",
+            "desc": ""
+        },
+        "176": {
+            "name": "Titanium-Brustplatte",
+            "desc": ""
+        },
+        "177": {
+            "name": "Titanhautröcke",
+            "desc": ""
+        },
+        "178": {
+            "name": "Titanarmbänder",
+            "desc": ""
+        },
+        "179": {
+            "name": "Aldurnische Schnabelschuhe",
+            "desc": ""
+        },
+        "180": {
+            "name": "Aldurnische Jacke",
+            "desc": ""
+        },
+        "181": {
+            "name": "Aldurnische Kapuze",
+            "desc": ""
+        },
+        "182": {
+            "name": "Aldurnische Handschuhe",
+            "desc": ""
+        },
+        "183": {
+            "name": "Geweihhelm",
+            "desc": ""
+        },
+        "184": {
+            "name": "Geweihbrustplatte",
+            "desc": ""
+        },
+        "185": {
+            "name": "Geweihbeinschienen",
+            "desc": ""
+        },
+        "186": {
+            "name": "Geweiharmschienen",
+            "desc": ""
+        },
+        "187": {
+            "name": "Steinhufstiefel",
+            "desc": ""
+        },
+        "188": {
+            "name": "Roc-geflügelter Brustpanzer",
+            "desc": ""
+        },
+        "189": {
+            "name": "Roc-gefiederte Kapuze",
+            "desc": ""
+        },
+        "190": {
+            "name": "Hochland-Großhelm",
+            "desc": ""
+        },
+        "191": {
+            "name": "Rocariel Schwert",
+            "desc": ""
+        },
+        "192": {
+            "name": "Heulenharnische Mystikstab",
+            "desc": ""
+        },
+        "193": {
+            "name": "Heulendorn-Mystikerstab",
+            "desc": ""
+        },
+        "194": {
+            "name": "Heulendorn-Knüppel",
+            "desc": ""
+        },
+        "195": {
+            "name": "Geweihkeule",
+            "desc": ""
+        },
+        "196": {
+            "name": "Gehörnter Mystikstab",
+            "desc": ""
+        },
+        "197": {
+            "name": "Titan-Axt",
+            "desc": ""
+        },
+        "198": {
+            "name": "Titan-Dolch",
+            "desc": ""
+        },
+        "199": {
+            "name": "Widderhammer",
+            "desc": ""
+        },
+        "200": {
+            "name": "Titanhammer",
+            "desc": ""
+        },
+        "201": {
+            "name": "Rocariel-Jacke",
+            "desc": ""
+        },
+        "202": {
+            "name": "Ätherische Fäustlinge",
+            "desc": ""
+        },
+        "203": {
+            "name": "Geisterstab",
+            "desc": ""
+        },
+        "204": {
+            "name": "Erntemesser",
+            "desc": ""
+        },
+        "205": {
+            "name": "Yak-Handschuhe",
+            "desc": ""
+        },
+        "206": {
+            "name": "Hautwandler-Großhelm",
+            "desc": ""
+        },
+        "207": {
+            "name": "Goldene Federbrustplatte",
+            "desc": ""
+        },
+        "208": {
+            "name": "Drachenschwanz-Pike",
+            "desc": ""
+        },
+        "209": {
+            "name": "Drachenrippen-Kettenhemd",
+            "desc": ""
+        },
+        "210": {
+            "name": "Aschenölstab",
+            "desc": ""
+        },
+        "211": {
+            "name": "Ogerknochenpeitsche",
+            "desc": ""
+        },
+        "212": {
+            "name": "Ogerkopf-Kriegshammer",
+            "desc": ""
+        },
+        "213": {
+            "name": "Loch-Unterarmschienen",
+            "desc": ""
+        },
+        "214": {
+            "name": "Loch-Brustpanzer",
+            "desc": ""
+        },
+        "215": {
+            "name": "Säurezerfressene Kapuze",
+            "desc": ""
+        },
+        "216": {
+            "name": "Säureverätzte Robe",
+            "desc": ""
+        },
+        "217": {
+            "name": "Säuregeschädigte Fäustlinge",
+            "desc": ""
+        },
+        "218": {
+            "name": "Säuregeschwächte Sandalen",
+            "desc": ""
+        },
+        "219": {
+            "name": "Sonnenpeitsche",
+            "desc": ""
+        },
+        "220": {
+            "name": "Ogergeißel",
+            "desc": ""
+        },
+        "221": {
+            "name": "Mondschattenaxt",
+            "desc": ""
+        },
+        "222": {
+            "name": "Hochlanderde-Speer",
+            "desc": ""
+        },
+        "223": {
+            "name": "Kriegshammer der Highlands",
+            "desc": ""
+        },
+        "224": {
+            "name": "Ogerknochenklinge",
+            "desc": ""
+        },
+        "225": {
+            "name": "Lochkopfhammer",
+            "desc": ""
+        },
+        "226": {
+            "name": "Windscheidenmesser",
+            "desc": ""
+        },
+        "227": {
+            "name": "Harpyenaxt",
+            "desc": ""
+        },
+        "228": {
+            "name": "Unterirdisches Leid",
+            "desc": ""
+        },
+        "229": {
+            "name": "Hardrake-Axt",
+            "desc": ""
+        },
+        "230": {
+            "name": "Hacken-Sichel",
+            "desc": ""
+        },
+        "231": {
+            "name": "Himmelskuss",
+            "desc": ""
+        },
+        "232": {
+            "name": "Oger-Knochenbrustplatte",
+            "desc": ""
+        },
+        "233": {
+            "name": "Harpyen-Legat-Großhelm",
+            "desc": ""
+        },
+        "234": {
+            "name": "Lochhelm",
+            "desc": ""
+        },
+        "235": {
+            "name": "Lochbeinschienen",
+            "desc": ""
+        },
+        "236": {
+            "name": "Verdammte Lich-Brustplatte",
+            "desc": ""
+        },
+        "237": {
+            "name": "Plünderer-Stulpenhandschuhe",
+            "desc": ""
+        },
+        "238": {
+            "name": "Schrottsammler-Brustplatte",
+            "desc": ""
+        },
+        "239": {
+            "name": "Schrotthelm",
+            "desc": ""
+        },
+        "240": {
+            "name": "Schrottsammler-Beinschienen",
+            "desc": ""
+        },
+        "241": {
+            "name": "Harpyen-Legionärshelm",
+            "desc": ""
+        },
+        "243": {
+            "name": "Herz der Berge",
+            "desc": ""
+        },
+        "244": {
+            "name": "Yak-Schienbeinschützer",
+            "desc": ""
+        },
+        "245": {
+            "name": "Mystischer Harpyienstab",
+            "desc": ""
+        },
+        "246": {
+            "name": "Mondstab",
+            "desc": ""
+        },
+        "247": {
+            "name": "Harpyen-Sonnenstab",
+            "desc": ""
+        },
+        "248": {
+            "name": "Mond-Streitkolben",
+            "desc": ""
+        },
+        "249": {
+            "name": "Verfluchter Schleimer",
+            "desc": ""
+        },
+        "250": {
+            "name": "Harpien-Schlitzer",
+            "desc": ""
+        },
+        "251": {
+            "name": "Hochland Astraler Stab",
+            "desc": ""
+        },
+        "252": {
+            "name": "Harpienstab",
+            "desc": ""
+        },
+        "253": {
+            "name": "Harpyenstab",
+            "desc": ""
+        },
+        "254": {
+            "name": "Hautwandlerprügel",
+            "desc": ""
+        },
+        "255": {
+            "name": "Säure-Mystikstab",
+            "desc": ""
+        },
+        "256": {
+            "name": "Widderkeule",
+            "desc": ""
+        },
+        "257": {
+            "name": "Oger-Blutmagier",
+            "desc": ""
+        },
+        "258": {
+            "name": "Drachendorn",
+            "desc": ""
+        },
+        "259": {
+            "name": "Lochwand",
+            "desc": ""
+        },
+        "260": {
+            "name": "Hochland-Kapuze",
+            "desc": ""
+        },
+        "261": {
+            "name": "Nachtschattenrobe",
+            "desc": ""
+        },
+        "262": {
+            "name": "Verdammte Fäustlinge",
+            "desc": ""
+        },
+        "263": {
+            "name": "Ritualsandalen",
+            "desc": ""
+        },
+        "264": {
+            "name": "Hagwitch-Umhang",
+            "desc": ""
+        },
+        "265": {
+            "name": "Harpyen-Schnabelschuhe",
+            "desc": ""
+        },
+        "266": {
+            "name": "Felsenvogelfalter",
+            "desc": ""
+        },
+        "267": {
+            "name": "Rocfederschuhe",
+            "desc": ""
+        },
+        "268": {
+            "name": "Hexenhut",
+            "desc": ""
+        },
+        "269": {
+            "name": "Falkengefiederte Umhänge",
+            "desc": ""
+        },
+        "270": {
+            "name": "Harpyen-Tunika",
+            "desc": ""
+        },
+        "271": {
+            "name": "Harpyien-Schlächtermantel",
+            "desc": ""
+        },
+        "272": {
+            "name": "Hochland-Handschuhe",
+            "desc": ""
+        },
+        "273": {
+            "name": "Säurehammer",
+            "desc": ""
+        },
+        "274": {
+            "name": "Harpyen-Handschuhe",
+            "desc": ""
+        },
+        "275": {
+            "name": "Seelenfeuer-Handschuhe",
+            "desc": ""
+        },
+        "276": {
+            "name": "Seelenfeuer-Beinschienen",
+            "desc": ""
+        },
+        "277": {
+            "name": "Seelenfeuerhelm",
+            "desc": ""
+        },
+        "278": {
+            "name": "Seelenfeuer-Brustplatte",
+            "desc": ""
+        }
+    },
+    "consumables": {
+        "1": {
+            "name": "Waldgrütze",
+            "desc": "Das absolute Minimum an Nahrung"
+        },
+        "2": {
+            "name": "Herzhafte Tuvale-Suppe",
+            "desc": "Eine herzhafte Mahlzeit für einen kalten Tag"
+        },
+        "3": {
+            "name": "Ingwerbier",
+            "desc": "Füge ein wenig Würze hinzu"
+        },
+        "4": {
+            "name": "Apfelkuchen",
+            "desc": "Würde großartig zu einem süßen, gefrorenen Leckerbissen passen..."
+        },
+        "5": {
+            "name": "Groks Met",
+            "desc": "Das ist toll"
+        },
+        "6": {
+            "name": "Pilzspieß",
+            "desc": "Ich liebe es zu grillen"
+        },
+        "7": {
+            "name": "Bärensteak-Abendessen",
+            "desc": "Ein ausgewogenes Mahl"
+        },
+        "8": {
+            "name": "Küstenschmaus",
+            "desc": "Riecht fischig"
+        },
+        "9": {
+            "name": "Meersalzbrownie",
+            "desc": "Großartig, wenn es über dem Feuer aufgewärmt wird"
+        },
+        "10": {
+            "name": "Krabben-Onigiri",
+            "desc": "Die Hauptküche von Yarsol"
+        },
+        "11": {
+            "name": "Kokonuss-Ananas-Colada",
+            "desc": "Könnte Stücke von Schwamm enthalten"
+        },
+        "12": {
+            "name": "Gebratener Reis",
+            "desc": "Sehr würzig"
+        },
+        "13": {
+            "name": "Muschel-Chowder",
+            "desc": "Würde großartig zu Gazpacho oder Kimchi passen"
+        },
+        "14": {
+            "name": "Grenouille-Pfannengericht",
+            "desc": "Macht einen starken Eindruck!"
+        },
+        "15": {
+            "name": "Plateau-Grütze",
+            "desc": "Wärmt die Seele"
+        },
+        "16": {
+            "name": "Valley Range Ribs",
+            "desc": "Für diejenigen, die an Muskelmasse zunehmen möchten!"
+        },
+        "17": {
+            "name": "Highland Pie",
+            "desc": "Ein Grundnahrungsmittel der Ackerländer"
+        },
+        "18": {
+            "name": "Subterranean Libation",
+            "desc": "Ein Liebling der Oger"
+        },
+        "19": {
+            "name": "Damson Marlotini",
+            "desc": "Welche tapfere Seele hat dies als Erste versucht?"
+        },
+        "20": {
+            "name": "Shepard's Pie",
+            "desc": "Dunderbaads Favorit"
+        },
+        "21": {
+            "name": "Cabbage Soup",
+            "desc": "Das Lieblingsgericht der Truppen von Bunderwold"
+        }
+    },
+    "lootbags": {
+        "1": {
+            "name": "Tuvale-Tasche",
+            "desc": "Eine gewöhnliche Tuvale-Tasche"
+        },
+        "2": {
+            "name": "Seltener Tuvale-Beutel",
+            "desc": "Ein seltener Tuvale-Beutel"
+        },
+        "3": {
+            "name": "Epische Tuvale-Tasche",
+            "desc": "Eine epische Tuvale-Tasche"
+        },
+        "4": {
+            "name": "Yarsol-Tasche",
+            "desc": "Ein gewöhnlicher Yarsol-Beutel"
+        },
+        "5": {
+            "name": "Seltene Yarsol-Tasche",
+            "desc": "Eine seltene Yarsol-Tasche"
+        },
+        "6": {
+            "name": "Epische Yarsol-Tasche",
+            "desc": "Eine epische Yarsol-Tasche"
+        },
+        "7": {
+            "name": "Aldur-Tasche",
+            "desc": "Eine gewöhnliche Aldur-Tasche"
+        },
+        "8": {
+            "name": "Seltene Aldur-Tasche",
+            "desc": "Ein seltener Aldur-Beutel"
+        },
+        "9": {
+            "name": "Epische Aldur-Tasche",
+            "desc": "Eine epische Aldur-Tasche"
+        },
+        "10": {
+            "name": "Region 4 Tasche",
+            "desc": "Platzhalter"
+        },
+        "11": {
+            "name": "Seltener Region 4 Beutel",
+            "desc": 0
+        },
+        "12": {
+            "name": "Legendäre Region 4 Tasche",
+            "desc": 0
+        },
+        "13": {
+            "name": "Region 5 Tasche",
+            "desc": 0
+        },
+        "14": {
+            "name": "Seltene Region 5 Tasche",
+            "desc": 0
+        },
+        "15": {
+            "name": "Legendäre Region 5 Tasche",
+            "desc": 0
+        },
+        "16": {
+            "name": "Region 6 Tasche",
+            "desc": 0
+        },
+        "17": {
+            "name": "Seltene Region 6 Tasche",
+            "desc": 0
+        },
+        "18": {
+            "name": "Legendäre Region 6 Tasche",
+            "desc": 0
+        },
+        "19": {
+            "name": "Region 7 Tasche",
+            "desc": 0
+        },
+        "20": {
+            "name": "Seltene Region 7 Tasche",
+            "desc": 0
+        },
+        "21": {
+            "name": "Legendäre Region 7 Tasche",
+            "desc": 0
+        },
+        "22": {
+            "name": "Region 8 Tasche",
+            "desc": 0
+        },
+        "23": {
+            "name": "Seltene Region 8 Tasche",
+            "desc": 0
+        },
+        "24": {
+            "name": "Legendärer Region 8 Beutel",
+            "desc": 0
+        },
+        "25": {
+            "name": "Region 9 Tasche",
+            "desc": 0
+        },
+        "26": {
+            "name": "Seltene Region 9 Tasche",
+            "desc": 0
+        },
+        "27": {
+            "name": "Legendäre Region 9 Tasche",
+            "desc": 0
+        },
+        "28": {
+            "name": 0,
+            "desc": 0
+        },
+        "29": {
+            "name": 0,
+            "desc": 0
+        },
+        "30": {
+            "name": "Geschenktasche",
+            "desc": "Geschenk des Kaufmanns"
+        },
+        "31": {
+            "name": 0,
+            "desc": 0
+        },
+        "32": {
+            "name": 0,
+            "desc": 0
+        },
+        "33": {
+            "name": 0,
+            "desc": 0
+        },
+        "34": {
+            "name": 0,
+            "desc": 0
+        },
+        "35": {
+            "name": 0,
+            "desc": 0
+        },
+        "36": {
+            "name": 0,
+            "desc": 0
+        },
+        "37": {
+            "name": "Handwerker-Mana-Beutel",
+            "desc": "Ein Beutel mit Handwerker-Mana-Marken"
+        },
+        "38": {
+            "name": 0,
+            "desc": 0
+        },
+        "39": {
+            "name": 0,
+            "desc": 0
+        },
+        "40": {
+            "name": "Seltene Münztasche",
+            "desc": "Ein seltener Beutel mit Spielmarken"
+        }
+    },
+    "loot": {
+        "0": {
+            "name": "Werbung überspringen",
+            "desc": "Verwendet zum Überspringen von Werbung"
+        },
+        "1": {
+            "name": "Wiederbeleben",
+            "desc": "Belebt einen Helden wieder"
+        },
+        "2": {
+            "name": "Heldenvertrags-Token",
+            "desc": "Verträgt einen Helden kostenlos"
+        },
+        "10": {
+            "name": "Gemeinsame Spende",
+            "desc": "Erfüllt gewöhnliche Anfragen der Gildengegenstände"
+        },
+        "11": {
+            "name": "Ungewöhnlich Spenden",
+            "desc": "Erfüllt den Gildenauftrag für ungewöhnliche Gegenstände"
+        },
+        "12": {
+            "name": "Selten spenden",
+            "desc": "Füllt seltene Gegenstandsgildenanfrage"
+        },
+        "13": {
+            "name": "Episch spenden",
+            "desc": "Füllt epische Gegenstandsgildenanfrage"
+        },
+        "14": {
+            "name": "Legendär spenden",
+            "desc": "Füllt legendäre Gegenstandsgildenanfrage"
+        },
+        "20": {
+            "name": "Gemeinsames Handwerk 10 min",
+            "desc": "Verringert die Herstellungszeit eines gemeinsamen Gegenstands um 10 Minuten"
+        },
+        "21": {
+            "name": "Ungewöhnliches Handwerk 10 min",
+            "desc": "Verringert die Herstellungszeit eines ungewöhnlichen Gegenstands um 10 Minuten"
+        },
+        "22": {
+            "name": "Seltenes Handwerk 10 min",
+            "desc": "Verringert die Herstellungszeit eines seltenen Gegenstands um 10 Minuten"
+        },
+        "23": {
+            "name": "Episches Handwerk 10 min",
+            "desc": "Verringert die Herstellungszeit eines epischen Gegenstands um 10 Minuten"
+        },
+        "24": {
+            "name": "Legendäres Handwerk 10 min",
+            "desc": "Verringert die Herstellungszeit eines legendären Gegenstands um 10 Minuten"
+        },
+        "25": {
+            "name": "Mythisches Handwerk 10 min",
+            "desc": "Verringert die Herstellungszeit eines mythischen Gegenstands um 10 Minuten"
+        },
+        "30": {
+            "name": "Schmiede-Mana",
+            "desc": "Kann als reguläres Mana verwendet werden, wenn ein Schmiederezept hergestellt wird"
+        },
+        "31": {
+            "name": "Rüstungsschmiede-Mana",
+            "desc": "Kann als reguläres Mana verwendet werden, wenn ein Rüstungsschmiederezept hergestellt wird"
+        },
+        "32": {
+            "name": "Holzarbeiter-Mana",
+            "desc": "Kann als reguläres Mana verwendet werden, wenn ein Holzarbeiterrezept hergestellt wird"
+        },
+        "33": {
+            "name": "Schneider-Mana",
+            "desc": "Kann als reguläres Mana verwendet werden, wenn ein Schneiderrezept hergestellt wird"
+        },
+        "35": {
+            "name": "Koch-Mana",
+            "desc": "Kann als reguläres Mana verwendet werden, wenn ein Kochrezept hergestellt wird"
+        },
+        "45": {
+            "name": "Alle Handwerker +1 Mana",
+            "desc": "Gibt allen Handwerkern +1 Mana. Wenn der Handwerker bereits maximales Mana hat, wird ihm kein weiteres gegeben."
+        },
+        "46": {
+            "name": "Jeder Handwerker +1 Mana",
+            "desc": 0
+        },
+        "100": {
+            "name": "POI Auffrischung Tuvale",
+            "desc": "Füllt einen Tuvale-Standort mit Feinden auf, wenn leer"
+        },
+        "101": {
+            "name": "POI Auffrischen Yarsol",
+            "desc": "Erneuert einen Yarsol-Standort mit Feinden, wenn er leer ist"
+        },
+        "102": {
+            "name": "POI Auffrischen Aldur",
+            "desc": "Erfrischt einen Aldur-Standort mit Feinden, wenn er leer ist."
+        },
+        "103": {
+            "name": "POI Aktualisierung R4",
+            "desc": 0
+        },
+        "120": {
+            "name": "Gegner Tuvale Überspringen",
+            "desc": "Überspringe einen Feind an einem Tuvale-Standort"
+        },
+        "121": {
+            "name": "Gegner Yarsol überspringen",
+            "desc": "Einen Feind an einem Yarsol-Standort überspringen"
+        },
+        "122": {
+            "name": "Gegner Aldur überspringen",
+            "desc": "Überspringen Sie einen Feind an einem Aldur-Standort"
+        },
+        "123": {
+            "name": "Gegner überspringen R4",
+            "desc": 0
+        },
+        "140": {
+            "name": "Überspringen zu Selten Tuvale",
+            "desc": "Überspringt zu einem seltenen Feind an einem Tuvale-Standort, falls verfügbar"
+        },
+        "141": {
+            "name": "Springe zu Selten Yarsol",
+            "desc": "Überspringt zu einem seltenen Feind an einem Yarsol-Standort, falls verfügbar"
+        },
+        "142": {
+            "name": "Seltenen Aldur überspringen",
+            "desc": "Springt zu einem seltenen Feind an einem Aldur-Standort, wenn verfügbar"
+        },
+        "143": {
+            "name": "Springe zu Selten R4",
+            "desc": 0
+        },
+        "300": {
+            "name": "Herstellungsgeschwindigkeit 5 Min",
+            "desc": "Erhöht die Herstellungsgeschwindigkeit um das 2-fache für 5 Minuten. Gilt nur für Handwerke, die nach dem Boost gestartet wurden."
+        },
+        "301": {
+            "name": "Herstellungsgeschwindigkeit 20 Min",
+            "desc": "Erhöht die Herstellungsgeschwindigkeit um das 2-fache für 20 Minuten. Gilt nur für Handwerke, die nach dem Boost gestartet wurden."
+        },
+        "302": {
+            "name": "Herstellungsgeschwindigkeit 1 Stunde",
+            "desc": "Erhöht die Herstellungsgeschwindigkeit um das 2-fache für 1 Stunde. Gilt nur für Handwerke, die nach dem Boost gestartet wurden."
+        },
+        "303": {
+            "name": "Quest-Geschwindigkeit 10 Min",
+            "desc": "Erhöht die Quest-Geschwindigkeit um das 2-fache für 10 Minuten. Gilt nur für Quests, die nach dem Boost gestartet wurden."
+        },
+        "304": {
+            "name": "Quest-Geschwindigkeit 30 Min",
+            "desc": "Erhöht die Quest-Geschwindigkeit um das 2-fache für 30 Minuten. Gilt nur für Quests, die nach dem Boost gestartet wurden."
+        },
+        "305": {
+            "name": "Quest-Geschwindigkeit 2 Stunden",
+            "desc": "Erhöht die Quest-Geschwindigkeit um das 2-fache für 2 Stunden. Gilt nur für Quests, die nach dem Boost gestartet wurden."
+        },
+        "306": {
+            "name": "Arbeitergeschwindigkeit 5 Min",
+            "desc": ""
+        },
+        "307": {
+            "name": "Arbeitergeschwindigkeit 30 Min",
+            "desc": ""
+        },
+        "308": {
+            "name": "Arbeitergeschwindigkeit 2 Stunden",
+            "desc": ""
+        },
+        "309": {
+            "name": "Quest-EP 5 Min",
+            "desc": "Erhöht die erhaltenen Quest-EP um das 2-fache für 10 Minuten. Gilt nur für Quests, die nach dem Boost gestartet wurden."
+        },
+        "310": {
+            "name": "Quest-EP 30 Min",
+            "desc": "Erhöht die erhaltenen Quest-EP um das 2-fache für 30 Minuten. Gilt nur für Quests, die nach dem Boost gestartet wurden."
+        },
+        "311": {
+            "name": "Quest-EP 2 Stunden",
+            "desc": "Erhöht die erhaltenen Quest-EP um das 2-fache für 2 Stunden. Gilt nur für Quests, die nach dem Boost gestartet wurden."
+        },
+        "999": {
+            "name": "Starter-Boost",
+            "desc": "Erhöhen Sie die Quest-, Handwerks- und Arbeitsgeschwindigkeit für 1 Stunde um das 2-fache. Gilt nur für Arbeiten, die nach dem Aktivieren des Boosts begonnen wurden"
+        }
+    }
+}

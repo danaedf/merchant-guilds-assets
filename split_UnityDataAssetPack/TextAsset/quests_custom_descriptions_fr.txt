@@ -1,0 +1,12 @@
+{
+    "9": "La légende dit qu'il erre dans la Forêt du Scarabée",
+    "22": "La légende dit qu'il erre dans la Fosse aux Serpents.",
+    "27": "La légende dit qu'il parcourt le Sanctuaire des Araignées",
+    "32": "La légende dit qu'il rôde autour du lac de Hogger.",
+    "37": "La légende dit qu'il rôde dans la Grotte de la Taille-Croisée.",
+    "42": "Deuxième en commande au Fort Gobelin",
+    "47": "Commandant du Fort Gobelin",
+    "48": "La légende dit qu'il erre dans la Tanière d'Ursa",
+    "53": "La légende dit qu'il rôde dans la Crevasse Confinée",
+    "58": "La légende dit qu'il erre dans le Cay Tortue"
+}

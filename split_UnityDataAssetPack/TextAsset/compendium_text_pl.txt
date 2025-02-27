@@ -1,0 +1,478 @@
+{
+    "compendiumHeaders": {
+        "Stats": {
+            "name": "Statystyki",
+            "desc": ""
+        },
+        "DOT Damage": {
+            "name": "Obrażenia w Czasie",
+            "desc": ""
+        },
+        "Other Icons": {
+            "name": "Inne ikony",
+            "desc": ""
+        },
+        "Keywords": {
+            "name": "Słowa kluczowe",
+            "desc": ""
+        }
+    },
+    "buildings": {
+        "Customer Frequency": {
+            "name": "Częstotliwość klientów",
+            "desc": "Klienci wejdą do Sklepu tylko wtedy, gdy jesteś w budynku. Gdy klient wejdzie, będzie się rozglądać, a w końcu ustawi się w kolejce do kasy. Dzieje się to niezależnie od tego, czy nadal jesteś w środku.\n\nKiedy po dłuższym czasie wejdziesz do Sklepu, może się zdarzyć, że wielu klientów ustawi się w kolejce, gotowych do wejścia od razu.\n\nJeśli zmusisz klienta do zbyt długiego czekania w kolejce, może odejść wcześniej bez zakupu. Jeśli klient wyjdzie bez twojego polecenia, użyje opcji „Wróć Później”, jeśli będzie dostępna, w przeciwnym razie zostanie to potraktowane jako zwykła odmowa."
+        },
+        "Haggling": {
+            "name": "Targowanie się",
+            "desc": "Podczas sprzedaży towaru klientowi, możesz targować się z nim na temat ceny. Prawdopodobieństwo, że klient kupi przedmiot po twojej wynegocjowanej cenie, zależy od tego, ile żądasz, twoich relacji z klientem i tego, jak bardzo klient lubi przedmiot.\n\nSprzedanie przedmiotu poniżej średniej ceny może poprawić twoje relacje z klientem. Z drugiej strony sprzedaż po cenie powyżej średniej może zaszkodzić twoim relacjom z klientem."
+        },
+        "Customer Item Valuation": {
+            "name": "Wycena Przedmiotu Klienta",
+            "desc": "Klienci oceniają przedmioty na podstawie ich cech i aktualnej wartości rynkowej! Upewnij się, że sprzedajesz im coś, za co zapłacą powyżej średniej ceny."
+        },
+        "Customer Relationship": {
+            "name": "Relacje z klientami",
+            "desc": "Sprzedając przedmioty klientowi, twoja relacja z nim może się zmieniać. Ta relacja jest reprezentowana przez serduszka.\n\nMożesz zyskać i stracić serduszka u klienta w zależności od oferty, którą mu przedstawisz, i od tego, jak bardzo lubi dany przedmiot.\n\nIm więcej serduszek masz u klienta, tym bardziej prawdopodobne, że zaakceptuje przedstawione mu oferty, więc staraj się utrzymywać dobre relacje!"
+        },
+        "Customer Level": {
+            "name": "Poziom Klienta",
+            "desc": "Sprzedając przedmioty klientowi, zyskują oni doświadczenie! W miarę jak klient awansuje na kolejne poziomy, odblokujesz z nim różne możliwości targowania się."
+        },
+        "Customer Traits": {
+            "name": "Cechy Klienta",
+            "desc": "Klienci mogą również posiadać cechy, które wpłyną na to, jak bardzo polubią dany przedmiot, ile zapłacą za przedmiot, oraz czy w ogóle będą skłonni go kupić.\n\nPamiętaj, aby zwracać uwagę na cechy podczas decydowania, co sprzedać klientowi!"
+        },
+        "Customer Energy": {
+            "name": "Energia Klienta",
+            "desc": "Każdy klient ma swoje własne punkty energii i może wejść do Sklepu tylko wtedy, gdy ma dostępne co najmniej 1 punkt energii. Kiedy klient dokonuje zakupu lub zostaje odprawiony przy kasie, zużywa punkt energii. Jednakże, jeśli użyta zostanie funkcja „Wróć Później”, klienci opuszczą sklep bez zużycia energii i powrócą po pewnym czasie.\n\nKlienci odnawiają energię, niezależnie od tego, czy grasz, a każdy klient ma inny współczynnik odnawiania oraz maksymalną ilość energii, którą mogą przechowywać.\n\nKażdy klient ma również inny czas odnowienia, kiedy mogą ponownie wejść do sklepu po wyjściu, co jest niezależne od energii."
+        },
+        "Customer Come Back Later": {
+            "name": "Klient Wróci Później",
+            "desc": "Zamiast odmawiać sprzedaży klientowi, czasami będziesz mieć opcję poproszenia go, aby Wrócił Później. Zrobienie tego nie zużywa energii, a klient po pewnym czasie ponownie wejdzie do Sklepu.\n\nPo jednokrotnym poproszeniu o Powrót Później opcja ta nie będzie dostępna ponownie, dopóki klientowi nie zostanie coś sprzedane lub nie zostanie mu odmówione w tradycyjny sposób."
+        },
+        "Market Fluctuation": {
+            "name": "Fluktuacje Rynkowe",
+            "desc": "Wartości wszystkich przedmiotów będą się zmieniać w zależności od ich aktualnej wartości rynkowej. Rynek aktualizuje się często, więc coś, co wcześniej sprzedawano za bardzo wysoką cenę, może teraz sprzedać się za znacznie mniej.\n\nPodczas przeglądania rynku, im bardziej zielona jest wartość przedmiotu, tym wyżej jest powyżej jego domyślnej ceny.\n\nIm bardziej czerwona jest wartość przedmiotu, tym niżej jest poniżej jego domyślnej ceny.\n\nPamiętaj, że możesz zobaczyć cenę rynkową tylko tych przedmiotów, które odkryłeś.\n\nCeny rynkowe są takie same dla wszystkich graczy, więc pamiętaj, aby poinformować swoich przyjaciół, gdy jakiś przedmiot jest „gorący”!"
+        },
+        "Bargain Bin": {
+            "name": "Kosz Okazji",
+            "desc": "Kosz Okazji to miejsce, gdzie możesz sprzedać wszystkie przedmioty, którym nie chcesz przydzielać konkretnego miejsca. Przedmioty umieszczone tutaj będą automatycznie sprzedawane z czasem, a wtedy złoto będzie dostępne do odbioru.\n\nJedynym minusem jest to, że wszystkie przedmioty umieszczone tutaj będą sprzedawane z 25% zniżką w stosunku do obecnej ceny rynkowej… Co za okazja!"
+        },
+        "Shop Table": {
+            "name": "Stół sklepowy",
+            "desc": "Stoły sklepowe to standardowy sposób sprzedaży przedmiotów. Tylko wyposażenie może być umieszczone na stole sklepowym i będzie sprzedawane po cenie rynkowej w momencie wystawienia."
+        },
+        "Glass Case": {
+            "name": "Szklana Skrzynia",
+            "desc": "Gablotka jest specjalnym rodzajem slota sprzedażowego. Tylko wyposażenie można umieścić w Gablotce, gdzie zostanie sprzedane z 50% narzutem na podstawie jego bieżącej ceny rynkowej w momencie wystawienia.\n\nTylko przedmioty o rzadkości Rzadki lub wyższej mogą być tam umieszczane. Klienci uważają, że przedmioty umieszczone tutaj są bardziej eleganckie niż te na zwykłym stole."
+        },
+        "Bulk Bin": {
+            "name": "Zbiorczy Pojemnik",
+            "desc": "Duża Skrzynia to specjalny typ miejsca sprzedaży. Tylko materiały mogą być umieszczane w Dużej Skrzyni.\n\nMateriały sprzedawane tutaj muszą być sprzedawane w stosach o określonych rozmiarach, zależnych od rzadkości przedmiotu. Rozmiary stosów to 40 dla zwykłych, 20 dla niezwykłych, 10 dla rzadkich, 5 dla epickich, 2 dla legendarnych i 1 dla mitycznych.\n\nMateriały umieszczone w Dużej Skrzyni będą sprzedawane po ich aktualnej cenie rynkowej w momencie wystawienia. Klienci uwielbiają myśleć, że dostają więcej za swoje pieniądze, chociaż technicznie tego nie dostają."
+        },
+        "Banquet Table": {
+            "name": "Stół bankietowy",
+            "desc": "Stół bankietowy to specjalny rodzaj miejsca sprzedaży. Na Stole bankietowym można umieszczać tylko przedmioty do spożycia. Przedmioty do spożycia sprzedawane tutaj muszą być sprzedawane w stosach po 4.\n\nPrzedmioty do spożycia umieszczone na Stole bankietowym sprzedawane będą po aktualnej cenie rynkowej w momencie wystawienia. Klienci uwielbiają myśleć, że dostają więcej za swoje pieniądze, mimo że technicznie rzecz biorąc, nie jest to prawda."
+        },
+        "Capacity": {
+            "name": "Pojemność",
+            "desc": "Pojemność to całkowita liczba slotów w ekwipunku, które posiadasz. Każdy materiał lub stos zużywalnych przedmiotów zużywa 1 pojemność, niezależnie od wielkości stosu. Każdy sprzęt również zużywa 1 pojemność, ale nie kumuluje się. Duplikaty tego samego sprzętu użyją 1 pojemności każdy.\n\nJeśli osiągniesz maksymalną pojemność, nowy sprzęt lub nowe materiały/zużywalne przedmioty, które nie mają jeszcze stosu, zostaną umieszczone w Skrzynce Kolekcji na pewien czas.\n\nTa sama wartość pojemności jest dzielona pomiędzy sprzęt, zużywalne przedmioty i materiały."
+        },
+        "Stack Size": {
+            "name": "Wielkość Stosu",
+            "desc": "Wszystkie materiały i przedmioty jednorazowego użytku mają maksymalny rozmiar stosu, który jest wskazany przez Rozmiar Stosu Zapasów pokazywany na górze ekranu.\n\nJeśli osiągniesz maksymalny rozmiar stosu dla przedmiotu w Zapasach, każdy kolejny zebrany przedmiot zostanie tymczasowo umieszczony w Skrzynce Kolekcjonerskiej."
+        },
+        "Collection Box": {
+            "name": "Skrzynka Kolekcjonerska",
+            "desc": "Kiedy jakiekolwiek zebrane przedmioty nie mogą być umieszczone w Magazynie z jakiegokolwiek powodu, zostaną umieszczone w Skrzynce Kolekcji. Jest to oznaczone ikoną w prawym górnym rogu ikony przedmiotu podczas zbierania: torba oznacza, że przedmiot został wysłany do Magazynu, a skrzynia oznacza, że został wysłany do Twojej Skrzynki Kolekcji.\n\nJeśli uda Ci się zwolnić miejsce w Magazynie, będziesz mógł przenieść przedmioty ze Skrzynki Kolekcji do Magazynu, aby je zabezpieczyć. Możesz wybrać pojedyncze przedmioty do przeniesienia do Magazynu z Twojej Skrzynki Kolekcji i nie musisz przenosić ich wszystkich.\n\nMożesz także wybrać wysłanie przedmiotów ze Skrzynki Kolekcji do Kosza Okazji w Sklepie za cenę rynkową w momencie wystawienia, uwzględniając obniżkę Kosza Okazji.\n\nPrzedmiot z zielonym panelem liczbowym w jego lewym górnym rogu wskazuje, że posiada wiele stosów, które wygasną w różnych terminach, a wyświetlany czas pokazuje stos, który wygaśnie najszybciej. Pokazana ilość przedmiotu to łączna suma wszystkich stosów tego przedmiotu.\n\nJeśli przedmiot wygaśnie z Skrzynki Kolekcji, zostanie automatycznie wysłany do Kosza Okazji za najniższą możliwą cenę z uwzględnieniem obniżki Kosza Okazji, a nie bieżącą wartość rynkową, więc najlepiej zająć się przedmiotami samemu!"
+        },
+        "Locations": {
+            "name": "Lokacje",
+            "desc": "Poziom budynku Bram Twojego Miasta określa, ile miejsc masz dostępnych dla swoich bohaterów do wykonywania misji i pracowników do pracy. Bohater nadal musi spełniać wymagania dotyczące poziomu, aby wykonywać misję w danym miejscu, nawet jeśli zostało odblokowane.\n\nCzasami miejsca misji mogą wyczerpać wrogów do walki, i będziesz musiał poczekać jakiś czas na powrót wrogów."
+        },
+        "Travel Time": {
+            "name": "Czas Podróży",
+            "desc": "Bramy twojego miasta mogą wpływać na czas, jaki twoi bohaterowie potrzebują na podróż do i z określonej lokalizacji. Nie wpływa to na czas walki, ale skróci ogólny czas wyprawy. Aktualny modyfikator jest określany poprzez poziom budynku."
+        },
+        "Crafters": {
+            "name": "Rzemieślnicy",
+            "desc": "Każdy rzemieślnik, którego odblokujesz, pozostanie w budynku Kręgu Rzemieślników. Możesz odblokować więcej rzemieślników, ulepszając budynek!"
+        },
+        "Crafter Recipes": {
+            "name": "Przepisy Rzemieślnicze",
+            "desc": "Twój rzemieślnik uczy się więcej przepisów w miarę, jak zdobywa poziomy! Jednak poziom twojego rzemieślnika może być ograniczony w zależności od obecnego poziomu budynku Kręgu Rzemieślników."
+        },
+        "Crafter Queues": {
+            "name": "Kolejki Rzemieślnicze",
+            "desc": "Kolejki rzemieślników pozwalają na ustawienie w kolejce wielu przedmiotów do wykonania, choć nadal będą one wykonywane jeden po drugim.\n\nOdblokowujesz więcej slotów kolejki poprzez rozwijanie budynku Kręgu Rzemieślników."
+        },
+        "Crafter Choose Amount": {
+            "name": "Wybór Ilości Rzemieślnika",
+            "desc": "Dla przedmiotów jednorazowego użytku i materiałów możesz zmienić ilość produkcji naraz!\n\nMożesz zwiększyć maksymalny rozmiar stosu do wykonania naraz, ulepszając budynek Koła Rzemieślników."
+        },
+        "Crafter Mana": {
+            "name": "Mana Rzemieślnika",
+            "desc": "Mana Twórcy jest używana do ulepszania wytwarzanych przedmiotów.\n\nW przypadku materiałów i materiałów eksploatacyjnych możesz użyć many, aby stworzyć większą ilość przedmiotu. W przypadku wyposażenia możesz użyć jej, aby zwiększyć szanse na uzyskanie przedmiotu wyższej jakości.\n\nMana Twórcy jest odnawiana dla twórcy po osiągnięciu nowego poziomu. Masz także szansę na zdobycie większej ilości many twórcy po każdym wytworzeniu przedmiotu."
+        },
+        "Infusion Buffs": {
+            "name": "Wzmocnienia Infuzji",
+            "desc": "Pojedynczy materiał może być zastosowany do wyposażenia, aby zapewnić dodatkowy bonus do jednego atrybutu za koszt jednego many, dodatkowego złota i dodatkowego czasu.\n\nTen bonus może być różny w zależności od tego, czy materiał jest stosowany do broni, zbroi, czy amuletu.\n\nIstnieje szansa, że ta infuzja może się nie udać. Im wyższy poziom twojego rzemieślnika, tym lepsza szansa na sukces. Im większa różnica między poziomem wyposażenia a poziomem materiału, tym większa szansa na niepowodzenie."
+        },
+        "Infusion Synergies": {
+            "name": "Synergie Infuzji",
+            "desc": "Dwa materiały mogą być zastosowane do sprzętu, aby zapewnić różnorodne unikalne bonusy w zamian za koszt dwóch many, dodatkowego złota i dodatkowego czasu.\n\nJeśli dwa materiały się ze sobą synergizują, nie ma szans na niepowodzenie. Jeśli nie, operacja się nie powiedzie, a jeden z materiałów zostanie wybrany losowo, aby zapewnić Buff dla sprzętu. Ten Buff nie zawiedzie."
+        },
+        "Infusion Synergies+": {
+            "name": "Synergie Infuzji+",
+            "desc": "Trzy materiały mogą być stosowane do wyposażenia, aby zapewnić różnorodne unikalne bonusy za cenę trzech many, dodatkowego złota i dodatkowego czasu.\n\nDziała to dokładnie tak samo jak zwykłe Synergie, z tym że teraz możesz dodać klejnot jako trzeci materiał. Ten trzeci materiał nie ma wpływu na to, czy dwa pierwsze materiały będą się ze sobą synergetyczne, czy nie.\n\nTen klejnot zapewni bonus do klasy wyposażenia. Bonus do klasy zostanie zastosowany niezależnie od tego, czy Synergia się powiedzie, czy nie."
+        },
+        "Heroes": {
+            "name": "Bohaterowie",
+            "desc": "Wszyscy bohaterowie, z którymi masz obecnie podpisane umowy, pozostaną w Sali Bohaterów. Będziesz mógł pomieścić więcej bohaterów, gdy będziesz ulepszać budynek."
+        },
+        "Hero Traits": {
+            "name": "Cechy Bohatera",
+            "desc": "Cechy bohatera mogą mieć pozytywny, negatywny lub mieszany wpływ na twojego bohatera w zależności od tego, jak go wyposażysz."
+        },
+        "Hero Equipment": {
+            "name": "Wyposażenie Bohatera",
+            "desc": "Z poziomu statystyk bohatera można uzyskać dostęp do wyposażenia bohatera.\n\nMożesz edytować wyposażenie bohatera tylko wtedy, gdy są obecnie zatrudnieni, żyją i nie są na misji. Zanim zwolnisz bohatera, warto rozważyć usunięcie całego jego wyposażenia na wypadek, gdybyś później go potrzebował."
+        },
+        "Hero Dismiss": {
+            "name": "Zwolnij Bohatera",
+            "desc": "Kiedy bohater wykorzysta wszystkie zadania z ich kontraktu, będziesz mieć możliwość odnowienia kontraktu na nową liczbę zadań według własnego wyboru lub zwolnienia ich.\n\nJeśli ich zwolnisz, wrócą do Tawerny i zachowają cały sprzęt, który im dałeś. Następnym razem, gdy ich zatrudnisz, będą mieć ten sam sprzęt, co w momencie zwolnienia."
+        },
+        "Hero Revive": {
+            "name": "Wskrzeszenie Bohatera",
+            "desc": "Bohater może zemdleć po przegranej bitwie. Jeśli tak się stanie, możesz zapłacić złoto, aby natychmiast go wskrzesić, lub poczekać, aż bohater automatycznie się wskrzesi po pewnym czasie oczekiwania.\n\nIlość złota potrzebna do natychmiastowego wskrzeszenia zmniejszy się wraz ze skracaniem się czasu oczekiwania na wskrzeszenie."
+        },
+        "Hero Consumables": {
+            "name": "Przedmioty jednorazowe bohatera",
+            "desc": "Dotknięcie przycisku ciasta w menu Statystyki Bohatera przeniesie Cię do menu Przedmiotów Konsumpcyjnych Bohatera. Wszelkie przedmioty konsumpcyjne pokazane tutaj przywrócą zdrowie Twojego bohatera po spożyciu."
+        },
+        "Hero Boosts": {
+            "name": "Wzmocnienia Bohatera",
+            "desc": "W menu Konsumowalne Bohatera możesz również zastosować Wzmocnienia Bohatera.\n\nBohater może mieć aktywne tylko 1 wzmocnienie naraz, ale możesz użyć wielokrotności tego samego wzmocnienia, aby przedłużyć jego czas działania. Efekty wzmocnienia nie będą się kumulować. Efekt wzmocnienia zostanie zastosowany tylko raz, niezależnie od tego, ile razy zostanie użyty."
+        },
+        "Party Battles": {
+            "name": "Potyczki drużynowe",
+            "desc": "Czasami napotkasz silnych wrogów, którzy wymagają udziału wielu bohaterów, aby ich pokonać. Aby dołączyć do walki, bohater musi najpierw spełnić wymagania dotyczące poziomu lokalizacji.\n\nKolejność tur jest wskazywana przez liczbę wyświetlaną poniżej poziomu każdego bohatera, gdy zostanie umieszczony w układzie drużyny.\n\nSilny wróg może na początku pokonać twoją drużynę, ale wróg pozostanie osłabiony, jeśli uda ci się zadać wystarczająco dużo obrażeń, aby przekroczyć kreskę na pasku HP, co ułatwi kolejną walkę. Bądź jednak szybki, ponieważ wróg będzie się powoli leczył z upływem czasu!"
+        },
+        "Guild Quick Join": {
+            "name": "Szybkie Dołączenie do Gildii",
+            "desc": "Korzystanie z tej funkcji umieści Cię w społecznościowej gildii.\n\nGildie społecznościowe nie mają lidera i nie mogą uczestniczyć w Ligach Gildii. Jest to zalecane dla nowych graczy."
+        },
+        "Guild Chat": {
+            "name": "Czat Gildii",
+            "desc": "Czat Gildii to miejsce, gdzie ty i twoi towarzysze z gildii możecie komunikować się i oglądać dziennik różnych wydarzeń w gildii.\n\nCzuj się swobodnie, aby rozmawiać, ale pamiętaj, aby być przyjaznym lub mogą cię wyrzucić!\n\nMożesz również składać prośby do swoich towarzyszy z gildii i przyczyniać się do ich próśb."
+        },
+        "Guild Requests": {
+            "name": "Zlecenia Gildii",
+            "desc": "W menu Żądania Gildii, członkowie gildii mogą żądać i otrzymywać przedmioty od siebie nawzajem. Dotyczy to tylko materiałów, które odkryłeś.\n\nIlość materiałów, które możesz zażądać, zależy od rzadkości materiału, który chcesz.\n\nPo złożeniu żądania musisz poczekać, aż zostanie spełniona pełna ilość żądania lub wygaśnie czas żądania, zanim będziesz mógł odebrać dostępne przedmioty.\n\nPo zakończeniu żądania będziesz miał określony czas na odebranie przedmiotów, w przeciwnym razie zostaną one automatycznie odrzucone."
+        },
+        "Building Experience": {
+            "name": "Doświadczenie w Budownictwie",
+            "desc": "Stukając w przycisk młotka na ekranie miasta, możesz uzyskać dostęp do menu ulepszania budynków. Tutaj możesz przeznaczać złoto lub materiały na podnoszenie poziomu budynków i odblokowywanie ulepszeń, które są dzielone na całą twoją Gildię.\n\nPo przekazaniu wkładu na budynek nie możesz odzyskać złota.\n\nJeśli opuścisz swoją Gildię, zabierzesz ze sobą całe swoje doświadczenie budowlane, ale zostanie ono automatycznie dodane do całkowitego wkładu budynków dla następnej Gildii, do której dołączysz.\n\nAby otrzymywać korzyści z poziomu budynku, istnieje minimalna kwota, którą musisz przekazać na dany poziom. Na przykład twoja gildia może mieć Sklep na poziomie 3, ale ponieważ nie wniosłeś dużo do Sklepu, możesz otrzymywać tylko korzyści z poziomu 1.\n\nZ drugiej strony, zachowujesz maksymalne korzyści, jakie kiedykolwiek otrzymałeś, nawet gdy gildia traci inwestorów lub zmieniasz gildię.\n\nNa przykład, powiedzmy, że jesteś w dwuosobowej gildii. Drugi członek zdobył dużo doświadczenia dla Bramy Miejskiej, aby odblokować Yarsol. Mogłeś wnieść tylko minimalną kwotę, aby móc realizować misje w Yarsol, ale oni zrobili resztę. Jeśli druga osoba opuści gildię, nadal będziesz mógł realizować misje w Yarsol, jednak nie odblokujesz żadnych nowych lokalizacji, dopóki nie ulepszysz budynku z powrotem do swojego poziomu korzyści."
+        },
+        "Building Top Investor": {
+            "name": "Inwestor Szczytowy Budynków",
+            "desc": "Gracz z największym wkładem w budynek zostanie wyświetlony na ekranie uaktualnień budynku. Po prostu przyjazna rywalizacja!\n\nMożesz zobaczyć, jak ty i twoi gildyjni towarzysze wypadają, przełączając się na „widok inwestora” na ekranie uaktualnień budynku."
+        },
+        "Building Material Investment": {
+            "name": "Inwestycja w Materiały Budowlane",
+            "desc": "Ty i twoi towarzysze gildii możecie raz dziennie wnieść materiałowy wkład do każdego budynku w mieście. Wartość materiałów zostanie dodana do ogólnej sumy złotych inwestycji w budynek, z dodatkowym mnożnikiem w zależności od całkowitej liczby towarzyszy gildii, którzy się przyczynili. Im więcej, tym lepiej!\n\nJednak w przeciwieństwie do inwestycji złotem, darowizny materiałowe pozostaną w gildii nawet po twoim odejściu."
+        },
+        "Guild Leagues": {
+            "name": "Ligi Gildii",
+            "desc": "Każdego tygodnia gildie będą rywalizować w drabince z innymi gildiami tej samej ligi.\n\nCzłonkowie gildii muszą współpracować, aby ukończyć zestaw coraz trudniejszych misji. Gdy Twoja gildia ukończy etap misji, otrzymasz duży bonus punktowy. Ten bonus rośnie z każdym etapem.\n\nW zależności od tego, jak dobrze poradzi sobie Twoja gildia, możesz awansować, spaść lub nie otrzymać żadnych zmian ligowych. Ruch Twojej gildii jest określany na końcu wojny ligowej.\n\nNa końcu wojny ligowej jest krótki czas schłodzenia przed rozpoczęciem kolejnej.\n\nW miarę jak Twoja gildia awansuje w ligach, gildia zyskuje potężne bonusy. Te bonusy są dostępne dla wszystkich członków.\n\nJeśli gracz dołączy do gildii w trakcie wojny, nie może uczestniczyć w misjach aż do następnej wojny ligowej.\n\nJeśli gildia zostanie stworzona w trakcie wojny, nie będzie mogła uczestniczyć w wojnach ligowych aż do następnego tygodnia."
+        },
+        "Hirable Heroes": {
+            "name": "Najemni Bohaterowie",
+            "desc": "W Tawernie znajdziesz dostępnych obecnie bezrobotnych bohaterów, których można zatrudnić. Na początku może być ich tylko kilku, ale ulepszając swoją Tawernę, ostatecznie odblokujesz więcej bohaterów do zatrudnienia.\n\nKażdy zatrudniony bohater, którego zwolniłeś, powróci tutaj, abyś mógł go ponownie zatrudnić w przyszłości."
+        },
+        "Hero Contracts": {
+            "name": "Kontrakty Bohatera",
+            "desc": "Jeśli chcesz, aby bohater pracował dla ciebie, najpierw musisz zatrudnić go na podstawie kontraktu. Masz możliwość zatrudnienia bohatera na określoną liczbę ładunków zadań, wskazanych przez ikonę błyskawicy, w zamian za określoną ilość złota.\n\nPodczas podejmowania zadań ładunek zostanie zużyty bez względu na to, czy bohater wygra, czy przegra. Po zakończeniu kontraktu możesz zdecydować się na jego odnowienie lub zakończenie.\n\nMożesz zwiększyć liczbę opcji na jednostkę czasu poprzez podnoszenie poziomu bohatera w sklepie. Upewnij się, że utrzymujesz dobre stosunki z lokalnymi talentami, ponieważ może to wpłynąć na ich ceny i nie tylko!"
+        },
+        "Tavern Gold": {
+            "name": "Karczemne Złoto",
+            "desc": "Twoja Tawerna będzie powoli gromadzić złoto z czasem, które można zebrać za pomocą przycisku znajdującego się nad Tawerną na ekranie miasta.\n\nUlepszenia Tawerny czasami odblokowują szybsze generowanie złota, więc koniecznie inwestuj w to lokalne przedsiębiorstwo!"
+        },
+        "Workers": {
+            "name": "Pracownicy",
+            "desc": "Wszyscy robotnicy, których odblokowałeś, będą przebywać w Koszarach Robotników.\n\nUlepszenie tego budynku odblokuje nowe lokalizacje, w których Twoi robotnicy będą mogli pracować. Możesz również otrzymać dodatkowe rodzaje kontraktów, gdy ulepszysz Koszary Robotników."
+        },
+        "Hiring Workers": {
+            "name": "Zatrudnianie pracowników",
+            "desc": "Kiedy wysyłasz pracownika do pracy, możesz wybrać, jak długo ma pracować. Upewnij się, że wybierasz odpowiedni czas pracy, ponieważ nie będziesz mógł ich wcześniej odwołać. Możesz zwiększyć liczbę opcji na ramy czasowe poprzez zdobywanie poziomów pracownika w sklepie. Powrócą oni dopiero po zakończeniu pracy. Pamiętaj, aby utrzymywać zdrowe relacje z lokalnymi talentami, ponieważ może to wpłynąć na ich ceny i wiele więcej!"
+        }
+    },
+    "combat": {
+        "max_hp": {
+            "name": "Maksymalne PŻ",
+            "desc": "Maksymalne punkty zdrowia. Zwiększają się przy awansie na wyższy poziom lub za pomocą określonego wyposażenia i wzmocnień"
+        },
+        "atk": {
+            "name": "Atk",
+            "desc": "Typ obrażeń fizycznych. Działa przeciwko obro"
+        },
+        "matk": {
+            "name": "Koń bojowy",
+            "desc": "Typ obrażeń magicznych. Działa przeciwko mdef"
+        },
+        "acc": {
+            "name": "Acc",
+            "desc": "Dokładność. Działa przeciwko unikowi"
+        },
+        "crit": {
+            "name": "Krytyczne uderzenie",
+            "desc": "Uderzenie Krytyczne. Wartość to szansa na krytyczne trafienie, maksymalna wartość to 100"
+        },
+        "crit_mod": {
+            "name": "Mod Krytyczny",
+            "desc": "Modyfikator Ciosu Krytycznego. Mnożnik obrażeń, które zadasz, jeśli trafisz krytycznie"
+        },
+        "def": {
+            "name": "Pancerz",
+            "desc": "Obrona fizyczna. Działa przeciwko atakowi"
+        },
+        "mdef": {
+            "name": "Obrona magiczna",
+            "desc": "Obrona przed Magią. Chroni przed atk mag"
+        },
+        "eva": {
+            "name": "Eva",
+            "desc": "Unik. Działa przeciwko acc"
+        },
+        "str": {
+            "name": "Struna",
+            "desc": "Siła. Zwiększa atak i obronę"
+        },
+        "int": {
+            "name": "Kwatermistrz",
+            "desc": "Inteligencja. Zwiększa matk i mdef"
+        },
+        "agi": {
+            "name": "zwrotność",
+            "desc": "Zwinność. Zwiększa celność i uniki"
+        },
+        "incHeal": {
+            "name": "Nadchodzące Leczenie",
+            "desc": "Zwiększa skuteczność leczenia podczas walki"
+        },
+        "outHeal": {
+            "name": "Leczenie Wychodzące",
+            "desc": "Zwiększa leczenie zadawane podczas walki"
+        },
+        "luck": {
+            "name": "Szczęście",
+            "desc": "Zwiększa nagrody z zadań"
+        },
+        "exp": {
+            "name": "Doświadczenie",
+            "desc": "Doświadczenie. Zwiększa zdobywane doświadczenie dla bohaterów"
+        },
+        "speed": {
+            "name": "Szybkość",
+            "desc": "Szybkość. Spraw, by bohaterowie szybciej wykonywali zadania"
+        },
+        "fire": {
+            "name": "Ogień",
+            "desc": "Skalowanie od matk, redukowane przez mdef"
+        },
+        "poison": {
+            "name": "Trucizna",
+            "desc": "Zależne od atk, redukowane przez def"
+        },
+        "bleed": {
+            "name": "Krwawienie",
+            "desc": "Skaluje się z ataku, prawdziwe obrażenia"
+        },
+        "soul_fire": {
+            "name": "Ogień Duszy",
+            "desc": "Skaluje się od matk, prawdziwe obrażenia"
+        },
+        "heal": {
+            "name": "Uzdrawianie",
+            "desc": "Leczenie za punkty życia"
+        },
+        "ap": {
+            "name": "punkt akcji",
+            "desc": "Punkt akcji. Umiejętności wykorzystują określoną ilość punktów akcji"
+        },
+        "buff": {
+            "name": "Wzmocnienie",
+            "desc": "Zwiększ statystykę"
+        },
+        "debuff": {
+            "name": "Osłabienie",
+            "desc": "Zmniejsz statystykę"
+        },
+        "estimate": {
+            "name": "Oszacowanie",
+            "desc": "Może być wyższa lub niższa od wartości"
+        },
+        "turns": {
+            "name": "Tury",
+            "desc": "Jeśli ktoś rzuci umiejętność, która ma efekt przez 1 turę, ten efekt będzie trwał, dopóki nie nadejdzie znowu tura rzucającego"
+        },
+        "self": {
+            "name": "Wcielenie",
+            "desc": "Rzucający umiejętności"
+        },
+        "ally": {
+            "name": "Sojusznik",
+            "desc": "Konkretna postać w drużynie, nie rzucająca zaklęcia"
+        },
+        "party": {
+            "name": "Drużyna",
+            "desc": "Dotyczy wszystkich bohaterów w drużynie"
+        },
+        "target": {
+            "name": "Cel",
+            "desc": "Odbiorca rzuconej umiejętności"
+        },
+        "shield": {
+            "name": "Tarcza",
+            "desc": "Nadprogramowa tarcza ze określoną ilością zdrowia i ochrony"
+        },
+        "taunt": {
+            "name": "Drwina",
+            "desc": "Następny atak na pojedynczy cel zostanie skierowany na tego bohatera"
+        },
+        "silence": {
+            "name": "Cisza",
+            "desc": "Usuwa wszystkie wzmocnienia, prowokacje, tarcze na odbiorcy"
+        },
+        "leech": {
+            "name": "Pijawka",
+            "desc": "Część zadanych obrażeń leczy rzucającego zaklęcie"
+        },
+        "true_damage": {
+            "name": "Prawdziwe Obrażenia",
+            "desc": "Obrażenia ignorujące obronę"
+        },
+        "cleanse": {
+            "name": "Oczyszczanie",
+            "desc": "Usuwa wszystkie osłabienia, ciszę, ogłuszenia, obrażenia z czasem"
+        },
+        "reflect": {
+            "name": "Odbicie",
+            "desc": "Część zadanych obrażeń jest zwracana do atakującego"
+        },
+        "stun": {
+            "name": "Oszołomienie",
+            "desc": "Powoduje, że odbiorca pomija swoją następną turę"
+        },
+        "pent": {
+            "name": "Pentagram",
+            "desc": "Przebicie. Ignoruj część ochrony"
+        },
+        "chance": {
+            "name": "Szansa",
+            "desc": "Nie gwarantowane, wzrasta z szczęściem"
+        },
+        "block": {
+            "name": "Blokada",
+            "desc": "Zmniejszenie otrzymywanych obrażeń"
+        },
+        "steal": {
+            "name": "Kradzież",
+            "desc": "Weź ilość czegoś z celu i daj sobie. Jeśli na ograniczony czas, po upływie tego czasu skradziona ilość zostaje usunięta od pierwotnego rzucającego i zwrócona do pierwotnego celu"
+        },
+        "dodge": {
+            "name": "Unik",
+            "desc": "Całkowicie uniknij otrzymywania obrażeń"
+        },
+        "rotation": {
+            "name": "Rotacja",
+            "desc": "Przesuwa drużynę o 1 miejsce zgodnie z ruchem wskazówek zegara"
+        },
+        "swap": {
+            "name": "Zamiana",
+            "desc": "dwóch członków drużyny zamienia się miejscami"
+        }
+    },
+    "inGameTips": {
+        "1": {
+            "name": "Bohaterowie w mieście są twoimi przyjaciółmi, nadaj im przydomek!",
+            "desc": ""
+        },
+        "2": {
+            "name": "Możesz zmienić nazwę zestawów umiejętności swojego bohatera!",
+            "desc": ""
+        },
+        "3": {
+            "name": "Wybierając ilość czegoś, dotknij numeru, aby wpisać własną liczbę",
+            "desc": ""
+        },
+        "4": {
+            "name": "Niektórzy klienci odwiedzają sklep rzadziej niż inni",
+            "desc": ""
+        },
+        "5": {
+            "name": "Niektórzy wrogowie mają niebezpieczne umiejętności! Sprawdź Kompendium, aby poznać znane ataki",
+            "desc": ""
+        },
+        "6": {
+            "name": "Pracownik Retora nigdy nie poprosi Cię o hasło!",
+            "desc": ""
+        },
+        "7": {
+            "name": "Możesz odblokować więcej opcji kontraktów bohaterów, sprzedając temu bohaterowi w swoim sklepie",
+            "desc": ""
+        },
+        "8": {
+            "name": "Daj swoim pracownikom umowę, która im się spodoba! Mogą pracować ciężej i dostarczać więcej materiałów!",
+            "desc": ""
+        },
+        "9": {
+            "name": "Jeśli zwolnisz bohatera, wróci on do Tawerny i będzie dostępny do wynajęcia w dowolnym momencie",
+            "desc": ""
+        },
+        "10": {
+            "name": "Istnieje szansa, że rzemieślnik zdobędzie punkt many po wykonaniu przedmiotu",
+            "desc": ""
+        },
+        "11": {
+            "name": "Twój postęp nie jest zablokowany dla Twojej Gildii. Jeśli zdecydujesz się na zmianę, zachowasz swój postęp.",
+            "desc": "Joe"
+        },
+        "12": {
+            "name": "Klienci preferują niektóre przedmioty od innych i zapłacą za nie znacznie wyższe ceny",
+            "desc": "Edna"
+        },
+        "13": {
+            "name": "Bohaterowie nie powinni zawsze stać pośrodku",
+            "desc": "The Banana"
+        },
+        "14": {
+            "name": "Przedni rząd w bitwach drużynowych jest częściej atakowany. Zbroja i zdrowie są ważne!",
+            "desc": "The Cleric"
+        },
+        "15": {
+            "name": "Sprawdź Discord, aby dowiedzieć się o gildiach, wskazówkach, kodach promocyjnych lub jeśli masz jakiekolwiek pytania!",
+            "desc": "Dorce"
+        },
+        "16": {
+            "name": "Bitwy ligi zaczynają się w każdy poniedziałek. Pamiętaj, aby się przyczynić, aby zdobyć więcej nagród!",
+            "desc": ""
+        },
+        "17": {
+            "name": "Partonowie na Patreonie otrzymują dostęp do kulis, specjalne treści i więcej!",
+            "desc": ""
+        },
+        "18": {
+            "name": "Wspieraj nas na Patreon, aby głosować nad nowymi treściami i wybierać nazwy dla nowych treści!",
+            "desc": ""
+        },
+        "19": {
+            "name": "Czy wiesz, że patroni na Patreonie mogą zobaczyć treści przed ich premierą?",
+            "desc": ""
+        },
+        "20": {
+            "name": "Możesz dotknąć i przytrzymać większość przedmiotów, aby uzyskać więcej informacji!",
+            "desc": ""
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "9": "Der Legende nach streift es durch den Scarab-Wald",
+    "22": "Der Legende nach streift es durch die Schlangengrube.",
+    "27": "Der Legende nach durchstreift es das Spinnenheiligtum.",
+    "32": "Der Legende nach streift es um den Hogger-See.",
+    "37": "Der Legende nach durchstreift es die Scherbenhöhle.",
+    "42": "Stellvertreter bei der Goblinfestung",
+    "47": "Kommandeur der Goblinfestung",
+    "48": "Der Legende nach streift es durch Ursas Höhle.",
+    "53": "Die Legende besagt, dass es die Beengte Spalte durchstreift",
+    "58": "Die Legende besagt, dass es in der Schildkrötenbucht umherstreift."
+}

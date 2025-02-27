@@ -1,0 +1,2288 @@
+{
+    "materials": {
+        "1": {
+            "name": "Kłoda dębowa",
+            "desc": "Drewno używane do produkcji dębowych desek"
+        },
+        "2": {
+            "name": "Ruda żelaza",
+            "desc": "Ruda używana do wytwarzania Sztabek Żelaza"
+        },
+        "3": {
+            "name": "Dębowe Drewno",
+            "desc": "Drewno szlachetne używane do produkcji broni"
+        },
+        "4": {
+            "name": "Sztabka żelaza",
+            "desc": "Niezawodny metal używany do wykonywania broni"
+        },
+        "5": {
+            "name": "Płótno konopne",
+            "desc": "Tkana tkanina używana do wyrobu zbroi"
+        },
+        "6": {
+            "name": "Żelazna Płyta",
+            "desc": "Wzmocniona płyta do produkcji zbroi"
+        },
+        "7": {
+            "name": "Włókno konopne",
+            "desc": "Włókno używane do produkcji konopnych tkanin"
+        },
+        "8": {
+            "name": "Bryła żelaza",
+            "desc": "Bryła używana do produkcji Żelaznych Płyt"
+        },
+        "9": {
+            "name": "Korzeń Tuwale",
+            "desc": "Korzenie używane w jedzeniu, nadal smakują jak ziemia"
+        },
+        "10": {
+            "name": "Mech Tuvale",
+            "desc": "Mech używany w jedzeniu, wciąż smakuje jak kamienie"
+        },
+        "11": {
+            "name": "Kora Tuvale",
+            "desc": "Kora z Tuvale, wszechstronna do broni i zbroi"
+        },
+        "12": {
+            "name": "Minerały Tuvale",
+            "desc": "Surowce mineralne z Tuvale, wszechstronne do broni i zbroi"
+        },
+        "13": {
+            "name": "Chityna chrząszcza",
+            "desc": "Hartowana chitina chrząszcza używana do produkcji zbroi"
+        },
+        "14": {
+            "name": "Żuwaczki Chrząszcza",
+            "desc": "Stwardniałe żuwaczki chrząszcza używane do broni"
+        },
+        "15": {
+            "name": "Gigantyczny Pancerz Skarabeusza",
+            "desc": "Olbrzymia skorupa skarabeusza używana do wyrobu zbroi"
+        },
+        "16": {
+            "name": "Serce Żuka",
+            "desc": "Wciąż bijące serce chrząszcza używane w jedzeniu"
+        },
+        "17": {
+            "name": "Noga Pająka",
+            "desc": "Noga pająków używana do tworzenia broni"
+        },
+        "18": {
+            "name": "Jedwab Pająka",
+            "desc": "Jedwab pająków używany do produkcji zbroi"
+        },
+        "19": {
+            "name": "Pajęcze Oko",
+            "desc": "Oczy pająków używane do tworzenia drobiazgów"
+        },
+        "20": {
+            "name": "Łuska Węża",
+            "desc": "Łuska węża używana do wyrobu broni"
+        },
+        "21": {
+            "name": "Jad węża",
+            "desc": "Jad węży używany do tworzenia broni"
+        },
+        "22": {
+            "name": "Kieł Węża",
+            "desc": "Kieł węży używany do wytwarzania broni"
+        },
+        "23": {
+            "name": "Skóra z dzika",
+            "desc": "Skóra dzika używana do wyrobu zbroi"
+        },
+        "24": {
+            "name": "Kieł Dzika",
+            "desc": "Kieł dzika używany do produkcji broni"
+        },
+        "25": {
+            "name": "Zaklęty Kieł Dzika",
+            "desc": "Magiczny kieł dzika używany do produkcji broni"
+        },
+        "26": {
+            "name": "Wilcze Futro",
+            "desc": "Skóra wilka używana do produkcji zbroi"
+        },
+        "27": {
+            "name": "Łapa Wilka",
+            "desc": "Łapa wilka używana do robienia zbroi"
+        },
+        "28": {
+            "name": "Wilcza Czaszka",
+            "desc": "Głowa wilka używana do produkcji zbroi"
+        },
+        "29": {
+            "name": "Serce Alfa Wilka",
+            "desc": "Bijące serce alfa-wilka używane do produkcji zbroi i pożywnej żywności"
+        },
+        "30": {
+            "name": "Goblinie Płótno",
+            "desc": "Strzęp tkaniny upuszczony przez zabitego Goblina używany do produkcji zbroi"
+        },
+        "31": {
+            "name": "Rękojeść Goblina",
+            "desc": "Rękojeść goblińskiej broni używana do wyrobu oręża"
+        },
+        "32": {
+            "name": "Gobliński Ostrze",
+            "desc": "Ostrze wykute przez wykwalifikowanych Goblinów, używane do produkcji broni"
+        },
+        "33": {
+            "name": "Zbroja Goblina",
+            "desc": "Płyta wykuta przez wykwalifikowane gobliny, używana do wyrobu zbroi"
+        },
+        "34": {
+            "name": "Różdżka Goblina",
+            "desc": "Różdżka Goblina używana do tworzenia broni"
+        },
+        "35": {
+            "name": "Przeklęte Ostrze Goblina",
+            "desc": "Klinga przeklęta przez mściwą śmierć goblina, używana do wyrobu broni"
+        },
+        "36": {
+            "name": "Ukryty Sztylet Goblina",
+            "desc": "Ostrze Goblina zdolne do ukrycia, używane do tworzenia broni"
+        },
+        "37": {
+            "name": "Kamień Skupienia Goblina",
+            "desc": "Magiczny kamień trzymany przez Gobliny o wyższych umysłach, używany do tworzenia ozdób"
+        },
+        "38": {
+            "name": "Gobliński Tomes",
+            "desc": "Księga sekretów Goblinów, wszechstronna do broni i zbroi"
+        },
+        "39": {
+            "name": "Pieczęć Goblina",
+            "desc": "Pieczęć znanych Goblinów, używana w drobiazgach"
+        },
+        "40": {
+            "name": "Emblemat Wodza Goblinów",
+            "desc": "Emblemat najgroźniejszych goblinich wojowników, Wodzów Goblinów"
+        },
+        "41": {
+            "name": "Niedźwiedzia Skóra",
+            "desc": "Skóra niedźwiedzia używana w zbroi"
+        },
+        "42": {
+            "name": "Niedźwiedzie Pazury",
+            "desc": "Pazur niedźwiedzi wszechstronny do broni i zbroi"
+        },
+        "43": {
+            "name": "Hełm Ursaina",
+            "desc": "Nakrycie głowy wielkiego niedźwiedzia, wszechstronne dla broni i zbroi"
+        },
+        "44": {
+            "name": "Napierśnik Ursaina",
+            "desc": "Napierśnik wielkiego niedźwiedzia, używany do tworzenia zbroi"
+        },
+        "45": {
+            "name": "Starożytne Drewno Tuvale",
+            "desc": "Drewno starożytnego dębu z Tuvale, uniwersalne do broni i zbroi"
+        },
+        "46": {
+            "name": "Kamień Arkany",
+            "desc": "Dziwny kamień emitujący silną magię, używany do robienia amuletów"
+        },
+        "47": {
+            "name": "Leśny Amulet",
+            "desc": "Urok z Lasu Tuvale, wszechstronny do amuletów i zbroi"
+        },
+        "48": {
+            "name": "Leśna Esencja Życia",
+            "desc": "Esencja wielkich Golemów Tuvale, wszechstronna do bibelotów i zbroi"
+        },
+        "49": {
+            "name": "Kryształ Lasu",
+            "desc": "Skamieniały kryształ z Lasu Tuvale, używany do wytwarzania Szmaragdów"
+        },
+        "50": {
+            "name": "Szmaragd",
+            "desc": "Rafinowane Kryształy Lasu używane do tworzenia Zielonych Run"
+        },
+        "51": {
+            "name": "Zielona Runa",
+            "desc": "Najstabilniejsza magia Lasu Tuvale"
+        },
+        "52": {
+            "name": "Oko Maexny",
+            "desc": "Oko Maexny używane do produkcji broni"
+        },
+        "53": {
+            "name": "Ruda kobaltu",
+            "desc": "Ruda używana do produkcji Sztabek Kobaltu"
+        },
+        "54": {
+            "name": "Sztabka kobaltu",
+            "desc": "Spekulacyjny metal używany do tworzenia broni"
+        },
+        "55": {
+            "name": "Kłoda Cisowa",
+            "desc": "Drewno używane do produkcji Dębowego Tarcicy"
+        },
+        "56": {
+            "name": "Drewno cisowe",
+            "desc": "Obrobione drewno używane do produkcji broni"
+        },
+        "57": {
+            "name": "Korzenie cyprysu",
+            "desc": "Korzenie używane w jedzeniu, mające aromat pleśni"
+        },
+        "58": {
+            "name": "Włókno Trzcinowe",
+            "desc": "Włókna używane do tworzenia tkaniny z trzciny"
+        },
+        "59": {
+            "name": "Tkanina Trzciny",
+            "desc": "Przeplatana tkanina używana do produkcji zbroi"
+        },
+        "60": {
+            "name": "Bryła Kobaltu",
+            "desc": "Kawałek używany do produkcji Płyt Kobaltu"
+        },
+        "61": {
+            "name": "Płytowa zbroja z kobaltu",
+            "desc": "Wzmocniona płyta do produkcji zbroi"
+        },
+        "62": {
+            "name": "Koral",
+            "desc": "Koral Golemów Yarsolu, używany do wytwarzania zbroi"
+        },
+        "63": {
+            "name": "Łuska Jaszczurki",
+            "desc": "Łuska jaszczurki używana do wyrobu zbroi"
+        },
+        "64": {
+            "name": "Macka meduzy",
+            "desc": "Macka meduzy używana do robienia zbroi"
+        },
+        "65": {
+            "name": "Sargassum",
+            "desc": "Żółcią żółwi, wszechstronna na broń i zbroję"
+        },
+        "66": {
+            "name": "Paszcza Uderzyciela Piasków",
+            "desc": "Głowa piaskowego napastnika używana do tworzenia zbroi"
+        },
+        "67": {
+            "name": "Noga Olbrzymiej Żaby",
+            "desc": "Noga wielkiej żaby używana do wyrobu zbroi"
+        },
+        "68": {
+            "name": "Pióro albatrosa",
+            "desc": "Pióro albatrosa używane do wyrobu zbroi"
+        },
+        "69": {
+            "name": "Koboldzie Płótno",
+            "desc": "Strzęp tkaniny upuszczony przez zabitego Kobolda, używany do produkcji zbroi"
+        },
+        "70": {
+            "name": "Kij Kobolda",
+            "desc": "Złamany drzewiec broni zabitego Kobolda użyty do wytwarzania broni"
+        },
+        "71": {
+            "name": "Jelec Kobolda",
+            "desc": "Jelec broni kobolda używany do wyrabiania broni"
+        },
+        "72": {
+            "name": "Zwój Wody",
+            "desc": "Zwoje z tajemnicami koboldów, wszechstronne dla broni i zbroi"
+        },
+        "73": {
+            "name": "Popiół Wodny",
+            "desc": "Mistyczny popiół upuszczony przez boskiego Kobolda, wszechstronny dla wszelkiego sprzętu"
+        },
+        "74": {
+            "name": "Relikt Kobolda",
+            "desc": "Relikt najwyższego znaczenia dla Kobolda używany do wyrobu zbroi"
+        },
+        "75": {
+            "name": "Szpon Albatrosa",
+            "desc": "Szpon albatrosa używany do wytwarzania zbroi"
+        },
+        "76": {
+            "name": "Szczypce kraba",
+            "desc": "Kieł kraba używany do wyrobu broni"
+        },
+        "77": {
+            "name": "Toksyna Meduzy",
+            "desc": "Toksyna meduzy używana do wyrobu broni"
+        },
+        "78": {
+            "name": "Skorupa żółwia",
+            "desc": "Skorupa żółwia używana do robienia zbroi"
+        },
+        "79": {
+            "name": "Połknięte szczątki",
+            "desc": "Skrwawiona sterta zwłok dawnych bohaterów, używana do produkcji zbroi"
+        },
+        "80": {
+            "name": "Pancerz Kraba",
+            "desc": "Muszla kraba używana do produkcji zbroi"
+        },
+        "81": {
+            "name": "Woreczek przyuszny",
+            "desc": "Gruczoł żaby używany do produkcji broni"
+        },
+        "82": {
+            "name": "Dryfujące drewno",
+            "desc": "Złowieszczy drewniany materiał używany do tworzenia broni"
+        },
+        "83": {
+            "name": "Fluorescencyjny Kamień",
+            "desc": "Promienny kamień używany do wyrobu broni"
+        },
+        "84": {
+            "name": "Szpon Jaszczura",
+            "desc": "Szpon jaszczurki używany do wyrobu broni"
+        },
+        "85": {
+            "name": "Łuska Kobolda",
+            "desc": "Linienie kobolda, wszechstronne do broni i zbroi"
+        },
+        "86": {
+            "name": "Nasycony kobalt",
+            "desc": "Rafinowany kobalt wykuty przez zręczne Koboldy, używany do produkcji broni"
+        },
+        "87": {
+            "name": "Wzburzone Ostrze",
+            "desc": "Ostrze rozgniewanego Kobolda, używane do wytwarzania broni"
+        },
+        "88": {
+            "name": "Osadna Arkana",
+            "desc": "Magiczny osad, wszechstronny do broni i zbroi"
+        },
+        "89": {
+            "name": "Zasadowy Krzyż",
+            "desc": "Krzyż boskiego Kobolda, wszechstronny do broni i zbroi"
+        },
+        "90": {
+            "name": "Pradawny Szpik",
+            "desc": "Kości znanego kobolda, wszechstronne do broni i zbroi"
+        },
+        "91": {
+            "name": "Olbrzymi Neb",
+            "desc": "Dziób wielkiego albatrosa używany do wytwarzania broni"
+        },
+        "92": {
+            "name": "Hydrosfera",
+            "desc": "Siła życiowa wielkiego Jaszczura Piaskowego, wszechstronna dla całego ekwipunku"
+        },
+        "93": {
+            "name": "Mięsista membrana",
+            "desc": "Błona wielkiej meduzy używana do tworzenia zbroi"
+        },
+        "94": {
+            "name": "Rafy Mineralne",
+            "desc": "Materiał przypominający pąkle z wielkiego żółwia, wszechstronny do wyrobu amuletów i zbroi"
+        },
+        "95": {
+            "name": "Egzoszkielet Uderzacza Piaskowego",
+            "desc": "Egzoszkielet gigantycznego Napastnika Piasku, używany do produkcji zbroi"
+        },
+        "96": {
+            "name": "Noga Marinachnida",
+            "desc": "Noga kraba przypominająca pająka używana do produkcji broni"
+        },
+        "97": {
+            "name": "Brodawkowata Skóra",
+            "desc": "Wytrzymała skóra żaby, wszechstronna do broni i zbroi"
+        },
+        "98": {
+            "name": "Nadmorski Talizman",
+            "desc": "Amulet Wybrzeża Yarsol, wszechstronny do błyskotek i zbroi"
+        },
+        "99": {
+            "name": "Nadmorska Esencja Wody",
+            "desc": "Esencja wielkich Golemów Yarsol, wszechstronna dla amuletów i zbroi"
+        },
+        "100": {
+            "name": "Kryształ Piaskowca",
+            "desc": "Skamieniały kryształ z Wybrzeża Yarsol, wszechstronny dla Akwamaryny i broni"
+        },
+        "101": {
+            "name": "Akwamaryn",
+            "desc": "Rafinowane Kryształy Piaskowca używane do tworzenia Run Lazurytu"
+        },
+        "102": {
+            "name": "Runiczny Lazuryt",
+            "desc": "Najstabilniejsza magia wybrzeża Yarsol, wszechstronna do drobiazgów i zbroi"
+        },
+        "150": {
+            "name": "Ruda Tytanu",
+            "desc": "Ruda używana do produkcji sztabek tytanu"
+        },
+        "151": {
+            "name": "Sztaba Tytanu",
+            "desc": "Wytrzymały metal używany do produkcji broni"
+        },
+        "152": {
+            "name": "Bryła tytanu",
+            "desc": "Kawałek używany do produkcji płyt tytanowych"
+        },
+        "153": {
+            "name": "Płyta Tytanowa",
+            "desc": "Mocna płyta używana do wyrabiania zbroi"
+        },
+        "154": {
+            "name": "Pień Wilczegłowu",
+            "desc": "Drewno używane do wytwarzania drewna Howlthorn"
+        },
+        "155": {
+            "name": "Drewno Wilczego Ciernia",
+            "desc": "Ulepszone drewno do produkcji broni"
+        },
+        "156": {
+            "name": "Żyto góralskie",
+            "desc": "Włókno używane do tkania materiału górskiego"
+        },
+        "157": {
+            "name": "Płótno z Wyżyn",
+            "desc": "Potężne płótno używane do wyrobu zbroi"
+        },
+        "158": {
+            "name": "Owies",
+            "desc": "Świetnie pasuje do owsianki"
+        },
+        "159": {
+            "name": "Pieprznik jadalny",
+            "desc": "Zapachy z wyżyn"
+        },
+        "160": {
+            "name": "Skóra z Aldurnii",
+            "desc": "Skóra zwierząt znalezionych na wyżynach"
+        },
+        "161": {
+            "name": "Alpejskie poroże",
+            "desc": "Utwardzone poroże zwierząt znalezionych na wyżynach"
+        },
+        "162": {
+            "name": "Zużyte Kopyto z Kamienia",
+            "desc": "Kopyto używane do wspinaczki po górach"
+        },
+        "163": {
+            "name": "Róg barana",
+            "desc": "Duży róg wielkiego barana"
+        },
+        "164": {
+            "name": "Pióro Roka",
+            "desc": "Pióro Roc'a"
+        },
+        "165": {
+            "name": "Skrzydło Szkieletowe Roca",
+            "desc": "Nienormalnie duży szkielet Roc'a"
+        },
+        "166": {
+            "name": "Eteryczne Płótno",
+            "desc": "Strzęp pozaziemskiej tkaniny"
+        },
+        "167": {
+            "name": "Zbłąkany Płomień",
+            "desc": "Używany do zwabienia zagubionych dusz"
+        },
+        "168": {
+            "name": "Skamieniały Wyjeczornik",
+            "desc": "Hartowany głog używany do produkcji broni"
+        },
+        "169": {
+            "name": "Ostrze Kosy Duchów",
+            "desc": "Rafinowane Kryształy z Wyżyn, używane do tworzenia Runów Kremzonitu"
+        },
+        "170": {
+            "name": "Szczecina jaka",
+            "desc": "Formacje skalne na grzbiecie jaka"
+        },
+        "171": {
+            "name": "Juk Yak",
+            "desc": "Kawałek jaka"
+        },
+        "172": {
+            "name": "Głowa Skórnika",
+            "desc": "Wydaje ciche wycie"
+        },
+        "173": {
+            "name": "Złote Pióro Roca",
+            "desc": "W jakiś sposób umożliwia latanie, chociaż jest ciężki jak kamień"
+        },
+        "174": {
+            "name": "Kolec z ogona smoka",
+            "desc": "Kolczasty ogon Smoka Draco"
+        },
+        "175": {
+            "name": "Żebra smoka",
+            "desc": "Żebra Smoka"
+        },
+        "176": {
+            "name": "Worek z Kwasem",
+            "desc": "Worek znajdujący się w pysku niektórych smoków, który umożliwia plucie"
+        },
+        "177": {
+            "name": "Vaudnit",
+            "desc": "Kiedy połączone ze Sztabkami Tytanu mogą stworzyć nowy stop"
+        },
+        "178": {
+            "name": "Łańcuch z Kości Ogra",
+            "desc": "Rozmaite kości przekształcone w łańcuch przez Ogry"
+        },
+        "179": {
+            "name": "Ogr Gorp",
+            "desc": "Dziwne jedzenie dla ogra"
+        },
+        "180": {
+            "name": "Zrośnięty Podwójny Obojczyk",
+            "desc": "Nienormalna kość szyi Ogra"
+        },
+        "181": {
+            "name": "Lśniący Mech z Jeziora",
+            "desc": "Mech znaleziony na podbrzuszach jezior"
+        },
+        "182": {
+            "name": "Kitin z Jeziora-anomii",
+            "desc": "Skrzepnięte glony złączone z wydzieliną szyi Locha"
+        },
+        "183": {
+            "name": "Czaszka Loch",
+            "desc": "Hartowana w boju płytka czaszki z Loch"
+        },
+        "184": {
+            "name": "Serce Górskiego Królewca",
+            "desc": "Podobno zapewnia posiadaczowi boskie przepowiednie"
+        },
+        "185": {
+            "name": "Pióro Harpii",
+            "desc": "Pióro Harpii"
+        },
+        "186": {
+            "name": "Złomiarz Złom",
+            "desc": "Złom metalowy harpii"
+        },
+        "187": {
+            "name": "Szpony Złomiarza",
+            "desc": "Szpon bojowy wykonany przez Harpię"
+        },
+        "188": {
+            "name": "Topór Harpii",
+            "desc": "Głowica topora wykonana przez harpię"
+        },
+        "189": {
+            "name": "Surowiec z włosów Harper",
+            "desc": "Nakrycie głowy elitarnej Wojowniczki Harpii"
+        },
+        "190": {
+            "name": "Różdżka Harpii",
+            "desc": "Różdżka wykonana przez harpię"
+        },
+        "191": {
+            "name": "Księga Harpii",
+            "desc": "Małe źródło magii Aldurniańskiej"
+        },
+        "192": {
+            "name": "Artefakt Przepełniony Energią Słoneczną",
+            "desc": "Runiczny kamień używany przez Harpyje Czarodziejki do tworzenia magicznych broni"
+        },
+        "193": {
+            "name": "Słodycz Roca",
+            "desc": "Używane przez Harpie do trenowania i dowodzenia Rokkami"
+        },
+        "194": {
+            "name": "Pancerz z Vautanium",
+            "desc": "Stop tytanowy wykonany z tytanowych płyt i vaudnitu"
+        },
+        "195": {
+            "name": "Niebiański Mistrz Ostrza",
+            "desc": "Ostrza przymocowane do skrzydeł Roca przez Oswajacza Roca Harpii"
+        },
+        "196": {
+            "name": "Księżycowy Pył Czarownicy",
+            "desc": "Pył stworzony przez czarownicę harpię połączony z lunarną magią"
+        },
+        "197": {
+            "name": "Artyfakt Księżycowy",
+            "desc": "Magiczna maź wybuchająca przy uderzeniu"
+        },
+        "198": {
+            "name": "Kryształ Wyżynny",
+            "desc": "Kryształ znaleziony w sercu gór, mniejszy rubin"
+        },
+        "199": {
+            "name": "Rubin",
+            "desc": "Rafinowane Kryształy Wysokogórskie, używane do wyrobu Run Szkarłatnych"
+        },
+        "200": {
+            "name": "Runiczny Karmazynit",
+            "desc": "Najstabilniejsza magia z wyżyn Aldur."
+        },
+        "201": {
+            "name": "Talizman Księżycowej Czary Wieczornicy",
+            "desc": "Mówi się, że pochodzi z samego księżyca. Używany przez Wiedźmę Harpii"
+        },
+        "202": {
+            "name": "Mikstura Czarownicy",
+            "desc": "Sekretna mikstura Harpii Czarownicy"
+        },
+        "203": {
+            "name": "Sztabka Vautanium",
+            "desc": "Stop metalu z Tytanowych Sztabek i Vaudnitu"
+        },
+        "204": {
+            "name": "Amulet z Wyżyn",
+            "desc": "Amulet z Wyżyn Aldur, wszechstronny do bibelotów i zbroi"
+        },
+        "205": {
+            "name": "Górska Esencja Ziemi",
+            "desc": "Esencja wielkich golemów Aldura, wszechstronna do amuletów i zbroi"
+        },
+        "206": {
+            "name": "Ogrowa Kościana Klinga",
+            "desc": "Ręcznie rzeźbione ostrze z kości wykute przez Ogrowych Rabusi"
+        },
+        "207": {
+            "name": "Przeklęty Kogulum Krwi",
+            "desc": "Przeklęte formacje krwi najpodlejszego Ogra"
+        },
+        "801": {
+            "name": "Jęczmień",
+            "desc": "Zwykłe zboże z Tuvale"
+        },
+        "802": {
+            "name": "Jabłko",
+            "desc": "Zwykły owoc z Tuvale"
+        },
+        "803": {
+            "name": "Sakiewka Przypraw Goblina",
+            "desc": "Niezwykła przyprawa z Tuvale"
+        },
+        "804": {
+            "name": "Grzyb Tuvale",
+            "desc": "Zwykły grzyb z Tuvale"
+        },
+        "805": {
+            "name": "Imbir",
+            "desc": "Powszechna przyprawa z Tuvale"
+        },
+        "806": {
+            "name": "Ziemniak",
+            "desc": "Powszechny warzywo z Tuvale"
+        },
+        "807": {
+            "name": "Niedźwiedzie mięso",
+            "desc": "Rzadkie mięso z Tuvale"
+        },
+        "808": {
+            "name": "Miód",
+            "desc": "Rzadki słodzik z Tuvale"
+        },
+        "809": {
+            "name": "Mąka",
+            "desc": "Pospolity wytworzony z Tuvale"
+        },
+        "810": {
+            "name": "Ryż",
+            "desc": "Zwykłe Ziarno z Yarsol"
+        },
+        "811": {
+            "name": "Kokos",
+            "desc": "Owoc z Yarsol"
+        },
+        "812": {
+            "name": "Ananas",
+            "desc": "Gąbki często używają tego jako dom"
+        },
+        "813": {
+            "name": "Porost",
+            "desc": "Pospolity grzyb w Yarsol"
+        },
+        "814": {
+            "name": "Małż",
+            "desc": "Mięczak z Yarsol"
+        },
+        "815": {
+            "name": "Proszek kakaowy",
+            "desc": "Nasiono używane do uprawy drzew w Yarsol"
+        },
+        "816": {
+            "name": "Kapusta",
+            "desc": "Zwykłe warzywo z Aldur"
+        },
+        "817": {
+            "name": "Czosnek",
+            "desc": "Zwykłe warzywo z Aldur"
+        },
+        "818": {
+            "name": "Szczaw koński",
+            "desc": "Niezwykłe warzywo z Aldur"
+        },
+        "819": {
+            "name": "Mleko Kozy",
+            "desc": "Mleko od zwierząt podobnych do kóz"
+        },
+        "820": {
+            "name": "Maślanka",
+            "desc": "Kremowa ciecz z mleka koziego"
+        },
+        "821": {
+            "name": "Jagoda Wichrowecpleni",
+            "desc": "Zwykła jagoda z Aldur"
+        },
+        "822": {
+            "name": "Marchewka",
+            "desc": "Niepospolite warzywo z Aldur"
+        },
+        "823": {
+            "name": "Śliwka damasceńska",
+            "desc": "Rzadki owoc z Aldur"
+        },
+        "824": {
+            "name": "Przecięte żebra smoka",
+            "desc": "Żebra smoka wolno gotowane do perfekcji"
+        },
+        "825": {
+            "name": "Mostek jaka",
+            "desc": "Przetworzone Mięso Jaka"
+        },
+        "826": {
+            "name": "Miazga Gorp",
+            "desc": "Przepis znaleziony na rysunkach na ścianie jaskini"
+        }
+    },
+    "equipment": {
+        "1": {
+            "name": "Żelazny Sztylet",
+            "desc": ""
+        },
+        "2": {
+            "name": "Żelazny Miecz",
+            "desc": ""
+        },
+        "3": {
+            "name": "Dębowa różdżka",
+            "desc": ""
+        },
+        "4": {
+            "name": "Dębowa Maczuga",
+            "desc": ""
+        },
+        "5": {
+            "name": "Żelazny Nóż",
+            "desc": ""
+        },
+        "6": {
+            "name": "Żelazny Topór",
+            "desc": ""
+        },
+        "7": {
+            "name": "Dębowy Kij",
+            "desc": ""
+        },
+        "8": {
+            "name": "Żelazny Toporek",
+            "desc": ""
+        },
+        "9": {
+            "name": "Topór Żuka",
+            "desc": ""
+        },
+        "10": {
+            "name": "Żelazny Miecz Długi",
+            "desc": ""
+        },
+        "11": {
+            "name": "Maczuga Dzik",
+            "desc": ""
+        },
+        "12": {
+            "name": "Różdżka Chrząszcza",
+            "desc": ""
+        },
+        "13": {
+            "name": "Laska Węża",
+            "desc": ""
+        },
+        "14": {
+            "name": "Różdżka Maexny",
+            "desc": ""
+        },
+        "15": {
+            "name": "Gobliński Miecz",
+            "desc": ""
+        },
+        "16": {
+            "name": "Gobliński Miecz Długi",
+            "desc": ""
+        },
+        "17": {
+            "name": "Dębowe Mistyczne Berło",
+            "desc": ""
+        },
+        "18": {
+            "name": "Różdżka Goblina",
+            "desc": ""
+        },
+        "19": {
+            "name": "Mistyczna Laska Niedźwiedzia",
+            "desc": ""
+        },
+        "20": {
+            "name": "Przeklęte Ostrze",
+            "desc": ""
+        },
+        "21": {
+            "name": "Pałka Niedźwiedzia",
+            "desc": ""
+        },
+        "22": {
+            "name": "Zguba Niedźwiedzia",
+            "desc": ""
+        },
+        "23": {
+            "name": "Konopny Kaptur",
+            "desc": ""
+        },
+        "24": {
+            "name": "Rękawice z konopi",
+            "desc": ""
+        },
+        "25": {
+            "name": "Koszula z konopi",
+            "desc": ""
+        },
+        "26": {
+            "name": "Trzewiki z konopi",
+            "desc": ""
+        },
+        "27": {
+            "name": "Żelazny Hełm",
+            "desc": ""
+        },
+        "28": {
+            "name": "Żelazne Nagolenniki",
+            "desc": ""
+        },
+        "29": {
+            "name": "Żelazna Napierśnik",
+            "desc": ""
+        },
+        "30": {
+            "name": "Żelazne Nagolenniki",
+            "desc": ""
+        },
+        "31": {
+            "name": "Lniany kaptur",
+            "desc": ""
+        },
+        "32": {
+            "name": "Lniane Rękawice",
+            "desc": ""
+        },
+        "33": {
+            "name": "Naramienniki z Chityny",
+            "desc": ""
+        },
+        "34": {
+            "name": "Lniana Szata",
+            "desc": ""
+        },
+        "35": {
+            "name": "Napierśnik Bydlęcy",
+            "desc": ""
+        },
+        "36": {
+            "name": "Tunika z krowiej skóry",
+            "desc": ""
+        },
+        "37": {
+            "name": "Wężowe Sandały",
+            "desc": ""
+        },
+        "38": {
+            "name": "Koszula Węża",
+            "desc": ""
+        },
+        "39": {
+            "name": "Rękawice Węża",
+            "desc": ""
+        },
+        "40": {
+            "name": "Buty z wężowej skóry",
+            "desc": ""
+        },
+        "41": {
+            "name": "jedwabne ogniwa łańcucha",
+            "desc": ""
+        },
+        "42": {
+            "name": "Jedwabne Rękawiczki",
+            "desc": ""
+        },
+        "43": {
+            "name": "Hełm z owada",
+            "desc": ""
+        },
+        "44": {
+            "name": "Jedwabny Płaszcz z Pajęczyny",
+            "desc": ""
+        },
+        "45": {
+            "name": "Kapelusz z pajęczej jedwabiu",
+            "desc": ""
+        },
+        "46": {
+            "name": "Wilcze Buty",
+            "desc": ""
+        },
+        "47": {
+            "name": "Kapturek Wilka",
+            "desc": ""
+        },
+        "48": {
+            "name": "Rękawice Wilka",
+            "desc": ""
+        },
+        "49": {
+            "name": "Wilcze łapy",
+            "desc": ""
+        },
+        "50": {
+            "name": "Wilczy Hełm",
+            "desc": ""
+        },
+        "51": {
+            "name": "Napierśnik z Chityny",
+            "desc": ""
+        },
+        "52": {
+            "name": "Rękawice Zbieracza",
+            "desc": ""
+        },
+        "53": {
+            "name": "Nakręglaki Goblina",
+            "desc": ""
+        },
+        "54": {
+            "name": "Napiersnik Goblina",
+            "desc": ""
+        },
+        "55": {
+            "name": "Niedźwiedzie Rękawice",
+            "desc": ""
+        },
+        "56": {
+            "name": "Niedźwiedzie nagolenniki",
+            "desc": ""
+        },
+        "57": {
+            "name": "Leśny Hełm",
+            "desc": ""
+        },
+        "58": {
+            "name": "Niedźwiedzi Hełm",
+            "desc": ""
+        },
+        "59": {
+            "name": "Szata Tuvale",
+            "desc": ""
+        },
+        "60": {
+            "name": "Sabatony Tuvale",
+            "desc": ""
+        },
+        "61": {
+            "name": "Kaptur Tuvale",
+            "desc": ""
+        },
+        "62": {
+            "name": "Nakrętniki z Tuvale",
+            "desc": ""
+        },
+        "63": {
+            "name": "Dębowa Pałka",
+            "desc": ""
+        },
+        "64": {
+            "name": "Napierśnik Kunnigas",
+            "desc": ""
+        },
+        "65": {
+            "name": "Kieł Żmii",
+            "desc": ""
+        },
+        "66": {
+            "name": "Rzeźbiarz Bydła",
+            "desc": ""
+        },
+        "67": {
+            "name": "Medalion Wodza Wojennego",
+            "desc": ""
+        },
+        "68": {
+            "name": "Ukryte Ostrze",
+            "desc": ""
+        },
+        "69": {
+            "name": "Gwiazda Lasu",
+            "desc": ""
+        },
+        "70": {
+            "name": "Szczęśliwy Talizman Groka",
+            "desc": ""
+        },
+        "71": {
+            "name": "Pierścień Maga",
+            "desc": ""
+        },
+        "72": {
+            "name": "Sztylet z kobaltu",
+            "desc": ""
+        },
+        "73": {
+            "name": "Topór Kobaltowy",
+            "desc": ""
+        },
+        "74": {
+            "name": "Miecz Kobaltowy",
+            "desc": ""
+        },
+        "75": {
+            "name": "Pika z kobaltu",
+            "desc": ""
+        },
+        "76": {
+            "name": "Mistyczna lagiń cisowy",
+            "desc": ""
+        },
+        "77": {
+            "name": "Cisowa Mistyczna Różdżka",
+            "desc": ""
+        },
+        "78": {
+            "name": "Maczuga z cisowego drzewa",
+            "desc": ""
+        },
+        "79": {
+            "name": "Różdżka z cisu",
+            "desc": ""
+        },
+        "80": {
+            "name": "Cierniowa Pałka",
+            "desc": ""
+        },
+        "81": {
+            "name": "Cisowy drążek",
+            "desc": ""
+        },
+        "82": {
+            "name": "Nóż kobaltowy",
+            "desc": ""
+        },
+        "83": {
+            "name": "Kobaltowy Bicz Łańcuchowy",
+            "desc": ""
+        },
+        "84": {
+            "name": "Kobaltowy długi miecz",
+            "desc": ""
+        },
+        "86": {
+            "name": "Popielny Kij Wodny",
+            "desc": ""
+        },
+        "87": {
+            "name": "Różdżka Wody",
+            "desc": ""
+        },
+        "88": {
+            "name": "Świetlisty Szczupak",
+            "desc": ""
+        },
+        "89": {
+            "name": "Strapiony Szczupak",
+            "desc": ""
+        },
+        "90": {
+            "name": "Topór Agonii",
+            "desc": ""
+        },
+        "91": {
+            "name": "Piaszczysty Sztylet",
+            "desc": ""
+        },
+        "92": {
+            "name": "Topór z Muszli",
+            "desc": ""
+        },
+        "93": {
+            "name": "Zakrwawiony Nóż",
+            "desc": ""
+        },
+        "94": {
+            "name": "Łuskowany Miecz",
+            "desc": ""
+        },
+        "95": {
+            "name": "Nadbrzeże",
+            "desc": ""
+        },
+        "96": {
+            "name": "Smutek Prądów",
+            "desc": ""
+        },
+        "97": {
+            "name": "Zaraza Knidocytów",
+            "desc": ""
+        },
+        "98": {
+            "name": "Różdżka Brodawek",
+            "desc": ""
+        },
+        "99": {
+            "name": "Zguba Marinachnida",
+            "desc": ""
+        },
+        "100": {
+            "name": "Szponowy Miecz Długi",
+            "desc": ""
+        },
+        "101": {
+            "name": "Kriss Przyusznicowy",
+            "desc": ""
+        },
+        "102": {
+            "name": "Nóż Żeglarza",
+            "desc": ""
+        },
+        "103": {
+            "name": "Różdżka Sargassum",
+            "desc": ""
+        },
+        "104": {
+            "name": "Hydrolaska",
+            "desc": ""
+        },
+        "105": {
+            "name": "Buława z kości",
+            "desc": ""
+        },
+        "106": {
+            "name": "Zasadowa Maczuga",
+            "desc": ""
+        },
+        "107": {
+            "name": "Kaptur z trzciny",
+            "desc": ""
+        },
+        "108": {
+            "name": "Lniana tunika",
+            "desc": ""
+        },
+        "109": {
+            "name": "Słomiane Owijanki",
+            "desc": ""
+        },
+        "110": {
+            "name": "Trzcinowe Krótkodrążki",
+            "desc": ""
+        },
+        "111": {
+            "name": "Kobaltowy Hełm",
+            "desc": ""
+        },
+        "112": {
+            "name": "Kobaltowa Napierśnik",
+            "desc": ""
+        },
+        "113": {
+            "name": "Nagolenniki z kobaltu",
+            "desc": ""
+        },
+        "114": {
+            "name": "Kobaltowe Nagolenniki",
+            "desc": ""
+        },
+        "115": {
+            "name": "Kapelusz Trójrożny",
+            "desc": ""
+        },
+        "116": {
+            "name": "Hak z kobaltu",
+            "desc": ""
+        },
+        "117": {
+            "name": "Noga z Cisowego Klocka",
+            "desc": ""
+        },
+        "118": {
+            "name": "Szata z Morskiej Piany",
+            "desc": ""
+        },
+        "119": {
+            "name": "Płynny Kaptur",
+            "desc": ""
+        },
+        "120": {
+            "name": "Wodne Sandaly",
+            "desc": ""
+        },
+        "121": {
+            "name": "Hydro Opaski",
+            "desc": ""
+        },
+        "122": {
+            "name": "Buty Amfibii",
+            "desc": ""
+        },
+        "123": {
+            "name": "Łuskowata Skrzynia",
+            "desc": ""
+        },
+        "124": {
+            "name": "Łuskowate bransolety",
+            "desc": ""
+        },
+        "125": {
+            "name": "Łuskowe Nagolenniki",
+            "desc": ""
+        },
+        "126": {
+            "name": "Łuskowaty Hełm",
+            "desc": ""
+        },
+        "127": {
+            "name": "Szata Monarchy",
+            "desc": ""
+        },
+        "128": {
+            "name": "Pancerz Seamarrow",
+            "desc": ""
+        },
+        "129": {
+            "name": "Hełm Morskiego Szpiku",
+            "desc": ""
+        },
+        "130": {
+            "name": "Nagolenniki Smoczych Kości",
+            "desc": ""
+        },
+        "131": {
+            "name": "Rękawice Morskiego Szpiku",
+            "desc": ""
+        },
+        "132": {
+            "name": "Napierśnik Padliny",
+            "desc": ""
+        },
+        "133": {
+            "name": "Hełm Padliny",
+            "desc": ""
+        },
+        "134": {
+            "name": "Splugwiałe Buty",
+            "desc": ""
+        },
+        "135": {
+            "name": "Karniowe Rękawice",
+            "desc": ""
+        },
+        "136": {
+            "name": "Zespół Falochron",
+            "desc": ""
+        },
+        "137": {
+            "name": "Wisior z Morskiej Piany",
+            "desc": ""
+        },
+        "138": {
+            "name": "Pierścien Przybrzeżny",
+            "desc": ""
+        },
+        "139": {
+            "name": "Nadmorska Katastrofa",
+            "desc": ""
+        },
+        "140": {
+            "name": "Amulet Lazurowy",
+            "desc": ""
+        },
+        "141": {
+            "name": "Napierśnik z Kraba",
+            "desc": ""
+        },
+        "142": {
+            "name": "Hełm Grozy",
+            "desc": ""
+        },
+        "143": {
+            "name": "Skrzynia Grozy",
+            "desc": ""
+        },
+        "144": {
+            "name": "Amulet Mądrości",
+            "desc": ""
+        },
+        "145": {
+            "name": "Hełm Yarsol",
+            "desc": ""
+        },
+        "146": {
+            "name": "Napierśnik Yarsol",
+            "desc": ""
+        },
+        "147": {
+            "name": "Nagolenniki Yarsola",
+            "desc": ""
+        },
+        "148": {
+            "name": "Rękawice Yarsol",
+            "desc": ""
+        },
+        "149": {
+            "name": "Śliskie Nagolenniki",
+            "desc": ""
+        },
+        "150": {
+            "name": "Lekkie Krakowskie Buty",
+            "desc": ""
+        },
+        "151": {
+            "name": "Łuskowy Napierśnik Kobolda",
+            "desc": ""
+        },
+        "152": {
+            "name": "Ostrzawe karwasze",
+            "desc": ""
+        },
+        "153": {
+            "name": "Buty Kawalera",
+            "desc": ""
+        },
+        "154": {
+            "name": "Tunika żeglarza",
+            "desc": ""
+        },
+        "155": {
+            "name": "Czapka Bukaniera",
+            "desc": ""
+        },
+        "156": {
+            "name": "Rękawice Kaperskie",
+            "desc": ""
+        },
+        "157": {
+            "name": "Potrójny Składany Admirała",
+            "desc": ""
+        },
+        "158": {
+            "name": "Kurtka Admirała",
+            "desc": ""
+        },
+        "159": {
+            "name": "Buty Admirała",
+            "desc": ""
+        },
+        "160": {
+            "name": "Rękawice Admirała",
+            "desc": ""
+        },
+        "161": {
+            "name": "Napierśnik Żółwia",
+            "desc": ""
+        },
+        "162": {
+            "name": "Buty Żółwia",
+            "desc": ""
+        },
+        "163": {
+            "name": "Nakrętnik z Żółwia",
+            "desc": ""
+        },
+        "164": {
+            "name": "Hełm żółwia",
+            "desc": ""
+        },
+        "165": {
+            "name": "Nóż Tytanowy",
+            "desc": ""
+        },
+        "166": {
+            "name": "Tytanowy Tasak",
+            "desc": ""
+        },
+        "167": {
+            "name": "Tytanowy Miecz",
+            "desc": ""
+        },
+        "168": {
+            "name": "Różdżka Wilczych Cierni",
+            "desc": ""
+        },
+        "169": {
+            "name": "Berło Wyjącego Ciernia",
+            "desc": ""
+        },
+        "170": {
+            "name": "Kij Zawiany Cierniem",
+            "desc": ""
+        },
+        "171": {
+            "name": "Szata Wysokiego Żyta",
+            "desc": ""
+        },
+        "172": {
+            "name": "Czapka Wysokiego Żyta",
+            "desc": ""
+        },
+        "173": {
+            "name": "Buty z Wysokiego Żyta",
+            "desc": ""
+        },
+        "174": {
+            "name": "Rękawice z Wysokiego Żyta",
+            "desc": ""
+        },
+        "175": {
+            "name": "Hełm z tytanu",
+            "desc": ""
+        },
+        "176": {
+            "name": "Tytanowy Napierśnik",
+            "desc": ""
+        },
+        "177": {
+            "name": "Tytanowe Nagolenniki",
+            "desc": ""
+        },
+        "178": {
+            "name": "Bransolety z tytanu",
+            "desc": ""
+        },
+        "179": {
+            "name": "Aldurniańskie Cracows",
+            "desc": ""
+        },
+        "180": {
+            "name": "Kurtka Aldurniańska",
+            "desc": ""
+        },
+        "181": {
+            "name": "Kaptur Aldurniański",
+            "desc": ""
+        },
+        "182": {
+            "name": "Rękawice Aldurian",
+            "desc": ""
+        },
+        "183": {
+            "name": "Hełm z Rogów",
+            "desc": ""
+        },
+        "184": {
+            "name": "Napierśnik z poroża",
+            "desc": ""
+        },
+        "185": {
+            "name": "Nagolenniki z poroża",
+            "desc": ""
+        },
+        "186": {
+            "name": "Narzędzia z poroża",
+            "desc": ""
+        },
+        "187": {
+            "name": "Kamienne Buty Kopytne",
+            "desc": ""
+        },
+        "188": {
+            "name": "Napierśnik ze Skrzydłem Roka",
+            "desc": ""
+        },
+        "189": {
+            "name": "Kaptur z piór Roca",
+            "desc": ""
+        },
+        "190": {
+            "name": "Wielki Hełm Wysokogórski",
+            "desc": ""
+        },
+        "191": {
+            "name": "Miecz Rocariel",
+            "desc": ""
+        },
+        "192": {
+            "name": "Mistyczna Różdżka Wyjącej Cierni",
+            "desc": ""
+        },
+        "193": {
+            "name": "Mistyczna Laska Wycia Ciernia",
+            "desc": ""
+        },
+        "194": {
+            "name": "Buława Wycieńczającego Ciernia",
+            "desc": ""
+        },
+        "195": {
+            "name": "Buława z poroża",
+            "desc": ""
+        },
+        "196": {
+            "name": "Mistyczna Laska z Rogów",
+            "desc": ""
+        },
+        "197": {
+            "name": "Tytanowa Siekiera",
+            "desc": ""
+        },
+        "198": {
+            "name": "Tytanowy Sztylet",
+            "desc": ""
+        },
+        "199": {
+            "name": "Młot Tarana",
+            "desc": ""
+        },
+        "200": {
+            "name": "Młot Tytanowy",
+            "desc": ""
+        },
+        "201": {
+            "name": "Kurtka Rocariela",
+            "desc": ""
+        },
+        "202": {
+            "name": "Eteryczne Rękawice",
+            "desc": ""
+        },
+        "203": {
+            "name": "Laska Ducha",
+            "desc": ""
+        },
+        "204": {
+            "name": "Kosa Żniw",
+            "desc": ""
+        },
+        "205": {
+            "name": "Rękawice z Jaka",
+            "desc": ""
+        },
+        "206": {
+            "name": "Hełm Wielkiego Zmiennokształtnego",
+            "desc": ""
+        },
+        "207": {
+            "name": "Złota Piórowa Napierśnik",
+            "desc": ""
+        },
+        "208": {
+            "name": "Pika z ogonem smoka",
+            "desc": ""
+        },
+        "209": {
+            "name": "Kolczuga ze Smokowymi Żebrami",
+            "desc": ""
+        },
+        "210": {
+            "name": "Różdżka z Oleju Żarowego",
+            "desc": ""
+        },
+        "211": {
+            "name": "Bicz z kości ogra",
+            "desc": ""
+        },
+        "212": {
+            "name": "Buława Ogra",
+            "desc": ""
+        },
+        "213": {
+            "name": "Naramienniki Loch",
+            "desc": ""
+        },
+        "214": {
+            "name": "Napierśnik Loch",
+            "desc": ""
+        },
+        "215": {
+            "name": "Przeżarta Kwasem Kaptura",
+            "desc": ""
+        },
+        "216": {
+            "name": "Szata Zniszczona przez Kwas",
+            "desc": ""
+        },
+        "217": {
+            "name": "Rękawice zgryzione przez kwas",
+            "desc": ""
+        },
+        "218": {
+            "name": "Zniszczone kwasem sandały",
+            "desc": ""
+        },
+        "219": {
+            "name": "Słoneczny Bicz",
+            "desc": ""
+        },
+        "220": {
+            "name": "Ogrza Plaga",
+            "desc": ""
+        },
+        "221": {
+            "name": "Topór Księżycowego Cienia",
+            "desc": ""
+        },
+        "222": {
+            "name": "Włócznia Wyżynnej Ziemi",
+            "desc": ""
+        },
+        "223": {
+            "name": "Młot Bojowy z Wyżyn",
+            "desc": ""
+        },
+        "224": {
+            "name": "Miecz z Kości Ogra",
+            "desc": ""
+        },
+        "225": {
+            "name": "Młot Lochheada",
+            "desc": ""
+        },
+        "226": {
+            "name": "Nóż Wiatrowy",
+            "desc": ""
+        },
+        "227": {
+            "name": "Topór Harpii",
+            "desc": ""
+        },
+        "228": {
+            "name": "Podziemne Zmartwienie",
+            "desc": ""
+        },
+        "229": {
+            "name": "Topór Hardrake'a",
+            "desc": ""
+        },
+        "230": {
+            "name": "Kosa Hackena",
+            "desc": ""
+        },
+        "231": {
+            "name": "Pocałunek Nieba",
+            "desc": ""
+        },
+        "232": {
+            "name": "Napierśnik z kości ogra",
+            "desc": ""
+        },
+        "233": {
+            "name": "Hełm Zwierzchniego Legata Harpii",
+            "desc": ""
+        },
+        "234": {
+            "name": "Hełm Loch",
+            "desc": ""
+        },
+        "235": {
+            "name": "Nagolenniki Loch",
+            "desc": ""
+        },
+        "236": {
+            "name": "Przeklęta Napierśnik Licza",
+            "desc": ""
+        },
+        "237": {
+            "name": "Rękawice Złomiarza",
+            "desc": ""
+        },
+        "238": {
+            "name": "Napierśnik Złomiarza",
+            "desc": ""
+        },
+        "239": {
+            "name": "Hełm Złomiarza",
+            "desc": ""
+        },
+        "240": {
+            "name": "Nogi Złomiarza",
+            "desc": ""
+        },
+        "241": {
+            "name": "Hełm Legionisty Harpii",
+            "desc": ""
+        },
+        "243": {
+            "name": "Serce Gór",
+            "desc": ""
+        },
+        "244": {
+            "name": "Jaki Sabatony",
+            "desc": ""
+        },
+        "245": {
+            "name": "Mistyczna Różdżka Harpii",
+            "desc": ""
+        },
+        "246": {
+            "name": "Księżycowa Różdżka",
+            "desc": ""
+        },
+        "247": {
+            "name": "Kij Słoneczny Harpii",
+            "desc": ""
+        },
+        "248": {
+            "name": "Księżycowy Młot Bojowy",
+            "desc": ""
+        },
+        "249": {
+            "name": "Przeklęty Śluzak",
+            "desc": ""
+        },
+        "250": {
+            "name": "Plasma Harpii",
+            "desc": ""
+        },
+        "251": {
+            "name": "Wyżynna Astralna Laska",
+            "desc": ""
+        },
+        "252": {
+            "name": "Różdżka Harpii",
+            "desc": ""
+        },
+        "253": {
+            "name": "Laska Harpii",
+            "desc": ""
+        },
+        "254": {
+            "name": "Maczuga Zmiennokształtnego",
+            "desc": ""
+        },
+        "255": {
+            "name": "Święta różdżka kwasu",
+            "desc": ""
+        },
+        "256": {
+            "name": "Maczuga z Baranimi Rogami",
+            "desc": ""
+        },
+        "257": {
+            "name": "Zakrzywiacz Krwi Ogra",
+            "desc": ""
+        },
+        "258": {
+            "name": "Drakowy Drąg",
+            "desc": ""
+        },
+        "259": {
+            "name": "Różdżka Lochów",
+            "desc": ""
+        },
+        "260": {
+            "name": "Czapka z Wyżyn",
+            "desc": ""
+        },
+        "261": {
+            "name": "Szata Psianki",
+            "desc": ""
+        },
+        "262": {
+            "name": "Przeklęte Rękawice",
+            "desc": ""
+        },
+        "263": {
+            "name": "Rytualne sandały",
+            "desc": ""
+        },
+        "264": {
+            "name": "Płaszcz Czarownicy",
+            "desc": ""
+        },
+        "265": {
+            "name": "Trzewiki Harpii",
+            "desc": ""
+        },
+        "266": {
+            "name": "Lotnicy Roc",
+            "desc": ""
+        },
+        "267": {
+            "name": "Buty z piór Roka",
+            "desc": ""
+        },
+        "268": {
+            "name": "Kapelusz Czarownicy",
+            "desc": ""
+        },
+        "269": {
+            "name": "Płaszcze z Piór Roka",
+            "desc": ""
+        },
+        "270": {
+            "name": "Tunika Harpii",
+            "desc": ""
+        },
+        "271": {
+            "name": "Kurtka Pogromcy Harpii",
+            "desc": ""
+        },
+        "272": {
+            "name": "Rękawice z wyżyn",
+            "desc": ""
+        },
+        "273": {
+            "name": "Młot Kwasowy",
+            "desc": ""
+        },
+        "274": {
+            "name": "Rękawice Harpii",
+            "desc": ""
+        },
+        "275": {
+            "name": "Rękawice Ognistych Dusz",
+            "desc": ""
+        },
+        "276": {
+            "name": "Nagolenniki z Ognistej Duszy",
+            "desc": ""
+        },
+        "277": {
+            "name": "Hełm Ognia Dusz",
+            "desc": ""
+        },
+        "278": {
+            "name": "Napierśnik Duszy Ognia",
+            "desc": ""
+        }
+    },
+    "consumables": {
+        "1": {
+            "name": 0,
+            "desc": 0
+        },
+        "2": {
+            "name": 0,
+            "desc": 0
+        },
+        "3": {
+            "name": 0,
+            "desc": 0
+        },
+        "4": {
+            "name": 0,
+            "desc": 0
+        },
+        "5": {
+            "name": 0,
+            "desc": 0
+        },
+        "6": {
+            "name": 0,
+            "desc": 0
+        },
+        "7": {
+            "name": 0,
+            "desc": 0
+        },
+        "8": {
+            "name": 0,
+            "desc": 0
+        },
+        "9": {
+            "name": 0,
+            "desc": 0
+        },
+        "10": {
+            "name": 0,
+            "desc": 0
+        },
+        "11": {
+            "name": 0,
+            "desc": 0
+        },
+        "12": {
+            "name": 0,
+            "desc": 0
+        },
+        "13": {
+            "name": 0,
+            "desc": 0
+        },
+        "14": {
+            "name": 0,
+            "desc": 0
+        },
+        "15": {
+            "name": 0,
+            "desc": 0
+        },
+        "16": {
+            "name": 0,
+            "desc": 0
+        },
+        "17": {
+            "name": 0,
+            "desc": 0
+        },
+        "18": {
+            "name": 0,
+            "desc": 0
+        },
+        "19": {
+            "name": 0,
+            "desc": 0
+        },
+        "20": {
+            "name": 0,
+            "desc": 0
+        },
+        "21": {
+            "name": 0,
+            "desc": 0
+        }
+    },
+    "lootbags": {
+        "1": {
+            "name": "Torba Tuvale'a",
+            "desc": "Pospolita torba z Tuvale"
+        },
+        "2": {
+            "name": "Rzadki worek Tuvale",
+            "desc": "Rzadki worek Tuvale"
+        },
+        "3": {
+            "name": "Epicka Torba Tuvale",
+            "desc": "Epicka torba Tuvale"
+        },
+        "4": {
+            "name": "Torba Yarsola",
+            "desc": "Zwykła torba Yarsol"
+        },
+        "5": {
+            "name": "Rzadki worek Yarsol",
+            "desc": "Rzadki worek Yarsol"
+        },
+        "6": {
+            "name": "Epicka torba Yarsol",
+            "desc": "Epicka Torba Yarsol"
+        },
+        "7": {
+            "name": "Torba Aldura",
+            "desc": "Zwykła torba Alduru"
+        },
+        "8": {
+            "name": "Rzadka torba Aldura",
+            "desc": "Rzadki worek Aldura"
+        },
+        "9": {
+            "name": "Epicki Worek Aldura",
+            "desc": "Epicka Torba Aldura"
+        },
+        "10": {
+            "name": "Torba Regionu 4",
+            "desc": "zastępczy"
+        },
+        "11": {
+            "name": "Rzadki worek z Regionu 4",
+            "desc": 0
+        },
+        "12": {
+            "name": "Legendarna torba regionu 4",
+            "desc": 0
+        },
+        "13": {
+            "name": "Worek Regionu 5",
+            "desc": 0
+        },
+        "14": {
+            "name": "Rzadki Worek Regionu 5",
+            "desc": 0
+        },
+        "15": {
+            "name": "Torba Legendarny Region 5",
+            "desc": 0
+        },
+        "16": {
+            "name": "Torebka Regionu 6",
+            "desc": 0
+        },
+        "17": {
+            "name": "Rzadki worek z regionu 6",
+            "desc": 0
+        },
+        "18": {
+            "name": "Mityczny Worek Regionu 6",
+            "desc": 0
+        },
+        "19": {
+            "name": "Torba Regionu 7",
+            "desc": 0
+        },
+        "20": {
+            "name": "Rzadki worek Regionu 7",
+            "desc": 0
+        },
+        "21": {
+            "name": "Legendarny Worek Regionu 7",
+            "desc": 0
+        },
+        "22": {
+            "name": "Sakwa Regionu 8",
+            "desc": 0
+        },
+        "23": {
+            "name": "Rzadki Worek Regionu 8",
+            "desc": 0
+        },
+        "24": {
+            "name": "Legendarna Torba Regionu 8",
+            "desc": 0
+        },
+        "25": {
+            "name": "Torba Region 9",
+            "desc": 0
+        },
+        "26": {
+            "name": "Rzadki Worek Regionu 9",
+            "desc": 0
+        },
+        "27": {
+            "name": "Legendarny Worek Regionu 9",
+            "desc": 0
+        },
+        "28": {
+            "name": 0,
+            "desc": 0
+        },
+        "29": {
+            "name": 0,
+            "desc": 0
+        },
+        "30": {
+            "name": "Torba z prezentami",
+            "desc": "Dar od Kupieckiego Człowieka"
+        },
+        "31": {
+            "name": 0,
+            "desc": 0
+        },
+        "32": {
+            "name": 0,
+            "desc": 0
+        },
+        "33": {
+            "name": 0,
+            "desc": 0
+        },
+        "34": {
+            "name": 0,
+            "desc": 0
+        },
+        "35": {
+            "name": 0,
+            "desc": 0
+        },
+        "36": {
+            "name": 0,
+            "desc": 0
+        },
+        "37": {
+            "name": "Torba Many Rzemieślnika",
+            "desc": "Worek z żetonami many rzemieślnika"
+        },
+        "38": {
+            "name": 0,
+            "desc": 0
+        },
+        "39": {
+            "name": 0,
+            "desc": 0
+        },
+        "40": {
+            "name": "Torba Rzadkich Żetonów",
+            "desc": "Rzadki worek żetonów"
+        }
+    },
+    "loot": {
+        "0": {
+            "name": "Pominięcie reklamy",
+            "desc": "Używane do pomijania reklam"
+        },
+        "1": {
+            "name": "Wskrzeszenie",
+            "desc": "Ożywia bohatera"
+        },
+        "2": {
+            "name": "Żeton Kontraktu Bohatera",
+            "desc": "Zatrudnia bohatera za darmo"
+        },
+        "10": {
+            "name": "Przekaż Zwykły",
+            "desc": "Wypełnia żądanie gildii na przedmiot powszechny"
+        },
+        "11": {
+            "name": "Podaruj Niezwykłe",
+            "desc": "Wypełnia prośbę gildii o rzadki przedmiot"
+        },
+        "12": {
+            "name": "Przekaż Rzadki",
+            "desc": "Wypełnia prośbę gildii o rzadki przedmiot"
+        },
+        "13": {
+            "name": "Przekaż Epicki",
+            "desc": "Uzupełnia epickie zlecenie gildii przedmiotów"
+        },
+        "14": {
+            "name": "Ofiaruj Legendarny",
+            "desc": "Wypełnia prośbę o przedmiot legendarny gildii"
+        },
+        "20": {
+            "name": "Powszechny Rzemiosło 10 min",
+            "desc": "Skraca czas wykonania pospolitego przedmiotu o 10 minut"
+        },
+        "21": {
+            "name": "Niepospolite Rzemiosło 10 min",
+            "desc": "Skraca czas wytwarzania rzadkiego przedmiotu o 10 minut"
+        },
+        "22": {
+            "name": "Rzemiosło Rzadkie 10 min",
+            "desc": "Skraca czas tworzenia rzadkiego przedmiotu o 10 minut"
+        },
+        "23": {
+            "name": "Epickie Rzemiosło 10 min",
+            "desc": "Skraca czas tworzenia epickiego przedmiotu o 10 minut"
+        },
+        "24": {
+            "name": "Legendarne rzemiosło 10 min",
+            "desc": "Skraca czas wytwarzania legendarnego przedmiotu o 10 minut"
+        },
+        "25": {
+            "name": "Mitologiczne Rzemiosło 10 minut",
+            "desc": "Skraca czas rzemiosła przedmiotu mitycznego o 10 minut"
+        },
+        "30": {
+            "name": "Kuźnia Many",
+            "desc": "Może być użyte jako zwykła mana przy tworzeniu przepisu Kowala"
+        },
+        "31": {
+            "name": "Pancerz Mana",
+            "desc": "Może być użyty jako zwykła mana podczas tworzenia przepisów Płatnerza"
+        },
+        "32": {
+            "name": "Mana Cieśli",
+            "desc": "Może być używany jako zwykła mana przy tworzeniu przepisu Stolarskiego"
+        },
+        "33": {
+            "name": "Krawiec Many",
+            "desc": "Może być użyty jako zwykła mana przy tworzeniu przepisu Krawca"
+        },
+        "35": {
+            "name": "Gotuj Manę",
+            "desc": "Może być użyty jako zwykła mana przy tworzeniu przepisu kucharskiego"
+        },
+        "45": {
+            "name": "Wszyscy Rzemieślnicy +1 Mana",
+            "desc": "Daje +1 many wszystkim rzemieślnikom. Jeśli rzemieślnik ma maksymalną manę, nie otrzymuje żadnej."
+        },
+        "46": {
+            "name": "Każdy Rzemieślnik +1 Mana",
+            "desc": 0
+        },
+        "100": {
+            "name": "CZYSZCZENIE PUNKTU ZAINTERESOWANIA Tuvale",
+            "desc": "Odnawia miejsce Tuvale wrogami, gdy jest puste"
+        },
+        "101": {
+            "name": "Odnów POI Yarsol",
+            "desc": "Odświeża lokalizację Yarsol wroga, gdy jest pusta"
+        },
+        "102": {
+            "name": "Odnowienie POI Aldur",
+            "desc": "Odświeża lokację Aldur z wrogami, gdy jest pusta"
+        },
+        "103": {
+            "name": "Odnawianie POI R4",
+            "desc": 0
+        },
+        "120": {
+            "name": "Pomiń Wroga Tuvale",
+            "desc": "Pomiń wroga w lokalizacji Tuvale"
+        },
+        "121": {
+            "name": "Pomiń wroga Yarsola",
+            "desc": "Pomiń wroga w lokalizacji Yarsol"
+        },
+        "122": {
+            "name": "Pomiń Wroga Aldur",
+            "desc": "Pomiń przeciwnika w lokalizacji Aldur"
+        },
+        "123": {
+            "name": "Pomiń Przeciwnika R4",
+            "desc": 0
+        },
+        "140": {
+            "name": "Pomiń Do Rzadkiego Tuvale",
+            "desc": "Przeskakuje do rzadkiego wroga w lokalizacji Tuvale, jeśli jest dostępny"
+        },
+        "141": {
+            "name": "Przejdź do rzadkiego Yarsola",
+            "desc": "Przeskakuje do rzadkiego wroga w lokalizacji Yarsol, jeśli jest dostępny"
+        },
+        "142": {
+            "name": "Przejdź do Rzadkiego Aldura",
+            "desc": "Przeskakuje do rzadkiego przeciwnika w lokalizacji Aldur, jeśli jest dostępna"
+        },
+        "143": {
+            "name": "Przejdź do Rzadkie R4",
+            "desc": 0
+        },
+        "300": {
+            "name": "Prędkość tworzenia 5 minut",
+            "desc": "Zwiększ prędkość craftingu o 2x na 5 minut. Dotyczy tylko craftingu rozpoczętego po aktywacji zwiększenia."
+        },
+        "301": {
+            "name": "Szybkość Wytwarzania 20 Min",
+            "desc": "Zwiększenie prędkości rzemiosła o 2x na 20 minut. Dotyczy tylko rzemiosł rozpoczętych po aktywowaniu wzmocnienia"
+        },
+        "302": {
+            "name": "Prędkość Rzemiosła 1 Godzina",
+            "desc": "Zwiększ prędkość rzemiosła o 2x na 1 godzinę. Działa tylko na rzemiosła rozpoczęte po aktywacji ulepszenia"
+        },
+        "303": {
+            "name": "Prędkość Misji 10 Min",
+            "desc": "Zwiększ prędkość misji 2x na 10 minut. Dotyczy tylko misji rozpoczętych po aktywacji boosta"
+        },
+        "304": {
+            "name": "Prędkość Misji 30 Min",
+            "desc": "Zwiększ prędkość questów 2x na 30 minut. Dotyczy tylko questów rozpoczętych po uruchomieniu wzmocnienia"
+        },
+        "305": {
+            "name": "Szybkość Zadania 2 Godziny",
+            "desc": "Zwiększ prędkość misji o 2x na 2 godziny. Dotyczy tylko misji rozpoczętych po aktywowaniu wzmocnienia"
+        },
+        "306": {
+            "name": "Szybkość Pracownika 5 Min",
+            "desc": "Zwiększenie zdobywanego doświadczenia z questów o 2x na 10 minut. Dotyczy tylko questów rozpoczętych po aktywowaniu boosta"
+        },
+        "307": {
+            "name": "Prędkość Pracownika 30 Min",
+            "desc": "Zwiększ doświadczenie zadań zdobywane o 2x przez 30 minut. Dotyczy tylko zadań rozpoczętych po aktywacji bonusu"
+        },
+        "308": {
+            "name": "Pracownik szybkość 2 godziny",
+            "desc": "Zwiększ zdobywane doświadczenie z zadań o 2x na 2 godziny. Dotyczy tylko zadań rozpoczętych po aktywacji boosta"
+        },
+        "309": {
+            "name": "Doświadczenie z zadania 5 min",
+            "desc": "Zwiększ zdobywane doświadczenie za zadania o 2x na 10 minut. Działa tylko na zadania rozpoczęte po aktywowaniu wzmocnienia."
+        },
+        "310": {
+            "name": "Misja Dośw. 30 Min",
+            "desc": "Zwiększa zdobyte doświadczenie z misji o 2x na 30 minut. Dotyczy tylko misji rozpoczętych po aktywowaniu wzmocnienia"
+        },
+        "311": {
+            "name": "Doświadczenie z misji 2 godziny",
+            "desc": "Zwiększ doświadczenie zadań zdobywane o 2x na 2 godziny. Dotyczy tylko zadań rozpoczętych po aktywacji wzmocnienia"
+        },
+        "999": {
+            "name": "Zestaw Startowy",
+            "desc": "Zwiększ prędkość zadań, rzemiosła i pracy o 2x przez 1 godzinę. Dotyczy tylko zadań rozpoczętych po aktywowaniu wzmocnienia"
+        }
+    }
+}

@@ -1,0 +1,242 @@
+{
+  "1": {
+    "Id": "1",
+    "Name": "Small Tuvale Wagon",
+    "Rarity": 2,
+    "Region": 1,
+    "MainType": "Wagon",
+    "SubType": "Small Wagon",
+    "CrafterID": 3,
+    "ItemLevel": 5,
+    "Cost": 300,
+    "Value": 500,
+    "Exp": 100,
+    "Time": 900,
+    "Recipe": [
+      {
+        "Id": "3",
+        "Amount": 20
+      },
+      {
+        "Id": "4",
+        "Amount": 10
+      }
+    ]
+  },
+  "2": {
+    "Id": "2",
+    "Name": "Medium Tuvale Wagon",
+    "Rarity": 3,
+    "Region": 1,
+    "MainType": "Wagon",
+    "SubType": "Medium Wagon",
+    "CrafterID": 3,
+    "ItemLevel": 10,
+    "Cost": 750,
+    "Value": 1500,
+    "Exp": 200,
+    "Time": 3600,
+    "Recipe": [
+      {
+        "Id": "3",
+        "Amount": 40
+      },
+      {
+        "Id": "4",
+        "Amount": 20
+      },
+      {
+        "Id": "11",
+        "Amount": 2
+      }
+    ]
+  },
+  "3": {
+    "Id": "3",
+    "Name": "Large Tuvale Wagon",
+    "Rarity": 4,
+    "Region": 1,
+    "MainType": "Wagon",
+    "SubType": "Large Wagon",
+    "CrafterID": 3,
+    "ItemLevel": 15,
+    "Cost": 1000,
+    "Value": 2500,
+    "Exp": 300,
+    "Time": 10800,
+    "Recipe": [
+      {
+        "Id": "3",
+        "Amount": 60
+      },
+      {
+        "Id": "4",
+        "Amount": 30
+      },
+      {
+        "Id": "11",
+        "Amount": 6
+      }
+    ]
+  },
+  "4": {
+    "Id": "4",
+    "Name": "Small Yarsol Wagon",
+    "Rarity": 2,
+    "Region": 2,
+    "MainType": "Wagon",
+    "SubType": "Small Wagon",
+    "CrafterID": 3,
+    "ItemLevel": 15,
+    "Cost": 1500,
+    "Value": 2000,
+    "Exp": 200,
+    "Time": 900,
+    "Recipe": [
+      {
+        "Id": "56",
+        "Amount": 20
+      },
+      {
+        "Id": "54",
+        "Amount": 10
+      }
+    ]
+  },
+  "5": {
+    "Id": "5",
+    "Name": "Medium Yarsol Wagon",
+    "Rarity": 3,
+    "Region": 2,
+    "MainType": "Wagon",
+    "SubType": "Medium Wagon",
+    "CrafterID": 3,
+    "ItemLevel": 20,
+    "Cost": 3000,
+    "Value": 6000,
+    "Exp": 500,
+    "Time": 3600,
+    "Recipe": [
+      {
+        "Id": "56",
+        "Amount": 40
+      },
+      {
+        "Id": "54",
+        "Amount": 20
+      },
+      {
+        "Id": "69",
+        "Amount": 8
+      }
+    ]
+  },
+  "6": {
+    "Id": "6",
+    "Name": "Large Yarsol Wagon",
+    "Rarity": 4,
+    "Region": 2,
+    "MainType": "Wagon",
+    "SubType": "Large Wagon",
+    "CrafterID": 3,
+    "ItemLevel": 25,
+    "Cost": 5000,
+    "Value": 12500,
+    "Exp": 1000,
+    "Time": 10800,
+    "Recipe": [
+      {
+        "Id": "56",
+        "Amount": 60
+      },
+      {
+        "Id": "54",
+        "Amount": 30
+      },
+      {
+        "Id": "69",
+        "Amount": 16
+      }
+    ]
+  },
+  "7": {
+    "Id": "7",
+    "Name": "Small Aldur Wagon",
+    "Rarity": 2,
+    "Region": 3,
+    "MainType": "Wagon",
+    "SubType": "Small Wagon",
+    "CrafterID": 3,
+    "ItemLevel": 25,
+    "Cost": 7500,
+    "Value": 10000,
+    "Exp": 700,
+    "Time": 900,
+    "Recipe": [
+      {
+        "Id": "155",
+        "Amount": 20
+      },
+      {
+        "Id": "151",
+        "Amount": 10
+      }
+    ]
+  },
+  "8": {
+    "Id": "8",
+    "Name": "Medium Aldur Wagon",
+    "Rarity": 3,
+    "Region": 3,
+    "MainType": "Wagon",
+    "SubType": "Medium Wagon",
+    "CrafterID": 3,
+    "ItemLevel": 30,
+    "Cost": 15000,
+    "Value": 30000,
+    "Exp": 1500,
+    "Time": 3600,
+    "Recipe": [
+      {
+        "Id": "155",
+        "Amount": 40
+      },
+      {
+        "Id": "151",
+        "Amount": 20
+      },
+      {
+        "Id": "178",
+        "Amount": 4
+      }
+    ]
+  },
+  "9": {
+    "Id": "9",
+    "Name": "Large Aldur Wagon",
+    "Rarity": 4,
+    "Region": 3,
+    "MainType": "Wagon",
+    "SubType": "Large Wagon",
+    "CrafterID": 3,
+    "ItemLevel": 35,
+    "Cost": 30000,
+    "Value": 75000,
+    "Exp": 2000,
+    "Time": 10800,
+    "Recipe": [
+      {
+        "Id": "155",
+        "Amount": 60
+      },
+      {
+        "Id": "203",
+        "Amount": 30
+      },
+      {
+        "Id": "178",
+        "Amount": 8
+      }
+    ]
+  }
+}

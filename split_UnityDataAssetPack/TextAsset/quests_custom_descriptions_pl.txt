@@ -1,0 +1,12 @@
+{
+    "9": "Legenda mówi, że przemierza Lasy Skarabeuszy",
+    "22": "Legenda mówi, że krąży po Jamie Węży",
+    "27": "Legenda mówi, że błąka się po Sanktuarium Pająków",
+    "32": "Legenda głosi, że krąży po Jeziorze Hoggera",
+    "37": "Legenda głosi, że krąży po Jaskini Krzyżowej",
+    "42": "Zastępca dowódcy w Forcie Goblinów",
+    "47": "Dowódca Goblińskiej Fortecy",
+    "48": "Legenda głosi, że wędruje po Legowisku Ursy",
+    "53": "Legenda mówi, że wędruje po Zawężonej Szczelinie",
+    "58": "Legenda mówi, że krąży po Żółwiej Zatoce"
+}

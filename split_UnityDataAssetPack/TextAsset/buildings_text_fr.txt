@@ -1,0 +1,18 @@
+{
+    "ghall": "Salle de Guilde",
+    "tavern": "Taverne",
+    "work": "Caserne des ouvriers",
+    "craft": "Cercle des Artisans",
+    "stock": "Entrepôt",
+    "shop": "Boutique",
+    "hhall": "Salle des Héros",
+    "gate": "Porte du Monde",
+    "ghall_short": "Guilde",
+    "tavern_short": "Taverne",
+    "work_short": "Ouvriers",
+    "craft_short": "Artisans",
+    "stock_short": "Entrepôt",
+    "shop_short": "Boutique",
+    "hhall_short": "Héros",
+    "gate_short": "Monde"
+}

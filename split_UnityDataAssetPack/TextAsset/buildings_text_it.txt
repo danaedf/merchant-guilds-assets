@@ -1,0 +1,18 @@
+{
+    "ghall": "Sala della Gilda",
+    "tavern": "Taverna",
+    "work": "Baracche dei Lavoratori",
+    "craft": "Circolo degli Artigiani",
+    "stock": "Magazzino",
+    "shop": "Negozio",
+    "hhall": "Sala degli Eroi",
+    "gate": "Porta del Mondo",
+    "ghall_short": "Gilda",
+    "tavern_short": "Taverna",
+    "work_short": "Lavoratori",
+    "craft_short": "Artigiani",
+    "stock_short": "Magazzino",
+    "shop_short": "Negozio",
+    "hhall_short": "Eroi",
+    "gate_short": "Mondo"
+}

@@ -1,0 +1,18 @@
+{
+    "ghall": "Zunfthalle",
+    "tavern": "Taverne",
+    "work": "Arbeiterbaracke",
+    "craft": "Handwerkerkreis",
+    "stock": "Lagerhaus",
+    "shop": "Laden",
+    "hhall": "Heldenhalle",
+    "gate": "Weltentor",
+    "ghall_short": "Gilde",
+    "tavern_short": "Taverne",
+    "work_short": "Arbeiter",
+    "craft_short": "Handwerker",
+    "stock_short": "Lager",
+    "shop_short": "Laden",
+    "hhall_short": "Helden",
+    "gate_short": "Welt"
+}

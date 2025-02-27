@@ -1,0 +1,1952 @@
+{
+  "1": {
+    "Id": "1",
+    "Name": "Oak Log",
+    "SubType": "UnrefinedLumber",
+    "ItemLevel": 1,
+    "Value": 3,
+    "Rarity": 1,
+    "Region": 1,
+    "ForbidInfusion": true
+  },
+  "2": {
+    "Id": "2",
+    "Name": "Iron Ore",
+    "SubType": "UnrefinedIngot",
+    "ItemLevel": 1,
+    "Value": 3,
+    "Rarity": 1,
+    "Region": 1,
+    "ForbidInfusion": true
+  },
+  "3": {
+    "Id": "3",
+    "Name": "Oak Lumber",
+    "SubType": "CraftedLumber",
+    "ItemLevel": 1,
+    "Value": 7,
+    "Rarity": 1,
+    "Region": 1,
+    "CrafterID": 3,
+    "Time": 10,
+    "Exp": 2,
+    "Recipe": [
+      {
+        "Id": "1",
+        "Amount": 2,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "4": {
+    "Id": "4",
+    "Name": "Iron Ingot",
+    "SubType": "CraftedIngot",
+    "ItemLevel": 1,
+    "Value": 7,
+    "Rarity": 1,
+    "Region": 1,
+    "CrafterID": 1,
+    "Time": 10,
+    "Exp": 2,
+    "Recipe": [
+      {
+        "Id": "2",
+        "Amount": 2,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "5": {
+    "Id": "5",
+    "Name": "Hempen Cloth",
+    "SubType": "CraftedFabric",
+    "ItemLevel": 1,
+    "Value": 7,
+    "Rarity": 1,
+    "Region": 1,
+    "CrafterID": 4,
+    "Time": 10,
+    "Exp": 2,
+    "Recipe": [
+      {
+        "Id": "7",
+        "Amount": 2,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "6": {
+    "Id": "6",
+    "Name": "Iron Plate",
+    "SubType": "CraftedPlate",
+    "ItemLevel": 1,
+    "Value": 7,
+    "Rarity": 1,
+    "Region": 1,
+    "CrafterID": 2,
+    "Time": 10,
+    "Exp": 2,
+    "Recipe": [
+      {
+        "Id": "8",
+        "Amount": 2,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "7": {
+    "Id": "7",
+    "Name": "Hempen Fiber",
+    "SubType": "UnrefinedFabric",
+    "ItemLevel": 1,
+    "Value": 3,
+    "Rarity": 1,
+    "Region": 1,
+    "ForbidInfusion": true
+  },
+  "8": {
+    "Id": "8",
+    "Name": "Iron Chunk",
+    "SubType": "UnrefinedPlate",
+    "ItemLevel": 1,
+    "Value": 3,
+    "Rarity": 1,
+    "Region": 1,
+    "ForbidInfusion": true
+  },
+  "9": {
+    "Id": "9",
+    "Name": "Tuvale Roots",
+    "SubType": "Herb",
+    "ItemLevel": 1,
+    "Value": 3,
+    "Rarity": 1,
+    "Region": 1,
+    "ForbidInfusion": true
+  },
+  "10": {
+    "Id": "10",
+    "Name": "Tuvale Moss",
+    "SubType": "Herb",
+    "ItemLevel": 1,
+    "Value": 3,
+    "Rarity": 1,
+    "Region": 1,
+    "ForbidInfusion": true
+  },
+  "11": {
+    "Id": "11",
+    "Name": "Tuvale Bark",
+    "SubType": "Bark",
+    "ItemLevel": 5,
+    "Value": 12,
+    "Rarity": 2,
+    "Region": 1
+  },
+  "12": {
+    "Id": "12",
+    "Name": "Tuvale Minerals",
+    "SubType": "Minerals",
+    "ItemLevel": 5,
+    "Value": 12,
+    "Rarity": 2,
+    "Region": 1
+  },
+  "13": {
+    "Id": "13",
+    "Name": "Beetle Chitin",
+    "SubType": "Shell",
+    "ItemLevel": 1,
+    "Value": 3,
+    "Rarity": 1,
+    "Region": 1
+  },
+  "14": {
+    "Id": "14",
+    "Name": "Beetle Mandible",
+    "SubType": "Claw",
+    "ItemLevel": 2,
+    "Value": 7,
+    "Rarity": 2,
+    "Region": 1
+  },
+  "15": {
+    "Id": "15",
+    "Name": "Giant Scarab Shell",
+    "SubType": "Shell",
+    "ItemLevel": 3,
+    "Value": 19,
+    "Rarity": 3,
+    "Region": 1
+  },
+  "16": {
+    "Id": "16",
+    "Name": "Beetle Heart",
+    "SubType": "Heart",
+    "ItemLevel": 3,
+    "Value": 9,
+    "Rarity": 2,
+    "Region": 1
+  },
+  "17": {
+    "Id": "17",
+    "Name": "Spider Leg",
+    "SubType": "Limb",
+    "ItemLevel": 3,
+    "Value": 5,
+    "Rarity": 1,
+    "Region": 1
+  },
+  "18": {
+    "Id": "18",
+    "Name": "Spider Silk",
+    "SubType": "Thread",
+    "ItemLevel": 4,
+    "Value": 10,
+    "Rarity": 2,
+    "Region": 1
+  },
+  "19": {
+    "Id": "19",
+    "Name": "Spider Eye",
+    "SubType": "Eye",
+    "ItemLevel": 4,
+    "Value": 10,
+    "Rarity": 2,
+    "Region": 1
+  },
+  "20": {
+    "Id": "20",
+    "Name": "Snake Scale",
+    "SubType": "Scale",
+    "ItemLevel": 3,
+    "Value": 5,
+    "Rarity": 1,
+    "Region": 1
+  },
+  "21": {
+    "Id": "21",
+    "Name": "Snake Venom",
+    "SubType": "Extract",
+    "ItemLevel": 5,
+    "Value": 12,
+    "Rarity": 2,
+    "Region": 1
+  },
+  "22": {
+    "Id": "22",
+    "Name": "Snake Fang",
+    "SubType": "Fang",
+    "ItemLevel": 7,
+    "Value": 32,
+    "Rarity": 3,
+    "Region": 1
+  },
+  "23": {
+    "Id": "23",
+    "Name": "Boar Hide",
+    "SubType": "Hide",
+    "ItemLevel": 4,
+    "Value": 6,
+    "Rarity": 1,
+    "Region": 1
+  },
+  "24": {
+    "Id": "24",
+    "Name": "Boar Tusk",
+    "SubType": "Tooth",
+    "ItemLevel": 7,
+    "Value": 15,
+    "Rarity": 2,
+    "Region": 1
+  },
+  "25": {
+    "Id": "25",
+    "Name": "Enchanted Boar Tusk",
+    "SubType": "Tooth",
+    "ItemLevel": 9,
+    "Value": 39,
+    "Rarity": 3,
+    "Region": 1
+  },
+  "26": {
+    "Id": "26",
+    "Name": "Wolf Fur",
+    "SubType": "Fur",
+    "ItemLevel": 5,
+    "Value": 7,
+    "Rarity": 1,
+    "Region": 1
+  },
+  "27": {
+    "Id": "27",
+    "Name": "Wolf Paw",
+    "SubType": "Claw",
+    "ItemLevel": 8,
+    "Value": 16,
+    "Rarity": 2,
+    "Region": 1
+  },
+  "28": {
+    "Id": "28",
+    "Name": "Wolf Skull",
+    "SubType": "Head",
+    "ItemLevel": 10,
+    "Value": 42,
+    "Rarity": 3,
+    "Region": 1
+  },
+  "29": {
+    "Id": "29",
+    "Name": "Wolf Alpha Heart",
+    "SubType": "Heart",
+    "ItemLevel": 10,
+    "Value": 42,
+    "Rarity": 3,
+    "Region": 1
+  },
+  "30": {
+    "Id": "30",
+    "Name": "Goblin Cloth",
+    "SubType": "Cloth",
+    "ItemLevel": 6,
+    "Value": 8,
+    "Rarity": 1,
+    "Region": 1
+  },
+  "31": {
+    "Id": "31",
+    "Name": "Goblin Hilt",
+    "SubType": "Hilt",
+    "ItemLevel": 8,
+    "Value": 16,
+    "Rarity": 2,
+    "Region": 1
+  },
+  "32": {
+    "Id": "32",
+    "Name": "Goblin Blade",
+    "SubType": "Blade",
+    "ItemLevel": 9,
+    "Value": 18,
+    "Rarity": 2,
+    "Region": 1
+  },
+  "33": {
+    "Id": "33",
+    "Name": "Goblin Plate",
+    "SubType": "Plate",
+    "ItemLevel": 7,
+    "Value": 8,
+    "Rarity": 1,
+    "Region": 1
+  },
+  "34": {
+    "Id": "34",
+    "Name": "Goblin Rod",
+    "SubType": "Log",
+    "ItemLevel": 8,
+    "Value": 16,
+    "Rarity": 2,
+    "Region": 1
+  },
+  "35": {
+    "Id": "35",
+    "Name": "Cursed Goblin Blade",
+    "SubType": "Blade",
+    "ItemLevel": 13,
+    "Value": 53,
+    "Rarity": 3,
+    "Region": 1
+  },
+  "36": {
+    "Id": "36",
+    "Name": "Hidden Goblin Blade",
+    "SubType": "Blade",
+    "ItemLevel": 9,
+    "Value": 18,
+    "Rarity": 2,
+    "Region": 1
+  },
+  "37": {
+    "Id": "37",
+    "Name": "Goblin Focus Stone",
+    "SubType": "Crystal",
+    "ItemLevel": 9,
+    "Value": 39,
+    "Rarity": 3,
+    "Region": 1
+  },
+  "38": {
+    "Id": "38",
+    "Name": "Goblin Tome",
+    "SubType": "Scripture",
+    "ItemLevel": 9,
+    "Value": 39,
+    "Rarity": 3,
+    "Region": 1
+  },
+  "39": {
+    "Id": "39",
+    "Name": "Goblin Seal",
+    "SubType": "Scripture",
+    "ItemLevel": 13,
+    "Value": 53,
+    "Rarity": 3,
+    "Region": 1
+  },
+  "40": {
+    "Id": "40",
+    "Name": "Goblin Warlord's Emblem",
+    "SubType": "Misc",
+    "ItemLevel": 13,
+    "Value": 79,
+    "Rarity": 4,
+    "Region": 1
+  },
+  "41": {
+    "Id": "41",
+    "Name": "Bear Hide",
+    "SubType": "Hide",
+    "ItemLevel": 10,
+    "Value": 11,
+    "Rarity": 1,
+    "Region": 1
+  },
+  "42": {
+    "Id": "42",
+    "Name": "Bear Claws",
+    "SubType": "Claw",
+    "ItemLevel": 11,
+    "Value": 21,
+    "Rarity": 2,
+    "Region": 1
+  },
+  "43": {
+    "Id": "43",
+    "Name": "Ursain Headpiece",
+    "SubType": "Head",
+    "ItemLevel": 15,
+    "Value": 59,
+    "Rarity": 3,
+    "Region": 1
+  },
+  "44": {
+    "Id": "44",
+    "Name": "Ursain Breastplate",
+    "SubType": "Bone",
+    "ItemLevel": 15,
+    "Value": 89,
+    "Rarity": 4,
+    "Region": 1
+  },
+  "45": {
+    "Id": "45",
+    "Name": "Ancient Tuvale Wood",
+    "SubType": "Log",
+    "ItemLevel": 14,
+    "Value": 56,
+    "Rarity": 3,
+    "Region": 1
+  },
+  "46": {
+    "Id": "46",
+    "Name": "Arcane Stone",
+    "SubType": "Crystal",
+    "ItemLevel": 14,
+    "Value": 56,
+    "Rarity": 3,
+    "Region": 1
+  },
+  "47": {
+    "Id": "47",
+    "Name": "Forest Charm",
+    "SubType": "Misc",
+    "ItemLevel": 14,
+    "Value": 84,
+    "Rarity": 4,
+    "Region": 1
+  },
+  "48": {
+    "Id": "48",
+    "Name": "Forest Essence of Life",
+    "SubType": "Essence",
+    "ItemLevel": 14,
+    "Value": 84,
+    "Rarity": 4,
+    "Region": 1
+  },
+  "49": {
+    "Id": "49",
+    "Name": "Forest Crystal",
+    "SubType": "RegionCrystal",
+    "ItemLevel": 3,
+    "Value": 9,
+    "Rarity": 2,
+    "Region": 1,
+    "ForbidInfusion": true
+  },
+  "50": {
+    "Id": "50",
+    "Name": "Emerald",
+    "SubType": "RegionGem",
+    "ItemLevel": 5,
+    "Value": 40,
+    "Rarity": 3,
+    "Region": 1,
+    "ForbidInfusion": true
+  },
+  "51": {
+    "Id": "51",
+    "Name": "Verdant Rune",
+    "SubType": "RegionRune",
+    "ItemLevel": 8,
+    "Value": 176,
+    "Rarity": 4,
+    "Region": 1,
+    "Time": 22,
+    "ForbidInfusion": true
+  },
+  "52": {
+    "Id": "52",
+    "Name": "Maexna's Eye",
+    "SubType": "Eye",
+    "ItemLevel": 6,
+    "Value": 29,
+    "Rarity": 3,
+    "Region": 1
+  },
+  "53": {
+    "Id": "53",
+    "Name": "Cobalt Ore",
+    "SubType": "UnrefinedIngot",
+    "ItemLevel": 10,
+    "Value": 19,
+    "Rarity": 1,
+    "Region": 2,
+    "ForbidInfusion": true
+  },
+  "54": {
+    "Id": "54",
+    "Name": "Cobalt Ingot",
+    "SubType": "CraftedIngot",
+    "ItemLevel": 10,
+    "Value": 42,
+    "Rarity": 1,
+    "Region": 2,
+    "CrafterID": 1,
+    "Time": 20,
+    "Exp": 18,
+    "Recipe": [
+      {
+        "Id": "53",
+        "Amount": 2,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "55": {
+    "Id": "55",
+    "Name": "Yew Log",
+    "SubType": "UnrefinedLumber",
+    "ItemLevel": 10,
+    "Value": 19,
+    "Rarity": 1,
+    "Region": 2,
+    "ForbidInfusion": true
+  },
+  "56": {
+    "Id": "56",
+    "Name": "Yew Lumber",
+    "SubType": "CraftedLumber",
+    "ItemLevel": 10,
+    "Value": 42,
+    "Rarity": 1,
+    "Region": 2,
+    "CrafterID": 3,
+    "Time": 20,
+    "Exp": 18,
+    "Recipe": [
+      {
+        "Id": "55",
+        "Amount": 2,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "57": {
+    "Id": "57",
+    "Name": "Cypress Roots",
+    "SubType": "Herb",
+    "ItemLevel": 10,
+    "Value": 19,
+    "Rarity": 1,
+    "Region": 2,
+    "ForbidInfusion": true
+  },
+  "58": {
+    "Id": "58",
+    "Name": "Reed Fiber",
+    "SubType": "UnrefinedFabric",
+    "ItemLevel": 10,
+    "Value": 19,
+    "Rarity": 1,
+    "Region": 2,
+    "ForbidInfusion": true
+  },
+  "59": {
+    "Id": "59",
+    "Name": "Reed Cloth",
+    "SubType": "CraftedFabric",
+    "ItemLevel": 10,
+    "Value": 42,
+    "Rarity": 1,
+    "Region": 2,
+    "CrafterID": 4,
+    "Time": 20,
+    "Exp": 18,
+    "Recipe": [
+      {
+        "Id": "58",
+        "Amount": 2,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "60": {
+    "Id": "60",
+    "Name": "Cobalt Chunk",
+    "SubType": "UnrefinedPlate",
+    "ItemLevel": 10,
+    "Value": 19,
+    "Rarity": 1,
+    "Region": 2,
+    "ForbidInfusion": true
+  },
+  "61": {
+    "Id": "61",
+    "Name": "Cobalt Plate",
+    "SubType": "CraftedPlate",
+    "ItemLevel": 10,
+    "Value": 42,
+    "Rarity": 1,
+    "Region": 2,
+    "CrafterID": 2,
+    "Time": 20,
+    "Exp": 18,
+    "Recipe": [
+      {
+        "Id": "60",
+        "Amount": 2,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "62": {
+    "Id": "62",
+    "Name": "Coral",
+    "SubType": "Minerals",
+    "ItemLevel": 15,
+    "Value": 28,
+    "Rarity": 1,
+    "Region": 2,
+    "ForbidInfusion": true
+  },
+  "63": {
+    "Id": "63",
+    "Name": "Lizard Scale",
+    "SubType": "Scale",
+    "ItemLevel": 11,
+    "Value": 21,
+    "Rarity": 1,
+    "Region": 2
+  },
+  "64": {
+    "Id": "64",
+    "Name": "Jellyfish Tentacle",
+    "SubType": "Limb",
+    "ItemLevel": 11,
+    "Value": 21,
+    "Rarity": 1,
+    "Region": 2
+  },
+  "65": {
+    "Id": "65",
+    "Name": "Sargassum",
+    "SubType": "Misc",
+    "ItemLevel": 9,
+    "Value": 18,
+    "Rarity": 1,
+    "Region": 2
+  },
+  "66": {
+    "Id": "66",
+    "Name": "Sand Striker Maw",
+    "SubType": "Skull",
+    "ItemLevel": 15,
+    "Value": 28,
+    "Rarity": 1,
+    "Region": 2
+  },
+  "67": {
+    "Id": "67",
+    "Name": "Giant Frog Leg",
+    "SubType": "Leg",
+    "ItemLevel": 20,
+    "Value": 36,
+    "Rarity": 1,
+    "Region": 2
+  },
+  "68": {
+    "Id": "68",
+    "Name": "Albatross Feather",
+    "SubType": "Feather",
+    "ItemLevel": 8,
+    "Value": 16,
+    "Rarity": 1,
+    "Region": 2
+  },
+  "69": {
+    "Id": "69",
+    "Name": "Kobold Cloth",
+    "SubType": "Cloth",
+    "ItemLevel": 16,
+    "Value": 53,
+    "Rarity": 2,
+    "Region": 2
+  },
+  "70": {
+    "Id": "70",
+    "Name": "Kobold Pole",
+    "SubType": "Hilt",
+    "ItemLevel": 18,
+    "Value": 59,
+    "Rarity": 2,
+    "Region": 2
+  },
+  "71": {
+    "Id": "71",
+    "Name": "Kobold Hilt",
+    "SubType": "Hilt",
+    "ItemLevel": 22,
+    "Value": 71,
+    "Rarity": 2,
+    "Region": 2
+  },
+  "72": {
+    "Id": "72",
+    "Name": "Water Scroll",
+    "SubType": "Scripture",
+    "ItemLevel": 23,
+    "Value": 74,
+    "Rarity": 2,
+    "Region": 2
+  },
+  "73": {
+    "Id": "73",
+    "Name": "Aquatic Ash",
+    "SubType": "Ashes",
+    "ItemLevel": 25,
+    "Value": 267,
+    "Rarity": 4,
+    "Region": 2
+  },
+  "74": {
+    "Id": "74",
+    "Name": "Kobold Relic",
+    "SubType": "Relic",
+    "ItemLevel": 20,
+    "Value": 216,
+    "Rarity": 4,
+    "Region": 2
+  },
+  "75": {
+    "Id": "75",
+    "Name": "Albatross Talon",
+    "SubType": "Claw",
+    "ItemLevel": 15,
+    "Value": 50,
+    "Rarity": 2,
+    "Region": 2
+  },
+  "76": {
+    "Id": "76",
+    "Name": "Crab Claw",
+    "SubType": "Claw",
+    "ItemLevel": 12,
+    "Value": 23,
+    "Rarity": 1,
+    "Region": 2
+  },
+  "77": {
+    "Id": "77",
+    "Name": "Jellyfish Toxin",
+    "SubType": "Misc",
+    "ItemLevel": 17,
+    "Value": 56,
+    "Rarity": 2,
+    "Region": 2
+  },
+  "78": {
+    "Id": "78",
+    "Name": "Turtle Shell",
+    "SubType": "Shell",
+    "ItemLevel": 16,
+    "Value": 53,
+    "Rarity": 2,
+    "Region": 2
+  },
+  "79": {
+    "Id": "79",
+    "Name": "Swallowed Remains",
+    "SubType": "Misc",
+    "ItemLevel": 25,
+    "Value": 81,
+    "Rarity": 2,
+    "Region": 2
+  },
+  "80": {
+    "Id": "80",
+    "Name": "Crab Carapace",
+    "SubType": "Shell",
+    "ItemLevel": 19,
+    "Value": 62,
+    "Rarity": 2,
+    "Region": 2
+  },
+  "81": {
+    "Id": "81",
+    "Name": "Parotid Sac",
+    "SubType": "Misc",
+    "ItemLevel": 20,
+    "Value": 65,
+    "Rarity": 2,
+    "Region": 2
+  },
+  "82": {
+    "Id": "82",
+    "Name": "Driftwood",
+    "SubType": "Log",
+    "ItemLevel": 15,
+    "Value": 50,
+    "Rarity": 2,
+    "Region": 2
+  },
+  "83": {
+    "Id": "83",
+    "Name": "Fluorescent Stone",
+    "SubType": "Gem",
+    "ItemLevel": 15,
+    "Value": 50,
+    "Rarity": 2,
+    "Region": 2
+  },
+  "84": {
+    "Id": "84",
+    "Name": "Lizard Claw",
+    "SubType": "Claw",
+    "ItemLevel": 18,
+    "Value": 59,
+    "Rarity": 2,
+    "Region": 2
+  },
+  "85": {
+    "Id": "85",
+    "Name": "Kobold Scale",
+    "SubType": "Scale",
+    "ItemLevel": 22,
+    "Value": 158,
+    "Rarity": 3,
+    "Region": 2
+  },
+  "86": {
+    "Id": "86",
+    "Name": "Imbued Cobalt",
+    "SubType": "Ore",
+    "ItemLevel": 18,
+    "Value": 131,
+    "Rarity": 3,
+    "Region": 2
+  },
+  "87": {
+    "Id": "87",
+    "Name": "Agitated Blade",
+    "SubType": "Blade",
+    "ItemLevel": 22,
+    "Value": 158,
+    "Rarity": 3,
+    "Region": 2
+  },
+  "88": {
+    "Id": "88",
+    "Name": "Sediment Arcana",
+    "SubType": "Minerals",
+    "ItemLevel": 23,
+    "Value": 165,
+    "Rarity": 3,
+    "Region": 2
+  },
+  "89": {
+    "Id": "89",
+    "Name": "Alkaline Crux",
+    "SubType": "Relic",
+    "ItemLevel": 25,
+    "Value": 178,
+    "Rarity": 3,
+    "Region": 2
+  },
+  "90": {
+    "Id": "90",
+    "Name": "Ancient Marrow",
+    "SubType": "Bone",
+    "ItemLevel": 20,
+    "Value": 144,
+    "Rarity": 3,
+    "Region": 2
+  },
+  "91": {
+    "Id": "91",
+    "Name": "Giant Neb",
+    "SubType": "Bone",
+    "ItemLevel": 15,
+    "Value": 110,
+    "Rarity": 3,
+    "Region": 2
+  },
+  "92": {
+    "Id": "92",
+    "Name": "Hydro Sphere",
+    "SubType": "Relic",
+    "ItemLevel": 18,
+    "Value": 131,
+    "Rarity": 3,
+    "Region": 2
+  },
+  "93": {
+    "Id": "93",
+    "Name": "Fleshy Membrane",
+    "SubType": "Misc",
+    "ItemLevel": 17,
+    "Value": 124,
+    "Rarity": 3,
+    "Region": 2
+  },
+  "94": {
+    "Id": "94",
+    "Name": "Reef Minerals",
+    "SubType": "Minerals",
+    "ItemLevel": 16,
+    "Value": 117,
+    "Rarity": 3,
+    "Region": 2
+  },
+  "95": {
+    "Id": "95",
+    "Name": "Sand Striker Exoskeleton",
+    "SubType": "Bone",
+    "ItemLevel": 25,
+    "Value": 178,
+    "Rarity": 3,
+    "Region": 2
+  },
+  "96": {
+    "Id": "96",
+    "Name": "Marinachnid Leg",
+    "SubType": "Leg",
+    "ItemLevel": 19,
+    "Value": 138,
+    "Rarity": 3,
+    "Region": 2
+  },
+  "97": {
+    "Id": "97",
+    "Name": "Warted Skin",
+    "SubType": "Hide",
+    "ItemLevel": 25,
+    "Value": 178,
+    "Rarity": 3,
+    "Region": 2
+  },
+  "98": {
+    "Id": "98",
+    "Name": "Coastal Charm",
+    "SubType": "Relic",
+    "ItemLevel": 24,
+    "Value": 257,
+    "Rarity": 4,
+    "Region": 2
+  },
+  "99": {
+    "Id": "99",
+    "Name": "Coastal Essence of Water",
+    "SubType": "Essence",
+    "ItemLevel": 24,
+    "Value": 257,
+    "Rarity": 4,
+    "Region": 2
+  },
+  "100": {
+    "Id": "100",
+    "Name": "Sandstone Crystal",
+    "SubType": "RegionCrystal",
+    "ItemLevel": 13,
+    "Value": 44,
+    "Rarity": 2,
+    "Region": 2,
+    "ForbidInfusion": true
+  },
+  "101": {
+    "Id": "101",
+    "Name": "Aquamarine",
+    "SubType": "RegionGem",
+    "ItemLevel": 15,
+    "Value": 194,
+    "Rarity": 3,
+    "Region": 2,
+    "ForbidInfusion": true
+  },
+  "102": {
+    "Id": "102",
+    "Name": "Lazulite Rune",
+    "SubType": "RegionRune",
+    "ItemLevel": 18,
+    "Value": 854,
+    "Rarity": 4,
+    "Region": 2,
+    "ForbidInfusion": true
+  },
+  "150": {
+    "Id": "150",
+    "Name": "Titanium Ore",
+    "SubType": "UnrefinedIngot",
+    "ItemLevel": 20,
+    "Value": 53,
+    "Rarity": 1,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "151": {
+    "Id": "151",
+    "Name": "Titanium Ingot",
+    "SubType": "CraftedIngot",
+    "ItemLevel": 20,
+    "Value": 117,
+    "Rarity": 1,
+    "Region": 3,
+    "CrafterID": 1,
+    "Time": 33,
+    "Exp": 44,
+    "Recipe": [
+      {
+        "Id": "150",
+        "Amount": 2,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "152": {
+    "Id": "152",
+    "Name": "Titanium Chunk",
+    "SubType": "UnrefinedPlate",
+    "ItemLevel": 20,
+    "Value": 53,
+    "Rarity": 1,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "153": {
+    "Id": "153",
+    "Name": "Titanium Plate",
+    "SubType": "CraftedPlate",
+    "ItemLevel": 20,
+    "Value": 117,
+    "Rarity": 1,
+    "Region": 3,
+    "CrafterID": 2,
+    "Time": 33,
+    "Exp": 44,
+    "Recipe": [
+      {
+        "Id": "152",
+        "Amount": 2,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "154": {
+    "Id": "154",
+    "Name": "Howlthorn Log",
+    "SubType": "UnrefinedLumber",
+    "ItemLevel": 20,
+    "Value": 53,
+    "Rarity": 1,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "155": {
+    "Id": "155",
+    "Name": "Howlthorn Lumber",
+    "SubType": "CraftedLumber",
+    "ItemLevel": 20,
+    "Value": 117,
+    "Rarity": 1,
+    "Region": 3,
+    "CrafterID": 3,
+    "Time": 33,
+    "Exp": 44,
+    "Recipe": [
+      {
+        "Id": "154",
+        "Amount": 2,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "156": {
+    "Id": "156",
+    "Name": "Highland Rye",
+    "SubType": "UnrefinedFabric",
+    "ItemLevel": 20,
+    "Value": 53,
+    "Rarity": 1,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "157": {
+    "Id": "157",
+    "Name": "Highland Cloth",
+    "SubType": "CraftedFabric",
+    "ItemLevel": 20,
+    "Value": 117,
+    "Rarity": 1,
+    "Region": 3,
+    "CrafterID": 4,
+    "Time": 33,
+    "Exp": 44,
+    "Recipe": [
+      {
+        "Id": "156",
+        "Amount": 2,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "158": {
+    "Id": "158",
+    "Name": "Oats",
+    "SubType": "Fiber",
+    "ItemLevel": 20,
+    "Value": 53,
+    "Rarity": 1,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "159": {
+    "Id": "159",
+    "Name": "Chanterelle",
+    "SubType": "Mushroom",
+    "ItemLevel": 20,
+    "Value": 53,
+    "Rarity": 1,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "160": {
+    "Id": "160",
+    "Name": "Aldurnian Pelt",
+    "SubType": "Fur",
+    "ItemLevel": 21,
+    "Value": 56,
+    "Rarity": 1,
+    "Region": 3
+  },
+  "161": {
+    "Id": "161",
+    "Name": "Alpine Antler",
+    "SubType": "Antler",
+    "ItemLevel": 23,
+    "Value": 110,
+    "Rarity": 2,
+    "Region": 3
+  },
+  "162": {
+    "Id": "162",
+    "Name": "Stone Worn Hoof",
+    "SubType": "Horn",
+    "ItemLevel": 22,
+    "Value": 59,
+    "Rarity": 1,
+    "Region": 3
+  },
+  "163": {
+    "Id": "163",
+    "Name": "Ram Horn",
+    "SubType": "Hide",
+    "ItemLevel": 24,
+    "Value": 114,
+    "Rarity": 2,
+    "Region": 3
+  },
+  "164": {
+    "Id": "164",
+    "Name": "Roc Feather",
+    "SubType": "Claw",
+    "ItemLevel": 22,
+    "Value": 59,
+    "Rarity": 1,
+    "Region": 3
+  },
+  "165": {
+    "Id": "165",
+    "Name": "Roc Skeletal Wing",
+    "SubType": "Bone",
+    "ItemLevel": 23,
+    "Value": 110,
+    "Rarity": 2,
+    "Region": 3
+  },
+  "166": {
+    "Id": "166",
+    "Name": "Ghostly Cloth",
+    "SubType": "Cloth",
+    "ItemLevel": 24,
+    "Value": 64,
+    "Rarity": 1,
+    "Region": 3
+  },
+  "167": {
+    "Id": "167",
+    "Name": "Wayward Flame",
+    "SubType": "Fire",
+    "ItemLevel": 26,
+    "Value": 123,
+    "Rarity": 2,
+    "Region": 3
+  },
+  "168": {
+    "Id": "168",
+    "Name": "Petrified Howlthorn",
+    "SubType": "Minerals",
+    "ItemLevel": 25,
+    "Value": 119,
+    "Rarity": 2,
+    "Region": 3
+  },
+  "169": {
+    "Id": "169",
+    "Name": "Spirit Scythe Blade",
+    "SubType": "Blade",
+    "ItemLevel": 31,
+    "Value": 325,
+    "Rarity": 3,
+    "Region": 3
+  },
+  "170": {
+    "Id": "170",
+    "Name": "Yak Hackles",
+    "SubType": "Fur",
+    "ItemLevel": 28,
+    "Value": 294,
+    "Rarity": 3,
+    "Region": 3
+  },
+  "171": {
+    "Id": "171",
+    "Name": "Yak Chuck",
+    "SubType": "Meat",
+    "ItemLevel": 29,
+    "Value": 304,
+    "Rarity": 3,
+    "Region": 3
+  },
+  "172": {
+    "Id": "172",
+    "Name": "Head of Skinwalker",
+    "SubType": "Head",
+    "ItemLevel": 30,
+    "Value": 471,
+    "Rarity": 4,
+    "Region": 3
+  },
+  "173": {
+    "Id": "173",
+    "Name": "Golden Roc Feather",
+    "SubType": "Feather",
+    "ItemLevel": 30,
+    "Value": 471,
+    "Rarity": 4,
+    "Region": 3
+  },
+  "174": {
+    "Id": "174",
+    "Name": "Drake Tail Spike",
+    "SubType": "Claw",
+    "ItemLevel": 27,
+    "Value": 71,
+    "Rarity": 1,
+    "Region": 3
+  },
+  "175": {
+    "Id": "175",
+    "Name": "Drake Ribs",
+    "SubType": "Bone",
+    "ItemLevel": 28,
+    "Value": 133,
+    "Rarity": 2,
+    "Region": 3
+  },
+  "176": {
+    "Id": "176",
+    "Name": "Acid Sac",
+    "SubType": "Gland",
+    "ItemLevel": 32,
+    "Value": 335,
+    "Rarity": 3,
+    "Region": 3
+  },
+  "177": {
+    "Id": "177",
+    "Name": "Vaudnite",
+    "SubType": "Ore",
+    "ItemLevel": 24,
+    "Value": 114,
+    "Rarity": 2,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "178": {
+    "Id": "178",
+    "Name": "Ogre Bone Chain",
+    "SubType": "Bone",
+    "ItemLevel": 26,
+    "Value": 69,
+    "Rarity": 1,
+    "Region": 3
+  },
+  "179": {
+    "Id": "179",
+    "Name": "Ogre Gorp",
+    "SubType": "Sweetener",
+    "ItemLevel": 30,
+    "Value": 142,
+    "Rarity": 2,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "180": {
+    "Id": "180",
+    "Name": "Fused Double Clavicle",
+    "SubType": "Bone",
+    "ItemLevel": 30,
+    "Value": 314,
+    "Rarity": 3,
+    "Region": 3
+  },
+  "181": {
+    "Id": "181",
+    "Name": "Lucent Loch Moss",
+    "SubType": "Herb",
+    "ItemLevel": 31,
+    "Value": 146,
+    "Rarity": 2,
+    "Region": 3
+  },
+  "182": {
+    "Id": "182",
+    "Name": "Loch Neck Chitin",
+    "SubType": "Chitin",
+    "ItemLevel": 33,
+    "Value": 345,
+    "Rarity": 3,
+    "Region": 3
+  },
+  "183": {
+    "Id": "183",
+    "Name": "Loch Skullplate",
+    "SubType": "Skull",
+    "ItemLevel": 35,
+    "Value": 548,
+    "Rarity": 4,
+    "Region": 3
+  },
+  "184": {
+    "Id": "184",
+    "Name": "Mountainback Heart",
+    "SubType": "Gem",
+    "ItemLevel": 35,
+    "Value": 904,
+    "Rarity": 5,
+    "Region": 3
+  },
+  "185": {
+    "Id": "185",
+    "Name": "Harpy Feather",
+    "SubType": "Feather",
+    "ItemLevel": 25,
+    "Value": 66,
+    "Rarity": 1,
+    "Region": 3
+  },
+  "186": {
+    "Id": "186",
+    "Name": "Scrapper Scrap",
+    "SubType": "Metal",
+    "ItemLevel": 27,
+    "Value": 128,
+    "Rarity": 2,
+    "Region": 3
+  },
+  "187": {
+    "Id": "187",
+    "Name": "Scrapper Talon",
+    "SubType": "Claw",
+    "ItemLevel": 28,
+    "Value": 294,
+    "Rarity": 3,
+    "Region": 3
+  },
+  "188": {
+    "Id": "188",
+    "Name": "Harpy Axe Head",
+    "SubType": "Metal",
+    "ItemLevel": 27,
+    "Value": 128,
+    "Rarity": 2,
+    "Region": 3
+  },
+  "189": {
+    "Id": "189",
+    "Name": "Harpy Headressing",
+    "SubType": "Fabric",
+    "ItemLevel": 28,
+    "Value": 294,
+    "Rarity": 3,
+    "Region": 3
+  },
+  "190": {
+    "Id": "190",
+    "Name": "Harpy Rod",
+    "SubType": "Hilt",
+    "ItemLevel": 26,
+    "Value": 69,
+    "Rarity": 1,
+    "Region": 3
+  },
+  "191": {
+    "Id": "191",
+    "Name": "Harpy Tome",
+    "SubType": "Scripture",
+    "ItemLevel": 26,
+    "Value": 123,
+    "Rarity": 2,
+    "Region": 3
+  },
+  "192": {
+    "Id": "192",
+    "Name": "Solar Imbued Artifact",
+    "SubType": "Rune",
+    "ItemLevel": 27,
+    "Value": 284,
+    "Rarity": 3,
+    "Region": 3
+  },
+  "193": {
+    "Id": "193",
+    "Name": "Roc Treat",
+    "SubType": "Berry",
+    "ItemLevel": 28,
+    "Value": 294,
+    "Rarity": 3,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "194": {
+    "Id": "194",
+    "Name": "Vautanium Plate",
+    "SubType": "CraftedPlate",
+    "ItemLevel": 25,
+    "Value": 383,
+    "Rarity": 2,
+    "Region": 3,
+    "CrafterID": 2,
+    "Time": 33,
+    "Exp": 55,
+    "Recipe": [
+      {
+        "Id": "153",
+        "Amount": 2,
+        "Type": 2
+      },
+      {
+        "Id": "177",
+        "Amount": 2,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "195": {
+    "Id": "195",
+    "Name": "Skytamer Aeroblade",
+    "SubType": "Blade",
+    "ItemLevel": 29,
+    "Value": 304,
+    "Rarity": 3,
+    "Region": 3
+  },
+  "196": {
+    "Id": "196",
+    "Name": "Moonlit Witch Dust",
+    "SubType": "Dust",
+    "ItemLevel": 29,
+    "Value": 137,
+    "Rarity": 2,
+    "Region": 3
+  },
+  "197": {
+    "Id": "197",
+    "Name": "Lunar Artifact",
+    "SubType": "Rune",
+    "ItemLevel": 33,
+    "Value": 345,
+    "Rarity": 3,
+    "Region": 3
+  },
+  "198": {
+    "Id": "198",
+    "Name": "Highland Crystal",
+    "SubType": "RegionCrystal",
+    "ItemLevel": 23,
+    "Value": 110,
+    "Rarity": 2,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "199": {
+    "Id": "199",
+    "Name": "Ruby",
+    "SubType": "RegionGem",
+    "ItemLevel": 25,
+    "Value": 484,
+    "Rarity": 3,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "200": {
+    "Id": "200",
+    "Name": "Crimsonite Rune",
+    "SubType": "RegionRune",
+    "ItemLevel": 28,
+    "Value": 2130,
+    "Rarity": 4,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "201": {
+    "Id": "201",
+    "Name": "Hagwitch Moon Charm",
+    "SubType": "Relic",
+    "ItemLevel": 34,
+    "Value": 533,
+    "Rarity": 4,
+    "Region": 3
+  },
+  "202": {
+    "Id": "202",
+    "Name": "Witch Concotion",
+    "SubType": "Essence",
+    "ItemLevel": 29,
+    "Value": 304,
+    "Rarity": 3,
+    "Region": 3
+  },
+  "203": {
+    "Id": "203",
+    "Name": "Vautanium Ingot",
+    "SubType": "CraftedIngot",
+    "ItemLevel": 25,
+    "Value": 383,
+    "Rarity": 2,
+    "Region": 3,
+    "CrafterID": 1,
+    "Time": 33,
+    "Exp": 55,
+    "Recipe": [
+      {
+        "Id": "151",
+        "Amount": 2,
+        "Type": 2
+      },
+      {
+        "Id": "177",
+        "Amount": 2,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "204": {
+    "Id": "204",
+    "Name": "Highland Charm",
+    "SubType": "Relic",
+    "ItemLevel": 34,
+    "Value": 533,
+    "Rarity": 4,
+    "Region": 3
+  },
+  "205": {
+    "Id": "205",
+    "Name": "Highland Essence of Earth",
+    "SubType": "Essence",
+    "ItemLevel": 34,
+    "Value": 533,
+    "Rarity": 4,
+    "Region": 3
+  },
+  "206": {
+    "Id": "206",
+    "Name": "Ogre Bone Blade",
+    "SubType": "Blade",
+    "ItemLevel": 28,
+    "Value": 133,
+    "Rarity": 2,
+    "Region": 3
+  },
+  "207": {
+    "Id": "207",
+    "Name": "Cursed Blood Coagulum",
+    "SubType": "Blood",
+    "ItemLevel": 33,
+    "Value": 517,
+    "Rarity": 4,
+    "Region": 3
+  },
+  "801": {
+    "Id": "801",
+    "Name": "Barley",
+    "SubType": "Grain",
+    "ItemLevel": 1,
+    "Value": 3,
+    "Rarity": 1,
+    "Region": 1,
+    "ForbidInfusion": true
+  },
+  "802": {
+    "Id": "802",
+    "Name": "Apple",
+    "SubType": "Fruit",
+    "ItemLevel": 3,
+    "Value": 9,
+    "Rarity": 2,
+    "Region": 1,
+    "ForbidInfusion": true
+  },
+  "803": {
+    "Id": "803",
+    "Name": "Goblin Spice Pouch",
+    "SubType": "Spice",
+    "ItemLevel": 5,
+    "Value": 12,
+    "Rarity": 2,
+    "Region": 1,
+    "ForbidInfusion": true
+  },
+  "804": {
+    "Id": "804",
+    "Name": "Tuvale Mushroom",
+    "SubType": "Mushroom",
+    "ItemLevel": 3,
+    "Value": 5,
+    "Rarity": 1,
+    "Region": 1,
+    "ForbidInfusion": true
+  },
+  "805": {
+    "Id": "805",
+    "Name": "Ginger",
+    "SubType": "Spice",
+    "ItemLevel": 3,
+    "Value": 9,
+    "Rarity": 2,
+    "Region": 1,
+    "ForbidInfusion": true
+  },
+  "806": {
+    "Id": "806",
+    "Name": "Potato",
+    "SubType": "Vegetable",
+    "ItemLevel": 1,
+    "Value": 3,
+    "Rarity": 1,
+    "Region": 1,
+    "ForbidInfusion": true
+  },
+  "807": {
+    "Id": "807",
+    "Name": "Bear Meat",
+    "SubType": "Meat",
+    "ItemLevel": 10,
+    "Value": 42,
+    "Rarity": 3,
+    "Region": 1,
+    "ForbidInfusion": true
+  },
+  "808": {
+    "Id": "808",
+    "Name": "Honey",
+    "SubType": "Sweetener",
+    "ItemLevel": 10,
+    "Value": 42,
+    "Rarity": 3,
+    "Region": 1,
+    "ForbidInfusion": true
+  },
+  "809": {
+    "Id": "809",
+    "Name": "Flour",
+    "SubType": "CraftedFoodIngredient",
+    "ItemLevel": 1,
+    "Value": 7,
+    "Rarity": 1,
+    "Region": 1,
+    "CrafterID": 6,
+    "Time": 60,
+    "Exp": 2,
+    "Recipe": [
+      {
+        "Id": "801",
+        "Amount": 2,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "810": {
+    "Id": "810",
+    "Name": "Rice",
+    "SubType": "Grain",
+    "ItemLevel": 10,
+    "Value": 19,
+    "Rarity": 1,
+    "Region": 2,
+    "ForbidInfusion": true
+  },
+  "811": {
+    "Id": "811",
+    "Name": "Coconut",
+    "SubType": "Fruit",
+    "ItemLevel": 15,
+    "Value": 50,
+    "Rarity": 2,
+    "Region": 2,
+    "ForbidInfusion": true
+  },
+  "812": {
+    "Id": "812",
+    "Name": "Pineapple",
+    "SubType": "Fruit",
+    "ItemLevel": 15,
+    "Value": 110,
+    "Rarity": 3,
+    "Region": 2,
+    "ForbidInfusion": true
+  },
+  "813": {
+    "Id": "813",
+    "Name": "Lichen",
+    "SubType": "Mushroom",
+    "ItemLevel": 10,
+    "Value": 19,
+    "Rarity": 1,
+    "Region": 2,
+    "ForbidInfusion": true
+  },
+  "814": {
+    "Id": "814",
+    "Name": "Clam",
+    "SubType": "Gland",
+    "ItemLevel": 13,
+    "Value": 44,
+    "Rarity": 2,
+    "Region": 2,
+    "ForbidInfusion": true
+  },
+  "815": {
+    "Id": "815",
+    "Name": "Cocoa Powder",
+    "SubType": "Sweetener",
+    "ItemLevel": 15,
+    "Value": 110,
+    "Rarity": 3,
+    "Region": 2,
+    "ForbidInfusion": true
+  },
+  "816": {
+    "Id": "816",
+    "Name": "Cabbage",
+    "SubType": "Vegetable",
+    "ItemLevel": 20,
+    "Value": 53,
+    "Rarity": 1,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "817": {
+    "Id": "817",
+    "Name": "Garlic",
+    "SubType": "Vegetable",
+    "ItemLevel": 20,
+    "Value": 53,
+    "Rarity": 1,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "818": {
+    "Id": "818",
+    "Name": "Sorrel",
+    "SubType": "Vegetable",
+    "ItemLevel": 23,
+    "Value": 110,
+    "Rarity": 2,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "819": {
+    "Id": "819",
+    "Name": "Goat Milk",
+    "SubType": "Ichor",
+    "ItemLevel": 23,
+    "Value": 110,
+    "Rarity": 2,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "820": {
+    "Id": "820",
+    "Name": "Buttermilk",
+    "SubType": "CraftedFoodIngredient",
+    "ItemLevel": 21,
+    "Value": 242,
+    "Rarity": 2,
+    "Region": 3,
+    "CrafterID": 6,
+    "Time": 300,
+    "Exp": 47,
+    "Recipe": [
+      {
+        "Id": "819",
+        "Amount": 2,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "821": {
+    "Id": "821",
+    "Name": "Howlthorn Berry",
+    "SubType": "Berry",
+    "ItemLevel": 20,
+    "Value": 53,
+    "Rarity": 1,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "822": {
+    "Id": "822",
+    "Name": "Carrot",
+    "SubType": "Vegetable",
+    "ItemLevel": 23,
+    "Value": 110,
+    "Rarity": 2,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "823": {
+    "Id": "823",
+    "Name": "Damson",
+    "SubType": "Fruit",
+    "ItemLevel": 25,
+    "Value": 263,
+    "Rarity": 3,
+    "Region": 3,
+    "ForbidInfusion": true
+  },
+  "824": {
+    "Id": "824",
+    "Name": "Cut Drake Ribs",
+    "SubType": "CraftedFoodIngredient",
+    "ItemLevel": 27,
+    "Value": 220,
+    "Rarity": 2,
+    "Region": 3,
+    "CrafterID": 6,
+    "Time": 600,
+    "Exp": 60,
+    "Recipe": [
+      {
+        "Id": "175",
+        "Amount": 3,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "825": {
+    "Id": "825",
+    "Name": "Yak Brisket",
+    "SubType": "CraftedFoodIngredient",
+    "ItemLevel": 24,
+    "Value": 84,
+    "Rarity": 2,
+    "Region": 3,
+    "CrafterID": 6,
+    "Time": 1200,
+    "Exp": 53,
+    "Recipe": [
+      {
+        "Id": "171",
+        "Amount": 1,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  },
+  "826": {
+    "Id": "826",
+    "Name": "Gorp Slurry",
+    "SubType": "CraftedFoodIngredient",
+    "ItemLevel": 22,
+    "Value": 157,
+    "Rarity": 2,
+    "Region": 3,
+    "CrafterID": 6,
+    "Time": 200,
+    "Exp": 49,
+    "Recipe": [
+      {
+        "Id": "179",
+        "Amount": 2,
+        "Type": 2
+      },
+      {
+        "Id": "176",
+        "Amount": 1,
+        "Type": 2
+      }
+    ],
+    "ForbidInfusion": true
+  }
+}

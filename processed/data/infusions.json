@@ -1,0 +1,2902 @@
+{
+    "Tuvale Bark": {
+        "id": "11",
+        "lvl": 5,
+        "value": 12,
+        "region": 1,
+        "rarity": 2,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 2
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 4
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 4
+            }
+        }
+    },
+    "Tuvale Minerals": {
+        "id": "12",
+        "lvl": 5,
+        "value": 12,
+        "region": 1,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 2
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 4
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 4
+            }
+        }
+    },
+    "Beetle Chitin": {
+        "id": "13",
+        "lvl": 1,
+        "value": 3,
+        "region": 1,
+        "rarity": 1,
+        "Weapon": {
+            "type": "def",
+            "stats": {
+                "def": 1
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 2
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 2
+            }
+        }
+    },
+    "Beetle Mandible": {
+        "id": "14",
+        "lvl": 2,
+        "value": 7,
+        "region": 1,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 4
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 1
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 1
+            }
+        }
+    },
+    "Giant Scarab Shell": {
+        "id": "15",
+        "lvl": 3,
+        "value": 19,
+        "region": 1,
+        "rarity": 3,
+        "Weapon": {
+            "type": "def",
+            "stats": {
+                "def": 2
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 6
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 6
+            }
+        }
+    },
+    "Beetle Heart": {
+        "id": "16",
+        "lvl": 3,
+        "value": 9,
+        "region": 1,
+        "rarity": 2,
+        "Weapon": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 4
+            }
+        },
+        "Armor": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 12
+            }
+        },
+        "Trinket": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 12
+            }
+        }
+    },
+    "Aldurnian Pelt": {
+        "id": "160",
+        "lvl": 21,
+        "value": 56,
+        "region": 3,
+        "rarity": 1,
+        "Weapon": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 4
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 12
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 12
+            }
+        }
+    },
+    "Alpine Antler": {
+        "id": "161",
+        "lvl": 23,
+        "value": 110,
+        "region": 3,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 20
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 12
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 12
+            }
+        }
+    },
+    "Stone Worn Hoof": {
+        "id": "162",
+        "lvl": 22,
+        "value": 59,
+        "region": 3,
+        "rarity": 1,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 6
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 12
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 12
+            }
+        }
+    },
+    "Ram Horn": {
+        "id": "163",
+        "lvl": 24,
+        "value": 114,
+        "region": 3,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 10
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 18
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 18
+            }
+        }
+    },
+    "Roc Feather": {
+        "id": "164",
+        "lvl": 22,
+        "value": 59,
+        "region": 3,
+        "rarity": 1,
+        "Weapon": {
+            "type": "eva",
+            "stats": {
+                "eva": 4
+            }
+        },
+        "Armor": {
+            "type": "eva",
+            "stats": {
+                "eva": 12
+            }
+        },
+        "Trinket": {
+            "type": "eva",
+            "stats": {
+                "eva": 12
+            }
+        }
+    },
+    "Roc Skeletal Wing": {
+        "id": "165",
+        "lvl": 23,
+        "value": 110,
+        "region": 3,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 20
+            }
+        },
+        "Armor": {
+            "type": "eva",
+            "stats": {
+                "eva": 18
+            }
+        },
+        "Trinket": {
+            "type": "eva",
+            "stats": {
+                "eva": 18
+            }
+        }
+    },
+    "Ghostly Cloth": {
+        "id": "166",
+        "lvl": 24,
+        "value": 64,
+        "region": 3,
+        "rarity": 1,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 6
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 12
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 12
+            }
+        }
+    },
+    "Wayward Flame": {
+        "id": "167",
+        "lvl": 26,
+        "value": 123,
+        "region": 3,
+        "rarity": 2,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 20
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 18
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 18
+            }
+        }
+    },
+    "Petrified Howlthorn": {
+        "id": "168",
+        "lvl": 25,
+        "value": 119,
+        "region": 3,
+        "rarity": 2,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 20
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 12
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 12
+            }
+        }
+    },
+    "Spirit Scythe Blade": {
+        "id": "169",
+        "lvl": 31,
+        "value": 325,
+        "region": 3,
+        "rarity": 3,
+        "Weapon": {
+            "type": "crit",
+            "stats": {
+                "crit": 5
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 27
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 27
+            }
+        }
+    },
+    "Spider Leg": {
+        "id": "17",
+        "lvl": 3,
+        "value": 5,
+        "region": 1,
+        "rarity": 1,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 2
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 1
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 1
+            }
+        }
+    },
+    "Yak Hackles": {
+        "id": "170",
+        "lvl": 28,
+        "value": 294,
+        "region": 3,
+        "rarity": 3,
+        "Weapon": {
+            "type": "def",
+            "stats": {
+                "def": 12
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 39
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 39
+            }
+        }
+    },
+    "Yak Chuck": {
+        "id": "171",
+        "lvl": 29,
+        "value": 304,
+        "region": 3,
+        "rarity": 3,
+        "Weapon": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 32
+            }
+        },
+        "Armor": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 100
+            }
+        },
+        "Trinket": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 100
+            }
+        }
+    },
+    "Head of Skinwalker": {
+        "id": "172",
+        "lvl": 30,
+        "value": 471,
+        "region": 3,
+        "rarity": 4,
+        "Weapon": {
+            "type": "critMod",
+            "stats": {
+                "critMod": 26
+            }
+        },
+        "Armor": {
+            "type": "acc",
+            "stats": {
+                "acc": 53
+            }
+        },
+        "Trinket": {
+            "type": "acc",
+            "stats": {
+                "acc": 53
+            }
+        }
+    },
+    "Golden Roc Feather": {
+        "id": "173",
+        "lvl": 30,
+        "value": 471,
+        "region": 3,
+        "rarity": 4,
+        "Weapon": {
+            "type": "crit",
+            "stats": {
+                "crit": 10
+            }
+        },
+        "Armor": {
+            "type": "dex",
+            "stats": {
+                "dex": 1
+            }
+        },
+        "Trinket": {
+            "type": "dex",
+            "stats": {
+                "dex": 1
+            }
+        }
+    },
+    "Drake Tail Spike": {
+        "id": "174",
+        "lvl": 27,
+        "value": 71,
+        "region": 3,
+        "rarity": 1,
+        "Weapon": {
+            "type": "acc",
+            "stats": {
+                "acc": 20
+            }
+        },
+        "Armor": {
+            "type": "atk",
+            "stats": {
+                "atk": 8
+            }
+        },
+        "Trinket": {
+            "type": "atk",
+            "stats": {
+                "atk": 8
+            }
+        }
+    },
+    "Drake Ribs": {
+        "id": "175",
+        "lvl": 28,
+        "value": 133,
+        "region": 3,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 28
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 27
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 27
+            }
+        }
+    },
+    "Acid Sac": {
+        "id": "176",
+        "lvl": 32,
+        "value": 335,
+        "region": 3,
+        "rarity": 3,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 70
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 54
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 54
+            }
+        }
+    },
+    "Ogre Bone Chain": {
+        "id": "178",
+        "lvl": 26,
+        "value": 69,
+        "region": 3,
+        "rarity": 1,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 20
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 12
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 12
+            }
+        }
+    },
+    "Spider Silk": {
+        "id": "18",
+        "lvl": 4,
+        "value": 10,
+        "region": 1,
+        "rarity": 2,
+        "Weapon": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 2
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 4
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 4
+            }
+        }
+    },
+    "Fused Double Clavicle": {
+        "id": "180",
+        "lvl": 30,
+        "value": 314,
+        "region": 3,
+        "rarity": 3,
+        "Weapon": {
+            "type": "critMod",
+            "stats": {
+                "critMod": 20
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 54
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 54
+            }
+        }
+    },
+    "Lucent Loch Moss": {
+        "id": "181",
+        "lvl": 31,
+        "value": 146,
+        "region": 3,
+        "rarity": 2,
+        "Weapon": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 32
+            }
+        },
+        "Armor": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 75
+            }
+        },
+        "Trinket": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 75
+            }
+        }
+    },
+    "Loch Neck Chitin": {
+        "id": "182",
+        "lvl": 33,
+        "value": 345,
+        "region": 3,
+        "rarity": 3,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 28
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 39
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 39
+            }
+        }
+    },
+    "Loch Skullplate": {
+        "id": "183",
+        "lvl": 35,
+        "value": 548,
+        "region": 3,
+        "rarity": 4,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 70
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 54
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 54
+            }
+        }
+    },
+    "Mountainback Heart": {
+        "id": "184",
+        "lvl": 35,
+        "value": 904,
+        "region": 3,
+        "rarity": 5,
+        "Weapon": {
+            "type": "str",
+            "stats": {
+                "str": 3
+            }
+        },
+        "Armor": {
+            "type": "str",
+            "stats": {
+                "str": 2
+            }
+        },
+        "Trinket": {
+            "type": "str",
+            "stats": {
+                "str": 2
+            }
+        }
+    },
+    "Harpy Feather": {
+        "id": "185",
+        "lvl": 25,
+        "value": 66,
+        "region": 3,
+        "rarity": 1,
+        "Weapon": {
+            "type": "eva",
+            "stats": {
+                "eva": 8
+            }
+        },
+        "Armor": {
+            "type": "eva",
+            "stats": {
+                "eva": 18
+            }
+        },
+        "Trinket": {
+            "type": "eva",
+            "stats": {
+                "eva": 18
+            }
+        }
+    },
+    "Scrapper Scrap": {
+        "id": "186",
+        "lvl": 27,
+        "value": 128,
+        "region": 3,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 20
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 18
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 18
+            }
+        }
+    },
+    "Scrapper Talon": {
+        "id": "187",
+        "lvl": 28,
+        "value": 294,
+        "region": 3,
+        "rarity": 3,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 44
+            }
+        },
+        "Armor": {
+            "type": "atk",
+            "stats": {
+                "atk": 15
+            }
+        },
+        "Trinket": {
+            "type": "atk",
+            "stats": {
+                "atk": 15
+            }
+        }
+    },
+    "Harpy Axe Head": {
+        "id": "188",
+        "lvl": 27,
+        "value": 128,
+        "region": 3,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 20
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 12
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 12
+            }
+        }
+    },
+    "Harpy Headressing": {
+        "id": "189",
+        "lvl": 28,
+        "value": 294,
+        "region": 3,
+        "rarity": 3,
+        "Weapon": {
+            "type": "acc",
+            "stats": {
+                "acc": 28
+            }
+        },
+        "Armor": {
+            "type": "eva",
+            "stats": {
+                "eva": 39
+            }
+        },
+        "Trinket": {
+            "type": "eva",
+            "stats": {
+                "eva": 39
+            }
+        }
+    },
+    "Spider Eye": {
+        "id": "19",
+        "lvl": 4,
+        "value": 10,
+        "region": 1,
+        "rarity": 2,
+        "Weapon": {
+            "type": "acc",
+            "stats": {
+                "acc": 4
+            }
+        },
+        "Armor": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 6
+            }
+        },
+        "Trinket": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 6
+            }
+        }
+    },
+    "Harpy Rod": {
+        "id": "190",
+        "lvl": 26,
+        "value": 69,
+        "region": 3,
+        "rarity": 1,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 10
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 6
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 6
+            }
+        }
+    },
+    "Harpy Tome": {
+        "id": "191",
+        "lvl": 26,
+        "value": 123,
+        "region": 3,
+        "rarity": 2,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 20
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 18
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 18
+            }
+        }
+    },
+    "Solar Imbued Artifact": {
+        "id": "192",
+        "lvl": 27,
+        "value": 284,
+        "region": 3,
+        "rarity": 3,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 70
+            }
+        },
+        "Armor": {
+            "type": "matk",
+            "stats": {
+                "matk": 33
+            }
+        },
+        "Trinket": {
+            "type": "matk",
+            "stats": {
+                "matk": 33
+            }
+        }
+    },
+    "Skytamer Aeroblade": {
+        "id": "195",
+        "lvl": 29,
+        "value": 304,
+        "region": 3,
+        "rarity": 3,
+        "Weapon": {
+            "type": "crit",
+            "stats": {
+                "crit": 7
+            }
+        },
+        "Armor": {
+            "type": "acc",
+            "stats": {
+                "acc": 33
+            }
+        },
+        "Trinket": {
+            "type": "acc",
+            "stats": {
+                "acc": 33
+            }
+        }
+    },
+    "Moonlit Witch Dust": {
+        "id": "196",
+        "lvl": 29,
+        "value": 137,
+        "region": 3,
+        "rarity": 2,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 44
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 39
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 39
+            }
+        }
+    },
+    "Lunar Artifact": {
+        "id": "197",
+        "lvl": 33,
+        "value": 345,
+        "region": 3,
+        "rarity": 3,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 70
+            }
+        },
+        "Armor": {
+            "type": "matk",
+            "stats": {
+                "matk": 53
+            }
+        },
+        "Trinket": {
+            "type": "matk",
+            "stats": {
+                "matk": 53
+            }
+        }
+    },
+    "Snake Scale": {
+        "id": "20",
+        "lvl": 3,
+        "value": 5,
+        "region": 1,
+        "rarity": 1,
+        "Weapon": {
+            "type": "eva",
+            "stats": {
+                "eva": 1
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 2
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 2
+            }
+        }
+    },
+    "Hagwitch Moon Charm": {
+        "id": "201",
+        "lvl": 34,
+        "value": 533,
+        "region": 3,
+        "rarity": 4,
+        "Weapon": {
+            "type": "int",
+            "stats": {
+                "int": 2
+            }
+        },
+        "Armor": {
+            "type": "int",
+            "stats": {
+                "int": 2
+            }
+        },
+        "Trinket": {
+            "type": "int",
+            "stats": {
+                "int": 2
+            }
+        }
+    },
+    "Witch Concotion": {
+        "id": "202",
+        "lvl": 29,
+        "value": 304,
+        "region": 3,
+        "rarity": 3,
+        "Weapon": {
+            "type": "acc",
+            "stats": {
+                "acc": 70
+            }
+        },
+        "Armor": {
+            "type": "matk",
+            "stats": {
+                "matk": 21
+            }
+        },
+        "Trinket": {
+            "type": "matk",
+            "stats": {
+                "matk": 21
+            }
+        }
+    },
+    "Highland Charm": {
+        "id": "204",
+        "lvl": 34,
+        "value": 533,
+        "region": 3,
+        "rarity": 4,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 70
+            }
+        },
+        "Armor": {
+            "type": "atk",
+            "stats": {
+                "atk": 53
+            }
+        },
+        "Trinket": {
+            "type": "atk",
+            "stats": {
+                "atk": 53
+            }
+        }
+    },
+    "Highland Essence of Earth": {
+        "id": "205",
+        "lvl": 34,
+        "value": 533,
+        "region": 3,
+        "rarity": 4,
+        "Weapon": {
+            "type": "str",
+            "stats": {
+                "str": 1
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 54
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 54
+            }
+        }
+    },
+    "Ogre Bone Blade": {
+        "id": "206",
+        "lvl": 28,
+        "value": 133,
+        "region": 3,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 28
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 18
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 18
+            }
+        }
+    },
+    "Cursed Blood Coagulum": {
+        "id": "207",
+        "lvl": 33,
+        "value": 517,
+        "region": 3,
+        "rarity": 4,
+        "Weapon": {
+            "type": "int",
+            "stats": {
+                "int": 1
+            }
+        },
+        "Armor": {
+            "type": "int",
+            "stats": {
+                "int": 1
+            }
+        },
+        "Trinket": {
+            "type": "int",
+            "stats": {
+                "int": 1
+            }
+        }
+    },
+    "Snake Venom": {
+        "id": "21",
+        "lvl": 5,
+        "value": 12,
+        "region": 1,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 4
+            }
+        },
+        "Armor": {
+            "type": "atk",
+            "stats": {
+                "atk": 2
+            }
+        },
+        "Trinket": {
+            "type": "atk",
+            "stats": {
+                "atk": 2
+            }
+        }
+    },
+    "Snake Fang": {
+        "id": "22",
+        "lvl": 7,
+        "value": 32,
+        "region": 1,
+        "rarity": 3,
+        "Weapon": {
+            "type": "crit",
+            "stats": {
+                "crit": 3
+            }
+        },
+        "Armor": {
+            "type": "eva",
+            "stats": {
+                "eva": 2
+            }
+        },
+        "Trinket": {
+            "type": "eva",
+            "stats": {
+                "eva": 2
+            }
+        }
+    },
+    "Boar Hide": {
+        "id": "23",
+        "lvl": 4,
+        "value": 6,
+        "region": 1,
+        "rarity": 1,
+        "Weapon": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 2
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 2
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 2
+            }
+        }
+    },
+    "Boar Tusk": {
+        "id": "24",
+        "lvl": 7,
+        "value": 15,
+        "region": 1,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 4
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 2
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 2
+            }
+        }
+    },
+    "Enchanted Boar Tusk": {
+        "id": "25",
+        "lvl": 9,
+        "value": 39,
+        "region": 1,
+        "rarity": 3,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 6
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 4
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 4
+            }
+        }
+    },
+    "Wolf Fur": {
+        "id": "26",
+        "lvl": 5,
+        "value": 7,
+        "region": 1,
+        "rarity": 1,
+        "Weapon": {
+            "type": "def",
+            "stats": {
+                "def": 1
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 2
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 2
+            }
+        }
+    },
+    "Wolf Paw": {
+        "id": "27",
+        "lvl": 8,
+        "value": 16,
+        "region": 1,
+        "rarity": 2,
+        "Weapon": {
+            "type": "acc",
+            "stats": {
+                "acc": 2
+            }
+        },
+        "Armor": {
+            "type": "eva",
+            "stats": {
+                "eva": 4
+            }
+        },
+        "Trinket": {
+            "type": "eva",
+            "stats": {
+                "eva": 4
+            }
+        }
+    },
+    "Wolf Skull": {
+        "id": "28",
+        "lvl": 10,
+        "value": 42,
+        "region": 1,
+        "rarity": 3,
+        "Weapon": {
+            "type": "critMod",
+            "stats": {
+                "critMod": 10
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 6
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 6
+            }
+        }
+    },
+    "Wolf Alpha Heart": {
+        "id": "29",
+        "lvl": 10,
+        "value": 42,
+        "region": 1,
+        "rarity": 3,
+        "Weapon": {
+            "type": "critMod",
+            "stats": {
+                "critMod": 8
+            }
+        },
+        "Armor": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 38
+            }
+        },
+        "Trinket": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 38
+            }
+        }
+    },
+    "Goblin Cloth": {
+        "id": "30",
+        "lvl": 6,
+        "value": 8,
+        "region": 1,
+        "rarity": 1,
+        "Weapon": {
+            "type": "def",
+            "stats": {
+                "def": 1
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 2
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 2
+            }
+        }
+    },
+    "Goblin Hilt": {
+        "id": "31",
+        "lvl": 8,
+        "value": 16,
+        "region": 1,
+        "rarity": 2,
+        "Weapon": {
+            "type": "acc",
+            "stats": {
+                "acc": 2
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 1
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 1
+            }
+        }
+    },
+    "Goblin Blade": {
+        "id": "32",
+        "lvl": 9,
+        "value": 18,
+        "region": 1,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 2
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 1
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 1
+            }
+        }
+    },
+    "Goblin Plate": {
+        "id": "33",
+        "lvl": 7,
+        "value": 8,
+        "region": 1,
+        "rarity": 1,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 1
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 2
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 2
+            }
+        }
+    },
+    "Goblin Rod": {
+        "id": "34",
+        "lvl": 8,
+        "value": 16,
+        "region": 1,
+        "rarity": 2,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 2
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 1
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 1
+            }
+        }
+    },
+    "Cursed Goblin Blade": {
+        "id": "35",
+        "lvl": 13,
+        "value": 53,
+        "region": 1,
+        "rarity": 3,
+        "Weapon": {
+            "type": "crit",
+            "stats": {
+                "crit": 3
+            }
+        },
+        "Armor": {
+            "type": "acc",
+            "stats": {
+                "acc": 2
+            }
+        },
+        "Trinket": {
+            "type": "acc",
+            "stats": {
+                "acc": 2
+            }
+        }
+    },
+    "Hidden Goblin Blade": {
+        "id": "36",
+        "lvl": 9,
+        "value": 18,
+        "region": 1,
+        "rarity": 2,
+        "Weapon": {
+            "type": "critMod",
+            "stats": {
+                "critMod": 3
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 1
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 1
+            }
+        }
+    },
+    "Goblin Focus Stone": {
+        "id": "37",
+        "lvl": 9,
+        "value": 39,
+        "region": 1,
+        "rarity": 3,
+        "Weapon": {
+            "type": "acc",
+            "stats": {
+                "acc": 16
+            }
+        },
+        "Armor": {
+            "type": "acc",
+            "stats": {
+                "acc": 3
+            }
+        },
+        "Trinket": {
+            "type": "acc",
+            "stats": {
+                "acc": 3
+            }
+        }
+    },
+    "Goblin Tome": {
+        "id": "38",
+        "lvl": 9,
+        "value": 39,
+        "region": 1,
+        "rarity": 3,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 16
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 4
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 4
+            }
+        }
+    },
+    "Goblin Seal": {
+        "id": "39",
+        "lvl": 13,
+        "value": 53,
+        "region": 1,
+        "rarity": 3,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 16
+            }
+        },
+        "Armor": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 12
+            }
+        },
+        "Trinket": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 12
+            }
+        }
+    },
+    "Goblin Warlord's Emblem": {
+        "id": "40",
+        "lvl": 13,
+        "value": 79,
+        "region": 1,
+        "rarity": 4,
+        "Weapon": {
+            "type": "crit",
+            "stats": {
+                "crit": 6
+            }
+        },
+        "Armor": {
+            "type": "eva",
+            "stats": {
+                "eva": 4
+            }
+        },
+        "Trinket": {
+            "type": "eva",
+            "stats": {
+                "eva": 4
+            }
+        }
+    },
+    "Bear Hide": {
+        "id": "41",
+        "lvl": 10,
+        "value": 11,
+        "region": 1,
+        "rarity": 1,
+        "Weapon": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 4
+            }
+        },
+        "Armor": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 18
+            }
+        },
+        "Trinket": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 18
+            }
+        }
+    },
+    "Bear Claws": {
+        "id": "42",
+        "lvl": 11,
+        "value": 21,
+        "region": 1,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 10
+            }
+        },
+        "Armor": {
+            "type": "atk",
+            "stats": {
+                "atk": 3
+            }
+        },
+        "Trinket": {
+            "type": "atk",
+            "stats": {
+                "atk": 3
+            }
+        }
+    },
+    "Ursain Headpiece": {
+        "id": "43",
+        "lvl": 15,
+        "value": 59,
+        "region": 1,
+        "rarity": 3,
+        "Weapon": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 12
+            }
+        },
+        "Armor": {
+            "type": "acc",
+            "stats": {
+                "acc": 8
+            }
+        },
+        "Trinket": {
+            "type": "acc",
+            "stats": {
+                "acc": 8
+            }
+        }
+    },
+    "Ursain Breastplate": {
+        "id": "44",
+        "lvl": 15,
+        "value": 89,
+        "region": 1,
+        "rarity": 4,
+        "Weapon": {
+            "type": "critMod",
+            "stats": {
+                "critMod": 10
+            }
+        },
+        "Armor": {
+            "type": "eva",
+            "stats": {
+                "eva": 10
+            }
+        },
+        "Trinket": {
+            "type": "eva",
+            "stats": {
+                "eva": 10
+            }
+        }
+    },
+    "Ancient Tuvale Wood": {
+        "id": "45",
+        "lvl": 14,
+        "value": 56,
+        "region": 1,
+        "rarity": 3,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 10
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 8
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 8
+            }
+        }
+    },
+    "Arcane Stone": {
+        "id": "46",
+        "lvl": 14,
+        "value": 56,
+        "region": 1,
+        "rarity": 3,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 10
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 8
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 8
+            }
+        }
+    },
+    "Forest Charm": {
+        "id": "47",
+        "lvl": 14,
+        "value": 84,
+        "region": 1,
+        "rarity": 4,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 16
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 10
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 10
+            }
+        }
+    },
+    "Forest Essence of Life": {
+        "id": "48",
+        "lvl": 14,
+        "value": 84,
+        "region": 1,
+        "rarity": 4,
+        "Weapon": {
+            "type": "crit",
+            "stats": {
+                "crit": 6
+            }
+        },
+        "Armor": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 38
+            }
+        },
+        "Trinket": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 38
+            }
+        }
+    },
+    "Maexna's Eye": {
+        "id": "52",
+        "lvl": 6,
+        "value": 29,
+        "region": 1,
+        "rarity": 3,
+        "Weapon": {
+            "type": "acc",
+            "stats": {
+                "acc": 16
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 6
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 6
+            }
+        }
+    },
+    "Lizard Scale": {
+        "id": "63",
+        "lvl": 11,
+        "value": 21,
+        "region": 2,
+        "rarity": 1,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 3
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 6
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 6
+            }
+        }
+    },
+    "Jellyfish Tentacle": {
+        "id": "64",
+        "lvl": 11,
+        "value": 21,
+        "region": 2,
+        "rarity": 1,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 5
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 3
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 3
+            }
+        }
+    },
+    "Sargassum": {
+        "id": "65",
+        "lvl": 9,
+        "value": 18,
+        "region": 2,
+        "rarity": 1,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 3
+            }
+        },
+        "Armor": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 12
+            }
+        },
+        "Trinket": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 12
+            }
+        }
+    },
+    "Sand Striker Maw": {
+        "id": "66",
+        "lvl": 15,
+        "value": 28,
+        "region": 2,
+        "rarity": 1,
+        "Weapon": {
+            "type": "critMod",
+            "stats": {
+                "critMod": 6
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 12
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 12
+            }
+        }
+    },
+    "Giant Frog Leg": {
+        "id": "67",
+        "lvl": 20,
+        "value": 36,
+        "region": 2,
+        "rarity": 1,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 10
+            }
+        },
+        "Armor": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 24
+            }
+        },
+        "Trinket": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 24
+            }
+        }
+    },
+    "Albatross Feather": {
+        "id": "68",
+        "lvl": 8,
+        "value": 16,
+        "region": 2,
+        "rarity": 1,
+        "Weapon": {
+            "type": "eva",
+            "stats": {
+                "eva": 2
+            }
+        },
+        "Armor": {
+            "type": "eva",
+            "stats": {
+                "eva": 6
+            }
+        },
+        "Trinket": {
+            "type": "eva",
+            "stats": {
+                "eva": 6
+            }
+        }
+    },
+    "Kobold Cloth": {
+        "id": "69",
+        "lvl": 16,
+        "value": 53,
+        "region": 2,
+        "rarity": 2,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 3
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 12
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 12
+            }
+        }
+    },
+    "Kobold Pole": {
+        "id": "70",
+        "lvl": 18,
+        "value": 59,
+        "region": 2,
+        "rarity": 2,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 10
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 6
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 6
+            }
+        }
+    },
+    "Kobold Hilt": {
+        "id": "71",
+        "lvl": 22,
+        "value": 71,
+        "region": 2,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 10
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 3
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 3
+            }
+        }
+    },
+    "Water Scroll": {
+        "id": "72",
+        "lvl": 23,
+        "value": 74,
+        "region": 2,
+        "rarity": 2,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 10
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 12
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 12
+            }
+        }
+    },
+    "Aquatic Ash": {
+        "id": "73",
+        "lvl": 25,
+        "value": 267,
+        "region": 2,
+        "rarity": 4,
+        "Weapon": {
+            "type": "int",
+            "stats": {
+                "int": 2
+            }
+        },
+        "Armor": {
+            "type": "matk",
+            "stats": {
+                "matk": 18
+            }
+        },
+        "Trinket": {
+            "type": "matk",
+            "stats": {
+                "matk": 18
+            }
+        }
+    },
+    "Kobold Relic": {
+        "id": "74",
+        "lvl": 20,
+        "value": 216,
+        "region": 2,
+        "rarity": 4,
+        "Weapon": {
+            "type": "critMod",
+            "stats": {
+                "critMod": 18
+            }
+        },
+        "Armor": {
+            "type": "crit",
+            "stats": {
+                "crit": 4
+            }
+        },
+        "Trinket": {
+            "type": "crit",
+            "stats": {
+                "crit": 4
+            }
+        }
+    },
+    "Albatross Talon": {
+        "id": "75",
+        "lvl": 15,
+        "value": 50,
+        "region": 2,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 10
+            }
+        },
+        "Armor": {
+            "type": "atk",
+            "stats": {
+                "atk": 2
+            }
+        },
+        "Trinket": {
+            "type": "atk",
+            "stats": {
+                "atk": 2
+            }
+        }
+    },
+    "Crab Claw": {
+        "id": "76",
+        "lvl": 12,
+        "value": 23,
+        "region": 2,
+        "rarity": 1,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 5
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 3
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 3
+            }
+        }
+    },
+    "Jellyfish Toxin": {
+        "id": "77",
+        "lvl": 17,
+        "value": 56,
+        "region": 2,
+        "rarity": 2,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 10
+            }
+        },
+        "Armor": {
+            "type": "acc",
+            "stats": {
+                "acc": 6
+            }
+        },
+        "Trinket": {
+            "type": "acc",
+            "stats": {
+                "acc": 6
+            }
+        }
+    },
+    "Turtle Shell": {
+        "id": "78",
+        "lvl": 16,
+        "value": 53,
+        "region": 2,
+        "rarity": 2,
+        "Weapon": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 8
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 12
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 12
+            }
+        }
+    },
+    "Swallowed Remains": {
+        "id": "79",
+        "lvl": 25,
+        "value": 81,
+        "region": 2,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 10
+            }
+        },
+        "Armor": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 36
+            }
+        },
+        "Trinket": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 36
+            }
+        }
+    },
+    "Crab Carapace": {
+        "id": "80",
+        "lvl": 19,
+        "value": 62,
+        "region": 2,
+        "rarity": 2,
+        "Weapon": {
+            "type": "def",
+            "stats": {
+                "def": 2
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 12
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 12
+            }
+        }
+    },
+    "Parotid Sac": {
+        "id": "81",
+        "lvl": 20,
+        "value": 65,
+        "region": 2,
+        "rarity": 2,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 14
+            }
+        },
+        "Armor": {
+            "type": "eva",
+            "stats": {
+                "eva": 12
+            }
+        },
+        "Trinket": {
+            "type": "eva",
+            "stats": {
+                "eva": 12
+            }
+        }
+    },
+    "Driftwood": {
+        "id": "82",
+        "lvl": 15,
+        "value": 50,
+        "region": 2,
+        "rarity": 2,
+        "Weapon": {
+            "type": "acc",
+            "stats": {
+                "acc": 22
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 12
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 12
+            }
+        }
+    },
+    "Fluorescent Stone": {
+        "id": "83",
+        "lvl": 15,
+        "value": 50,
+        "region": 2,
+        "rarity": 2,
+        "Weapon": {
+            "type": "crit",
+            "stats": {
+                "crit": 4
+            }
+        },
+        "Armor": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 48
+            }
+        },
+        "Trinket": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 48
+            }
+        }
+    },
+    "Lizard Claw": {
+        "id": "84",
+        "lvl": 18,
+        "value": 59,
+        "region": 2,
+        "rarity": 2,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 10
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 3
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 3
+            }
+        }
+    },
+    "Kobold Scale": {
+        "id": "85",
+        "lvl": 22,
+        "value": 158,
+        "region": 2,
+        "rarity": 3,
+        "Weapon": {
+            "type": "eva",
+            "stats": {
+                "eva": 6
+            }
+        },
+        "Armor": {
+            "type": "eva",
+            "stats": {
+                "eva": 18
+            }
+        },
+        "Trinket": {
+            "type": "eva",
+            "stats": {
+                "eva": 18
+            }
+        }
+    },
+    "Imbued Cobalt": {
+        "id": "86",
+        "lvl": 18,
+        "value": 131,
+        "region": 2,
+        "rarity": 3,
+        "Weapon": {
+            "type": "critMod",
+            "stats": {
+                "critMod": 15
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 24
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 24
+            }
+        }
+    },
+    "Agitated Blade": {
+        "id": "87",
+        "lvl": 22,
+        "value": 158,
+        "region": 2,
+        "rarity": 3,
+        "Weapon": {
+            "type": "crit",
+            "stats": {
+                "crit": 6
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 12
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 12
+            }
+        }
+    },
+    "Sediment Arcana": {
+        "id": "88",
+        "lvl": 23,
+        "value": 165,
+        "region": 2,
+        "rarity": 3,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 22
+            }
+        },
+        "Armor": {
+            "type": "matk",
+            "stats": {
+                "matk": 13
+            }
+        },
+        "Trinket": {
+            "type": "matk",
+            "stats": {
+                "matk": 13
+            }
+        }
+    },
+    "Alkaline Crux": {
+        "id": "89",
+        "lvl": 25,
+        "value": 178,
+        "region": 2,
+        "rarity": 3,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 35
+            }
+        },
+        "Armor": {
+            "type": "crit",
+            "stats": {
+                "crit": 1
+            }
+        },
+        "Trinket": {
+            "type": "crit",
+            "stats": {
+                "crit": 1
+            }
+        }
+    },
+    "Ancient Marrow": {
+        "id": "90",
+        "lvl": 20,
+        "value": 144,
+        "region": 2,
+        "rarity": 3,
+        "Weapon": {
+            "type": "def",
+            "stats": {
+                "def": 18
+            }
+        },
+        "Armor": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 75
+            }
+        },
+        "Trinket": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 75
+            }
+        }
+    },
+    "Giant Neb": {
+        "id": "91",
+        "lvl": 15,
+        "value": 110,
+        "region": 2,
+        "rarity": 3,
+        "Weapon": {
+            "type": "atk",
+            "stats": {
+                "atk": 35
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 18
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 18
+            }
+        }
+    },
+    "Hydro Sphere": {
+        "id": "92",
+        "lvl": 18,
+        "value": 131,
+        "region": 2,
+        "rarity": 3,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 22
+            }
+        },
+        "Armor": {
+            "type": "eva",
+            "stats": {
+                "eva": 24
+            }
+        },
+        "Trinket": {
+            "type": "eva",
+            "stats": {
+                "eva": 24
+            }
+        }
+    },
+    "Fleshy Membrane": {
+        "id": "93",
+        "lvl": 17,
+        "value": 124,
+        "region": 2,
+        "rarity": 3,
+        "Weapon": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 6
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 24
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 24
+            }
+        }
+    },
+    "Reef Minerals": {
+        "id": "94",
+        "lvl": 16,
+        "value": 117,
+        "region": 2,
+        "rarity": 3,
+        "Weapon": {
+            "type": "maxHP",
+            "stats": {
+                "maxHP": 50
+            }
+        },
+        "Armor": {
+            "type": "critMod",
+            "stats": {
+                "critMod": 12
+            }
+        },
+        "Trinket": {
+            "type": "critMod",
+            "stats": {
+                "critMod": 12
+            }
+        }
+    },
+    "Sand Striker Exoskeleton": {
+        "id": "95",
+        "lvl": 25,
+        "value": 178,
+        "region": 2,
+        "rarity": 3,
+        "Weapon": {
+            "type": "def",
+            "stats": {
+                "def": 13
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 30
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 30
+            }
+        }
+    },
+    "Marinachnid Leg": {
+        "id": "96",
+        "lvl": 19,
+        "value": 138,
+        "region": 2,
+        "rarity": 3,
+        "Weapon": {
+            "type": "acc",
+            "stats": {
+                "acc": 35
+            }
+        },
+        "Armor": {
+            "type": "def",
+            "stats": {
+                "def": 24
+            }
+        },
+        "Trinket": {
+            "type": "def",
+            "stats": {
+                "def": 24
+            }
+        }
+    },
+    "Warted Skin": {
+        "id": "97",
+        "lvl": 25,
+        "value": 178,
+        "region": 2,
+        "rarity": 3,
+        "Weapon": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 18
+            }
+        },
+        "Armor": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 30
+            }
+        },
+        "Trinket": {
+            "type": "mdef",
+            "stats": {
+                "mdef": 30
+            }
+        }
+    },
+    "Coastal Charm": {
+        "id": "98",
+        "lvl": 24,
+        "value": 257,
+        "region": 2,
+        "rarity": 4,
+        "Weapon": {
+            "type": "matk",
+            "stats": {
+                "matk": 35
+            }
+        },
+        "Armor": {
+            "type": "matk",
+            "stats": {
+                "matk": 18
+            }
+        },
+        "Trinket": {
+            "type": "matk",
+            "stats": {
+                "matk": 18
+            }
+        }
+    },
+    "Coastal Essence of Water": {
+        "id": "99",
+        "lvl": 24,
+        "value": 257,
+        "region": 2,
+        "rarity": 4,
+        "Weapon": {
+            "type": "eva",
+            "stats": {
+                "eva": 18
+            }
+        },
+        "Armor": {
+            "type": "crit",
+            "stats": {
+                "crit": 4
+            }
+        },
+        "Trinket": {
+            "type": "crit",
+            "stats": {
+                "crit": 4
+            }
+        }
+    }
+}

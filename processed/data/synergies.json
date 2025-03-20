@@ -1,0 +1,885 @@
+{
+    "Searing": {
+        "material1": "Cursed Goblin Blade",
+        "material2": "Goblin Seal",
+        "stats": {
+            "Weapons": {
+                "atk": 6,
+                "crit": 3
+            }
+        },
+        "minlvl": 8,
+        "maxlvl": 21,
+        "synlvl": 13
+    },
+    "Artic": {
+        "material1": "Imbued Cobalt",
+        "material2": "Water Scroll",
+        "stats": {
+            "Weapons": {
+                "matk": 10,
+                "critMod": 4
+            }
+        },
+        "minlvl": 18,
+        "maxlvl": 31,
+        "synlvl": 23
+    },
+    "Rough": {
+        "material1": "Stone Worn Hoof",
+        "material2": "Ogre Bone Chain",
+        "stats": {
+            "Head": {
+                "def": 12,
+                "atk": 5
+            },
+            "Hands": {
+                "def": 12,
+                "atk": 5
+            },
+            "Chest": {
+                "def": 12,
+                "atk": 5
+            },
+            "Leg": {
+                "def": 12,
+                "atk": 5
+            }
+        },
+        "minlvl": 21,
+        "maxlvl": 34,
+        "synlvl": 26
+    },
+    "Discreet": {
+        "material1": "Ursain Breastplate",
+        "material2": "Goblin Warlord's Emblem",
+        "stats": {
+            "Leg": {
+                "eva": 4,
+                "crit": 1
+            }
+        },
+        "minlvl": 10,
+        "maxlvl": 23,
+        "synlvl": 15
+    },
+    "Hesitant": {
+        "material1": "Albatross Feather",
+        "material2": "Swallowed Remains",
+        "stats": {
+            "Head": {
+                "eva": 6,
+                "maxHP": 24
+            },
+            "Hands": {
+                "eva": 12,
+                "maxHP": 24
+            },
+            "Chest": {
+                "eva": 6,
+                "maxHP": 24
+            },
+            "Leg": {
+                "eva": 12,
+                "maxHP": 24
+            }
+        },
+        "minlvl": 20,
+        "maxlvl": 33,
+        "synlvl": 25
+    },
+    "Frozen": {
+        "material1": "Parotid Sac",
+        "material2": "Water Scroll",
+        "stats": {
+            "Hands": {
+                "matk": 4,
+                "mdef": 3
+            }
+        },
+        "minlvl": 18,
+        "maxlvl": 31,
+        "synlvl": 23
+    },
+    "Sturdy": {
+        "material1": "Sand Striker Exoskeleton",
+        "material2": "Sargassum",
+        "stats": {
+            "Head": {
+                "def": 6,
+                "maxHP": 24
+            },
+            "Hands": {
+                "def": 12,
+                "maxHP": 12
+            },
+            "Chest": {
+                "def": 12,
+                "maxHP": 24
+            },
+            "Leg": {
+                "def": 12,
+                "maxHP": 12
+            }
+        },
+        "minlvl": 20,
+        "maxlvl": 33,
+        "synlvl": 25
+    },
+    "Bastioned": {
+        "material1": "Sargassum",
+        "material2": "Kobold Cloth",
+        "stats": {
+            "Head": {
+                "mdef": 6,
+                "maxHP": 24
+            },
+            "Hands": {
+                "mdef": 12,
+                "maxHP": 12
+            },
+            "Chest": {
+                "mdef": 12,
+                "maxHP": 24
+            },
+            "Leg": {
+                "mdef": 12,
+                "maxHP": 12
+            }
+        },
+        "minlvl": 11,
+        "maxlvl": 24,
+        "synlvl": 16
+    },
+    "Scorching": {
+        "material1": "Sand Striker Maw",
+        "material2": "Albatross Talon",
+        "stats": {
+            "Weapons": {
+                "atk": 10,
+                "critMod": 6
+            }
+        },
+        "minlvl": 10,
+        "maxlvl": 23,
+        "synlvl": 15
+    },
+    "Shivery": {
+        "material1": "Harpy Rod",
+        "material2": "Drake Tail Spike",
+        "stats": {
+            "Weapons": {
+                "matk": 10,
+                "acc": 4
+            }
+        },
+        "minlvl": 22,
+        "maxlvl": 35,
+        "synlvl": 27
+    },
+    "Enduring": {
+        "material1": "Crab Carapace",
+        "material2": "Kobold Cloth",
+        "stats": {
+            "Chest": {
+                "def": 12,
+                "mdef": 12
+            }
+        },
+        "minlvl": 14,
+        "maxlvl": 27,
+        "synlvl": 19
+    },
+    "Powerful": {
+        "material1": "Fused Double Clavicle",
+        "material2": "Highland Essence of Earth",
+        "stats": {
+            "Weapons": {
+                "str": 3,
+                "critMod": 18
+            }
+        },
+        "minlvl": 25,
+        "maxlvl": 38,
+        "synlvl": 30
+    },
+    "Subzero": {
+        "material1": "Goblin Rod",
+        "material2": "Snake Fang",
+        "stats": {
+            "Weapons": {
+                "matk": 4,
+                "crit": 3
+            }
+        },
+        "minlvl": 3,
+        "maxlvl": 16,
+        "synlvl": 8
+    },
+    "Mystical": {
+        "material1": "Cursed Blood Coagulum",
+        "material2": "Acid Sac",
+        "stats": {
+            "Weapons": {
+                "int": 3,
+                "mdef": 12
+            },
+            "Head": {
+                "int": 2,
+                "mdef": 12
+            },
+            "Hands": {
+                "int": 1,
+                "mdef": 12
+            },
+            "Chest": {
+                "int": 1,
+                "mdef": 12
+            },
+            "Leg": {
+                "int": 1,
+                "mdef": 12
+            }
+        },
+        "minlvl": 28,
+        "maxlvl": 41,
+        "synlvl": 33
+    },
+    "Torrid": {
+        "material1": "Alpine Antler",
+        "material2": "Jellyfish Toxin",
+        "stats": {
+            "Weapons": {
+                "atk": 10,
+                "acc": 4
+            }
+        },
+        "minlvl": 18,
+        "maxlvl": 31,
+        "synlvl": 23
+    },
+    "Hurculean": {
+        "material1": "Mountainback Heart",
+        "material2": "Highland Charm",
+        "stats": {
+            "Weapons": {
+                "str": 5,
+                "atk": 70
+            },
+            "Chest": {
+                "str": 2,
+                "atk": 8
+            }
+        },
+        "minlvl": 30,
+        "maxlvl": 43,
+        "synlvl": 35
+    },
+    "Unstoppable": {
+        "material1": "Mountainback Heart",
+        "material2": "Loch Skullplate",
+        "stats": {
+            "Head": {
+                "str": 1,
+                "def": 12
+            },
+            "Hands": {
+                "str": 1,
+                "def": 12
+            },
+            "Chest": {
+                "str": 5,
+                "def": 12
+            },
+            "Leg": {
+                "str": 1,
+                "def": 12
+            }
+        },
+        "minlvl": 30,
+        "maxlvl": 43,
+        "synlvl": 35
+    },
+    "Hasty": {
+        "material1": "Hydro Sphere",
+        "material2": "Kobold Scale",
+        "stats": {
+            "Weapons": {
+                "eva": 16,
+                "acc": -3
+            },
+            "Head": {
+                "eva": 18,
+                "acc": -6
+            },
+            "Hands": {
+                "eva": 12,
+                "acc": -4
+            },
+            "Chest": {
+                "eva": 12,
+                "acc": -4
+            },
+            "Leg": {
+                "eva": 24,
+                "acc": -9
+            }
+        },
+        "minlvl": 17,
+        "maxlvl": 30,
+        "synlvl": 22
+    },
+    "Combustible": {
+        "material1": "Ogre Bone Blade",
+        "material2": "Swallowed Remains",
+        "stats": {
+            "Weapons": {
+                "atk": 20,
+                "maxHP": 4
+            },
+            "Head": {
+                "atk": 5,
+                "maxHP": 12
+            },
+            "Hands": {
+                "atk": 5,
+                "maxHP": 12
+            },
+            "Chest": {
+                "atk": 5,
+                "maxHP": 12
+            },
+            "Leg": {
+                "atk": 5,
+                "maxHP": 12
+            }
+        },
+        "minlvl": 23,
+        "maxlvl": 36,
+        "synlvl": 28
+    },
+    "Sultry": {
+        "material1": "Scrapper Talon",
+        "material2": "Wayward Flame",
+        "stats": {
+            "Weapons": {
+                "atk": 6,
+                "matk": 6
+            }
+        },
+        "minlvl": 23,
+        "maxlvl": 36,
+        "synlvl": 28
+    },
+    "Snappy": {
+        "material1": "Harpy Headressing",
+        "material2": "Head of Skinwalker",
+        "stats": {
+            "Head": {
+                "eva": 18,
+                "acc": 21
+            },
+            "Hands": {
+                "eva": 12,
+                "acc": 8
+            },
+            "Chest": {
+                "eva": 12,
+                "acc": 8
+            },
+            "Leg": {
+                "eva": 12,
+                "acc": 8
+            }
+        },
+        "minlvl": 25,
+        "maxlvl": 38,
+        "synlvl": 30
+    },
+    "Perceptive": {
+        "material1": "Tuvale Bark",
+        "material2": "Goblin Hilt",
+        "stats": {
+            "Weapons": {
+                "acc": 3,
+                "matk": 4
+            }
+        },
+        "minlvl": 3,
+        "maxlvl": 16,
+        "synlvl": 8
+    },
+    "Warded": {
+        "material1": "Moonlit Witch Dust",
+        "material2": "Drake Tail Spike",
+        "stats": {
+            "Weapons": {
+                "mdef": 4,
+                "acc": 3
+            },
+            "Head": {
+                "mdef": 12,
+                "acc": 8
+            },
+            "Hands": {
+                "mdef": 12,
+                "acc": 8
+            },
+            "Chest": {
+                "mdef": 12,
+                "acc": 8
+            },
+            "Leg": {
+                "mdef": 12,
+                "acc": 8
+            }
+        },
+        "minlvl": 24,
+        "maxlvl": 37,
+        "synlvl": 29
+    },
+    "Arcane": {
+        "material1": "Aquatic Ash",
+        "material2": "Marinachnid Leg",
+        "stats": {
+            "Head": {
+                "int": 2,
+                "acc": 4
+            }
+        },
+        "minlvl": 20,
+        "maxlvl": 33,
+        "synlvl": 25
+    },
+    "Stalwart": {
+        "material1": "Mountainback Heart",
+        "material2": "Hagwitch Moon Charm",
+        "stats": {
+            "Weapons": {
+                "str": 3,
+                "int": 1
+            },
+            "Chest": {
+                "str": 5,
+                "int": 2
+            }
+        },
+        "minlvl": 30,
+        "maxlvl": 43,
+        "synlvl": 35
+    },
+    "Steamy": {
+        "material1": "Roc Skeletal Wing",
+        "material2": "Loch Skullplate",
+        "stats": {
+            "Weapons": {
+                "atk": 28,
+                "acc": -4
+            }
+        },
+        "minlvl": 30,
+        "maxlvl": 43,
+        "synlvl": 35
+    },
+    "Frosty": {
+        "material1": "Alkaline Crux",
+        "material2": "Water Scroll",
+        "stats": {
+            "Weapons": {
+                "matk": 14,
+                "acc": -3
+            }
+        },
+        "minlvl": 20,
+        "maxlvl": 33,
+        "synlvl": 25
+    },
+    "Barbaric": {
+        "material1": "Highland Essence of Earth",
+        "material2": "Scrapper Scrap",
+        "stats": {
+            "Weapons": {
+                "str": 1,
+                "int": -1
+            },
+            "Head": {
+                "str": 1,
+                "int": -2
+            },
+            "Hands": {
+                "str": 1,
+                "int": -1
+            },
+            "Chest": {
+                "str": 1,
+                "int": -1
+            },
+            "Leg": {
+                "str": 1,
+                "int": -1
+            }
+        },
+        "minlvl": 22,
+        "maxlvl": 35,
+        "synlvl": 27
+    },
+    "Brutish": {
+        "material1": "Reef Minerals",
+        "material2": "Giant Frog Leg",
+        "stats": {
+            "Head": {
+                "maxHP": 36,
+                "def": -12
+            },
+            "Hands": {
+                "maxHP": 36,
+                "def": -12
+            },
+            "Chest": {
+                "maxHP": 48,
+                "def": -18
+            },
+            "Leg": {
+                "maxHP": 36,
+                "def": -12
+            }
+        },
+        "minlvl": 15,
+        "maxlvl": 28,
+        "synlvl": 20
+    },
+    "Brisk": {
+        "material1": "Harpy Feather",
+        "material2": "Wayward Flame",
+        "stats": {
+            "Head": {
+                "eva": 18,
+                "def": -12
+            },
+            "Hands": {
+                "eva": 18,
+                "def": -12
+            },
+            "Chest": {
+                "eva": 18,
+                "def": -12
+            },
+            "Leg": {
+                "eva": 18,
+                "def": -12
+            }
+        },
+        "minlvl": 21,
+        "maxlvl": 34,
+        "synlvl": 26
+    },
+    "Heavy": {
+        "material1": "Yak Hackles",
+        "material2": "Ogre Bone Chain",
+        "stats": {
+            "Head": {
+                "def": 18,
+                "eva": -12
+            },
+            "Hands": {
+                "def": 18,
+                "eva": -12
+            },
+            "Chest": {
+                "def": 27,
+                "eva": -12
+            },
+            "Leg": {
+                "def": 12,
+                "eva": -54
+            }
+        },
+        "minlvl": 23,
+        "maxlvl": 36,
+        "synlvl": 28
+    },
+    "Rigid": {
+        "material1": "Loch Neck Chitin",
+        "material2": "Witch Concotion",
+        "stats": {
+            "Chest": {
+                "def": 12,
+                "maxHP": -50
+            }
+        },
+        "minlvl": 28,
+        "maxlvl": 41,
+        "synlvl": 33
+    },
+    "Blazing": {
+        "material1": "Ram Horn",
+        "material2": "Ogre Bone Blade",
+        "stats": {
+            "Weapons": {
+                "atk": 70,
+                "matk": -70
+            }
+        },
+        "minlvl": 23,
+        "maxlvl": 36,
+        "synlvl": 28
+    },
+    "Primitive": {
+        "material1": "Lucent Loch Moss",
+        "material2": "Cursed Blood Coagulum",
+        "stats": {
+            "Head": {
+                "maxHP": 75,
+                "mdef": -18
+            },
+            "Hands": {
+                "maxHP": 75,
+                "mdef": -18
+            },
+            "Chest": {
+                "maxHP": 100,
+                "mdef": -27
+            },
+            "Leg": {
+                "maxHP": 75,
+                "mdef": -18
+            }
+        },
+        "minlvl": 28,
+        "maxlvl": 41,
+        "synlvl": 33
+    },
+    "Molten": {
+        "material1": "Ogre Bone Blade",
+        "material2": "Solar Imbued Artifact",
+        "stats": {
+            "Weapons": {
+                "atk": 10,
+                "def": -4
+            },
+            "Head": {
+                "atk": 8,
+                "def": -12
+            },
+            "Hands": {
+                "atk": 8,
+                "def": -12
+            },
+            "Chest": {
+                "atk": 8,
+                "def": -12
+            },
+            "Leg": {
+                "atk": 8,
+                "def": -12
+            }
+        },
+        "minlvl": 23,
+        "maxlvl": 36,
+        "synlvl": 28
+    },
+    "Sodered": {
+        "material1": "Scrapper Talon",
+        "material2": "Drake Ribs",
+        "stats": {
+            "Weapons": {
+                "atk": 28,
+                "crit": -16
+            }
+        },
+        "minlvl": 23,
+        "maxlvl": 36,
+        "synlvl": 28
+    },
+    "Smoldering": {
+        "material1": "Alpine Antler",
+        "material2": "Ram Horn",
+        "stats": {
+            "Weapons": {
+                "atk": 20,
+                "def": 4
+            }
+        },
+        "minlvl": 19,
+        "maxlvl": 32,
+        "synlvl": 24
+    },
+    "Rapid": {
+        "material1": "Golden Roc Feather",
+        "material2": "Hydro Sphere",
+        "stats": {
+            "Leg": {
+                "dex": 2,
+                "eva": 54
+            }
+        },
+        "minlvl": 25,
+        "maxlvl": 38,
+        "synlvl": 30
+    },
+    "Deadly": {
+        "material1": "Coastal Essence of Water",
+        "material2": "Kobold Relic",
+        "stats": {
+            "Weapons": {
+                "crit": 10,
+                "critMod": 13
+            }
+        },
+        "minlvl": 20,
+        "maxlvl": 33,
+        "synlvl": 25
+    },
+    "Vigilant": {
+        "material1": "Jellyfish Toxin",
+        "material2": "Turtle Shell",
+        "stats": {
+            "Head": {
+                "acc": 6,
+                "def": 6
+            },
+            "Hands": {
+                "acc": 4,
+                "def": 6
+            },
+            "Chest": {
+                "acc": 4,
+                "def": 12
+            },
+            "Leg": {
+                "acc": 4,
+                "def": 6
+            }
+        },
+        "minlvl": 12,
+        "maxlvl": 25,
+        "synlvl": 17
+    },
+    "Illuminated": {
+        "material1": "Jellyfish Toxin",
+        "material2": "Kobold Cloth",
+        "stats": {
+            "Head": {
+                "acc": 6,
+                "mdef": 6
+            },
+            "Hands": {
+                "acc": 4,
+                "mdef": 6
+            },
+            "Chest": {
+                "acc": 4,
+                "mdef": 12
+            },
+            "Leg": {
+                "acc": 4,
+                "mdef": 6
+            }
+        },
+        "minlvl": 12,
+        "maxlvl": 25,
+        "synlvl": 17
+    },
+    "Sharp": {
+        "material1": "Lizard Claw",
+        "material2": "Jellyfish Toxin",
+        "stats": {
+            "Weapons": {
+                "acc": 4,
+                "atk": 10
+            }
+        },
+        "minlvl": 13,
+        "maxlvl": 26,
+        "synlvl": 18
+    },
+    "Transcendant": {
+        "material1": "Aquatic Ash",
+        "material2": "Alkaline Crux",
+        "stats": {
+            "Weapons": {
+                "int": 2,
+                "matk": 14
+            }
+        },
+        "minlvl": 20,
+        "maxlvl": 33,
+        "synlvl": 25
+    },
+    "Blistering": {
+        "material1": "Sediment Arcana",
+        "material2": "Parotid Sac",
+        "stats": {
+            "Chest": {
+                "matk": 9,
+                "mdef": -6
+            }
+        },
+        "minlvl": 18,
+        "maxlvl": 31,
+        "synlvl": 23
+    },
+    "Recondite": {
+        "material1": "Fleshy Membrane",
+        "material2": "Warted Skin",
+        "stats": {
+            "Head": {
+                "mdef": 12,
+                "matk": -4
+            },
+            "Hands": {
+                "mdef": 12,
+                "matk": -4
+            },
+            "Chest": {
+                "mdef": 18,
+                "matk": -4
+            },
+            "Leg": {
+                "mdef": 18,
+                "matk": -4
+            }
+        },
+        "minlvl": 20,
+        "maxlvl": 33,
+        "synlvl": 25
+    },
+    "Frigid": {
+        "material1": "Sediment Arcana",
+        "material2": "Coastal Charm",
+        "stats": {
+            "Weapons": {
+                "matk": 35,
+                "crit": -8
+            }
+        },
+        "minlvl": 20,
+        "maxlvl": 33,
+        "synlvl": 25
+    },
+    "Bulwarked": {
+        "material1": "Aldurnian Pelt",
+        "material2": "Ghostly Cloth",
+        "stats": {
+            "Head": {
+                "mdef": 12,
+                "matk": 5
+            },
+            "Hands": {
+                "mdef": 12,
+                "matk": 5
+            },
+            "Chest": {
+                "mdef": 12,
+                "matk": 5
+            },
+            "Leg": {
+                "mdef": 12,
+                "matk": 5
+            }
+        },
+        "minlvl": 19,
+        "maxlvl": 32,
+        "synlvl": 24
+    }
+}
